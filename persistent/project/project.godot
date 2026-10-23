@@ -1,11 +1,10 @@
-; Engine configuration for the persistent 3D starter
-; Editable with Godot 4.7.2
 config_version=5
 
 [application]
-config/name="JARVIS Persistent Godot World"
+config/name="NEON CIRCUIT | Hyperdrive Arena"
 run/main_scene="res://scenes/main.tscn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
+run/low_processor_mode=false
 
 [display]
 window/size/viewport_width=1280
@@ -16,4 +15,5 @@ window/size/window_height_override=720
 [rendering]
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
-environment/defaults/default_clear_color=Color(0.018, 0.026, 0.05, 1)
+environment/defaults/default_clear_color=Color(0.012, 0.019, 0.043, 1)
+textures/default_filters/use_nearest_mipmap_filter=false

@@ -47,54 +47,306 @@ WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modi
 WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "rear armor fin 5", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
 WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "rear armor fin 6", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
 WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "central inertial stabilizer", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
-Blender 4.0.2
-Traceback (most recent call last):
-  File "/usr/share/blender/scripts/addons/io_scene_gltf2/__init__.py", line 752, in execute
-    from .blender.exp import gltf2_blender_export
-  File "/usr/share/blender/scripts/addons/io_scene_gltf2/blender/exp/gltf2_blender_export.py", line 16, in <module>
-    from . import gltf2_blender_gather
-  File "/usr/share/blender/scripts/addons/io_scene_gltf2/blender/exp/gltf2_blender_gather.py", line 11, in <module>
-    from . import gltf2_blender_gather_nodes
-  File "/usr/share/blender/scripts/addons/io_scene_gltf2/blender/exp/gltf2_blender_gather_nodes.py", line 15, in <module>
-    from . import gltf2_blender_gather_tree
-  File "/usr/share/blender/scripts/addons/io_scene_gltf2/blender/exp/gltf2_blender_gather_tree.py", line 7, in <module>
-    import numpy as np
-ModuleNotFoundError: No module named 'numpy'
-Traceback (most recent call last):
-  File "/home/runner/work/AI-coding/AI-coding/source/experiments/neon-circuit/blender_assets.py", line 146, in <module>
-    export(ship,"ship")
-  File "/home/runner/work/AI-coding/AI-coding/source/experiments/neon-circuit/blender_assets.py", line 138, in export
-    bpy.ops.export_scene.gltf(
-  File "/usr/share/blender/scripts/modules/bpy/ops.py", line 109, in __call__
-    ret = _op_call(self.idname_py(), kw)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-RuntimeError: Error: Python: Traceback (most recent call last):
-  File "/usr/share/blender/scripts/addons/io_scene_gltf2/__init__.py", line 752, in execute
-    from .blender.exp import gltf2_blender_export
-  File "/usr/share/blender/scripts/addons/io_scene_gltf2/blender/exp/gltf2_blender_export.py", line 16, in <module>
-    from . import gltf2_blender_gather
-  File "/usr/share/blender/scripts/addons/io_scene_gltf2/blender/exp/gltf2_blender_gather.py", line 11, in <module>
-    from . import gltf2_blender_gather_nodes
-  File "/usr/share/blender/scripts/addons/io_scene_gltf2/blender/exp/gltf2_blender_gather_nodes.py", line 15, in <module>
-    from . import gltf2_blender_gather_tree
-  File "/usr/share/blender/scripts/addons/io_scene_gltf2/blender/exp/gltf2_blender_gather_tree.py", line 7, in <module>
-    import numpy as np
-ModuleNotFoundError: No module named 'numpy'
-Location: /usr/share/blender/scripts/modules/bpy/ops.py:109
+/usr/share/blender/scripts/addons/io_scene_gltf2/io/exp/gltf2_io_image_data.py:25: SyntaxWarning: invalid escape sequence '\.'
+  regex_dot = re.compile("\.")
+/usr/share/blender/scripts/addons/io_scene_gltf2/io/exp/gltf2_io_image_data.py:27: SyntaxWarning: invalid escape sequence '\]'
+  new_name = "".join([char for char in adjusted_name if char not in "!#$&'()*+,/:;<>?@[\]^`{|}~"])
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sentry Main Reactor", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sentry armoured rotor strut 0", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sentry armour 0", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sentry armoured rotor strut 1", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sentry armour 1", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sentry armoured rotor strut 2", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sentry armour 2", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sentry armoured rotor strut 3", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sentry armour 3", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sentry armoured rotor strut 4", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sentry armour 4", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sentry armoured rotor strut 5", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sentry armour 5", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+19:17:34 | ERROR: Draco mesh compression is not available because library could not be found at /usr/bin/4.0/python/lib/python3.12/site-packages/libextern_draco.so
+19:17:34 | INFO: Starting glTF 2.0 export
+19:17:34 | INFO: Extracting primitive: Cube.001
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.002
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.003
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.004
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.005
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.006
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.007
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.008
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.009
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.010
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.011
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.012
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.013
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cylinder
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Torus
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Sphere
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.014
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.015
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.016
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.017
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.018
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.019
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.020
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.021
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.022
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.023
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Sphere.001
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Sphere.002
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Sphere.003
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Sphere.004
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.024
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.025
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.026
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.027
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.028
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.029
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.030
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cylinder.001
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Torus.001
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Sphere.005
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.031
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.032
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.033
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.034
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.035
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.036
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.037
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.038
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.039
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.040
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Sphere.006
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Sphere.007
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Sphere.008
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Sphere.009
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.041
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.042
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.043
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.044
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.045
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.046
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cylinder.002
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Torus.002
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Finished glTF 2.0 export in 0.10264801979064941 s
 
-19:16:03 | ERROR: Draco mesh compression is not available because library could not be found at /usr/bin/4.0/python/lib/python3.12/site-packages/libextern_draco.so
-Error: Python: Traceback (most recent call last):
-  File "/usr/share/blender/scripts/addons/io_scene_gltf2/__init__.py", line 752, in execute
-    from .blender.exp import gltf2_blender_export
-  File "/usr/share/blender/scripts/addons/io_scene_gltf2/blender/exp/gltf2_blender_export.py", line 16, in <module>
-    from . import gltf2_blender_gather
-  File "/usr/share/blender/scripts/addons/io_scene_gltf2/blender/exp/gltf2_blender_gather.py", line 11, in <module>
-    from . import gltf2_blender_gather_nodes
-  File "/usr/share/blender/scripts/addons/io_scene_gltf2/blender/exp/gltf2_blender_gather_nodes.py", line 15, in <module>
-    from . import gltf2_blender_gather_tree
-  File "/usr/share/blender/scripts/addons/io_scene_gltf2/blender/exp/gltf2_blender_gather_tree.py", line 7, in <module>
-    import numpy as np
-ModuleNotFoundError: No module named 'numpy'
-Location: /usr/share/blender/scripts/modules/bpy/ops.py:109
+BLENDER_EXPORTED /home/runner/work/AI-coding/AI-coding/work/blender-export/assets/ship.glb 637664 bytes 62 objects
+19:17:34 | ERROR: Draco mesh compression is not available because library could not be found at /usr/bin/4.0/python/lib/python3.12/site-packages/libextern_draco.so
+19:17:34 | INFO: Starting glTF 2.0 export
+19:17:34 | INFO: Extracting primitive: Cylinder.003
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Sphere.010
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Torus.003
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.047
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Sphere.011
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.048
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.049
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Sphere.012
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.050
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.051
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Sphere.013
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.052
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.053
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Sphere.014
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.054
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.055
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Sphere.015
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.056
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.057
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Sphere.016
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cube.058
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Cylinder.004
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Sphere.017
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Finished glTF 2.0 export in 0.04093647003173828 s
+
+BLENDER_EXPORTED /home/runner/work/AI-coding/AI-coding/work/blender-export/assets/drone.glbWARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / graphite skid", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / magnetic pad rail", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / micro radiator 03", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / turbo nacelle", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / micro radiator 02", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / lateral intakes", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / micro radiator 01", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / intake spine", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / heat vent 05", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / wing root", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / heat vent 04", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / swept blade", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / heat vent 03", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / blade emissive ribbon", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / heat vent 02", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / rear swept canard", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / heat vent 01", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / engine combustion chamber", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / engine combustion chamber", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / heat vent 01", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / rear swept canard", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / heat vent 02", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / blade emissive ribbon", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / heat vent 03", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / swept blade", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / heat vent 04", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / wing root", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / heat vent 05", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / intake spine", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / micro radiator 01", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / lateral intakes", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / micro radiator 02", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / turbo nacelle", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / micro radiator 03", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "06 / cockpit armored spine", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / graphite skid", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 / canopy upper", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / magnetic pad rail", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 / cockpit lower canopy", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 / polished nose", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "rear armor fin 1", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "rear armor fin 2", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 / carbon deck", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "rear armor fin 3", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 / keel • unibody", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "rear armor fin 4", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sentry armour 5", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "rear armor fin 5", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sentry armoured rotor strut 5", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "rear armor fin 6", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sentry armour 4", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sentry armoured rotor strut 4", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sentry armour 3", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sentry armoured rotor strut 3", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "central inertial stabilizer", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sentry armour 2", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sentry armoured rotor strut 2", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sentry Main Reactor", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sentry armour 1", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sentry armoured rotor strut 0", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sentry armoured rotor strut 1", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sentry armour 0", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+EGL Error (0x3001): EGL_NOT_INITIALIZED: EGL is not initialized, or could not be initialized, for the specified EGL display connection.
+
+Managed to successfully fallback to surfaceless EGL rendering!
+
+EGL Error (0x3009): EGL_BAD_MATCH: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+EGL Error (0x3001): EGL_NOT_INITIALIZED: EGL is not initialized, or could not be initialized, for the specified EGL display connection.
+
+Managed to successfully fallback to surfaceless EGL rendering!
+
+Blender 4.0.2
+Saved: '/home/runner/work/AI-coding/AI-coding/work/blender-export/blender-asset-preview.png'
+Time: 00:07.65 (Saving: 00:00.30)
+
+Info: Total files 0 | Changed 0 | Failed 0
+ 388668 bytes 23 objects
+19:17:34 | ERROR: Draco mesh compression is not available because library could not be found at /usr/bin/4.0/python/lib/python3.12/site-packages/libextern_draco.so
+19:17:34 | INFO: Starting glTF 2.0 export
+19:17:34 | INFO: Extracting primitive: Sphere.018
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Torus.004
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Torus.005
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Torus.006
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Sphere.019
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Sphere.020
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Sphere.021
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Sphere.022
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Sphere.023
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Extracting primitive: Sphere.024
+19:17:34 | INFO: Primitives created: 1
+19:17:34 | INFO: Finished glTF 2.0 export in 0.02603316307067871 s
+
+BLENDER_EXPORTED /home/runner/work/AI-coding/AI-coding/work/blender-export/assets/core.glb 288080 bytes 10 objects
+Info: Saved "NEON-CIRCUIT-Blender-Assets.blend"
+BLENDER_SOURCE_CREATED /home/runner/work/AI-coding/AI-coding/work/blender-export/NEON-CIRCUIT-Blender-Assets.blend 2688944
+BLENDER_RENDER_CREATED /home/runner/work/AI-coding/AI-coding/work/blender-export/blender-asset-preview.png
 
 Blender quit
