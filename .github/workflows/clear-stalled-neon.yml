@@ -1,0 +1,22 @@
+name: Clear stalled NEON CIRCUIT setup run
+
+on:
+  push:
+    branches: [gui-computer-use-20261023]
+    paths: [".github/workflows/clear-stalled-neon.yml"]
+
+permissions:
+  actions: write
+  contents: read
+
+jobs:
+  cancel-only-confirmed-stalled-run:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 3
+    steps:
+      - name: Cancel stalled older attempt 40008883485
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh run cancel 40008883485 --repo "$GITHUB_REPOSITORY" || true
+          echo "Requested stop for earlier stalled NEON CIRCUIT attempt only." >> "$GITHUB_STEP_SUMMARY"
