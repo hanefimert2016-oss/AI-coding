@@ -1,0 +1,100 @@
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 / keel • unibody", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 / carbon deck", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 / polished nose", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 / cockpit lower canopy", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 / canopy upper", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "06 / cockpit armored spine", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / turbo nacelle", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / lateral intakes", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / intake spine", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / wing root", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / swept blade", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / blade emissive ribbon", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / rear swept canard", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / engine combustion chamber", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / heat vent 01", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / heat vent 02", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / heat vent 03", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / heat vent 04", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / heat vent 05", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / micro radiator 01", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / micro radiator 02", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / micro radiator 03", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / graphite skid", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "PORT / magnetic pad rail", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / turbo nacelle", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / lateral intakes", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / intake spine", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / wing root", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / swept blade", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / blade emissive ribbon", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / rear swept canard", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / engine combustion chamber", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / heat vent 01", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / heat vent 02", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / heat vent 03", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / heat vent 04", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / heat vent 05", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / micro radiator 01", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / micro radiator 02", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / micro radiator 03", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / graphite skid", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "STARBOARD / magnetic pad rail", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "rear armor fin 1", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "rear armor fin 2", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "rear armor fin 3", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "rear armor fin 4", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "rear armor fin 5", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "rear armor fin 6", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "central inertial stabilizer", Modifier: "Surface weighted normals", Enable 'Auto Smooth' in Object Data Properties
+Blender 4.0.2
+Traceback (most recent call last):
+  File "/usr/share/blender/scripts/addons/io_scene_gltf2/__init__.py", line 752, in execute
+    from .blender.exp import gltf2_blender_export
+  File "/usr/share/blender/scripts/addons/io_scene_gltf2/blender/exp/gltf2_blender_export.py", line 16, in <module>
+    from . import gltf2_blender_gather
+  File "/usr/share/blender/scripts/addons/io_scene_gltf2/blender/exp/gltf2_blender_gather.py", line 11, in <module>
+    from . import gltf2_blender_gather_nodes
+  File "/usr/share/blender/scripts/addons/io_scene_gltf2/blender/exp/gltf2_blender_gather_nodes.py", line 15, in <module>
+    from . import gltf2_blender_gather_tree
+  File "/usr/share/blender/scripts/addons/io_scene_gltf2/blender/exp/gltf2_blender_gather_tree.py", line 7, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+Traceback (most recent call last):
+  File "/home/runner/work/AI-coding/AI-coding/source/experiments/neon-circuit/blender_assets.py", line 146, in <module>
+    export(ship,"ship")
+  File "/home/runner/work/AI-coding/AI-coding/source/experiments/neon-circuit/blender_assets.py", line 138, in export
+    bpy.ops.export_scene.gltf(
+  File "/usr/share/blender/scripts/modules/bpy/ops.py", line 109, in __call__
+    ret = _op_call(self.idname_py(), kw)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Error: Python: Traceback (most recent call last):
+  File "/usr/share/blender/scripts/addons/io_scene_gltf2/__init__.py", line 752, in execute
+    from .blender.exp import gltf2_blender_export
+  File "/usr/share/blender/scripts/addons/io_scene_gltf2/blender/exp/gltf2_blender_export.py", line 16, in <module>
+    from . import gltf2_blender_gather
+  File "/usr/share/blender/scripts/addons/io_scene_gltf2/blender/exp/gltf2_blender_gather.py", line 11, in <module>
+    from . import gltf2_blender_gather_nodes
+  File "/usr/share/blender/scripts/addons/io_scene_gltf2/blender/exp/gltf2_blender_gather_nodes.py", line 15, in <module>
+    from . import gltf2_blender_gather_tree
+  File "/usr/share/blender/scripts/addons/io_scene_gltf2/blender/exp/gltf2_blender_gather_tree.py", line 7, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+Location: /usr/share/blender/scripts/modules/bpy/ops.py:109
+
+19:16:03 | ERROR: Draco mesh compression is not available because library could not be found at /usr/bin/4.0/python/lib/python3.12/site-packages/libextern_draco.so
+Error: Python: Traceback (most recent call last):
+  File "/usr/share/blender/scripts/addons/io_scene_gltf2/__init__.py", line 752, in execute
+    from .blender.exp import gltf2_blender_export
+  File "/usr/share/blender/scripts/addons/io_scene_gltf2/blender/exp/gltf2_blender_export.py", line 16, in <module>
+    from . import gltf2_blender_gather
+  File "/usr/share/blender/scripts/addons/io_scene_gltf2/blender/exp/gltf2_blender_gather.py", line 11, in <module>
+    from . import gltf2_blender_gather_nodes
+  File "/usr/share/blender/scripts/addons/io_scene_gltf2/blender/exp/gltf2_blender_gather_nodes.py", line 15, in <module>
+    from . import gltf2_blender_gather_tree
+  File "/usr/share/blender/scripts/addons/io_scene_gltf2/blender/exp/gltf2_blender_gather_tree.py", line 7, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+Location: /usr/share/blender/scripts/modules/bpy/ops.py:109
+
+Blender quit
