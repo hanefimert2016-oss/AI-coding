@@ -1,0 +1,48 @@
+name: Real XFCE Blender Chrome Kdenlive desktop video
+on:
+  push:
+    branches: [gui-computer-use-20261023]
+    paths:
+      - ".github/workflows/real-gui-demo.yml"
+      - "experiments/gui-computer-use/**"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  gui-recording:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install graphical desktop, Blender, Kdenlive and mouse/keyboard tools
+        run: |
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends             xvfb xauth xfwm4 xfdesktop4 xfce4-panel xfce4-session xfce4-settings             openbox dbus-x11 x11-utils xdotool wmctrl scrot             blender kdenlive ffmpeg curl ca-certificates fonts-dejavu-core             libgl1-mesa-dri mesa-utils
+      - name: Download and inspect Unity CLI and MCP sources
+        continue-on-error: true
+        run: |
+          mkdir -p vendor
+          curl -fL --retry 2 --max-time 90            https://github.com/yucchiy/UniCli/releases/download/v1.7.0/unicli-linux-x64.tar.gz            -o vendor/unicli-linux-x64.tar.gz
+          tar -tzf vendor/unicli-linux-x64.tar.gz | head -25
+          git clone -q --depth 1 https://github.com/CoplayDev/unity-mcp.git vendor/unity-mcp
+          du -sh vendor/*
+      - name: Record real UI interactions in XFCE
+        run: bash experiments/gui-computer-use/record.sh
+      - name: Inspect recordings
+        if: always()
+        run: |
+          ls -lah captures output 2>/dev/null || true
+          ffprobe -v error -show_entries format=duration,size -of default=noprint_wrappers=1 captures/full-session.mp4 || true
+      - name: Upload videos, model and evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: xfce-blender-kdenlive-gui-recording
+          path: |
+            captures/*.mp4
+            captures/*.png
+            output/*.mp4
+            output/*.blend
+            output/ATTRIBUTION.txt
+          retention-days: 7
+          if-no-files-found: warn
