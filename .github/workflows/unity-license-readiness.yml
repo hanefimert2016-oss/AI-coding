@@ -37,4 +37,4 @@ jobs:
             echo ""
             echo "This checks configuration only. It does NOT prove Unity has accepted or activated a licence."
             echo "For Unity Personal, official activation is through Unity Hub sign-in."
-          } >> "$GITHUB_STEP_SUMMARY"
+          } | tee -a "$GITHUB_STEP_SUMMARY"
