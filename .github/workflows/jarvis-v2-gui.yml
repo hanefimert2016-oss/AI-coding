@@ -1,0 +1,77 @@
+name: JARVIS V2 fast GUI Blender cinema Unity
+on:
+  push:
+    branches: [gui-computer-use-20261023]
+    paths: [".github/workflows/jarvis-v2-gui.yml"]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  fast-gui-blender-cinema:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install XFCE, Blender, Chrome host tools and Kdenlive
+        run: |
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+            xvfb xauth xfwm4 xfdesktop4 xfce4-panel xfce4-session \
+            dbus-x11 x11-utils xdotool scrot mesa-utils libgl1-mesa-dri \
+            blender kdenlive ffmpeg curl ca-certificates fonts-dejavu-core
+      - name: Run accelerated physical-keyboard/mouse Blender and Kdenlive session
+        run: bash experiments/gui-computer-use/record-v2.sh
+      - name: Inspect output verification
+        if: always()
+        run: |
+          ls -lh captures output 2>/dev/null || true
+          cat output/model-verification.txt 2>/dev/null | grep 'VERIFIED_' || true
+          for video in captures/*.mp4 output/JARVIS-Cinematic-Edit.mp4; do
+            test -f "$video" && ffprobe -v error -show_entries format=duration,size -of default=nw=1 "$video"
+          done
+      - name: Publish source Blender scene, edited MP4 and full desktop capture
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: JARVIS-V2-desktop-model-cinema
+          path: |
+            captures/*.mp4
+            captures/*.png
+            output/JARVIS-Cinematic-Edit.mp4
+            output/JARVIS-Industrial-Robot-Arm.blend
+            output/model-verification.txt
+            output/ATTRIBUTION.txt
+          retention-days: 7
+          if-no-files-found: warn
+  unity-editor-gui:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install minimal X server and licensing prerequisites
+        run: |
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+            xvfb openbox xdotool scrot curl gnupg xz-utils \
+            libgl1-mesa-dri libgtk-3-0 libnss3 libasound2t64 libgbm1 \
+            libx11-6 libxcursor1 libxrandr2 libxi6 libxinerama1
+      - name: Try official Unity Hub, streamed Unity Editor and GUI
+        run: bash experiments/gui-computer-use/unity-attempt.sh
+      - name: Inspect Unity result and license state
+        if: always()
+        run: |
+          ls -lh unity-output || true
+          cat unity-output/unity-version.txt 2>/dev/null || true
+          grep -Ei 'error|license|activate' unity-output/editor.log 2>/dev/null | tail -20 || true
+          df -h /
+      - name: Publish Unity executable launch evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: JARVIS-V2-unity-editor-evidence
+          path: |
+            unity-output/*.png
+            unity-output/*.txt
+            unity-output/editor.log
+          retention-days: 7
+          if-no-files-found: warn
