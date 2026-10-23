@@ -1,0 +1,55 @@
+name: Publish Unity GUI evidence PNGs
+on:
+  push:
+    branches: [gui-computer-use-20261023]
+    paths: [".github/workflows/publish-unity-screenshots.yml"]
+  workflow_dispatch:
+permissions:
+  actions: read
+  contents: write
+jobs:
+  publish-unity-screenshots:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: gui-computer-use-20261023
+      - name: Retrieve Unity Hub and Unity Editor screenshots from prior GUI run
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/unity-evidence
+          gh run download 39899652837 --repo "$GITHUB_REPOSITORY" \
+            --name JARVIS-V2-unity-editor-evidence --dir /tmp/unity-evidence
+          find /tmp/unity-evidence -type f -printf '%P %s bytes\n'
+          mkdir -p unity-screenshots
+          for name in 01-unity-hub.png 02-unity-editor.png; do
+            path=$(find /tmp/unity-evidence -type f -name "$name" -print -quit)
+            test -n "$path"
+            test -s "$path"
+            cp "$path" "unity-screenshots/$name"
+          done
+          python3 - <<'PY'
+          from pathlib import Path
+          import struct
+          for file in sorted(Path("unity-screenshots").glob("*.png")):
+              data=file.read_bytes()
+              assert data[:8]==b'\x89PNG\r\n\x1a\n'
+              w,h=struct.unpack(">II",data[16:24])
+              print(f"VALID_PNG {file} {w}x{h} bytes={len(data)}")
+          PY
+      - name: Publish direct Unity PNG links
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add unity-screenshots
+          git commit -m "Publish captured Unity Hub and Unity Editor GUI screenshots"
+          git push origin HEAD:gui-computer-use-20261023
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: unity-screenshots-direct
+          path: unity-screenshots/*.png
+          retention-days: 7
