@@ -2,10 +2,11 @@
 set -u
 export DISPLAY=:99
 export LIBGL_ALWAYS_SOFTWARE=1
-export MESA_GL_VERSION_OVERRIDE=3.3
+export GALLIUM_DRIVER=llvmpipe
+export MESA_GL_VERSION_OVERRIDE=4.5
 mkdir -p output captures
 echo "=== Environment ==="
-command -v blender; blender --version | head -2
+command -v blender; blender --version | head -2; glxinfo -B 2>/dev/null | head -16 || true
 command -v kdenlive; command -v google-chrome || true
 command -v ffmpeg; command -v xdotool
 Xvfb :99 -screen 0 1280x720x24 -ac -nolisten tcp +extension GLX > /tmp/xvfb.log 2>&1 &
@@ -34,6 +35,7 @@ fi
 echo "=== Blender: model through actual UI keyboard shortcuts ==="
 blender --factory-startup -W >/tmp/blender.log 2>&1 &
 sleep 20
+if ! pgrep -x blender >/dev/null; then echo "BLENDER_CRASH"; tail -50 /tmp/blender.log; fi
 findfocus 'Blender'; key Escape
 # Select all default objects and delete using the actual Blender viewport keyboard actions.
 xdotool mousemove 720 380 click 1
@@ -80,10 +82,10 @@ sleep 2
 find output -name '*.blend' -ls || true
 echo "=== Fetch Creative Commons internet footage ==="
 curl -fL --retry 2 --connect-timeout 20 --max-time 160 \
- 'https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4' \
+ 'https://raw.githubusercontent.com/chintan9/Big-Buck-Bunny/master/BigBuckBunny480p30s.mp4' \
  -o output/source-big-buck-bunny.mp4 || \
  curl -fL --retry 2 --connect-timeout 20 --max-time 160 \
- 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4' \
+ 'https://github.com/chintan9/Big-Buck-Bunny/raw/refs/heads/master/BigBuckBunny480p30s.mp4' \
  -o output/source-big-buck-bunny.mp4 || true
 ffprobe -v error -show_entries format=duration -of default=nw=1 output/source-big-buck-bunny.mp4 || true
 echo "=== Kdenlive real UI: import and timeline placement ==="
@@ -115,7 +117,10 @@ if [ -s output/source-big-buck-bunny.mp4 ]; then
  -r 24 -c:v libx264 -preset ultrafast -crf 24 -pix_fmt yuv420p -an output/edited-internet-footage.mp4 || true
 fi
 echo "© 2008 Blender Foundation / www.bigbuckbunny.org, CC BY 3.0" > output/ATTRIBUTION.txt
-echo "=== Close recording ==="
+echo "=== Diagnostic logs ==="
+tail -45 /tmp/blender.log 2>/dev/null || true
+ tail -25 /tmp/kdenlive.log 2>/dev/null || true
+ echo "=== Close recording ==="
 xdotool mousemove 1120 660
 sleep 3
 kill -INT "$RECORD_PID" || true
