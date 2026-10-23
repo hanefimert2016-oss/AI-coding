@@ -1,0 +1,40 @@
+name: Unity licence readiness (no credentials exposed)
+on:
+  push:
+    branches: [gui-computer-use-20261023]
+    paths: [".github/workflows/unity-license-readiness.yml"]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  readiness:
+    runs-on: ubuntu-24.04
+    env:
+      HAS_LICENSE: ${{ secrets.UNITY_LICENSE != '' }}
+      HAS_EMAIL: ${{ secrets.UNITY_EMAIL != '' }}
+      HAS_PASSWORD: ${{ secrets.UNITY_PASSWORD != '' }}
+    steps:
+      - name: Check only whether GitHub secret values are configured
+        shell: bash
+        run: |
+          {
+            echo "## Unity CI licensing prerequisites"
+            if [[ "$HAS_LICENSE" == "true" ]]; then
+              echo "- Unity licence file secret: configured"
+            else
+              echo "- Unity licence file secret: missing"
+            fi
+            if [[ "$HAS_EMAIL" == "true" ]]; then
+              echo "- Unity account email secret: configured"
+            else
+              echo "- Unity account email secret: missing"
+            fi
+            if [[ "$HAS_PASSWORD" == "true" ]]; then
+              echo "- Unity account password secret: configured"
+            else
+              echo "- Unity account password secret: missing"
+            fi
+            echo ""
+            echo "This checks configuration only. It does NOT prove Unity has accepted or activated a licence."
+            echo "For Unity Personal, official activation is through Unity Hub sign-in."
+          } >> "$GITHUB_STEP_SUMMARY"
