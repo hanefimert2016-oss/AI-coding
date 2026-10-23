@@ -1,0 +1,70 @@
+name: Unity Personal — automatic cloud build (GitHub hosted)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [gui-computer-use-20261023]
+    paths:
+      - "Assets/**"
+      - "Packages/**"
+      - "ProjectSettings/**"
+      - ".github/workflows/unity-personal-cloud-build.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: unity-cloud-build-personal
+  cancel-in-progress: false
+
+jobs:
+  trigger-unity-build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 65
+    steps:
+      - name: Verify Unity Cloud setup (do not expose credentials)
+        env:
+          ORG: ${{ secrets.UNITY_ORG_ID }}
+          PROJECT: ${{ secrets.UNITY_PROJECT_ID }}
+          TARGET: ${{ secrets.UNITY_BUILD_TARGET_ID }}
+          KEY_ID: ${{ secrets.UNITY_SA_KEY_ID }}
+          KEY_SECRET: ${{ secrets.UNITY_SA_SECRET_KEY }}
+        run: |
+          set -euo pipefail
+          missing=()
+          [[ -n "$ORG" ]] || missing+=(UNITY_ORG_ID)
+          [[ -n "$PROJECT" ]] || missing+=(UNITY_PROJECT_ID)
+          [[ -n "$TARGET" ]] || missing+=(UNITY_BUILD_TARGET_ID)
+          [[ -n "$KEY_ID" ]] || missing+=(UNITY_SA_KEY_ID)
+          [[ -n "$KEY_SECRET" ]] || missing+=(UNITY_SA_SECRET_KEY)
+          if (( ${#missing[@]} )); then
+            printf 'Missing Unity Cloud secret: %s\n' "${missing[@]}"
+            echo 'Unity Build Automation not started; please configure Unity Cloud project and repository secrets.' >> "$GITHUB_STEP_SUMMARY"
+            exit 2
+          fi
+          echo 'All Unity Cloud connection secrets are configured.' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Trigger managed Unity build and verify completion
+        id: build
+        uses: Matuyuhi/unity-cloud-build-action@v0.4.3
+        with:
+          unity_org_id: ${{ secrets.UNITY_ORG_ID }}
+          unity_project_id: ${{ secrets.UNITY_PROJECT_ID }}
+          build_target_id: ${{ secrets.UNITY_BUILD_TARGET_ID }}
+          unity_service_account_key_id: ${{ secrets.UNITY_SA_KEY_ID }}
+          unity_service_account_secret_key: ${{ secrets.UNITY_SA_SECRET_KEY }}
+          branch: ${{ github.ref_name }}
+          clean: false
+          wait_for_completion: true
+          poll_interval_seconds: 30
+          timeout_minutes: 55
+
+      - name: Summarize verified build
+        if: success()
+        env:
+          BUILD_ID: ${{ steps.build.outputs.build_id }}
+          BUILD_STATUS: ${{ steps.build.outputs.build_status }}
+        run: |
+          echo "Unity-managed build ID: $BUILD_ID" >> "$GITHUB_STEP_SUMMARY"
+          echo "Unity-managed build result: $BUILD_STATUS" >> "$GITHUB_STEP_SUMMARY"
+          echo "The Unity Editor ran in Unity Build Automation, NOT on GitHub's runner." >> "$GITHUB_STEP_SUMMARY"
