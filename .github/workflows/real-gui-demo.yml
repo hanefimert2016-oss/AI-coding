@@ -18,14 +18,6 @@ jobs:
         run: |
           sudo apt-get update -qq
           sudo DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends             xvfb xauth xfwm4 xfdesktop4 xfce4-panel xfce4-session xfce4-settings             openbox dbus-x11 x11-utils xdotool wmctrl scrot             blender kdenlive ffmpeg curl ca-certificates fonts-dejavu-core             libgl1-mesa-dri mesa-utils
-      - name: Download and inspect Unity CLI and MCP sources
-        continue-on-error: true
-        run: |
-          mkdir -p vendor
-          curl -fL --retry 2 --max-time 90            https://github.com/yucchiy/UniCli/releases/download/v1.7.0/unicli-linux-x64.tar.gz            -o vendor/unicli-linux-x64.tar.gz
-          tar -tzf vendor/unicli-linux-x64.tar.gz | head -25
-          git clone -q --depth 1 https://github.com/CoplayDev/unity-mcp.git vendor/unity-mcp
-          du -sh vendor/*
       - name: Record real UI interactions in XFCE
         run: bash experiments/gui-computer-use/record.sh
       - name: Inspect recordings
