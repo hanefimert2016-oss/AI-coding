@@ -53,11 +53,11 @@ jobs:
       - name: Install actual Blender desktop tools and screen recorder
         run: |
           sudo apt-get update -qq
-          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+          sudo DEBIAN_FRONTEND=noninteractive timeout 480s apt-get install -y --no-install-recommends \
             blender xvfb openbox xdotool wmctrl scrot ffmpeg \
             libgl1-mesa-dri libpulse0 mesa-utils x11-utils xauth \
             rsync fonts-dejavu-core python3
-          blender -b --factory-startup --python-expr "import bpy; print('BLENDER_REAL_VERSION',bpy.app.version_string)" \
+          timeout 70s blender -b --factory-startup --python-expr "import bpy; print('BLENDER_REAL_VERSION',bpy.app.version_string)" \
             > work/results/blender-version.log 2>&1
           tail -10 work/results/blender-version.log
 
