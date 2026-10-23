@@ -1,0 +1,9 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PERSISTED_RUN_NUMBER=1
+ERROR: Node not inside tree. Use look_at_from_position() instead.
+   at: look_at (scene/3d/node_3d.cpp:1253)
+   GDScript backtrace (most recent call first):
+       [0] _build_world (res://scripts/world.gd:61)
+       [1] _ready (res://scripts/world.gd:22)
+GODOT_WORLD_READY
