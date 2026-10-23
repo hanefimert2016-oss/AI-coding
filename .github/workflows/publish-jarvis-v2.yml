@@ -1,0 +1,73 @@
+name: Publish JARVIS V2 verified Blender and cinematic MP4
+on:
+  push:
+    branches: [gui-computer-use-20261023]
+    paths: [".github/workflows/publish-jarvis-v2.yml"]
+  workflow_dispatch:
+permissions:
+  actions: read
+  contents: write
+jobs:
+  collect-render-publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: gui-computer-use-20261023
+          persist-credentials: true
+      - name: Retrieve verified 35-mesh GUI Blender and desktop capture
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh run download 39901098867 --repo "$GITHUB_REPOSITORY" --name xfce-blender-kdenlive-gui-recording --dir /tmp/previous
+          mkdir -p captures output
+          cp -a /tmp/previous/captures/. captures/
+          cp /tmp/previous/output/JARVIS-Industrial-Robot-Arm.blend output/
+          cp /tmp/previous/output/source-big-buck-bunny.mp4 output/
+          file output/*.blend captures/*.mp4 output/*.mp4 || true
+          ls -lh output captures
+      - name: Ensure codec and font support
+        run: |
+          if ! command -v ffmpeg >/dev/null; then
+            sudo apt-get update -qq
+            sudo DEBIAN_FRONTEND=noninteractive apt-get install -y ffmpeg fonts-dejavu-core
+          fi
+          ffmpeg -version | head -2
+      - name: Render advanced graded four-shot edit with video transitions and audio
+        run: bash publication/render-v2.sh
+      - name: Validate MP4 duration and Blender scene
+        run: |
+          set -e
+          test -s output/JARVIS-Cinematic-Edit.mp4
+          test -s output/JARVIS-Industrial-Robot-Arm.blend
+          test -s captures/desktop-v2.mp4
+          ffprobe -v error -show_entries format=duration,size -of default=nw=1 output/JARVIS-Cinematic-Edit.mp4
+          ffprobe -v error -select_streams a -show_entries stream=codec_name -of default=nw=1 output/JARVIS-Cinematic-Edit.mp4
+      - name: Publish videos, robot model and screenshot as direct links
+        run: |
+          set -euo pipefail
+          mkdir -p gui-recordings-v2
+          cp output/JARVIS-Cinematic-Edit.mp4 gui-recordings-v2/
+          cp output/JARVIS-Industrial-Robot-Arm.blend gui-recordings-v2/
+          cp captures/desktop-v2.mp4 gui-recordings-v2/
+          cp captures/02-blender-detailed-arm.png gui-recordings-v2/robot-preview.png
+          cp output/ATTRIBUTION.txt gui-recordings-v2/
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add gui-recordings-v2
+          git commit -m "Publish 35-mesh Blender robot, accelerated GUI recording and edited cinema MP4"
+          git push origin HEAD:gui-computer-use-20261023
+      - name: Upload complete JARVIS V2 results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: JARVIS-V2-final-video-model
+          path: |
+            output/JARVIS-Cinematic-Edit.mp4
+            output/JARVIS-Industrial-Robot-Arm.blend
+            captures/desktop-v2.mp4
+            captures/02-blender-detailed-arm.png
+            output/ATTRIBUTION.txt
+          retention-days: 7
+          if-no-files-found: warn
