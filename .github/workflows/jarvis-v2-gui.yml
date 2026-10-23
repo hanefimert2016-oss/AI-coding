@@ -1,4 +1,4 @@
-name: JARVIS V2 fast GUI Blender cinema Unity
+name: JARVIS V2 fast GUI Blender cinema
 on:
   push:
     branches: [gui-computer-use-20261023]
@@ -41,37 +41,5 @@ jobs:
             output/JARVIS-Industrial-Robot-Arm.blend
             output/model-verification.txt
             output/ATTRIBUTION.txt
-          retention-days: 7
-          if-no-files-found: warn
-  unity-editor-gui:
-    runs-on: ubuntu-24.04
-    timeout-minutes: 25
-    steps:
-      - uses: actions/checkout@v4
-      - name: Install minimal X server and licensing prerequisites
-        run: |
-          sudo apt-get update -qq
-          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
-            xvfb openbox xdotool scrot curl gnupg xz-utils \
-            libgl1-mesa-dri libgtk-3-0 libnss3 libasound2t64 libgbm1 \
-            libx11-6 libxcursor1 libxrandr2 libxi6 libxinerama1
-      - name: Try official Unity Hub, streamed Unity Editor and GUI
-        run: bash experiments/gui-computer-use/unity-attempt.sh
-      - name: Inspect Unity result and license state
-        if: always()
-        run: |
-          ls -lh unity-output || true
-          cat unity-output/unity-version.txt 2>/dev/null || true
-          grep -Ei 'error|license|activate' unity-output/editor.log 2>/dev/null | tail -20 || true
-          df -h /
-      - name: Publish Unity executable launch evidence
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: JARVIS-V2-unity-editor-evidence
-          path: |
-            unity-output/*.png
-            unity-output/*.txt
-            unity-output/editor.log
           retention-days: 7
           if-no-files-found: warn
