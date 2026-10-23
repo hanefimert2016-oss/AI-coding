@@ -19,3 +19,10 @@ WARNING: All audio drivers failed, falling back to the dummy driver.
 
 PERSISTED_RUN_NUMBER=2
 GODOT_WORLD_READY
+X connection to :91 broken (explicit kill or server shutdown).
+ERROR: BUG: Unreferenced static string to 0: servers
+   at: unref (core/string/string_name.cpp:118)
+ERROR: BUG: Unreferenced static string to 0: _enter_world
+   at: unref (core/string/string_name.cpp:118)
+ERROR: BUG: Unreferenced static string to 0: Variant
+   at: unref (core/string/string_name.cpp:118)
