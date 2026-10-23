@@ -13,7 +13,7 @@ RECORD=$!
 finish() { kill -INT "$RECORD" >/dev/null 2>&1 || true; sleep 3; }
 trap finish EXIT
 key() { xdotool key --clearmodifiers --delay 25 "$1"; sleep .12; }
-type() { xdotool type --clearmodifiers --delay 17 "$1"; }
+type() { printf '%s' "$1" | xdotool type --clearmodifiers --delay 17 --file -; }
 focus() { local id; id=$(xdotool search --onlyvisible --name "$1" 2>/dev/null|tail -1||:); test -n "$id" && timeout 4s xdotool windowactivate "$id" || true; }
 shot() { scrot "captures/$1.png" || true; }
 op() { key F3; sleep .22; type "$1"; key Return; sleep .65; }
