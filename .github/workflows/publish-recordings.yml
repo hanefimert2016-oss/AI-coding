@@ -1,0 +1,42 @@
+name: Publish GUI recordings as direct MP4 downloads
+on:
+  push:
+    branches: [gui-computer-use-20261023]
+    paths: [".github/workflows/publish-recordings.yml"]
+  workflow_dispatch:
+permissions:
+  actions: read
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: gui-computer-use-20261023
+          persist-credentials: true
+      - name: Download verified successful recording
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh run download 39897847958 --repo "$GITHUB_REPOSITORY" \
+            --name xfce-blender-kdenlive-gui-recording --dir /tmp/gui-archive
+          find /tmp/gui-archive -type f -printf '%P %s bytes\n'
+      - name: Publish two MP4 videos and Blender model to isolated branch
+        run: |
+          set -euo pipefail
+          mkdir -p gui-recordings
+          for F in full-session.mp4 edited-internet-footage.mp4 untitled.blend; do
+            SRC=$(find /tmp/gui-archive -type f -name "$F" -print -quit)
+            test -n "$SRC" && test -s "$SRC"
+            cp "$SRC" "gui-recordings/$F"
+          done
+          printf 'Original footage credit: (c) copyright 2008, Blender Foundation / www.bigbuckbunny.org. Licensed CC BY 3.0.\n' > gui-recordings/ATTRIBUTION.txt
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add gui-recordings
+          git commit -m "Publish real XFCE GUI MP4 recording, edited video and Blender project"
+          git push origin HEAD:gui-computer-use-20261023
+          echo "Video 1: https://raw.githubusercontent.com/$GITHUB_REPOSITORY/gui-computer-use-20261023/gui-recordings/full-session.mp4"
+          echo "Video 2: https://raw.githubusercontent.com/$GITHUB_REPOSITORY/gui-computer-use-20261023/gui-recordings/edited-internet-footage.mp4"
