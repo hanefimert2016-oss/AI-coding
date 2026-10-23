@@ -28,7 +28,7 @@ source = pathlib.Path(sys.argv[1])
 target = pathlib.Path(sys.argv[2])
 metadata = json.loads(source.read_text())
 target.parent.mkdir(parents=True, exist_ok=True)
-target.write_text(json.dumps(metadata, indent=2, ensure_ascii=False) + "\\n")
+target.write_text(json.dumps(metadata, indent=2, ensure_ascii=False) + "\n")
 check = json.loads(target.read_text())
 assert check["run_number"] == metadata["run_number"]
 assert check["previous_run"] < check["run_number"]
