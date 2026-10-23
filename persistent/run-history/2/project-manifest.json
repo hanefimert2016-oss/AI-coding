@@ -1,0 +1,26 @@
+{
+  ".gitignore": {
+    "size": 29,
+    "sha256": "aa3d4ef03be34385466a21cbb0bc6df6ba87a1291209b80555afe990861544b5"
+  },
+  "data/ci_state.json": {
+    "size": 190,
+    "sha256": "e12b10f8c9d1ff1ef08e5e316a02d6914bd6e4c4acb9a8498715a1da5939fd2f"
+  },
+  "project.godot": {
+    "size": 591,
+    "sha256": "f81a4fb87dbb29df9fb73373c3cec0423c1e21bbeacc38776012b6d7eea8b0c8"
+  },
+  "scenes/main.tscn": {
+    "size": 183,
+    "sha256": "ea70092264ef71e0476e990b637c30e1fc772eb6925950117ee3e12205eca053"
+  },
+  "scripts/world.gd": {
+    "size": 4165,
+    "sha256": "1c02e1067d286798a4dda268009d021e129dd7ebcd2d6ad9b42c9a13a00b1006"
+  },
+  "scripts/world.gd.uid": {
+    "size": 20,
+    "sha256": "533cc176823efa771e65fa3ff0eb9c4150942861e0f81143e47f5364cb05ee14"
+  }
+}
