@@ -17,7 +17,7 @@ FILTER=$(cat <<'EOF'
 EOF
 )
 ffmpeg -hide_banner -nostdin -y -loglevel warning -i output/source-big-buck-bunny.mp4 \
- -filter_complex "$FILTER" -map '[v]' -map 0:a? -af 'volume=0.85,afade=t=in:st=0:d=.5,afade=t=out:st=25:d=0.8' -t 25.9 \
+ -filter_complex "$FILTER" -map '[v]' -map 0:a? -af 'volume=0.85,afade=t=in:st=0:d=0.5,afade=t=out:st=25:d=0.8' -t 25.9 \
  -c:v libx264 -preset medium -crf 19 -r 24 -pix_fmt yuv420p -c:a aac -b:a 160k -movflags +faststart \
  output/JARVIS-Cinematic-Edit.mp4
 
