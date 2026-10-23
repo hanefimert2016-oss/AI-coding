@@ -58,9 +58,9 @@ func _build_world() -> void:
     var camera := Camera3D.new()
     camera.name = "OrbitCamera"
     camera.position = Vector3(0, 13, 17)
+    add_child(camera)
     camera.look_at(Vector3(0, 0.0, 0), Vector3.UP)
     camera.current = true
-    add_child(camera)
 
     var overlay := CanvasLayer.new()
     add_child(overlay)
