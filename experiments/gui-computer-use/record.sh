@@ -16,12 +16,13 @@ sleep 7
 xdotool mousemove 600 360
 ffmpeg -hide_banner -nostdin -y -f x11grab -video_size 1280x720 -framerate 10 -i :99 -an -c:v libx264 -preset ultrafast -crf 28 -pix_fmt yuv420p captures/full-session.mp4 >/tmp/screencapture.log 2>&1 &
 RECORD_PID=$!
+trap 'kill -INT "$RECORD_PID" 2>/dev/null || true' EXIT
 echo "RECORD_PID=$RECORD_PID"
 set +e
 mark(){ echo "--- $1 ---"; scrot "captures/$2.png" || true; }
 type(){ xdotool type --clearmodifiers --delay 70 "$1"; }
 key(){ xdotool key --clearmodifiers "$1"; sleep 0.6; }
-findfocus(){ local wid; wid=$(xdotool search --onlyvisible --name "$1" 2>/dev/null | tail -1); if [ -n "$wid" ]; then xdotool windowactivate --sync "$wid" || true; fi; }
+findfocus(){ local wid; wid=$(xdotool search --onlyvisible --name "$1" 2>/dev/null | tail -1); if [ -n "$wid" ]; then timeout 5s xdotool windowactivate "$wid" || true; fi; }
 echo "=== Chrome research using keyboard/mouse ==="
 if command -v google-chrome >/dev/null; then
  google-chrome --no-sandbox --disable-gpu --disable-dev-shm-usage --no-first-run --new-window 'https://www.google.com' >/tmp/chrome.log 2>&1 &
