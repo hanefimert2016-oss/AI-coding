@@ -1,0 +1,71 @@
+name: JARVIS V2 fast video Docker export
+on:
+  push:
+    branches: [gui-computer-use-20261023]
+    paths: [".github/workflows/jarvis-v2-docker-export.yml"]
+  workflow_dispatch:
+permissions:
+  actions: read
+  contents: write
+jobs:
+  render-from-existing-model:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: gui-computer-use-20261023
+      - name: Recover verified 35-mesh Blender and desktop recording
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh run download 39901098867 --repo "$GITHUB_REPOSITORY" --name xfce-blender-kdenlive-gui-recording --dir /tmp/verified
+          mkdir -p output captures
+          cp /tmp/verified/output/JARVIS-Industrial-Robot-Arm.blend output/
+          cp /tmp/verified/output/source-big-buck-bunny.mp4 output/
+          cp -a /tmp/verified/captures/. captures/
+      - name: Download ready-to-use FFmpeg image (no apt package installs)
+        run: docker pull ghcr.io/jrottenberg/ffmpeg:9.0-ubuntu2404
+      - name: Create transparent ffmpeg and ffprobe wrappers
+        run: |
+          mkdir -p shim
+          cat >shim/ffmpeg <<'EOF'
+          #!/usr/bin/env bash
+          exec docker run --rm -v "$PWD:/work" -w /work ghcr.io/jrottenberg/ffmpeg:9.0-ubuntu2404 "$@"
+          EOF
+          cat >shim/ffprobe <<'EOF'
+          #!/usr/bin/env bash
+          exec docker run --rm -v "$PWD:/work" -w /work --entrypoint ffprobe ghcr.io/jrottenberg/ffmpeg:9.0-ubuntu2404 "$@"
+          EOF
+          chmod +x shim/ffmpeg shim/ffprobe
+      - name: Make advanced transitions color grade titles and audio MP4
+        run: PATH="$PWD/shim:$PATH" bash publication/render-v2.sh
+      - name: Verify MP4 and publish assets
+        run: |
+          set -euo pipefail
+          test -s output/JARVIS-Cinematic-Edit.mp4
+          test -s output/JARVIS-Industrial-Robot-Arm.blend
+          mkdir -p gui-recordings-v2
+          cp output/JARVIS-Cinematic-Edit.mp4 gui-recordings-v2/
+          cp output/JARVIS-Industrial-Robot-Arm.blend gui-recordings-v2/
+          cp captures/desktop-v2.mp4 gui-recordings-v2/
+          cp captures/02-blender-detailed-arm.png gui-recordings-v2/robot-preview.png
+          cp output/ATTRIBUTION.txt gui-recordings-v2/
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add gui-recordings-v2
+          git commit -m "Publish actual Blender GUI robot and high-quality cinematic edited video"
+          git push origin HEAD:gui-computer-use-20261023
+      - name: Upload final videos and Blender project
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: JARVIS-V2-cinematic-final
+          path: |
+            output/JARVIS-Cinematic-Edit.mp4
+            output/JARVIS-Industrial-Robot-Arm.blend
+            captures/desktop-v2.mp4
+            captures/02-blender-detailed-arm.png
+            output/ATTRIBUTION.txt
+          retention-days: 7
+          if-no-files-found: warn
