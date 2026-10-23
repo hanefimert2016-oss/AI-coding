@@ -65,7 +65,7 @@ jobs:
           tail -65 work/results/game.log
           grep -q 'GODOT_WORLD_READY' work/results/game.log
           grep -q "PERSISTED_RUN_NUMBER=${GODOT_RUN_NUMBER}" work/results/game.log
-          if grep -E 'SCRIPT ERROR|Parse Error|ERROR: Failed to load' work/results/game.log; then
+          if grep -E 'SCRIPT ERROR|Parse Error|ERROR:' work/results/game.log; then
             echo "::error::Godot reported script/import errors"
             exit 1
           fi
