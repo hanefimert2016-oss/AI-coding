@@ -20,6 +20,20 @@ if [[ "$PASSED" == "true" ]]; then
     --exclude='.import/' \
     --exclude='*.tmp' \
     "$GAME/" "$STATE/persistent/project/"
+  # The run metadata is the authoritative counter. Write it explicitly,
+  # rather than relying on timestamp/size heuristics when rsync copies JSON.
+  python3 - "$RESULTS/run_metadata.json" "$STATE/persistent/project/data/ci_state.json" <<'PY'
+import json, pathlib, sys
+source = pathlib.Path(sys.argv[1])
+target = pathlib.Path(sys.argv[2])
+metadata = json.loads(source.read_text())
+target.parent.mkdir(parents=True, exist_ok=True)
+target.write_text(json.dumps(metadata, indent=2, ensure_ascii=False) + "\\n")
+check = json.loads(target.read_text())
+assert check["run_number"] == metadata["run_number"]
+assert check["previous_run"] < check["run_number"]
+print("FORCED_PERSISTED_RUN_NUMBER=", check["run_number"])
+PY
   echo "PROJECT_PERSISTED=YES" | tee -a "$HISTORY/persistence.txt"
 else
   echo "PROJECT_PERSISTED=NO (validation failed; previous good project preserved)" | tee -a "$HISTORY/persistence.txt"
