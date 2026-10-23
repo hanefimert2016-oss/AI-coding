@@ -11,7 +11,7 @@ permissions:
 
 concurrency:
   group: godot-persistent-state-writer
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build-and-record:
