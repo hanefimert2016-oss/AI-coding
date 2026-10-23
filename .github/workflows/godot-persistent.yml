@@ -1,0 +1,108 @@
+name: Godot 4.7.2 - Persistent Game Builder
+
+on:
+  push:
+    branches:
+      - gui-computer-use-20261023
+    paths:
+      - ".github/workflows/godot-persistent.yml"
+      - "godot/**"
+      - "automation/godot/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: godot-persistent-state-writer
+  cancel-in-progress: false
+
+jobs:
+  godot-persistent:
+    name: Restore, run Godot, commit results for next job
+    runs-on: ubuntu-24.04
+    timeout-minutes: 22
+    steps:
+      - name: Check out source scripts and starter project
+        uses: actions/checkout@v4
+        with:
+          ref: gui-computer-use-20261023
+          path: source
+          persist-credentials: true
+
+      - name: Check out writable long-term state
+        uses: actions/checkout@v4
+        with:
+          ref: godot-persistent-state
+          path: memory
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Restore project from last run or create first-time project
+        run: bash source/automation/godot/prepare.sh
+
+      - name: Install Godot 4.7.2 and export templates
+        uses: solarlabyrinth/action-setup-godot@v3
+        with:
+          version: 4.7.2-stable
+          export-templates: false
+
+      - name: Import resources and test real Godot project
+        shell: bash
+        run: |
+          set -euo pipefail
+          godot --version | tee work/results/godot-version.txt
+          echo 'Starting Godot headless resource import...'
+          if ! timeout 110s godot --headless --editor --path "$PWD/work/game" --import > work/results/import.log 2>&1; then
+            tail -100 work/results/import.log || true
+            exit 1
+          fi
+          echo 'Launching game to execute scene and verify persisted state...'
+          if ! timeout 110s godot --headless --path "$PWD/work/game" --quit-after 80 > work/results/game.log 2>&1; then
+            tail -100 work/results/game.log || true
+            exit 1
+          fi
+          tail -65 work/results/game.log
+          grep -q 'GODOT_WORLD_READY' work/results/game.log
+          grep -q "PERSISTED_RUN_NUMBER=${GODOT_RUN_NUMBER}" work/results/game.log
+          if grep -E 'SCRIPT ERROR|Parse Error|ERROR: Failed to load' work/results/game.log; then
+            echo "::error::Godot reported script/import errors"
+            exit 1
+          fi
+          echo 'GODOT_TEST_PASSED=true' >> "$GITHUB_ENV"
+          echo "Godot game successfully executed run #${GODOT_RUN_NUMBER}" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Capture real Godot game desktop screenshot (software OpenGL)
+        continue-on-error: true
+        if: success()
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends xvfb scrot libgl1-mesa-dri
+          Xvfb :91 -screen 0 1280x720x24 -nolisten tcp > work/results/xvfb.log 2>&1 &
+          XVFB_PID=$!
+          export DISPLAY=:91
+          sleep 2
+          timeout 25s godot --path "$PWD/work/game" --rendering-driver opengl3 --quit-after 600 > work/results/visual.log 2>&1 &
+          GODOT_PID=$!
+          sleep 7
+          scrot work/results/godot-preview.png
+          kill "$GODOT_PID" "$XVFB_PID" 2>/dev/null || true
+          wait "$GODOT_PID" 2>/dev/null || true
+          test -s work/results/godot-preview.png
+          file work/results/godot-preview.png
+
+      - name: Commit generated project and run history to permanent state branch
+        if: always()
+        run: bash source/automation/godot/persist.sh
+
+      - name: Upload temporary backup as an Actions artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: godot-run-${{ github.run_id }}
+          path: |
+            work/results/
+            work/game/data/ci_state.json
+          retention-days: 14
+          if-no-files-found: warn
