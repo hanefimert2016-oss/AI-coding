@@ -1,0 +1,199 @@
+name: NEON CIRCUIT - Blender + Godot playable game video
+
+on:
+  push:
+    branches: [gui-computer-use-20261023]
+    paths: [".github/workflows/neon-circuit-game.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: godot-persistent-state-writer
+  cancel-in-progress: false
+
+jobs:
+  build-and-record:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: gui-computer-use-20261023
+          path: source
+      - uses: actions/checkout@v4
+        with:
+          ref: godot-persistent-state
+          path: memory
+          fetch-depth: 0
+
+      - name: Restore previous project counter and prepare NEON CIRCUIT
+        run: |
+          set -euo pipefail
+          mkdir -p work/game work/results work/blender-export
+          rsync -a source/experiments/neon-circuit/template/ work/game/
+          python3 - <<'PY'
+          import json, os, pathlib
+          previous=pathlib.Path("memory/persistent/project/data/ci_state.json")
+          state=json.loads(previous.read_text()) if previous.is_file() else {"run_number":0}
+          prior=int(state.get("run_number",0))
+          current=prior+1
+          dest=pathlib.Path("work/game/data/ci_state.json")
+          dest.parent.mkdir(parents=True,exist_ok=True)
+          payload={"run_number":current,"previous_run":prior,
+                   "github_run_id":os.environ["GITHUB_RUN_ID"],
+                   "game":"NEON CIRCUIT 3D","blender_generated":True}
+          dest.write_text(json.dumps(payload,indent=2)+"\n")
+          pathlib.Path("work/results/run_metadata.json").write_text(json.dumps(payload,indent=2)+"\n")
+          with open(os.environ["GITHUB_ENV"],"a") as env: env.write(f"GODOT_RUN_NUMBER={current}\n")
+          print("NEON_RESTORED_PREVIOUS",prior,"NEON_NEW_RUN",current)
+          PY
+
+      - name: Install actual Blender desktop tools and screen recorder
+        run: |
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+            blender xvfb openbox xdotool wmctrl scrot ffmpeg \
+            libgl1-mesa-dri libpulse0 mesa-utils x11-utils xauth \
+            rsync fonts-dejavu-core python3
+          blender -b --factory-startup --python-expr "import bpy; print('BLENDER_REAL_VERSION',bpy.app.version_string)" \
+            > work/results/blender-version.log 2>&1
+          tail -10 work/results/blender-version.log
+
+      - name: Produce original real Blender 3D meshes .glb .blend and rendered model preview
+        run: |
+          set -euo pipefail
+          timeout 240s blender -b -t 2 --factory-startup \
+            --python source/experiments/neon-circuit/blender_assets.py -- \
+            "$PWD/work/blender-export" > work/results/blender-modeling.log 2>&1 || {
+              tail -100 work/results/blender-modeling.log
+              exit 1
+            }
+          grep 'BLENDER_EXPORTED\|BLENDER_SOURCE_CREATED' work/results/blender-modeling.log
+          cp work/blender-export/assets/*.glb work/game/assets/ 2>/dev/null || {
+            mkdir -p work/game/assets
+            cp work/blender-export/assets/*.glb work/game/assets/
+          }
+          cp work/blender-export/NEON-CIRCUIT-Blender-Assets.blend work/results/
+          test -s work/blender-export/blender-asset-preview.png && \
+            cp work/blender-export/blender-asset-preview.png work/results/01-blender-render.png || true
+          ls -lh work/game/assets/ work/results/NEON-CIRCUIT-Blender-Assets.blend
+
+      - name: Install Godot 4.7.2 real Linux editor and importer
+        uses: solarlabyrinth/action-setup-godot@v3
+        with:
+          version: 4.7.2-stable
+          export-templates: false
+
+      - name: Verify real Godot game runs with imported Blender assets
+        run: |
+          set -euo pipefail
+          godot --version
+          timeout 170s godot --headless --editor --path "$PWD/work/game" --import \
+            > work/results/godot-import.log 2>&1 || {
+              tail -110 work/results/godot-import.log
+              exit 1
+            }
+          timeout 45s godot --headless --path "$PWD/work/game" --quit-after 90 \
+            > work/results/godot-runtime.log 2>&1 || {
+              tail -150 work/results/godot-runtime.log
+              exit 1
+            }
+          tail -90 work/results/godot-runtime.log
+          grep -q NEON_CIRCUIT_READY work/results/godot-runtime.log
+          grep -q 'BLENDER_SHIP_MESH_INSTANCED=true' work/results/godot-runtime.log
+          grep -q 'COLLECTIBLE_COUNT=16' work/results/godot-runtime.log
+          if grep -E 'SCRIPT ERROR|Parse Error|ERROR:' work/results/godot-runtime.log; then
+            echo "::error::Godot runtime engine errors"
+            exit 1
+          fi
+          echo 'GODOT_TEST_PASSED=true' >> "$GITHUB_ENV"
+
+      - name: Record actual Blender and playable Godot windows as an MP4
+        run: |
+          set -euo pipefail
+          export DISPLAY=:92
+          export LIBGL_ALWAYS_SOFTWARE=1
+          export MESA_GL_VERSION_OVERRIDE=3.3
+          export ALSA_CONFIG_PATH=/dev/null
+          Xvfb :92 -screen 0 1280x720x24 -nolisten tcp > work/results/xvfb.log 2>&1 &
+          XVFB_PID=$!
+          sleep 2
+          openbox > work/results/window-manager.log 2>&1 &
+          OPENBOX_PID=$!
+          sleep 2
+
+          # Actual Blender GUI: inspect the editable model file in its own app.
+          blender -W "$PWD/work/results/NEON-CIRCUIT-Blender-Assets.blend" \
+            > work/results/blender-desktop.log 2>&1 &
+          BLENDER_GUI_PID=$!
+          sleep 11
+          wmctrl -l > work/results/windows-blender.txt || true
+          scrot work/results/02-blender-editor.png
+          ffmpeg -hide_banner -loglevel error -y -nostdin \
+            -f x11grab -framerate 15 -video_size 1280x720 -i :92 \
+            -t 41 -c:v libx264 -preset ultrafast -crf 25 \
+            -pix_fmt yuv420p -movflags +faststart \
+            work/results/NEON-CIRCUIT-creation-and-gameplay.mp4 \
+            > work/results/ffmpeg.log 2>&1 &
+          VIDEO_PID=$!
+          sleep 6
+
+          # Actual Godot GUI: load the validated, playable 3D project.
+          godot --path "$PWD/work/game" --rendering-driver opengl3 --audio-driver Dummy \
+            > work/results/godot-desktop.log 2>&1 &
+          GODOT_GUI_PID=$!
+          sleep 10
+          wmctrl -l > work/results/windows-godot.txt || true
+          cat work/results/windows-godot.txt
+          WIN=$(xdotool search --onlyvisible --name 'NEON CIRCUIT' 2>/dev/null | tail -1 || true)
+          if [ -n "$WIN" ]; then
+            xdotool windowactivate --sync "$WIN" || true
+            wmctrl -ir "$WIN" -b add,maximized_vert,maximized_horz || true
+          fi
+          sleep 2
+          scrot work/results/03-godot-gameplay.png
+          xdotool keydown w; sleep 2; xdotool keyup w
+          xdotool keydown d; sleep 2; xdotool keyup d
+          xdotool keydown s; sleep 2; xdotool keyup s
+          xdotool keydown a; sleep 2; xdotool keyup a
+          scrot work/results/04-godot-movement.png
+          sleep 8
+          wait "$VIDEO_PID"
+          ffprobe -v error -show_entries format=duration,size -of default=noprint_wrappers=1 \
+            work/results/NEON-CIRCUIT-creation-and-gameplay.mp4 \
+            | tee work/results/video-verification.txt
+          test -s work/results/03-godot-gameplay.png
+          test -s work/results/NEON-CIRCUIT-creation-and-gameplay.mp4
+          kill "$GODOT_GUI_PID" "$BLENDER_GUI_PID" "$OPENBOX_PID" "$XVFB_PID" 2>/dev/null || true
+          echo "Recorded real Blender GUI + Godot 3D game via X11 screen capture." >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Publish actual game, Blender sources, GUI screenshots and MP4 to persistent branch
+        if: always()
+        run: |
+          set -euo pipefail
+          DEST="memory/persistent/showcase/neon-circuit"
+          mkdir -p "$DEST"
+          for f in \
+            work/results/NEON-CIRCUIT-creation-and-gameplay.mp4 \
+            work/results/NEON-CIRCUIT-Blender-Assets.blend \
+            work/results/01-blender-render.png \
+            work/results/02-blender-editor.png \
+            work/results/03-godot-gameplay.png \
+            work/results/04-godot-movement.png; do
+            test -s "$f" && cp "$f" "$DEST/" || true
+          done
+          find "$DEST" -type f -maxdepth 1 -printf '%f %k KiB\n'
+          bash source/automation/godot/persist.sh
+
+      - name: Upload one-click backup (MP4, PNGs, .blend and game project)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: NEON-CIRCUIT-GODOT-BLENDER-VIDEO
+          path: |
+            work/results/
+            work/game/
+          retention-days: 7
+          if-no-files-found: warn
