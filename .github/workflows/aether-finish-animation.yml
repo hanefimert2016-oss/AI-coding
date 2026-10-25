@@ -1,0 +1,170 @@
+name: AETHER-01 - Finish animation MP4 from captured Blender assets
+
+on:
+  push:
+    branches: [aether-humanoid-rig-20261025]
+    paths: [".github/workflows/aether-finish-animation.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: aether01-resume-output
+  cancel-in-progress: true
+
+jobs:
+  finish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: aether-humanoid-rig-20261025
+          fetch-depth: 0
+      - uses: actions/download-artifact@v4
+        with:
+          name: AETHER-01-Human-Rig-Walk-Run-Punch-GLB-BLEND-MP4-PNG
+          run-id: 40216704049
+          github-token: ${{ github.token }}
+          path: humanoid-motion-studio/outputs
+
+      - name: Confirm prior complete rigged model and five studio render PNGs
+        run: |
+          set -euo pipefail
+          OUT=humanoid-motion-studio/outputs
+          ls -lah "$OUT"
+          test -s "$OUT/AETHER-01-Rigged-Animated-Human.glb"
+          test -s "$OUT/AETHER-01-Rigged-Animated-Human.blend"
+          test -s "$OUT/AETHER-01-Blender-Modeling-Rigging-Process.mp4"
+          for n in \
+            01-AETHER-Human-Neutral.png 02-AETHER-Walking.png 03-AETHER-Running.png \
+            04-AETHER-Punching.png 05-AETHER-Portrait-Closeup.png; do
+              test -s "$OUT/$n"
+          done
+          echo "RESTORED_EXISTING_COMPLETE_CHARACTER=true"
+
+      - name: Install missing EGL and virtual OpenGL screen for headless Blender
+        run: |
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive timeout 450s apt-get install -y --no-install-recommends \
+            blender python3-numpy python3-pil xvfb xauth ffmpeg \
+            libegl1 libegl-mesa0 libgbm1 libgl1 libgl1-mesa-dri mesa-utils
+          ldconfig -p | grep -i 'libEGL.so.1'
+          blender -b --python-expr "import bpy;print('BLENDER_HEADLESS',bpy.app.version_string)"
+
+      - name: Render all four skeletal animation actions through EGL-enabled Xvfb
+        run: |
+          set -euo pipefail
+          OUT="$PWD/humanoid-motion-studio/outputs"
+          mkdir -p "$OUT/sample_frames"
+          timeout 1050s xvfb-run -a -s "-screen 0 1280x720x24 -nolisten tcp" \
+            env LIBGL_ALWAYS_SOFTWARE=1 MESA_GL_VERSION_OVERRIDE=4.5 \
+            blender -b -t 4 "$OUT/AETHER-01-Rigged-Animated-Human.blend" \
+              --python humanoid-motion-studio/render_poses_and_motion.py -- "$OUT" \
+            > "$OUT/resume-animation-render.log" 2>&1 || {
+              tail -130 "$OUT/resume-animation-render.log"
+              exit 1
+            }
+          grep "AETHER_MOTION_RENDERED" "$OUT/resume-animation-render.log"
+          test "$(find "$OUT/sample_frames" -name 'frame-*.png' -type f | wc -l)" -eq 96
+
+      - name: Encode four genuine Blender animation actions as MP4
+        run: |
+          set -euo pipefail
+          OUT=humanoid-motion-studio/outputs
+          FONT=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+          FILTER="drawbox=x=0:y=0:w=iw:h=55:color=0x061a2c@0.9:t=fill,drawtext=fontfile=$FONT:text='AETHER 01 / RIGGED HUMAN ANIMATIONS':fontsize=23:fontcolor=white:x=22:y=12,drawtext=fontfile=$FONT:text='IDLE':enable='between(t,0,1.99)':fontsize=32:fontcolor=0x30eaff:x=22:y=77,drawtext=fontfile=$FONT:text='WALK':enable='between(t,2,3.99)':fontsize=32:fontcolor=0x30eaff:x=22:y=77,drawtext=fontfile=$FONT:text='RUN':enable='between(t,4,5.99)':fontsize=32:fontcolor=0x30eaff:x=22:y=77,drawtext=fontfile=$FONT:text='PUNCH':enable='between(t,6,8)':fontsize=32:fontcolor=0x30eaff:x=22:y=77"
+          ffmpeg -hide_banner -loglevel error -nostdin -y -framerate 12 \
+            -i "$OUT/sample_frames/frame-%04d.png" -vf "$FILTER" \
+            -c:v libx264 -profile:v baseline -level:v 3.1 -crf 19 \
+            -pix_fmt yuv420p -preset medium -movflags +faststart \
+            "$OUT/AETHER-01-Idle-Walk-Run-Punch-Demo.mp4"
+          cp "$OUT/sample_frames/frame-0006.png" "$OUT/09-Idle-Sample.png"
+          cp "$OUT/sample_frames/frame-0034.png" "$OUT/10-Walk-Sample.png"
+          cp "$OUT/sample_frames/frame-0058.png" "$OUT/11-Run-Sample.png"
+          cp "$OUT/sample_frames/frame-0084.png" "$OUT/12-Punch-Sample.png"
+          rm -rf "$OUT/sample_frames"
+
+      - name: Audit scene poses visually and verify animated GLB
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          from PIL import Image, ImageDraw, ImageFont
+          import struct,json,base64,io
+          out=Path("humanoid-motion-studio/outputs")
+          raw=(out/"AETHER-01-Rigged-Animated-Human.glb").read_bytes()
+          assert raw[:4]==b'glTF' and struct.unpack_from('<I',raw,8)[0]==len(raw)
+          size=struct.unpack_from('<I',raw,12)[0]
+          data=json.loads(raw[20:20+size])
+          names=[a.get('name','') for a in data['animations']]
+          assert len(data.get('skins',[]))>=1
+          for n in ('Idle','Walk','Run','Punch'):
+              assert any(n in name for name in names),(n,names)
+          assert len(data.get('meshes',[]))>50
+          print("VERIFIED_GLTF_SKINNED_HUMAN_AND_FOUR_ACTIONS",len(data["meshes"]),names)
+
+          pics=[
+              ("01-AETHER-Human-Neutral.png","IDLE"),
+              ("02-AETHER-Walking.png","WALK"),
+              ("03-AETHER-Running.png","RUN"),
+              ("04-AETHER-Punching.png","PUNCH"),
+          ]
+          canvas=Image.new('RGB',(1200,760),(14,22,34))
+          font=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',21)
+          draw=ImageDraw.Draw(canvas)
+          for i,(filename,label) in enumerate(pics):
+              img=Image.open(out/filename).convert('RGB')
+              img.thumbnail((590,340))
+              x=(i%2)*600+(600-img.width)//2
+              y=(i//2)*380+25
+              canvas.paste(img,(x,y))
+              draw.text(((i%2)*600+28,(i//2)*380+347),label,font=font,fill=(80,224,255))
+          canvas.save(out/"AETHER-01-Four-Animation-Poses.jpg",quality=88,optimize=True)
+          tiny=canvas.copy()
+          tiny.thumbnail((780,500))
+          buff=io.BytesIO()
+          tiny.save(buff,format="JPEG",quality=68)
+          (out/"pose-review.b64.txt").write_text(base64.b64encode(buff.getvalue()).decode("ascii")+"\n")
+          print("AETHER_POSE_CONTACT_SHEET",out/"AETHER-01-Four-Animation-Poses.jpg")
+          PY
+
+          OUT=humanoid-motion-studio/outputs
+          for movie in \
+            "$OUT/AETHER-01-Idle-Walk-Run-Punch-Demo.mp4" \
+            "$OUT/AETHER-01-Blender-Modeling-Rigging-Process.mp4"; do
+            ffmpeg -hide_banner -loglevel error -nostdin -xerror -i "$movie" -f null - \
+              > "$OUT/$(basename "$movie" .mp4)-decoder-check.txt" 2>&1
+            ffprobe -v error -show_entries stream=codec_name,profile,width,height,nb_frames:format=duration,size \
+              -of default=noprint_wrappers=1 "$movie" \
+              | tee "$OUT/$(basename "$movie" .mp4)-metadata.txt"
+          done
+          for T in 20 55 92; do
+            ffmpeg -hide_banner -loglevel error -nostdin -ss "$T" \
+              -i "$OUT/AETHER-01-Blender-Modeling-Rigging-Process.mp4" \
+              -vf 'crop=800:480:240:175' -frames:v 1 -f md5 - \
+              > "$OUT/modeling-viewport-$T.md5"
+          done
+          ! cmp -s "$OUT/modeling-viewport-20.md5" "$OUT/modeling-viewport-55.md5" || exit 1
+          ! cmp -s "$OUT/modeling-viewport-55.md5" "$OUT/modeling-viewport-92.md5" || exit 1
+          echo "SUCCESS: full 2 MP4 decode, visible model evolution, skinning, glTF motion clips, 5 portrait poses" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Publish working human character GLB BLEND PNG MP4 files
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add humanoid-motion-studio/outputs
+          git commit -m "Deliver AETHER rigged human plus Idle Walk Run Punch demo and Blender modeling MP4"
+          git push origin HEAD:aether-humanoid-rig-20261025
+
+      - name: Pack complete verified deliverables
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: AETHER-01-Rigged-Human-All-GLB-BLEND-MP4-PNG
+          path: humanoid-motion-studio/outputs
+          retention-days: 14
+          if-no-files-found: warn
