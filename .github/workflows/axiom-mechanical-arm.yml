@@ -147,6 +147,14 @@ jobs:
             mechanical-arm/outputs/AXIOM-6-Blender-Modeling-Process.mp4 \
             | tee mechanical-arm/outputs/video-metadata.txt
           test -s mechanical-arm/outputs/AXIOM-6-Blender-Modeling-Process.mp4
+          # Verify the recording contains multiple visually distinct desktop frames.
+          ffmpeg -hide_banner -nostdin -loglevel error -ss 8 -i mechanical-arm/outputs/AXIOM-6-Blender-Modeling-Process.mp4 -frames:v 1 -f md5 -             > mechanical-arm/outputs/video-frame-early.md5
+          ffmpeg -hide_banner -nostdin -loglevel error -ss 34 -i mechanical-arm/outputs/AXIOM-6-Blender-Modeling-Process.mp4 -frames:v 1 -f md5 -             > mechanical-arm/outputs/video-frame-late.md5
+          if cmp -s mechanical-arm/outputs/video-frame-early.md5 mechanical-arm/outputs/video-frame-late.md5; then
+            echo "::error::Video frames at 8s and 34s are identical; modeling demonstration may be frozen."
+            exit 1
+          fi
+          echo "MODELING_FRAMES_ARE_DISTINCT"
           echo "## AXIOM-6 complete" >> "$GITHUB_STEP_SUMMARY"
           echo "Blender GUI created original meshes in 10 visible phases; exported editable BLEND, portable GLB, two studio renders and real desktop modeling MP4." >> "$GITHUB_STEP_SUMMARY"
 
