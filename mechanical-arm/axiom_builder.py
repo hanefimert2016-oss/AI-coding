@@ -101,7 +101,8 @@ def owned(o,name,material,collection=ARM,bevel=0.0,segments=3):
             mod=o.modifiers.new("CNC rounded machined edges","BEVEL")
             mod.width=bevel
             mod.segments=segments
-            mod.affect='EDGES' if hasattr(mod,'affect') else None  # version compatibility below
+            if hasattr(mod, 'affect'):
+                mod.affect = 'EDGES'
             mod.loop_slide=True
             o.modifiers.new("Face normals for precise highlights","WEIGHTED_NORMAL")
     collection.append(o)
