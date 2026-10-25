@@ -1,34 +1,73 @@
 name: High Detail Robot Arm - Blender GLB MP4
+
 on:
   push:
     branches: [gui-computer-use-20261023]
-    paths: ['.github/workflows/robot-arm-v3.yml']
+    paths:
+      - '.github/workflows/robot-arm-v3.yml'
+      - 'experiments/robot-arm-v3/**'
+  workflow_dispatch:
+
 permissions:
   contents: write
+
+concurrency:
+  group: robot-arm-v3-git-writer
+  cancel-in-progress: false
+
 jobs:
   model-record:
     runs-on: ubuntu-24.04
-    timeout-minutes: 25
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
-      - name: Install Blender and recording tools
+
+      - name: Install Blender, EGL rendering libraries and video recorder
         run: |
+          set -euo pipefail
           sudo apt-get update -qq
-          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq --no-install-recommends blender python3-numpy xvfb openbox ffmpeg xdotool scrot libgl1-mesa-dri
-      - name: Model and export GLB and blend
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq --no-install-recommends \
+            blender python3-numpy xvfb xauth openbox ffmpeg xdotool scrot \
+            libegl1 libegl-mesa0 libgl1 libgl1-mesa-dri libgles2 libopengl0 \
+            libglx-mesa0 libx11-6 libxrender1 libpulse0
+          blender -b --factory-startup --python-expr "import numpy,bpy; print('BLENDER_READY',bpy.app.version_string,'NUMPY',numpy.__version__)" > /tmp/blender-verify.log 2>&1
+          cat /tmp/blender-verify.log
+
+      - name: Model mechanical arm in Blender, export GLB and render PNG
         run: |
+          set -euo pipefail
           mkdir -p output
-          blender -b -t 2 --python experiments/robot-arm-v3/model.py -- "$PWD/output" > output/modeling.log 2>&1 || { tail -70 output/modeling.log; exit 1; }
+          timeout 200s xvfb-run -a -s '-screen 0 1280x720x24' \
+            env LIBGL_ALWAYS_SOFTWARE=1 MESA_GL_VERSION_OVERRIDE=4.5 \
+            blender -b -t 2 --factory-startup --python experiments/robot-arm-v3/model.py -- "$PWD/output" \
+            > output/modeling.log 2>&1 || { tail -120 output/modeling.log; exit 1; }
           grep ROBOT_MODEL_DONE output/modeling.log
-      - name: Record real Blender desktop inspecting model
+          test -s output/Titanium-Industrial-Robot-Arm.glb
+          test -s output/Titanium-Industrial-Robot-Arm.blend
+          test -s output/robot-arm-render.png
+          ls -lh output/*
+
+      - name: Record real Blender window and orbit model on screen
         run: |
+          set -euo pipefail
           export DISPLAY=:92 LIBGL_ALWAYS_SOFTWARE=1 MESA_GL_VERSION_OVERRIDE=4.5
           Xvfb :92 -screen 0 1280x720x24 -nolisten tcp > output/xvfb.log 2>&1 &
+          XVFB_PID=$!
           sleep 2
           openbox > output/openbox.log 2>&1 &
-          blender -W "$PWD/output/Titanium-Industrial-Robot-Arm.blend" > output/blender-gui.log 2>&1 &
-          sleep 9
-          ffmpeg -y -loglevel error -f x11grab -framerate 15 -video_size 1280x720 -i :92 -t 30 -c:v libx264 -preset ultrafast -crf 25 -pix_fmt yuv420p output/robot-arm-blender-desktop.mp4 &
+          OPENBOX_PID=$!
+          blender -W "$PWD/output/Titanium-Industrial-Robot-Arm.blend" \
+            > output/blender-gui.log 2>&1 &
+          BLENDER_PID=$!
+          sleep 10
+          xdotool search --onlyvisible --name Blender > output/window-ids.txt || true
+          scrot output/blender-modeling-screen.png
+          ffmpeg -y -nostdin -loglevel error -f x11grab -framerate 15 \
+            -video_size 1280x720 -i :92 -t 30 \
+            -c:v libx264 -preset ultrafast -crf 24 -pix_fmt yuv420p \
+            -movflags +faststart output/robot-arm-blender-desktop.mp4 \
+            > output/ffmpeg.log 2>&1 &
+          FFMPEG_PID=$!
           sleep 3
           xdotool key KP_1 || true
           sleep 3
@@ -38,30 +77,33 @@ jobs:
           sleep 3
           xdotool key KP_2 KP_2 KP_4 KP_4 || true
           sleep 4
-          scrot output/blender-modeling-screen.png
-          wait
-      - name: Save all outputs on persistent Git branch
-        if: always()
-        env:
-          GH_TOKEN: ${{ github.token }}
+          scrot output/blender-modeling-alt-view.png
+          wait "$FFMPEG_PID"
+          ffprobe -v error -show_entries format=duration,size -of default=noprint_wrappers=1 \
+            output/robot-arm-blender-desktop.mp4 | tee output/video-verification.txt
+          test -s output/robot-arm-blender-desktop.mp4
+          test -s output/blender-modeling-screen.png
+          kill "$BLENDER_PID" "$OPENBOX_PID" "$XVFB_PID" 2>/dev/null || true
+
+      - name: Save verified source GLB MP4 PNGs on persistent Git branch
         run: |
-          git fetch origin godot-persistent-state
-          mkdir -p /tmp/robot-state
-          git -C /tmp/robot-state init -q
-          git -C /tmp/robot-state remote add origin "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY"
-          git -C /tmp/robot-state fetch -q origin godot-persistent-state
-          git -C /tmp/robot-state checkout -q -b godot-persistent-state FETCH_HEAD
+          set -euo pipefail
+          git clone --quiet --single-branch --branch godot-persistent-state \
+            "https://x-access-token:${{ github.token }}@github.com/$GITHUB_REPOSITORY.git" /tmp/robot-state
           mkdir -p /tmp/robot-state/persistent/showcase/robot-arm-v3
-          cp -v output/*.glb output/*.blend output/*.png output/*.mp4 /tmp/robot-state/persistent/showcase/robot-arm-v3/ || true
+          cp output/*.glb output/*.blend output/*.png output/*.mp4 \
+            /tmp/robot-state/persistent/showcase/robot-arm-v3/
           cd /tmp/robot-state
           git config user.name github-actions
           git config user.email github-actions@users.noreply.github.com
           git add persistent/showcase/robot-arm-v3
-          git commit -m "Save Blender industrial robot arm GLB blend and screen capture" || true
-          git -c http.extraheader="AUTHORIZATION: basic $(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)" push origin HEAD:godot-persistent-state
+          git commit -m "Save verified industrial robot arm GLB, blend, screenshots, MP4"
+          git push origin HEAD:godot-persistent-state
+
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: High-Detail-Mechanical-Arm-GLB-BLEND-MP4
           path: output/
           retention-days: 7
+          if-no-files-found: warn
