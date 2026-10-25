@@ -1,0 +1,125 @@
+name: Finalize KINETIC HUMAN full-body pose renders and mobile video
+
+on:
+  push:
+    branches: [human-rig-animation-studio]
+    paths:
+      - ".github/workflows/kinetic-human-fullbody-finish.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  polish-character-assets:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: human-rig-animation-studio
+          fetch-depth: 0
+
+      - name: Install Blender and H264 renderer
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive timeout 480s apt-get install -y --no-install-recommends \
+            blender python3-numpy python3-pil ffmpeg libgl1-mesa-dri
+
+      - name: Create corrected full-body Cycles renders from existing validated armature and actions
+        run: |
+          set -euo pipefail
+          OUT="$PWD/human-animation-studio/output"
+          timeout 750s blender -b "$OUT/KINETIC-HUMAN-Rigged-Animated.blend" -t 4 \
+            --python human-animation-studio/render_actions.py -- "$OUT" \
+            > "$OUT/fullbody-render-log.txt" 2>&1 || {
+              tail -70 "$OUT/fullbody-render-log.txt"
+              exit 1
+            }
+          grep HUMAN_RENDER_FULL_BODY "$OUT/fullbody-render-log.txt"
+
+      - name: Make phone-friendly H264 Baseline recording compatible with Android
+        run: |
+          set -euo pipefail
+          OUT=human-animation-studio/output
+          ffmpeg -nostdin -hide_banner -loglevel error -y \
+            -i "$OUT/KINETIC-HUMAN-Real-Blender-Creation-And-Animations.mp4" \
+            -vf 'scale=1280:720:flags=lanczos,fps=24,format=yuv420p' \
+            -c:v libx264 -profile:v baseline -level:v 3.1 \
+            -crf 21 -preset veryfast -pix_fmt yuv420p -movflags +faststart \
+            "$OUT/KINETIC-HUMAN-Android-Compatible-Modeling.mp4"
+          ffprobe -v error \
+            -show_entries stream=codec_name,profile,width,height:format=duration,size \
+            -of default=noprint_wrappers=1 \
+            "$OUT/KINETIC-HUMAN-Android-Compatible-Modeling.mp4" \
+            | tee "$OUT/mobile-video-verified.txt"
+          ffmpeg -nostdin -hide_banner -loglevel error -xerror \
+            -i "$OUT/KINETIC-HUMAN-Android-Compatible-Modeling.mp4" -f null - \
+            > "$OUT/mobile-decoder-check.txt" 2>&1
+
+      - name: Assemble 4-pose full body PNG sheet and preview
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          from PIL import Image,ImageDraw,ImageStat,ImageChops
+          from io import BytesIO
+          import base64
+          o=Path("human-animation-studio/output")
+          files=["KINETIC-HUMAN-01-Idle.png","KINETIC-HUMAN-02-Walk.png",
+                 "KINETIC-HUMAN-03-Run.png","KINETIC-HUMAN-04-Punch.png"]
+          canvas=Image.new("RGB",(1600,1070),(8,17,27))
+          labels=["IDLE / BREATHING","WALK / STEP","RUN / SPRINT","PUNCH / STRAIGHT"]
+          images=[]
+          for i,(file,label) in enumerate(zip(files,labels)):
+              image=Image.open(o/file).convert("RGB")
+              assert image.size==(1440,900)
+              im=image.resize((800,500),Image.Resampling.LANCZOS)
+              x=(i%2)*800; y=(i//2)*535
+              canvas.paste(im,(x,y+35))
+              dr=ImageDraw.Draw(canvas)
+              dr.rectangle((x,y,x+800,y+35),fill=(6,20,35))
+              dr.text((x+18,y+10),label,fill=(205,240,235))
+              images.append(image)
+              assert min(ImageStat.Stat(im).stddev)>6, "Missing character in pose render"
+              print("FULL_BODY_PNG_VALID",file,(o/file).stat().st_size)
+          canvas.save(o/"KINETIC-HUMAN-Four-Animations-Preview.png")
+          # Optional perceptual sanity check: walking/running/punching renders must
+          # not all have identical pixel appearance.
+          for other,action in zip(images[1:],labels[1:]):
+              delta=ImageStat.Stat(ImageChops.difference(images[0],other)).mean
+              assert sum(delta)/3>1.0,("Poses unexpectedly identical",action,delta)
+              print("VISIBLE_POSE_DIFFERENCE",action,delta)
+          preview=canvas.copy()
+          preview.thumbnail((960,640))
+          io=BytesIO()
+          preview.save(io,"JPEG",quality=76,optimize=True)
+          (o/"visual-review-four-poses.b64.txt").write_text(
+              base64.b64encode(io.getvalue()).decode("ascii"))
+          print("FINAL_FOUR_POSES_COMPLETED")
+          PY
+
+      - name: Save corrected renders and phone-compatible MP4 permanently
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add human-animation-studio/output
+          git commit -m "Finalize full human framing: four complete rig action renders and portable Android H264 modeling video"
+          git push origin HEAD:human-rig-animation-studio
+
+      - name: Download final polished PNG and mobile recording pack
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: KINETIC-HUMAN-FINAL-PNG-ANDROID-MP4
+          path: |
+            human-animation-studio/output/KINETIC-HUMAN-01-Idle.png
+            human-animation-studio/output/KINETIC-HUMAN-02-Walk.png
+            human-animation-studio/output/KINETIC-HUMAN-03-Run.png
+            human-animation-studio/output/KINETIC-HUMAN-04-Punch.png
+            human-animation-studio/output/KINETIC-HUMAN-Four-Animations-Preview.png
+            human-animation-studio/output/KINETIC-HUMAN-Android-Compatible-Modeling.mp4
+          retention-days: 7
+          if-no-files-found: warn
