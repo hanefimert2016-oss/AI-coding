@@ -225,6 +225,7 @@ def skeleton():
     RIG=bpy.data.objects.new("KINETIC_HUMAN_RIG",arm)
     bpy.context.collection.objects.link(RIG)
     bpy.context.view_layer.objects.active=RIG
+    RIG.select_set(True)
     bpy.ops.object.mode_set(mode="EDIT")
     data=[
         ("Root",(0,0,.99),(0,0,1.10),None),
