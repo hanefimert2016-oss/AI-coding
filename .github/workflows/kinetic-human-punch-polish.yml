@@ -1,0 +1,163 @@
+name: Final polish - humanoid visible boxing punch and real Blender action video
+
+on:
+  push:
+    branches: [human-rig-animation-studio]
+    paths:
+      - ".github/workflows/kinetic-human-punch-polish.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  export-polished-human:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: human-rig-animation-studio
+          fetch-depth: 0
+
+      - name: Install Blender X11 screen recording and preview tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive timeout 480s apt-get install -y --no-install-recommends \
+            blender python3-numpy python3-pil ffmpeg xvfb xauth openbox xdotool wmctrl \
+            libgl1-mesa-dri libpulse0 fonts-dejavu-core
+
+      - name: Fix actual right jab on Armature bones and re-export animated GLB
+        run: |
+          set -euo pipefail
+          OUT="$PWD/human-animation-studio/output"
+          timeout 180s blender -b "$OUT/KINETIC-HUMAN-Rigged-Animated.blend" \
+            -t 3 --python human-animation-studio/polish_punch.py -- "$OUT" \
+            > "$OUT/punch-correction.log" 2>&1 || {
+              tail -80 "$OUT/punch-correction.log"
+              exit 1
+            }
+          grep REVISED_JAB_SUCCESS "$OUT/punch-correction.log"
+
+      - name: Re-render physically clearer extended-right-arm punch
+        run: |
+          set -euo pipefail
+          OUT="$PWD/human-animation-studio/output"
+          timeout 400s blender -b "$OUT/KINETIC-HUMAN-Rigged-Animated.blend" \
+            -t 4 --python human-animation-studio/render_fixed_punch.py -- "$OUT" \
+            > "$OUT/corrected-punch-render.log" 2>&1 || {
+              tail -80 "$OUT/corrected-punch-render.log"
+              exit 1
+            }
+          grep PUNCH_FULL_BODY_REVISED_RENDER "$OUT/corrected-punch-render.log"
+
+      - name: Capture real Blender window with action previews including fixed punch
+        run: |
+          set -euo pipefail
+          OUT="$PWD/human-animation-studio/output"
+          export DISPLAY=:96
+          export LIBGL_ALWAYS_SOFTWARE=1
+          export MESA_GL_VERSION_OVERRIDE=4.5
+          Xvfb :96 -screen 0 1600x900x24 -nolisten tcp > "$OUT/punch-demo-xvfb.log" 2>&1 &
+          XV=$!
+          sleep 2
+          openbox > "$OUT/punch-demo-wm.log" 2>&1 &
+          WM=$!
+          printf '%s\n' "OPENING REAL RIGGED HUMAN BLENDER PROJECT" > "$OUT/animation-stage.txt"
+          blender -W "$OUT/KINETIC-HUMAN-Rigged-Animated.blend" \
+            --python human-animation-studio/play_actions_in_blender.py -- "$OUT" \
+            > "$OUT/animation-demo-console.log" 2>&1 &
+          BL=$!
+          sleep 6
+          xdotool search --name 'Blender' windowactivate 2>/dev/null || true
+          xdotool key Escape || true
+          wmctrl -r ':ACTIVE:' -b add,maximized_vert,maximized_horz || true
+          FONT=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+          FILTER="scale=1280:720:flags=lanczos,drawbox=x=0:y=0:w=iw:h=69:color=0x0b1730@0.90:t=fill,drawtext=fontfile=$FONT:text='KINETIC HUMAN / REAL BLENDER ANIMATION DEMO':fontsize=21:fontcolor=white:x=24:y=7,drawtext=fontfile=$FONT:textfile=$OUT/animation-stage.txt:reload=1:fontsize=18:fontcolor=0x4ce6d8:x=24:y=38"
+          ffmpeg -nostdin -hide_banner -loglevel error -y \
+            -f x11grab -video_size 1600x900 -framerate 24 -i :96 \
+            -t 55 -vf "$FILTER" -c:v libx264 -profile:v baseline \
+            -level:v 3.1 -preset veryfast -crf 20 -pix_fmt yuv420p \
+            -movflags +faststart \
+            "$OUT/KINETIC-HUMAN-Blender-Animation-Preview.mp4" \
+            > "$OUT/action-video-ffmpeg.log" 2>&1 &
+          REC=$!
+          wait "$REC"
+          kill "$BL" "$XV" "$WM" 2>/dev/null || true
+          wait "$BL" 2>/dev/null || true
+          for token in Walk_Loop Run_Loop Punch_Right_Jab; do
+            grep -q "BLENDER_REAL_ACTION_PREVIEW $token" "$OUT/animation-demo-console.log" || {
+              echo "::error::Action missing from real Blender video session: $token"
+              tail -50 "$OUT/animation-demo-console.log"
+              exit 1
+            }
+          done
+          ffmpeg -nostdin -hide_banner -loglevel error -xerror \
+            -i "$OUT/KINETIC-HUMAN-Blender-Animation-Preview.mp4" -f null - \
+            > "$OUT/action-demo-decoder-check.txt" 2>&1
+          ffprobe -v error -show_entries format=duration,size:stream=width,height,codec_name \
+            -of default=noprint_wrappers=1 "$OUT/KINETIC-HUMAN-Blender-Animation-Preview.mp4" \
+            | tee "$OUT/action-demo-video-meta.txt"
+
+      - name: Update full-body four action gallery from corrected actual punch and make preview
+        run: |
+          set -euo pipefail
+          OUT=human-animation-studio/output
+          python3 - <<'PY'
+          from pathlib import Path
+          from PIL import Image,ImageStat,ImageDraw
+          from io import BytesIO
+          import base64,json,struct
+          p=Path('human-animation-studio/output')
+          sources=["KINETIC-HUMAN-01-Idle.png","KINETIC-HUMAN-02-Walk.png",
+                   "KINETIC-HUMAN-03-Run.png","KINETIC-HUMAN-04-Punch.png"]
+          labels=["IDLE / BREATHING","WALK / STEP","RUN / SPRINT","PUNCH / EXTENDED RIGHT ARM"]
+          gallery=Image.new("RGB",(1600,1070),(9,16,28))
+          for i,(source,label) in enumerate(zip(sources,labels)):
+              im=Image.open(p/source).convert("RGB")
+              assert im.size==(1440,900)
+              assert min(ImageStat.Stat(im).stddev)>6.0
+              x=800*(i%2);y=535*(i//2)
+              gallery.paste(im.resize((800,500),Image.Resampling.LANCZOS),(x,y+35))
+              draw=ImageDraw.Draw(gallery)
+              draw.rectangle((x,y,x+800,y+34),fill=(5,18,33))
+              draw.text((x+16,y+8),label,fill=(220,240,232))
+          gallery.save(p/"KINETIC-HUMAN-Four-Animations-Preview.png")
+          thumbnail=gallery.copy();thumbnail.thumbnail((960,650))
+          out=BytesIO()
+          thumbnail.save(out,'JPEG',quality=75,optimize=True)
+          (p/"visual-review-four-poses.b64.txt").write_text(
+              base64.b64encode(out.getvalue()).decode('ascii'))
+          glb=(p/'KINETIC-HUMAN-Rigged-Animated.glb').read_bytes()
+          assert glb[:4]==b'glTF'
+          n=struct.unpack_from('<I',glb,12)[0]
+          j=json.loads(glb[20:20+n])
+          actions=[a['name'] for a in j.get('animations',[])]
+          assert j.get('skins')
+          for action in ("Idle","Walk","Run","Punch"):
+              assert any(action.lower() in x.lower() for x in actions),actions
+          print("ANIMATED_HUMANOID_AND_NEW_PUNCH_VERIFIED",actions)
+          PY
+
+      - name: Persist corrected BLEND and GLB, new punch PNG and action video
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add human-animation-studio/output
+          git commit -m "Improve humanoid right punch joint motion; update 4 animation action GLB and record true Blender animation previews"
+          git push origin HEAD:human-rig-animation-studio
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: KINETIC-HUMAN-POLISHED-RIG-GLB-BLEND-ANIMATION-VIDEO
+          path: |
+            human-animation-studio/output/KINETIC-HUMAN-Rigged-Animated.glb
+            human-animation-studio/output/KINETIC-HUMAN-Rigged-Animated.blend
+            human-animation-studio/output/KINETIC-HUMAN-04-Punch.png
+            human-animation-studio/output/KINETIC-HUMAN-Four-Animations-Preview.png
+            human-animation-studio/output/KINETIC-HUMAN-Blender-Animation-Preview.mp4
+          if-no-files-found: warn
+          retention-days: 7
