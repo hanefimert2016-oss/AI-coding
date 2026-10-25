@@ -1,0 +1,1096 @@
+Blender 4.0.2
+Read blend: "/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/AETHER-01-Rigged-Animated-Human.blend"
+Fra:1 Mem:28.11M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 001 | STUDIO ONLY / ground
+Fra:1 Mem:28.12M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 003 | Torso / fitted compression undershirt
+Fra:1 Mem:28.13M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 004 | Chest / technical jacket
+Fra:1 Mem:28.14M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 005 | Chest / clavicle volume
+Fra:1 Mem:28.16M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 006 | Jacket zipper front
+Fra:1 Mem:28.18M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 007 | Chest / inset technical logo
+Fra:1 Mem:28.20M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 008 | Torso sports seam
+Fra:1 Mem:28.20M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 009 | Hip joint fabric cover
+Fra:1 Mem:28.20M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 011 | Hip joint fabric cover
+Fra:1 Mem:28.26M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 012 | Waist utility belt
+Fra:1 Mem:28.26M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 014 | Lower leg L / shin fabric
+Fra:1 Mem:28.29M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 015 | Knee L / fabric fitted patella
+Fra:1 Mem:28.30M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 017 | Thigh L / luminous contour stripe
+Fra:1 Mem:28.35M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 018 | Knee L / layered compression fin 0
+Fra:1 Mem:28.37M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 020 | Knee L / layered compression fin 2
+Fra:1 Mem:28.38M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 022 | Lower leg R / shin fabric
+Fra:1 Mem:28.41M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 023 | Knee R / fabric fitted patella
+Fra:1 Mem:28.41M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 025 | Thigh R / luminous contour stripe
+Fra:1 Mem:28.45M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 026 | Knee R / layered compression fin 0
+Fra:1 Mem:28.48M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 028 | Knee R / layered compression fin 2
+Fra:1 Mem:28.49M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 029 | Upper arm L / tailored jacket sleeve
+Fra:1 Mem:28.51M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 030 | Elbow L / flexible joint sleeve
+Fra:1 Mem:28.54M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 031 | Forearm L / tapered athletic sleeve
+Fra:1 Mem:28.56M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 033 | Arm L / reflective LED patch 0
+Fra:1 Mem:28.57M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 034 | Arm L / reflective LED patch 1
+Fra:1 Mem:28.59M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 035 | Upper arm R / tailored jacket sleeve
+Fra:1 Mem:28.59M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 036 | Elbow R / flexible joint sleeve
+Fra:1 Mem:28.59M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 037 | Forearm R / tapered athletic sleeve
+Fra:1 Mem:28.65M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 038 | Shoulder R / contrast stripe
+Fra:1 Mem:28.65M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 039 | Arm R / reflective LED patch 0
+Fra:1 Mem:28.65M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 041 | Neck / warm skin anatomy
+Fra:1 Mem:28.67M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 042 | Head / organic oval and cheekbones
+Fra:1 Mem:28.70M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 043 | Lower cheek left
+Fra:1 Mem:28.77M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 044 | Lower cheek right
+Fra:1 Mem:28.77M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 045 | Jaw line / chin
+Fra:1 Mem:28.82M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 046 | Nose bridge
+Fra:1 Mem:28.85M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 047 | Nose tip
+Fra:1 Mem:28.86M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 049 | Ear left inner
+Fra:1 Mem:28.93M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 050 | Eye left sclera
+Fra:1 Mem:28.94M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 051 | Eye left iris
+Fra:1 Mem:28.97M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 052 | Eye left pupil
+Fra:1 Mem:29.01M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 053 | Eyebrow left hair
+Fra:1 Mem:29.03M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 054 | Ear right outer
+Fra:1 Mem:29.04M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 056 | Eye right sclera
+Fra:1 Mem:29.06M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 057 | Eye right iris
+Fra:1 Mem:29.15M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 058 | Eye right pupil
+Fra:1 Mem:29.15M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 060 | Mouth / relaxed lip
+Fra:1 Mem:29.16M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 061 | Hair / shaped skull cap
+Fra:1 Mem:29.20M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 062 | Hair / 3D sculpted strand 00-0
+Fra:1 Mem:29.25M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 063 | Hair / 3D sculpted strand 00-1
+Fra:1 Mem:29.30M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 064 | Hair / 3D sculpted strand 01-0
+Fra:1 Mem:29.31M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 140 | Athletic shoulder reflective roundel
+Fra:1 Mem:29.33M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 067 | Hair / 3D sculpted strand 02-1
+Fra:1 Mem:29.37M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 139 | MOVE / HUMAN
+Fra:1 Mem:29.37M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 068 | Hair / 3D sculpted strand 03-0
+Fra:1 Mem:29.44M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 069 | Hair / 3D sculpted strand 03-1
+Fra:1 Mem:29.47M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 070 | Hair / 3D sculpted strand 04-0
+Fra:1 Mem:29.52M (Peak 29.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 071 | Hair / 3D sculpted strand 04-1
+Fra:1 Mem:29.52M (Peak 29.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 072 | Hair / 3D sculpted strand 05-0
+Fra:1 Mem:29.54M (Peak 29.54M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 073 | Hair / 3D sculpted strand 05-1
+Fra:1 Mem:29.54M (Peak 29.54M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 075 | Hair / 3D sculpted strand 06-1
+Fra:1 Mem:29.61M (Peak 29.61M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 076 | Hair / 3D sculpted strand 07-0
+Fra:1 Mem:29.67M (Peak 29.67M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 077 | Hair / 3D sculpted strand 07-1
+Fra:1 Mem:29.66M (Peak 29.67M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 137 | Shoe R / running groove 2
+Fra:1 Mem:29.67M (Peak 29.67M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 078 | Hair / 3D sculpted strand 08-0
+Fra:1 Mem:29.71M (Peak 29.71M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 136 | Shoe R / running groove 1
+Fra:1 Mem:29.72M (Peak 29.72M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 080 | Hair / 3D sculpted strand 09-0
+Fra:1 Mem:29.74M (Peak 29.74M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 081 | Hair / 3D sculpted strand 09-1
+Fra:1 Mem:29.75M (Peak 29.75M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 082 | Hair / 3D sculpted strand 10-0
+Fra:1 Mem:29.77M (Peak 29.77M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 083 | Hair / 3D sculpted strand 10-1
+Fra:1 Mem:29.79M (Peak 29.79M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 084 | Hair / 3D sculpted strand 11-0
+Fra:1 Mem:29.79M (Peak 29.79M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 134 | Shoe R / shoelace bridge 3
+Fra:1 Mem:29.83M (Peak 29.83M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 085 | Hair / 3D sculpted strand 11-1
+Fra:1 Mem:29.85M (Peak 29.85M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 086 | Hair / 3D sculpted strand 12-0
+Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 088 | Hair / 3D sculpted strand 13-0
+Fra:1 Mem:29.87M (Peak 29.87M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 132 | Shoe R / shoelace bridge 1
+Fra:1 Mem:29.89M (Peak 29.89M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 089 | Hair / 3D sculpted strand 13-1
+Fra:1 Mem:29.90M (Peak 29.90M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 131 | Shoe R / shoelace bridge 0
+Fra:1 Mem:29.94M (Peak 29.94M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 090 | Hair / 3D sculpted strand 14-0
+Fra:1 Mem:29.94M (Peak 29.94M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 091 | Hair / 3D sculpted strand 14-1
+Fra:1 Mem:29.99M (Peak 29.99M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 092 | Hair / 3D sculpted strand 15-0
+Fra:1 Mem:29.99M (Peak 29.99M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 129 | Shoe R / frontal toe cap
+Fra:1 Mem:30.02M (Peak 30.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 128 | Shoe R / molded white rubber sole
+Fra:1 Mem:30.03M (Peak 30.03M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 096 | Hair / 3D sculpted strand 17-0
+Fra:1 Mem:30.05M (Peak 30.05M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 127 | Shoe R / breathable sneaker body
+Fra:1 Mem:30.09M (Peak 30.09M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 097 | Hair / 3D sculpted strand 17-1
+Fra:1 Mem:30.11M (Peak 30.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 098 | Hair / temple faded sideburn
+Fra:1 Mem:30.12M (Peak 30.12M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 099 | Hair / temple faded sideburn
+Fra:1 Mem:30.14M (Peak 30.14M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 100 | Hand L / palm human skin
+Fra:1 Mem:30.19M (Peak 30.19M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 101 | Hand L finger 0
+Fra:1 Mem:30.21M (Peak 30.21M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 102 | Finger L 0 fingertip
+Fra:1 Mem:30.21M (Peak 30.21M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 103 | Hand L finger 1
+Fra:1 Mem:30.22M (Peak 30.22M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 104 | Finger L 1 fingertip
+Fra:1 Mem:30.23M (Peak 30.23M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 105 | Hand L finger 2
+Fra:1 Mem:30.25M (Peak 30.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 124 | Shoe L / running groove 0
+Fra:1 Mem:30.28M (Peak 30.28M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 107 | Hand L thumb
+Fra:1 Mem:30.28M (Peak 30.28M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 108 | Hand R / palm human skin
+Fra:1 Mem:30.33M (Peak 30.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 111 | Hand R finger 1
+Fra:1 Mem:30.34M (Peak 30.34M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 122 | Shoe L / shoelace bridge 2
+Fra:1 Mem:30.34M (Peak 30.34M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 112 | Finger R 1 fingertip
+Fra:1 Mem:30.37M (Peak 30.37M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 121 | Shoe L / shoelace bridge 1
+Fra:1 Mem:30.38M (Peak 30.38M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 113 | Hand R finger 2
+Fra:1 Mem:30.38M (Peak 30.38M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 115 | Hand R thumb
+Fra:1 Mem:30.40M (Peak 30.40M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 120 | Shoe L / shoelace bridge 0
+Fra:1 Mem:30.41M (Peak 30.41M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 116 | Shoe L / breathable sneaker body
+Fra:1 Mem:30.41M (Peak 30.41M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 119 | Shoe L / heel amber reflector
+Fra:1 Mem:30.47M (Peak 30.47M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 118 | Shoe L / frontal toe cap
+Fra:1 Mem:30.49M (Peak 30.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:22.55M (Peak 30.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:22.56M (Peak 30.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:22.56M (Peak 30.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:22.56M (Peak 30.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:22.65M (Peak 30.49M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:22.65M (Peak 30.49M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:22.65M (Peak 30.49M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:22.65M (Peak 30.49M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:22.65M (Peak 30.49M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:22.65M (Peak 30.49M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:22.68M (Peak 30.49M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:22.68M (Peak 30.49M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:22.68M (Peak 30.49M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:22.68M (Peak 30.49M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:23.32M (Peak 30.49M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:23.61M (Peak 30.49M) | Time:00:00.01 | Mem:0.05M, Peak:0.05M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:23.59M (Peak 30.49M) | Time:00:00.01 | Mem:0.31M, Peak:0.31M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:23.59M (Peak 30.49M) | Time:00:00.01 | Mem:0.31M, Peak:0.31M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:23.59M (Peak 30.49M) | Time:00:00.01 | Mem:1.59M, Peak:1.59M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:23.59M (Peak 30.49M) | Time:00:00.02 | Mem:2.98M, Peak:4.26M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:23.59M (Peak 30.49M) | Time:00:00.02 | Mem:2.98M, Peak:4.26M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:2.98M, Peak:4.26M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.47M, Peak:4.47M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.47M, Peak:4.47M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.47M, Peak:4.47M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.47M, Peak:4.47M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.47M, Peak:4.47M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.55M, Peak:4.55M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.55M, Peak:4.55M | Scene, ViewLayer | Updating Lights | Computing distribution
+Fra:1 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.55M, Peak:4.55M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:25.65M (Peak 30.49M) | Time:00:00.03 | Mem:5.13M, Peak:5.13M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:26.65M (Peak 30.49M) | Time:00:00.03 | Mem:6.13M, Peak:6.13M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:26.66M (Peak 30.49M) | Time:00:00.03 | Mem:6.05M, Peak:6.13M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:26.66M (Peak 30.49M) | Time:00:00.03 | Mem:6.14M, Peak:6.14M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:26.66M (Peak 30.49M) | Time:00:00.03 | Mem:6.14M, Peak:6.14M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:26.66M (Peak 30.49M) | Time:00:00.03 | Mem:6.14M, Peak:6.14M | Scene, ViewLayer | Sample 0/24
+Fra:1 Mem:66.72M (Peak 66.72M) | Time:00:01.36 | Remaining:00:30.66 | Mem:46.18M, Peak:46.18M | Scene, ViewLayer | Sample 1/24
+Fra:1 Mem:66.72M (Peak 66.72M) | Time:00:22.57 | Remaining:00:09.28 | Mem:46.18M, Peak:46.18M | Scene, ViewLayer | Sample 17/24
+Fra:1 Mem:84.52M (Peak 120.12M) | Time:00:31.54 | Mem:46.18M, Peak:46.18M | Scene, ViewLayer | Sample 24/24
+Fra:1 Mem:84.52M (Peak 120.12M) | Time:00:31.54 | Mem:46.18M, Peak:46.18M | Scene, ViewLayer | Finished
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/01-AETHER-Human-Neutral.png'
+Time: 00:31.70 (Saving: 00:00.16)
+
+AETHER_RENDER 01-AETHER-Human-Neutral.png 1985723
+Fra:15 Mem:28.25M (Peak 28.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 001 | STUDIO ONLY / ground
+Fra:15 Mem:28.26M (Peak 28.26M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 003 | Torso / fitted compression undershirt
+Fra:15 Mem:28.27M (Peak 28.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 004 | Chest / technical jacket
+Fra:15 Mem:28.31M (Peak 28.31M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 005 | Chest / clavicle volume
+Fra:15 Mem:28.32M (Peak 28.32M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 007 | Chest / inset technical logo
+Fra:15 Mem:28.34M (Peak 28.34M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 008 | Torso sports seam
+Fra:15 Mem:28.34M (Peak 28.34M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 009 | Hip joint fabric cover
+Fra:15 Mem:28.34M (Peak 28.34M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 010 | Torso sports seam
+Fra:15 Mem:28.35M (Peak 28.35M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 011 | Hip joint fabric cover
+Fra:15 Mem:28.38M (Peak 28.38M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 012 | Waist utility belt
+Fra:15 Mem:28.41M (Peak 28.41M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 013 | Thigh L / tapered running tights
+Fra:15 Mem:28.42M (Peak 28.42M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 015 | Knee L / fabric fitted patella
+Fra:15 Mem:28.43M (Peak 28.43M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 016 | Ankle L / breathable cuff
+Fra:15 Mem:28.46M (Peak 28.46M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 017 | Thigh L / luminous contour stripe
+Fra:15 Mem:28.46M (Peak 28.46M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 018 | Knee L / layered compression fin 0
+Fra:15 Mem:28.50M (Peak 28.50M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 019 | Knee L / layered compression fin 1
+Fra:15 Mem:28.51M (Peak 28.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 020 | Knee L / layered compression fin 2
+Fra:15 Mem:28.52M (Peak 28.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 021 | Thigh R / tapered running tights
+Fra:15 Mem:28.52M (Peak 28.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 022 | Lower leg R / shin fabric
+Fra:15 Mem:28.54M (Peak 28.54M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 023 | Knee R / fabric fitted patella
+Fra:15 Mem:28.57M (Peak 28.57M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 024 | Ankle R / breathable cuff
+Fra:15 Mem:28.60M (Peak 28.60M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 025 | Thigh R / luminous contour stripe
+Fra:15 Mem:28.60M (Peak 28.60M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 026 | Knee R / layered compression fin 0
+Fra:15 Mem:28.61M (Peak 28.61M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 027 | Knee R / layered compression fin 1
+Fra:15 Mem:28.62M (Peak 28.62M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 028 | Knee R / layered compression fin 2
+Fra:15 Mem:28.63M (Peak 28.63M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 029 | Upper arm L / tailored jacket sleeve
+Fra:15 Mem:28.63M (Peak 28.63M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 030 | Elbow L / flexible joint sleeve
+Fra:15 Mem:28.68M (Peak 28.68M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 031 | Forearm L / tapered athletic sleeve
+Fra:15 Mem:28.69M (Peak 28.69M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 033 | Arm L / reflective LED patch 0
+Fra:15 Mem:28.69M (Peak 28.69M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 034 | Arm L / reflective LED patch 1
+Fra:15 Mem:28.71M (Peak 28.71M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 035 | Upper arm R / tailored jacket sleeve
+Fra:15 Mem:28.74M (Peak 28.74M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 036 | Elbow R / flexible joint sleeve
+Fra:15 Mem:28.76M (Peak 28.76M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 037 | Forearm R / tapered athletic sleeve
+Fra:15 Mem:28.77M (Peak 28.77M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 038 | Shoulder R / contrast stripe
+Fra:15 Mem:28.77M (Peak 28.77M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 039 | Arm R / reflective LED patch 0
+Fra:15 Mem:28.79M (Peak 28.79M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 040 | Arm R / reflective LED patch 1
+Fra:15 Mem:28.79M (Peak 28.79M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 042 | Head / organic oval and cheekbones
+Fra:15 Mem:28.84M (Peak 28.84M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 043 | Lower cheek left
+Fra:15 Mem:28.88M (Peak 28.88M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 044 | Lower cheek right
+Fra:15 Mem:28.90M (Peak 28.90M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 045 | Jaw line / chin
+Fra:15 Mem:28.91M (Peak 28.91M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 047 | Nose tip
+Fra:15 Mem:28.99M (Peak 28.99M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 048 | Ear left outer
+Fra:15 Mem:28.99M (Peak 28.99M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 049 | Ear left inner
+Fra:15 Mem:29.01M (Peak 29.01M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 050 | Eye left sclera
+Fra:15 Mem:29.10M (Peak 29.10M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 051 | Eye left iris
+Fra:15 Mem:29.11M (Peak 29.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 052 | Eye left pupil
+Fra:15 Mem:29.12M (Peak 29.12M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 140 | Athletic shoulder reflective roundel
+Fra:15 Mem:29.14M (Peak 29.14M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 054 | Ear right outer
+Fra:15 Mem:29.15M (Peak 29.15M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 056 | Eye right sclera
+Fra:15 Mem:29.25M (Peak 29.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 057 | Eye right iris
+Fra:15 Mem:29.27M (Peak 29.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 059 | Eyebrow right hair
+Fra:15 Mem:29.27M (Peak 29.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 139 | MOVE / HUMAN
+Fra:15 Mem:29.31M (Peak 29.31M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 060 | Mouth / relaxed lip
+Fra:15 Mem:29.35M (Peak 29.35M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 061 | Hair / shaped skull cap
+Fra:15 Mem:29.44M (Peak 29.44M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 062 | Hair / 3D sculpted strand 00-0
+Fra:15 Mem:29.47M (Peak 29.47M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 063 | Hair / 3D sculpted strand 00-1
+Fra:15 Mem:29.49M (Peak 29.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 064 | Hair / 3D sculpted strand 01-0
+Fra:15 Mem:29.50M (Peak 29.50M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 065 | Hair / 3D sculpted strand 01-1
+Fra:15 Mem:29.50M (Peak 29.50M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 066 | Hair / 3D sculpted strand 02-0
+Fra:15 Mem:29.51M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 067 | Hair / 3D sculpted strand 02-1
+Fra:15 Mem:29.52M (Peak 29.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 069 | Hair / 3D sculpted strand 03-1
+Fra:15 Mem:29.58M (Peak 29.58M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 070 | Hair / 3D sculpted strand 04-0
+Fra:15 Mem:29.64M (Peak 29.64M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 071 | Hair / 3D sculpted strand 04-1
+Fra:15 Mem:29.64M (Peak 29.64M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 072 | Hair / 3D sculpted strand 05-0
+Fra:15 Mem:29.65M (Peak 29.65M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 073 | Hair / 3D sculpted strand 05-1
+Fra:15 Mem:29.70M (Peak 29.70M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 074 | Hair / 3D sculpted strand 06-0
+Fra:15 Mem:29.71M (Peak 29.71M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 075 | Hair / 3D sculpted strand 06-1
+Fra:15 Mem:29.71M (Peak 29.71M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 077 | Hair / 3D sculpted strand 07-1
+Fra:15 Mem:29.71M (Peak 29.71M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 137 | Shoe R / running groove 2
+Fra:15 Mem:29.75M (Peak 29.75M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 078 | Hair / 3D sculpted strand 08-0
+Fra:15 Mem:29.76M (Peak 29.76M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 080 | Hair / 3D sculpted strand 09-0
+Fra:15 Mem:29.77M (Peak 29.77M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 081 | Hair / 3D sculpted strand 09-1
+Fra:15 Mem:29.78M (Peak 29.78M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 082 | Hair / 3D sculpted strand 10-0
+Fra:15 Mem:29.83M (Peak 29.83M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 135 | Shoe R / running groove 0
+Fra:15 Mem:29.84M (Peak 29.84M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 085 | Hair / 3D sculpted strand 11-1
+Fra:15 Mem:29.84M (Peak 29.84M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 134 | Shoe R / shoelace bridge 3
+Fra:15 Mem:29.86M (Peak 29.86M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 133 | Shoe R / shoelace bridge 2
+Fra:15 Mem:29.89M (Peak 29.89M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 086 | Hair / 3D sculpted strand 12-0
+Fra:15 Mem:29.89M (Peak 29.89M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 132 | Shoe R / shoelace bridge 1
+Fra:15 Mem:29.91M (Peak 29.91M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 087 | Hair / 3D sculpted strand 12-1
+Fra:15 Mem:29.92M (Peak 29.92M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 131 | Shoe R / shoelace bridge 0
+Fra:15 Mem:29.94M (Peak 29.94M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 089 | Hair / 3D sculpted strand 13-1
+Fra:15 Mem:29.97M (Peak 29.97M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 090 | Hair / 3D sculpted strand 14-0
+Fra:15 Mem:29.98M (Peak 29.98M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 091 | Hair / 3D sculpted strand 14-1
+Fra:15 Mem:29.99M (Peak 29.99M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 092 | Hair / 3D sculpted strand 15-0
+Fra:15 Mem:30.01M (Peak 30.01M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 093 | Hair / 3D sculpted strand 15-1
+Fra:15 Mem:30.03M (Peak 30.03M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 094 | Hair / 3D sculpted strand 16-0
+Fra:15 Mem:30.03M (Peak 30.03M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 129 | Shoe R / frontal toe cap
+Fra:15 Mem:30.05M (Peak 30.05M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 095 | Hair / 3D sculpted strand 16-1
+Fra:15 Mem:30.06M (Peak 30.06M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 128 | Shoe R / molded white rubber sole
+Fra:15 Mem:30.08M (Peak 30.08M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 096 | Hair / 3D sculpted strand 17-0
+Fra:15 Mem:30.08M (Peak 30.08M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 127 | Shoe R / breathable sneaker body
+Fra:15 Mem:30.10M (Peak 30.10M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 097 | Hair / 3D sculpted strand 17-1
+Fra:15 Mem:30.11M (Peak 30.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 098 | Hair / temple faded sideburn
+Fra:15 Mem:30.17M (Peak 30.17M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 126 | Shoe L / running groove 2
+Fra:15 Mem:30.16M (Peak 30.17M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 100 | Hand L / palm human skin
+Fra:15 Mem:30.17M (Peak 30.17M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 101 | Hand L finger 0
+Fra:15 Mem:30.22M (Peak 30.22M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 125 | Shoe L / running groove 1
+Fra:15 Mem:30.24M (Peak 30.24M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 102 | Finger L 0 fingertip
+Fra:15 Mem:30.24M (Peak 30.24M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 103 | Hand L finger 1
+Fra:15 Mem:30.27M (Peak 30.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 124 | Shoe L / running groove 0
+Fra:15 Mem:30.27M (Peak 30.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 105 | Hand L finger 2
+Fra:15 Mem:30.27M (Peak 30.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 106 | Finger L 2 fingertip
+Fra:15 Mem:30.27M (Peak 30.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 107 | Hand L thumb
+Fra:15 Mem:30.29M (Peak 30.29M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 108 | Hand R / palm human skin
+Fra:15 Mem:30.30M (Peak 30.30M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 109 | Hand R finger 0
+Fra:15 Mem:30.35M (Peak 30.35M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 122 | Shoe L / shoelace bridge 2
+Fra:15 Mem:30.35M (Peak 30.35M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 112 | Finger R 1 fingertip
+Fra:15 Mem:30.37M (Peak 30.37M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 121 | Shoe L / shoelace bridge 1
+Fra:15 Mem:30.38M (Peak 30.38M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 113 | Hand R finger 2
+Fra:15 Mem:30.40M (Peak 30.40M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 120 | Shoe L / shoelace bridge 0
+Fra:15 Mem:30.41M (Peak 30.41M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 114 | Finger R 2 fingertip
+Fra:15 Mem:30.42M (Peak 30.42M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 115 | Hand R thumb
+Fra:15 Mem:30.43M (Peak 30.43M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 116 | Shoe L / breathable sneaker body
+Fra:15 Mem:30.45M (Peak 30.45M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 117 | Shoe L / molded white rubber sole
+Fra:15 Mem:30.48M (Peak 30.48M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 118 | Shoe L / frontal toe cap
+Fra:15 Mem:30.49M (Peak 30.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:15 Mem:22.55M (Peak 30.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:15 Mem:22.56M (Peak 30.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:15 Mem:22.56M (Peak 30.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:15 Mem:22.56M (Peak 30.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:15 Mem:22.65M (Peak 30.49M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Procedurals
+Fra:15 Mem:22.65M (Peak 30.49M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Background
+Fra:15 Mem:22.65M (Peak 30.49M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Camera
+Fra:15 Mem:22.65M (Peak 30.49M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:15 Mem:22.65M (Peak 30.49M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects
+Fra:15 Mem:22.65M (Peak 30.49M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:15 Mem:22.68M (Peak 30.49M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:15 Mem:22.68M (Peak 30.49M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Particle Systems
+Fra:15 Mem:22.68M (Peak 30.49M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:15 Mem:22.68M (Peak 30.49M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Meshes
+Fra:15 Mem:23.32M (Peak 30.49M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:15 Mem:23.61M (Peak 30.49M) | Time:00:00.01 | Mem:0.05M, Peak:0.05M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:15 Mem:23.59M (Peak 30.49M) | Time:00:00.01 | Mem:0.31M, Peak:0.31M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:15 Mem:23.59M (Peak 30.49M) | Time:00:00.01 | Mem:0.31M, Peak:0.31M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:15 Mem:23.59M (Peak 30.49M) | Time:00:00.01 | Mem:1.59M, Peak:1.59M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:15 Mem:23.59M (Peak 30.49M) | Time:00:00.02 | Mem:2.98M, Peak:4.26M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:15 Mem:23.59M (Peak 30.49M) | Time:00:00.02 | Mem:2.98M, Peak:4.26M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:15 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:2.98M, Peak:4.26M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:15 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.47M, Peak:4.47M | Scene, ViewLayer | Updating Objects Flags
+Fra:15 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.47M, Peak:4.47M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:15 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.47M, Peak:4.47M | Scene, ViewLayer | Updating Images
+Fra:15 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.47M, Peak:4.47M | Scene, ViewLayer | Updating Camera Volume
+Fra:15 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.47M, Peak:4.47M | Scene, ViewLayer | Updating Lookup Tables
+Fra:15 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.55M, Peak:4.55M | Scene, ViewLayer | Updating Lights
+Fra:15 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.55M, Peak:4.55M | Scene, ViewLayer | Updating Lights | Computing distribution
+Fra:15 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.55M, Peak:4.55M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:15 Mem:25.67M (Peak 30.49M) | Time:00:00.03 | Mem:5.15M, Peak:5.15M | Scene, ViewLayer | Updating Integrator
+Fra:15 Mem:26.67M (Peak 30.49M) | Time:00:00.03 | Mem:6.15M, Peak:6.15M | Scene, ViewLayer | Updating Film
+Fra:15 Mem:26.68M (Peak 30.49M) | Time:00:00.03 | Mem:6.07M, Peak:6.15M | Scene, ViewLayer | Updating Lookup Tables
+Fra:15 Mem:26.68M (Peak 30.49M) | Time:00:00.03 | Mem:6.15M, Peak:6.15M | Scene, ViewLayer | Updating Baking
+Fra:15 Mem:26.68M (Peak 30.49M) | Time:00:00.03 | Mem:6.15M, Peak:6.15M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:15 Mem:26.68M (Peak 30.49M) | Time:00:00.03 | Mem:6.15M, Peak:6.15M | Scene, ViewLayer | Sample 0/24
+Fra:15 Mem:66.74M (Peak 66.74M) | Time:00:01.34 | Remaining:00:30.06 | Mem:46.20M, Peak:46.20M | Scene, ViewLayer | Sample 1/24
+Fra:15 Mem:66.74M (Peak 66.74M) | Time:00:21.14 | Remaining:00:08.69 | Mem:46.20M, Peak:46.20M | Scene, ViewLayer | Sample 17/24
+Fra:15 Mem:84.54M (Peak 120.13M) | Time:00:29.86 | Mem:46.20M, Peak:46.20M | Scene, ViewLayer | Sample 24/24
+Fra:15 Mem:84.54M (Peak 120.13M) | Time:00:29.86 | Mem:46.20M, Peak:46.20M | Scene, ViewLayer | Finished
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/02-AETHER-Walking.png'
+Time: 00:30.00 (Saving: 00:00.13)
+
+AETHER_RENDER 02-AETHER-Walking.png 1958267
+Fra:11 Mem:28.25M (Peak 28.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 001 | STUDIO ONLY / ground
+Fra:11 Mem:28.26M (Peak 28.26M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 003 | Torso / fitted compression undershirt
+Fra:11 Mem:28.28M (Peak 28.28M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 004 | Chest / technical jacket
+Fra:11 Mem:28.28M (Peak 28.28M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 005 | Chest / clavicle volume
+Fra:11 Mem:28.32M (Peak 28.32M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 006 | Jacket zipper front
+Fra:11 Mem:28.33M (Peak 28.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 007 | Chest / inset technical logo
+Fra:11 Mem:28.34M (Peak 28.34M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 009 | Hip joint fabric cover
+Fra:11 Mem:28.34M (Peak 28.34M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 010 | Torso sports seam
+Fra:11 Mem:28.34M (Peak 28.34M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 011 | Hip joint fabric cover
+Fra:11 Mem:28.40M (Peak 28.40M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 012 | Waist utility belt
+Fra:11 Mem:28.41M (Peak 28.41M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 014 | Lower leg L / shin fabric
+Fra:11 Mem:28.42M (Peak 28.42M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 015 | Knee L / fabric fitted patella
+Fra:11 Mem:28.43M (Peak 28.43M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 016 | Ankle L / breathable cuff
+Fra:11 Mem:28.47M (Peak 28.47M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 017 | Thigh L / luminous contour stripe
+Fra:11 Mem:28.49M (Peak 28.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 018 | Knee L / layered compression fin 0
+Fra:11 Mem:28.51M (Peak 28.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 019 | Knee L / layered compression fin 1
+Fra:11 Mem:28.51M (Peak 28.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 021 | Thigh R / tapered running tights
+Fra:11 Mem:28.53M (Peak 28.53M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 022 | Lower leg R / shin fabric
+Fra:11 Mem:28.56M (Peak 28.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 023 | Knee R / fabric fitted patella
+Fra:11 Mem:28.57M (Peak 28.57M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 024 | Ankle R / breathable cuff
+Fra:11 Mem:28.59M (Peak 28.59M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 025 | Thigh R / luminous contour stripe
+Fra:11 Mem:28.61M (Peak 28.61M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 026 | Knee R / layered compression fin 0
+Fra:11 Mem:28.62M (Peak 28.62M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 027 | Knee R / layered compression fin 1
+Fra:11 Mem:28.63M (Peak 28.63M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 028 | Knee R / layered compression fin 2
+Fra:11 Mem:28.63M (Peak 28.63M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 030 | Elbow L / flexible joint sleeve
+Fra:11 Mem:28.67M (Peak 28.67M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 031 | Forearm L / tapered athletic sleeve
+Fra:11 Mem:28.70M (Peak 28.70M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 032 | Shoulder L / contrast stripe
+Fra:11 Mem:28.69M (Peak 28.70M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 033 | Arm L / reflective LED patch 0
+Fra:11 Mem:28.70M (Peak 28.70M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 035 | Upper arm R / tailored jacket sleeve
+Fra:11 Mem:28.72M (Peak 28.72M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 036 | Elbow R / flexible joint sleeve
+Fra:11 Mem:28.72M (Peak 28.72M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 037 | Forearm R / tapered athletic sleeve
+Fra:11 Mem:28.75M (Peak 28.75M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 034 | Arm L / reflective LED patch 1
+Fra:11 Mem:28.77M (Peak 28.77M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 038 | Shoulder R / contrast stripe
+Fra:11 Mem:28.77M (Peak 28.77M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 040 | Arm R / reflective LED patch 1
+Fra:11 Mem:28.78M (Peak 28.78M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 041 | Neck / warm skin anatomy
+Fra:11 Mem:28.81M (Peak 28.81M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 042 | Head / organic oval and cheekbones
+Fra:11 Mem:28.81M (Peak 28.81M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 043 | Lower cheek left
+Fra:11 Mem:28.87M (Peak 28.87M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 044 | Lower cheek right
+Fra:11 Mem:28.89M (Peak 28.89M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 045 | Jaw line / chin
+Fra:11 Mem:28.93M (Peak 28.93M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 046 | Nose bridge
+Fra:11 Mem:28.96M (Peak 28.96M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 048 | Ear left outer
+Fra:11 Mem:28.98M (Peak 28.98M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 049 | Ear left inner
+Fra:11 Mem:29.02M (Peak 29.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 050 | Eye left sclera
+Fra:11 Mem:29.06M (Peak 29.06M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 051 | Eye left iris
+Fra:11 Mem:29.07M (Peak 29.07M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 141 | Athletic shoulder reflective roundel
+Fra:11 Mem:29.13M (Peak 29.13M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 053 | Eyebrow left hair
+Fra:11 Mem:29.15M (Peak 29.15M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 054 | Ear right outer
+Fra:11 Mem:29.15M (Peak 29.15M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 140 | Athletic shoulder reflective roundel
+Fra:11 Mem:29.17M (Peak 29.17M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 056 | Eye right sclera
+Fra:11 Mem:29.25M (Peak 29.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 057 | Eye right iris
+Fra:11 Mem:29.25M (Peak 29.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 139 | MOVE / HUMAN
+Fra:11 Mem:29.28M (Peak 29.28M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 059 | Eyebrow right hair
+Fra:11 Mem:29.31M (Peak 29.31M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 060 | Mouth / relaxed lip
+Fra:11 Mem:29.31M (Peak 29.31M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 062 | Hair / 3D sculpted strand 00-0
+Fra:11 Mem:29.43M (Peak 29.43M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 063 | Hair / 3D sculpted strand 00-1
+Fra:11 Mem:29.47M (Peak 29.47M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 064 | Hair / 3D sculpted strand 01-0
+Fra:11 Mem:29.49M (Peak 29.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 065 | Hair / 3D sculpted strand 01-1
+Fra:11 Mem:29.52M (Peak 29.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 066 | Hair / 3D sculpted strand 02-0
+Fra:11 Mem:29.51M (Peak 29.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 068 | Hair / 3D sculpted strand 03-0
+Fra:11 Mem:29.52M (Peak 29.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 138 | AETHER 01
+Fra:11 Mem:29.53M (Peak 29.53M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 069 | Hair / 3D sculpted strand 03-1
+Fra:11 Mem:29.54M (Peak 29.54M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 070 | Hair / 3D sculpted strand 04-0
+Fra:11 Mem:29.56M (Peak 29.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 071 | Hair / 3D sculpted strand 04-1
+Fra:11 Mem:29.61M (Peak 29.61M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 072 | Hair / 3D sculpted strand 05-0
+Fra:11 Mem:29.64M (Peak 29.64M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 073 | Hair / 3D sculpted strand 05-1
+Fra:11 Mem:29.65M (Peak 29.65M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 074 | Hair / 3D sculpted strand 06-0
+Fra:11 Mem:29.68M (Peak 29.68M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 075 | Hair / 3D sculpted strand 06-1
+Fra:11 Mem:29.68M (Peak 29.68M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 076 | Hair / 3D sculpted strand 07-0
+Fra:11 Mem:29.72M (Peak 29.72M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 077 | Hair / 3D sculpted strand 07-1
+Fra:11 Mem:29.72M (Peak 29.72M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 137 | Shoe R / running groove 2
+Fra:11 Mem:29.74M (Peak 29.74M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 079 | Hair / 3D sculpted strand 08-1
+Fra:11 Mem:29.76M (Peak 29.76M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 136 | Shoe R / running groove 1
+Fra:11 Mem:29.77M (Peak 29.77M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 080 | Hair / 3D sculpted strand 09-0
+Fra:11 Mem:29.78M (Peak 29.78M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 135 | Shoe R / running groove 0
+Fra:11 Mem:29.81M (Peak 29.81M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 082 | Hair / 3D sculpted strand 10-0
+Fra:11 Mem:29.82M (Peak 29.82M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 134 | Shoe R / shoelace bridge 3
+Fra:11 Mem:29.84M (Peak 29.84M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 084 | Hair / 3D sculpted strand 11-0
+Fra:11 Mem:29.84M (Peak 29.84M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 133 | Shoe R / shoelace bridge 2
+Fra:11 Mem:29.87M (Peak 29.87M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 132 | Shoe R / shoelace bridge 1
+Fra:11 Mem:29.88M (Peak 29.88M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 086 | Hair / 3D sculpted strand 12-0
+Fra:11 Mem:29.90M (Peak 29.90M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 131 | Shoe R / shoelace bridge 0
+Fra:11 Mem:29.92M (Peak 29.92M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 087 | Hair / 3D sculpted strand 12-1
+Fra:11 Mem:29.93M (Peak 29.93M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 088 | Hair / 3D sculpted strand 13-0
+Fra:11 Mem:29.95M (Peak 29.95M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 089 | Hair / 3D sculpted strand 13-1
+Fra:11 Mem:29.96M (Peak 29.96M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 090 | Hair / 3D sculpted strand 14-0
+Fra:11 Mem:29.96M (Peak 29.96M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 091 | Hair / 3D sculpted strand 14-1
+Fra:11 Mem:30.00M (Peak 30.00M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 092 | Hair / 3D sculpted strand 15-0
+Fra:11 Mem:30.01M (Peak 30.01M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 094 | Hair / 3D sculpted strand 16-0
+Fra:11 Mem:30.02M (Peak 30.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 129 | Shoe R / frontal toe cap
+Fra:11 Mem:30.04M (Peak 30.04M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 128 | Shoe R / molded white rubber sole
+Fra:11 Mem:30.04M (Peak 30.04M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 095 | Hair / 3D sculpted strand 16-1
+Fra:11 Mem:30.07M (Peak 30.07M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 127 | Shoe R / breathable sneaker body
+Fra:11 Mem:30.09M (Peak 30.09M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 096 | Hair / 3D sculpted strand 17-0
+Fra:11 Mem:30.13M (Peak 30.13M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 097 | Hair / 3D sculpted strand 17-1
+Fra:11 Mem:30.13M (Peak 30.13M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 126 | Shoe L / running groove 2
+Fra:11 Mem:30.14M (Peak 30.14M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 099 | Hair / temple faded sideburn
+Fra:11 Mem:30.16M (Peak 30.17M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 100 | Hand L / palm human skin
+Fra:11 Mem:30.19M (Peak 30.19M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 125 | Shoe L / running groove 1
+Fra:11 Mem:30.20M (Peak 30.20M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 101 | Hand L finger 0
+Fra:11 Mem:30.21M (Peak 30.21M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 102 | Finger L 0 fingertip
+Fra:11 Mem:30.25M (Peak 30.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 104 | Finger L 1 fingertip
+Fra:11 Mem:30.26M (Peak 30.26M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 105 | Hand L finger 2
+Fra:11 Mem:30.27M (Peak 30.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 123 | Shoe L / shoelace bridge 3
+Fra:11 Mem:30.27M (Peak 30.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 106 | Finger L 2 fingertip
+Fra:11 Mem:30.31M (Peak 30.30M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 122 | Shoe L / shoelace bridge 2
+Fra:11 Mem:30.30M (Peak 30.30M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 107 | Hand L thumb
+Fra:11 Mem:30.31M (Peak 30.31M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 108 | Hand R / palm human skin
+Fra:11 Mem:30.33M (Peak 30.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 121 | Shoe L / shoelace bridge 1
+Fra:11 Mem:30.36M (Peak 30.36M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 109 | Hand R finger 0
+Fra:11 Mem:30.37M (Peak 30.37M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 110 | Finger R 0 fingertip
+Fra:11 Mem:30.37M (Peak 30.37M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 120 | Shoe L / shoelace bridge 0
+Fra:11 Mem:30.38M (Peak 30.38M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 112 | Finger R 1 fingertip
+Fra:11 Mem:30.40M (Peak 30.40M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 113 | Hand R finger 2
+Fra:11 Mem:30.41M (Peak 30.41M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 114 | Finger R 2 fingertip
+Fra:11 Mem:30.42M (Peak 30.42M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 115 | Hand R thumb
+Fra:11 Mem:30.43M (Peak 30.43M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 117 | Shoe L / molded white rubber sole
+Fra:11 Mem:30.44M (Peak 30.44M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 118 | Shoe L / frontal toe cap
+Fra:11 Mem:30.49M (Peak 30.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:11 Mem:22.55M (Peak 30.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:11 Mem:22.56M (Peak 30.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:11 Mem:22.56M (Peak 30.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:11 Mem:22.56M (Peak 30.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:11 Mem:22.65M (Peak 30.49M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Procedurals
+Fra:11 Mem:22.65M (Peak 30.49M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Background
+Fra:11 Mem:22.65M (Peak 30.49M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Camera
+Fra:11 Mem:22.65M (Peak 30.49M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:11 Mem:22.65M (Peak 30.49M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects
+Fra:11 Mem:22.65M (Peak 30.49M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:11 Mem:22.68M (Peak 30.49M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:11 Mem:22.68M (Peak 30.49M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Particle Systems
+Fra:11 Mem:22.68M (Peak 30.49M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:11 Mem:22.68M (Peak 30.49M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Meshes
+Fra:11 Mem:23.32M (Peak 30.49M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:11 Mem:23.61M (Peak 30.49M) | Time:00:00.01 | Mem:0.05M, Peak:0.05M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:11 Mem:23.59M (Peak 30.49M) | Time:00:00.01 | Mem:0.31M, Peak:0.31M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:11 Mem:23.59M (Peak 30.49M) | Time:00:00.01 | Mem:0.31M, Peak:0.31M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:11 Mem:23.59M (Peak 30.49M) | Time:00:00.01 | Mem:1.59M, Peak:1.59M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:11 Mem:23.59M (Peak 30.49M) | Time:00:00.02 | Mem:3.12M, Peak:4.40M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:11 Mem:23.59M (Peak 30.49M) | Time:00:00.02 | Mem:3.12M, Peak:4.40M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:11 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:3.12M, Peak:4.40M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:11 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.60M, Peak:4.60M | Scene, ViewLayer | Updating Objects Flags
+Fra:11 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.60M, Peak:4.60M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:11 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.60M, Peak:4.60M | Scene, ViewLayer | Updating Images
+Fra:11 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.60M, Peak:4.60M | Scene, ViewLayer | Updating Camera Volume
+Fra:11 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.60M, Peak:4.60M | Scene, ViewLayer | Updating Lookup Tables
+Fra:11 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.68M, Peak:4.68M | Scene, ViewLayer | Updating Lights
+Fra:11 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.68M, Peak:4.68M | Scene, ViewLayer | Updating Lights | Computing distribution
+Fra:11 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.68M, Peak:4.68M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:11 Mem:25.67M (Peak 30.49M) | Time:00:00.03 | Mem:5.28M, Peak:5.28M | Scene, ViewLayer | Updating Integrator
+Fra:11 Mem:26.67M (Peak 30.49M) | Time:00:00.03 | Mem:6.28M, Peak:6.28M | Scene, ViewLayer | Updating Film
+Fra:11 Mem:26.67M (Peak 30.49M) | Time:00:00.03 | Mem:6.20M, Peak:6.28M | Scene, ViewLayer | Updating Lookup Tables
+Fra:11 Mem:26.67M (Peak 30.49M) | Time:00:00.03 | Mem:6.29M, Peak:6.29M | Scene, ViewLayer | Updating Baking
+Fra:11 Mem:26.67M (Peak 30.49M) | Time:00:00.03 | Mem:6.29M, Peak:6.29M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:11 Mem:26.68M (Peak 30.49M) | Time:00:00.03 | Mem:6.29M, Peak:6.29M | Scene, ViewLayer | Sample 0/24
+Fra:11 Mem:66.74M (Peak 66.74M) | Time:00:01.34 | Remaining:00:30.15 | Mem:46.33M, Peak:46.33M | Scene, ViewLayer | Sample 1/24
+Fra:11 Mem:66.74M (Peak 66.74M) | Time:00:21.27 | Remaining:00:08.74 | Mem:46.33M, Peak:46.33M | Scene, ViewLayer | Sample 17/24
+Fra:11 Mem:84.54M (Peak 120.13M) | Time:00:30.01 | Mem:46.33M, Peak:46.33M | Scene, ViewLayer | Sample 24/24
+Fra:11 Mem:84.54M (Peak 120.13M) | Time:00:30.01 | Mem:46.33M, Peak:46.33M | Scene, ViewLayer | Finished
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/03-AETHER-Running.png'
+Time: 00:30.15 (Saving: 00:00.13)
+
+AETHER_RENDER 03-AETHER-Running.png 1961298
+Fra:21 Mem:28.25M (Peak 28.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 001 | STUDIO ONLY / ground
+Fra:21 Mem:28.26M (Peak 28.26M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 003 | Torso / fitted compression undershirt
+Fra:21 Mem:28.27M (Peak 28.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 004 | Chest / technical jacket
+Fra:21 Mem:28.29M (Peak 28.29M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 005 | Chest / clavicle volume
+Fra:21 Mem:28.32M (Peak 28.32M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 007 | Chest / inset technical logo
+Fra:21 Mem:28.32M (Peak 28.32M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 008 | Torso sports seam
+Fra:21 Mem:28.34M (Peak 28.34M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 009 | Hip joint fabric cover
+Fra:21 Mem:28.36M (Peak 28.36M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 010 | Torso sports seam
+Fra:21 Mem:28.37M (Peak 28.37M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 011 | Hip joint fabric cover
+Fra:21 Mem:28.37M (Peak 28.37M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 012 | Waist utility belt
+Fra:21 Mem:28.41M (Peak 28.41M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 014 | Lower leg L / shin fabric
+Fra:21 Mem:28.42M (Peak 28.42M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 015 | Knee L / fabric fitted patella
+Fra:21 Mem:28.43M (Peak 28.43M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 016 | Ankle L / breathable cuff
+Fra:21 Mem:28.49M (Peak 28.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 017 | Thigh L / luminous contour stripe
+Fra:21 Mem:28.49M (Peak 28.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 018 | Knee L / layered compression fin 0
+Fra:21 Mem:28.51M (Peak 28.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 020 | Knee L / layered compression fin 2
+Fra:21 Mem:28.52M (Peak 28.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 021 | Thigh R / tapered running tights
+Fra:21 Mem:28.53M (Peak 28.53M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 022 | Lower leg R / shin fabric
+Fra:21 Mem:28.54M (Peak 28.54M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 023 | Knee R / fabric fitted patella
+Fra:21 Mem:28.55M (Peak 28.55M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 024 | Ankle R / breathable cuff
+Fra:21 Mem:28.58M (Peak 28.58M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 025 | Thigh R / luminous contour stripe
+Fra:21 Mem:28.61M (Peak 28.61M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 026 | Knee R / layered compression fin 0
+Fra:21 Mem:28.61M (Peak 28.61M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 027 | Knee R / layered compression fin 1
+Fra:21 Mem:28.62M (Peak 28.62M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 028 | Knee R / layered compression fin 2
+Fra:21 Mem:28.63M (Peak 28.63M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 029 | Upper arm L / tailored jacket sleeve
+Fra:21 Mem:28.64M (Peak 28.64M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 030 | Elbow L / flexible joint sleeve
+Fra:21 Mem:28.68M (Peak 28.68M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 031 | Forearm L / tapered athletic sleeve
+Fra:21 Mem:28.70M (Peak 28.70M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 032 | Shoulder L / contrast stripe
+Fra:21 Mem:28.70M (Peak 28.70M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 033 | Arm L / reflective LED patch 0
+Fra:21 Mem:28.70M (Peak 28.70M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 034 | Arm L / reflective LED patch 1
+Fra:21 Mem:28.72M (Peak 28.72M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 035 | Upper arm R / tailored jacket sleeve
+Fra:21 Mem:28.74M (Peak 28.74M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 036 | Elbow R / flexible joint sleeve
+Fra:21 Mem:28.75M (Peak 28.75M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 037 | Forearm R / tapered athletic sleeve
+Fra:21 Mem:28.78M (Peak 28.78M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 038 | Shoulder R / contrast stripe
+Fra:21 Mem:28.78M (Peak 28.78M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 039 | Arm R / reflective LED patch 0
+Fra:21 Mem:28.79M (Peak 28.79M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 040 | Arm R / reflective LED patch 1
+Fra:21 Mem:28.81M (Peak 28.81M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 042 | Head / organic oval and cheekbones
+Fra:21 Mem:28.85M (Peak 28.85M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 141 | Athletic shoulder reflective roundel
+Fra:21 Mem:28.87M (Peak 28.87M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 043 | Lower cheek left
+Fra:21 Mem:28.91M (Peak 28.91M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 044 | Lower cheek right
+Fra:21 Mem:28.92M (Peak 28.92M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 045 | Jaw line / chin
+Fra:21 Mem:28.94M (Peak 28.94M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 140 | Athletic shoulder reflective roundel
+Fra:21 Mem:28.97M (Peak 28.97M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 046 | Nose bridge
+Fra:21 Mem:29.01M (Peak 29.01M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 048 | Ear left outer
+Fra:21 Mem:29.07M (Peak 29.07M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 139 | MOVE / HUMAN
+Fra:21 Mem:29.07M (Peak 29.07M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 049 | Ear left inner
+Fra:21 Mem:29.08M (Peak 29.08M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 050 | Eye left sclera
+Fra:21 Mem:29.18M (Peak 29.18M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 051 | Eye left iris
+Fra:21 Mem:29.19M (Peak 29.19M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 053 | Eyebrow left hair
+Fra:21 Mem:29.23M (Peak 29.23M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 054 | Ear right outer
+Fra:21 Mem:29.27M (Peak 29.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 055 | Ear right inner
+Fra:21 Mem:29.31M (Peak 29.31M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 056 | Eye right sclera
+Fra:21 Mem:29.34M (Peak 29.34M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 057 | Eye right iris
+Fra:21 Mem:29.32M (Peak 29.34M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 058 | Eye right pupil
+Fra:21 Mem:29.33M (Peak 29.34M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 059 | Eyebrow right hair
+Fra:21 Mem:29.37M (Peak 29.37M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 060 | Mouth / relaxed lip
+Fra:21 Mem:29.41M (Peak 29.41M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 061 | Hair / shaped skull cap
+Fra:21 Mem:29.44M (Peak 29.44M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 062 | Hair / 3D sculpted strand 00-0
+Fra:21 Mem:29.50M (Peak 29.50M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 063 | Hair / 3D sculpted strand 00-1
+Fra:21 Mem:29.51M (Peak 29.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 064 | Hair / 3D sculpted strand 01-0
+Fra:21 Mem:29.56M (Peak 29.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 065 | Hair / 3D sculpted strand 01-1
+Fra:21 Mem:29.57M (Peak 29.57M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 066 | Hair / 3D sculpted strand 02-0
+Fra:21 Mem:29.59M (Peak 29.59M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 067 | Hair / 3D sculpted strand 02-1
+Fra:21 Mem:29.60M (Peak 29.60M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 068 | Hair / 3D sculpted strand 03-0
+Fra:21 Mem:29.62M (Peak 29.62M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 070 | Hair / 3D sculpted strand 04-0
+Fra:21 Mem:29.63M (Peak 29.63M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 137 | Shoe R / running groove 2
+Fra:21 Mem:29.63M (Peak 29.63M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 071 | Hair / 3D sculpted strand 04-1
+Fra:21 Mem:29.65M (Peak 29.65M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 072 | Hair / 3D sculpted strand 05-0
+Fra:21 Mem:29.65M (Peak 29.65M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 136 | Shoe R / running groove 1
+Fra:21 Mem:29.67M (Peak 29.67M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 073 | Hair / 3D sculpted strand 05-1
+Fra:21 Mem:29.70M (Peak 29.70M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 135 | Shoe R / running groove 0
+Fra:21 Mem:29.71M (Peak 29.71M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 075 | Hair / 3D sculpted strand 06-1
+Fra:21 Mem:29.72M (Peak 29.72M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 076 | Hair / 3D sculpted strand 07-0
+Fra:21 Mem:29.73M (Peak 29.73M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 134 | Shoe R / shoelace bridge 3
+Fra:21 Mem:29.76M (Peak 29.76M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 077 | Hair / 3D sculpted strand 07-1
+Fra:21 Mem:29.76M (Peak 29.76M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 133 | Shoe R / shoelace bridge 2
+Fra:21 Mem:29.78M (Peak 29.78M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 079 | Hair / 3D sculpted strand 08-1
+Fra:21 Mem:29.78M (Peak 29.78M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 132 | Shoe R / shoelace bridge 1
+Fra:21 Mem:29.80M (Peak 29.80M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 080 | Hair / 3D sculpted strand 09-0
+Fra:21 Mem:29.83M (Peak 29.83M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 131 | Shoe R / shoelace bridge 0
+Fra:21 Mem:29.83M (Peak 29.83M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 082 | Hair / 3D sculpted strand 10-0
+Fra:21 Mem:29.86M (Peak 29.86M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 130 | Shoe R / heel amber reflector
+Fra:21 Mem:29.86M (Peak 29.86M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 083 | Hair / 3D sculpted strand 10-1
+Fra:21 Mem:29.88M (Peak 29.88M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 129 | Shoe R / frontal toe cap
+Fra:21 Mem:29.90M (Peak 29.90M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 084 | Hair / 3D sculpted strand 11-0
+Fra:21 Mem:29.91M (Peak 29.91M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 085 | Hair / 3D sculpted strand 11-1
+Fra:21 Mem:29.95M (Peak 29.95M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 128 | Shoe R / molded white rubber sole
+Fra:21 Mem:29.96M (Peak 29.96M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 087 | Hair / 3D sculpted strand 12-1
+Fra:21 Mem:29.97M (Peak 29.97M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 127 | Shoe R / breathable sneaker body
+Fra:21 Mem:29.98M (Peak 29.98M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 089 | Hair / 3D sculpted strand 13-1
+Fra:21 Mem:30.00M (Peak 30.00M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 090 | Hair / 3D sculpted strand 14-0
+Fra:21 Mem:30.03M (Peak 30.03M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 091 | Hair / 3D sculpted strand 14-1
+Fra:21 Mem:30.06M (Peak 30.06M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 092 | Hair / 3D sculpted strand 15-0
+Fra:21 Mem:30.08M (Peak 30.08M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 093 | Hair / 3D sculpted strand 15-1
+Fra:21 Mem:30.08M (Peak 30.08M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 126 | Shoe L / running groove 2
+Fra:21 Mem:30.10M (Peak 30.10M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 095 | Hair / 3D sculpted strand 16-1
+Fra:21 Mem:30.11M (Peak 30.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 096 | Hair / 3D sculpted strand 17-0
+Fra:21 Mem:30.15M (Peak 30.15M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 097 | Hair / 3D sculpted strand 17-1
+Fra:21 Mem:30.15M (Peak 30.15M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 099 | Hair / temple faded sideburn
+Fra:21 Mem:30.18M (Peak 30.18M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 101 | Hand L finger 0
+Fra:21 Mem:30.20M (Peak 30.20M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 102 | Finger L 0 fingertip
+Fra:21 Mem:30.20M (Peak 30.20M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 103 | Hand L finger 1
+Fra:21 Mem:30.22M (Peak 30.22M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 104 | Finger L 1 fingertip
+Fra:21 Mem:30.24M (Peak 30.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 105 | Hand L finger 2
+Fra:21 Mem:30.27M (Peak 30.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 106 | Finger L 2 fingertip
+Fra:21 Mem:30.27M (Peak 30.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 124 | Shoe L / running groove 0
+Fra:21 Mem:30.27M (Peak 30.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 108 | Hand R / palm human skin
+Fra:21 Mem:30.32M (Peak 30.32M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 123 | Shoe L / shoelace bridge 3
+Fra:21 Mem:30.35M (Peak 30.35M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 109 | Hand R finger 0
+Fra:21 Mem:30.35M (Peak 30.35M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 122 | Shoe L / shoelace bridge 2
+Fra:21 Mem:30.35M (Peak 30.35M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 111 | Hand R finger 1
+Fra:21 Mem:30.35M (Peak 30.35M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 112 | Finger R 1 fingertip
+Fra:21 Mem:30.39M (Peak 30.39M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 113 | Hand R finger 2
+Fra:21 Mem:30.39M (Peak 30.39M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 121 | Shoe L / shoelace bridge 1
+Fra:21 Mem:30.40M (Peak 30.40M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 115 | Hand R thumb
+Fra:21 Mem:30.43M (Peak 30.43M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 120 | Shoe L / shoelace bridge 0
+Fra:21 Mem:30.44M (Peak 30.44M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 117 | Shoe L / molded white rubber sole
+Fra:21 Mem:30.45M (Peak 30.45M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 119 | Shoe L / heel amber reflector
+Fra:21 Mem:30.47M (Peak 30.47M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 118 | Shoe L / frontal toe cap
+Fra:21 Mem:30.49M (Peak 30.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:21 Mem:22.55M (Peak 30.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:21 Mem:22.56M (Peak 30.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:21 Mem:22.56M (Peak 30.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:21 Mem:22.56M (Peak 30.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:21 Mem:22.65M (Peak 30.49M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Procedurals
+Fra:21 Mem:22.65M (Peak 30.49M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Background
+Fra:21 Mem:22.65M (Peak 30.49M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Camera
+Fra:21 Mem:22.65M (Peak 30.49M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:21 Mem:22.65M (Peak 30.49M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects
+Fra:21 Mem:22.65M (Peak 30.49M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:21 Mem:22.68M (Peak 30.49M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:21 Mem:22.68M (Peak 30.49M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Particle Systems
+Fra:21 Mem:22.68M (Peak 30.49M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:21 Mem:22.68M (Peak 30.49M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Meshes
+Fra:21 Mem:23.32M (Peak 30.49M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:21 Mem:23.61M (Peak 30.49M) | Time:00:00.01 | Mem:0.05M, Peak:0.05M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:21 Mem:23.59M (Peak 30.49M) | Time:00:00.01 | Mem:0.31M, Peak:0.31M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:21 Mem:23.59M (Peak 30.49M) | Time:00:00.01 | Mem:0.31M, Peak:0.31M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:21 Mem:23.59M (Peak 30.49M) | Time:00:00.01 | Mem:1.59M, Peak:1.59M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:21 Mem:23.59M (Peak 30.49M) | Time:00:00.02 | Mem:3.12M, Peak:4.40M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:21 Mem:23.59M (Peak 30.49M) | Time:00:00.02 | Mem:3.12M, Peak:4.40M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:21 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:3.12M, Peak:4.40M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:21 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.60M, Peak:4.60M | Scene, ViewLayer | Updating Objects Flags
+Fra:21 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.60M, Peak:4.60M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:21 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.60M, Peak:4.60M | Scene, ViewLayer | Updating Images
+Fra:21 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.60M, Peak:4.60M | Scene, ViewLayer | Updating Camera Volume
+Fra:21 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.60M, Peak:4.60M | Scene, ViewLayer | Updating Lookup Tables
+Fra:21 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.68M, Peak:4.68M | Scene, ViewLayer | Updating Lights
+Fra:21 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.68M, Peak:4.68M | Scene, ViewLayer | Updating Lights | Computing distribution
+Fra:21 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.68M, Peak:4.68M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:21 Mem:25.67M (Peak 30.49M) | Time:00:00.03 | Mem:5.28M, Peak:5.28M | Scene, ViewLayer | Updating Integrator
+Fra:21 Mem:26.67M (Peak 30.49M) | Time:00:00.03 | Mem:6.28M, Peak:6.28M | Scene, ViewLayer | Updating Film
+Fra:21 Mem:26.67M (Peak 30.49M) | Time:00:00.03 | Mem:6.20M, Peak:6.28M | Scene, ViewLayer | Updating Lookup Tables
+Fra:21 Mem:26.67M (Peak 30.49M) | Time:00:00.03 | Mem:6.28M, Peak:6.28M | Scene, ViewLayer | Updating Baking
+Fra:21 Mem:26.67M (Peak 30.49M) | Time:00:00.03 | Mem:6.28M, Peak:6.28M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:21 Mem:26.68M (Peak 30.49M) | Time:00:00.03 | Mem:6.28M, Peak:6.28M | Scene, ViewLayer | Sample 0/24
+Fra:21 Mem:66.73M (Peak 66.73M) | Time:00:01.33 | Remaining:00:29.86 | Mem:46.33M, Peak:46.33M | Scene, ViewLayer | Sample 1/24
+Fra:21 Mem:66.73M (Peak 66.73M) | Time:00:20.95 | Remaining:00:08.61 | Mem:46.33M, Peak:46.33M | Scene, ViewLayer | Sample 17/24
+Fra:21 Mem:84.53M (Peak 120.13M) | Time:00:29.63 | Mem:46.33M, Peak:46.33M | Scene, ViewLayer | Sample 24/24
+Fra:21 Mem:84.53M (Peak 120.13M) | Time:00:29.63 | Mem:46.33M, Peak:46.33M | Scene, ViewLayer | Finished
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/04-AETHER-Punching.png'
+Time: 00:29.76 (Saving: 00:00.13)
+
+AETHER_RENDER 04-AETHER-Punching.png 1914464
+Fra:1 Mem:28.25M (Peak 28.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 001 | STUDIO ONLY / ground
+Fra:1 Mem:28.27M (Peak 28.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 003 | Torso / fitted compression undershirt
+Fra:1 Mem:28.29M (Peak 28.29M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 004 | Chest / technical jacket
+Fra:1 Mem:28.29M (Peak 28.29M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 005 | Chest / clavicle volume
+Fra:1 Mem:28.30M (Peak 28.30M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 006 | Jacket zipper front
+Fra:1 Mem:28.30M (Peak 28.30M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 007 | Chest / inset technical logo
+Fra:1 Mem:28.34M (Peak 28.34M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 008 | Torso sports seam
+Fra:1 Mem:28.34M (Peak 28.34M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 009 | Hip joint fabric cover
+Fra:1 Mem:28.37M (Peak 28.37M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 011 | Hip joint fabric cover
+Fra:1 Mem:28.37M (Peak 28.37M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 012 | Waist utility belt
+Fra:1 Mem:28.38M (Peak 28.38M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 013 | Thigh L / tapered running tights
+Fra:1 Mem:28.40M (Peak 28.40M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 014 | Lower leg L / shin fabric
+Fra:1 Mem:28.41M (Peak 28.41M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 015 | Knee L / fabric fitted patella
+Fra:1 Mem:28.46M (Peak 28.46M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 016 | Ankle L / breathable cuff
+Fra:1 Mem:28.48M (Peak 28.48M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 017 | Thigh L / luminous contour stripe
+Fra:1 Mem:28.49M (Peak 28.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 019 | Knee L / layered compression fin 1
+Fra:1 Mem:28.50M (Peak 28.50M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 020 | Knee L / layered compression fin 2
+Fra:1 Mem:28.51M (Peak 28.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 022 | Lower leg R / shin fabric
+Fra:1 Mem:28.54M (Peak 28.54M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 023 | Knee R / fabric fitted patella
+Fra:1 Mem:28.56M (Peak 28.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 024 | Ankle R / breathable cuff
+Fra:1 Mem:28.58M (Peak 28.58M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 025 | Thigh R / luminous contour stripe
+Fra:1 Mem:28.60M (Peak 28.60M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 026 | Knee R / layered compression fin 0
+Fra:1 Mem:28.61M (Peak 28.61M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 028 | Knee R / layered compression fin 2
+Fra:1 Mem:28.64M (Peak 28.64M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 029 | Upper arm L / tailored jacket sleeve
+Fra:1 Mem:28.65M (Peak 28.65M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 031 | Forearm L / tapered athletic sleeve
+Fra:1 Mem:28.65M (Peak 28.65M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 032 | Shoulder L / contrast stripe
+Fra:1 Mem:28.69M (Peak 28.69M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 033 | Arm L / reflective LED patch 0
+Fra:1 Mem:28.70M (Peak 28.70M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 034 | Arm L / reflective LED patch 1
+Fra:1 Mem:28.70M (Peak 28.70M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 036 | Elbow R / flexible joint sleeve
+Fra:1 Mem:28.76M (Peak 28.76M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 037 | Forearm R / tapered athletic sleeve
+Fra:1 Mem:28.76M (Peak 28.76M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 038 | Shoulder R / contrast stripe
+Fra:1 Mem:28.77M (Peak 28.77M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 040 | Arm R / reflective LED patch 1
+Fra:1 Mem:28.78M (Peak 28.78M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 041 | Neck / warm skin anatomy
+Fra:1 Mem:28.79M (Peak 28.79M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 042 | Head / organic oval and cheekbones
+Fra:1 Mem:28.82M (Peak 28.82M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 044 | Lower cheek right
+Fra:1 Mem:28.91M (Peak 28.91M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 045 | Jaw line / chin
+Fra:1 Mem:28.90M (Peak 28.91M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 047 | Nose tip
+Fra:1 Mem:28.98M (Peak 28.98M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 048 | Ear left outer
+Fra:1 Mem:28.98M (Peak 28.98M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 049 | Ear left inner
+Fra:1 Mem:29.03M (Peak 29.03M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 050 | Eye left sclera
+Fra:1 Mem:29.04M (Peak 29.04M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 051 | Eye left iris
+Fra:1 Mem:29.09M (Peak 29.09M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 052 | Eye left pupil
+Fra:1 Mem:29.11M (Peak 29.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 053 | Eyebrow left hair
+Fra:1 Mem:29.11M (Peak 29.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 054 | Ear right outer
+Fra:1 Mem:29.14M (Peak 29.14M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 056 | Eye right sclera
+Fra:1 Mem:29.15M (Peak 29.15M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 057 | Eye right iris
+Fra:1 Mem:29.22M (Peak 29.22M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 141 | Athletic shoulder reflective roundel
+Fra:1 Mem:29.25M (Peak 29.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 058 | Eye right pupil
+Fra:1 Mem:29.25M (Peak 29.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 140 | Athletic shoulder reflective roundel
+Fra:1 Mem:29.27M (Peak 29.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 061 | Hair / shaped skull cap
+Fra:1 Mem:29.34M (Peak 29.34M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 062 | Hair / 3D sculpted strand 00-0
+Fra:1 Mem:29.35M (Peak 29.36M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 139 | MOVE / HUMAN
+Fra:1 Mem:29.36M (Peak 29.36M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 063 | Hair / 3D sculpted strand 00-1
+Fra:1 Mem:29.44M (Peak 29.44M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 064 | Hair / 3D sculpted strand 01-0
+Fra:1 Mem:29.44M (Peak 29.44M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 065 | Hair / 3D sculpted strand 01-1
+Fra:1 Mem:29.48M (Peak 29.48M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 066 | Hair / 3D sculpted strand 02-0
+Fra:1 Mem:29.49M (Peak 29.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 068 | Hair / 3D sculpted strand 03-0
+Fra:1 Mem:29.54M (Peak 29.54M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 069 | Hair / 3D sculpted strand 03-1
+Fra:1 Mem:29.54M (Peak 29.54M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 070 | Hair / 3D sculpted strand 04-0
+Fra:1 Mem:29.56M (Peak 29.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 071 | Hair / 3D sculpted strand 04-1
+Fra:1 Mem:29.60M (Peak 29.60M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 072 | Hair / 3D sculpted strand 05-0
+Fra:1 Mem:29.61M (Peak 29.61M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 073 | Hair / 3D sculpted strand 05-1
+Fra:1 Mem:29.60M (Peak 29.61M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 075 | Hair / 3D sculpted strand 06-1
+Fra:1 Mem:29.61M (Peak 29.61M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 138 | AETHER 01
+Fra:1 Mem:29.64M (Peak 29.64M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 077 | Hair / 3D sculpted strand 07-1
+Fra:1 Mem:29.70M (Peak 29.70M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 078 | Hair / 3D sculpted strand 08-0
+Fra:1 Mem:29.71M (Peak 29.71M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 079 | Hair / 3D sculpted strand 08-1
+Fra:1 Mem:29.76M (Peak 29.76M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 080 | Hair / 3D sculpted strand 09-0
+Fra:1 Mem:29.76M (Peak 29.76M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 081 | Hair / 3D sculpted strand 09-1
+Fra:1 Mem:29.77M (Peak 29.77M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 137 | Shoe R / running groove 2
+Fra:1 Mem:29.78M (Peak 29.78M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 082 | Hair / 3D sculpted strand 10-0
+Fra:1 Mem:29.80M (Peak 29.80M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 083 | Hair / 3D sculpted strand 10-1
+Fra:1 Mem:29.80M (Peak 29.80M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 136 | Shoe R / running groove 1
+Fra:1 Mem:29.80M (Peak 29.80M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 084 | Hair / 3D sculpted strand 11-0
+Fra:1 Mem:29.85M (Peak 29.85M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 085 | Hair / 3D sculpted strand 11-1
+Fra:1 Mem:29.86M (Peak 29.86M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 086 | Hair / 3D sculpted strand 12-0
+Fra:1 Mem:29.88M (Peak 29.88M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 087 | Hair / 3D sculpted strand 12-1
+Fra:1 Mem:29.89M (Peak 29.89M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 089 | Hair / 3D sculpted strand 13-1
+Fra:1 Mem:29.89M (Peak 29.89M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 134 | Shoe R / shoelace bridge 3
+Fra:1 Mem:29.93M (Peak 29.93M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 133 | Shoe R / shoelace bridge 2
+Fra:1 Mem:29.94M (Peak 29.94M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 090 | Hair / 3D sculpted strand 14-0
+Fra:1 Mem:29.96M (Peak 29.96M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 132 | Shoe R / shoelace bridge 1
+Fra:1 Mem:29.98M (Peak 29.98M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 092 | Hair / 3D sculpted strand 15-0
+Fra:1 Mem:29.98M (Peak 29.98M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 131 | Shoe R / shoelace bridge 0
+Fra:1 Mem:30.00M (Peak 30.00M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 094 | Hair / 3D sculpted strand 16-0
+Fra:1 Mem:30.01M (Peak 30.01M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 130 | Shoe R / heel amber reflector
+Fra:1 Mem:30.03M (Peak 30.03M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 095 | Hair / 3D sculpted strand 16-1
+Fra:1 Mem:30.05M (Peak 30.05M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 129 | Shoe R / frontal toe cap
+Fra:1 Mem:30.06M (Peak 30.06M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 096 | Hair / 3D sculpted strand 17-0
+Fra:1 Mem:30.08M (Peak 30.08M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 128 | Shoe R / molded white rubber sole
+Fra:1 Mem:30.09M (Peak 30.09M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 097 | Hair / 3D sculpted strand 17-1
+Fra:1 Mem:30.09M (Peak 30.09M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 098 | Hair / temple faded sideburn
+Fra:1 Mem:30.11M (Peak 30.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 127 | Shoe R / breathable sneaker body
+Fra:1 Mem:30.14M (Peak 30.14M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 099 | Hair / temple faded sideburn
+Fra:1 Mem:30.16M (Peak 30.16M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 101 | Hand L finger 0
+Fra:1 Mem:30.20M (Peak 30.20M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 102 | Finger L 0 fingertip
+Fra:1 Mem:30.21M (Peak 30.21M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 103 | Hand L finger 1
+Fra:1 Mem:30.25M (Peak 30.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 104 | Finger L 1 fingertip
+Fra:1 Mem:30.24M (Peak 30.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 106 | Finger L 2 fingertip
+Fra:1 Mem:30.26M (Peak 30.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 125 | Shoe L / running groove 1
+Fra:1 Mem:30.27M (Peak 30.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 107 | Hand L thumb
+Fra:1 Mem:30.29M (Peak 30.29M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 108 | Hand R / palm human skin
+Fra:1 Mem:30.29M (Peak 30.29M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 124 | Shoe L / running groove 0
+Fra:1 Mem:30.29M (Peak 30.29M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 110 | Finger R 0 fingertip
+Fra:1 Mem:30.32M (Peak 30.32M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 123 | Shoe L / shoelace bridge 3
+Fra:1 Mem:30.32M (Peak 30.32M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 111 | Hand R finger 1
+Fra:1 Mem:30.34M (Peak 30.34M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 112 | Finger R 1 fingertip
+Fra:1 Mem:30.36M (Peak 30.36M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 113 | Hand R finger 2
+Fra:1 Mem:30.39M (Peak 30.39M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 122 | Shoe L / shoelace bridge 2
+Fra:1 Mem:30.39M (Peak 30.39M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 114 | Finger R 2 fingertip
+Fra:1 Mem:30.41M (Peak 30.41M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 121 | Shoe L / shoelace bridge 1
+Fra:1 Mem:30.41M (Peak 30.41M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 117 | Shoe L / molded white rubber sole
+Fra:1 Mem:30.42M (Peak 30.42M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 118 | Shoe L / frontal toe cap
+Fra:1 Mem:30.45M (Peak 30.45M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 119 | Shoe L / heel amber reflector
+Fra:1 Mem:30.47M (Peak 30.47M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 120 | Shoe L / shoelace bridge 0
+Fra:1 Mem:30.49M (Peak 30.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:22.55M (Peak 30.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:22.56M (Peak 30.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:22.56M (Peak 30.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:22.56M (Peak 30.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:22.65M (Peak 30.49M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:22.65M (Peak 30.49M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:22.65M (Peak 30.49M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:22.65M (Peak 30.49M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:22.65M (Peak 30.49M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:22.65M (Peak 30.49M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:22.68M (Peak 30.49M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:22.68M (Peak 30.49M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:22.68M (Peak 30.49M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:22.68M (Peak 30.49M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:23.32M (Peak 30.49M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:23.61M (Peak 30.49M) | Time:00:00.01 | Mem:0.05M, Peak:0.05M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:23.59M (Peak 30.49M) | Time:00:00.01 | Mem:0.31M, Peak:0.31M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:23.59M (Peak 30.49M) | Time:00:00.01 | Mem:0.31M, Peak:0.31M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:23.59M (Peak 30.49M) | Time:00:00.01 | Mem:1.59M, Peak:1.59M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:23.59M (Peak 30.49M) | Time:00:00.02 | Mem:3.12M, Peak:4.40M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:23.59M (Peak 30.49M) | Time:00:00.02 | Mem:3.12M, Peak:4.40M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:3.12M, Peak:4.40M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.60M, Peak:4.60M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.60M, Peak:4.60M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.60M, Peak:4.60M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.60M, Peak:4.60M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.60M, Peak:4.60M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.68M, Peak:4.68M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.68M, Peak:4.68M | Scene, ViewLayer | Updating Lights | Computing distribution
+Fra:1 Mem:25.07M (Peak 30.49M) | Time:00:00.02 | Mem:4.68M, Peak:4.68M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:25.65M (Peak 30.49M) | Time:00:00.03 | Mem:5.27M, Peak:5.27M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:26.65M (Peak 30.49M) | Time:00:00.03 | Mem:6.27M, Peak:6.27M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:26.66M (Peak 30.49M) | Time:00:00.03 | Mem:6.19M, Peak:6.27M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:26.66M (Peak 30.49M) | Time:00:00.03 | Mem:6.27M, Peak:6.27M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:26.66M (Peak 30.49M) | Time:00:00.03 | Mem:6.27M, Peak:6.27M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:26.66M (Peak 30.49M) | Time:00:00.03 | Mem:6.27M, Peak:6.27M | Scene, ViewLayer | Sample 0/24
+Fra:1 Mem:66.72M (Peak 66.72M) | Time:00:01.59 | Remaining:00:35.97 | Mem:46.32M, Peak:46.32M | Scene, ViewLayer | Sample 1/24
+Fra:1 Mem:66.72M (Peak 66.72M) | Time:00:25.39 | Remaining:00:10.44 | Mem:46.32M, Peak:46.32M | Scene, ViewLayer | Sample 17/24
+Fra:1 Mem:84.52M (Peak 120.12M) | Time:00:35.85 | Mem:46.32M, Peak:46.32M | Scene, ViewLayer | Sample 24/24
+Fra:1 Mem:84.52M (Peak 120.12M) | Time:00:35.85 | Mem:46.32M, Peak:46.32M | Scene, ViewLayer | Finished
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/05-AETHER-Portrait-Closeup.png'
+Time: 00:35.97 (Saving: 00:00.11)
+
+AETHER_RENDER 05-AETHER-Portrait-Closeup.png 1436281
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0000.png'
+Time: 00:03.37 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0001.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0002.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0003.png'
+Time: 00:00.62 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0004.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0005.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0006.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0007.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0008.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0009.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0010.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0011.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0012.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0013.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0014.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0015.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0016.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0017.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0018.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0019.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0020.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0021.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0022.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0023.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+AETHER_MOTION_RENDERED Idle 24 frames
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0024.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0025.png'
+Time: 00:00.64 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0026.png'
+Time: 00:00.65 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0027.png'
+Time: 00:00.65 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0028.png'
+Time: 00:00.65 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0029.png'
+Time: 00:00.65 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0030.png'
+Time: 00:00.65 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0031.png'
+Time: 00:00.65 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0032.png'
+Time: 00:00.64 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0033.png'
+Time: 00:00.64 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0034.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0035.png'
+Time: 00:00.64 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0036.png'
+Time: 00:00.64 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0037.png'
+Time: 00:00.64 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0038.png'
+Time: 00:00.65 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0039.png'
+Time: 00:00.65 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0040.png'
+Time: 00:00.65 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0041.png'
+Time: 00:00.65 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0042.png'
+Time: 00:00.65 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0043.png'
+Time: 00:00.65 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0044.png'
+Time: 00:00.64 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0045.png'
+Time: 00:00.64 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0046.png'
+Time: 00:00.64 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0047.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+AETHER_MOTION_RENDERED Walk 24 frames
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0048.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0049.png'
+Time: 00:00.64 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0050.png'
+Time: 00:00.68 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0051.png'
+Time: 00:00.66 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0052.png'
+Time: 00:00.66 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0053.png'
+Time: 00:00.64 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0054.png'
+Time: 00:00.64 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0055.png'
+Time: 00:00.65 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0056.png'
+Time: 00:00.66 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0057.png'
+Time: 00:00.66 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0058.png'
+Time: 00:00.66 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0059.png'
+Time: 00:00.65 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0060.png'
+Time: 00:00.64 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0061.png'
+Time: 00:00.65 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0062.png'
+Time: 00:00.66 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0063.png'
+Time: 00:00.66 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0064.png'
+Time: 00:00.66 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0065.png'
+Time: 00:00.65 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0066.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0067.png'
+Time: 00:00.64 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0068.png'
+Time: 00:00.66 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0069.png'
+Time: 00:00.66 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0070.png'
+Time: 00:00.66 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0071.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+AETHER_MOTION_RENDERED Run 24 frames
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0072.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0073.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0074.png'
+Time: 00:00.64 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0075.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0076.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0077.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0078.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0079.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0080.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0081.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0082.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0083.png'
+Time: 00:00.64 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0084.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0085.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0086.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0087.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0088.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0089.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0090.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0091.png'
+Time: 00:00.64 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0092.png'
+Time: 00:00.64 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0093.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0094.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Saved: '/home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/sample_frames/frame-0095.png'
+Time: 00:00.64 (Saving: 00:00.05)
+
+AETHER_MOTION_RENDERED Punch 24 frames
+AETHER_MOTION_FRAMES_TOTAL 96
+
+Blender quit

@@ -1,0 +1,23 @@
+AETHER_STAGE 00 / Studio prepared MESH_PARTS 0
+AETHER_STAGE 01 / Full humanoid armature with hands and toes MESH_PARTS 0
+AETHER_STAGE 02 / Contoured torso and athletic textile MESH_PARTS 11
+AETHER_STAGE 03 / L human leg muscle shapes and clothes MESH_PARTS 19
+AETHER_STAGE 03 / R human leg muscle shapes and clothes MESH_PARTS 27
+AETHER_STAGE 04 / L upper arm, forearm and cuffs MESH_PARTS 33
+AETHER_STAGE 04 / R upper arm, forearm and cuffs MESH_PARTS 39
+AETHER_STAGE 05 / Face with eyes, nose, ears, eyebrows and lips MESH_PARTS 59
+AETHER_STAGE 06 / Sculpted short hairstyle and face detailing MESH_PARTS 98
+AETHER_STAGE 07 / L human hands with independently skinned fingers MESH_PARTS 106
+AETHER_STAGE 07 / R human hands with independently skinned fingers MESH_PARTS 114
+AETHER_STAGE 08 / L high-detail athletic footwear MESH_PARTS 125
+AETHER_STAGE 08 / R high-detail athletic footwear MESH_PARTS 136
+AETHER_STAGE 09 / Character branding, suit reflectors and finishing MESH_PARTS 140
+AETHER_STAGE 10 / ANIMATED Idle 99 keyed channels MESH_PARTS 140
+AETHER_STAGE 10 / ANIMATED Walk 99 keyed channels MESH_PARTS 140
+AETHER_STAGE 10 / ANIMATED Run 99 keyed channels MESH_PARTS 140
+AETHER_STAGE 10 / ANIMATED Punch 99 keyed channels MESH_PARTS 140
+AETHER_RIG_BONES 24
+AETHER_CHARACTER_MESHES 140
+AETHER_ACTIONS Idle,Walk,Run,Punch
+AETHER_STAGE FINISHED / BLEND + RIGGED GLB + ANIMATION CLIPS MESH_PARTS 140
+AETHER_COMPLETED

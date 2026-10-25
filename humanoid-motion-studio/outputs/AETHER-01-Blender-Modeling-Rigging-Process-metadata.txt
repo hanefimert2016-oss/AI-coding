@@ -1,0 +1,7 @@
+codec_name=h264
+profile=Constrained Baseline
+width=1280
+height=720
+nb_frames=3192
+duration=133.000000
+size=1592922

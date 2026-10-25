@@ -1,0 +1,3 @@
+SKINS=1
+ANIMATIONS=Idle,Punch,Run,Walk
+MESHES=140
