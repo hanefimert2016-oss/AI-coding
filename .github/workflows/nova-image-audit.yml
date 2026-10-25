@@ -1,0 +1,70 @@
+name: NOVA rig human - verify portrait render and animation contact sheet
+on:
+  push:
+    branches: [mechanical-arm-workshop]
+    paths: ['.github/workflows/nova-image-audit.yml']
+permissions:
+  contents: write
+jobs:
+  create-contact-sheet:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: mechanical-arm-workshop
+          fetch-depth: 0
+      - name: Install PNG and video readers
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq --no-install-recommends python3-pil ffmpeg
+      - name: Create visual audit from actual pose PNGs and real Blender video
+        run: |
+          set -euo pipefail
+          OUT=characters/nova-01/outputs
+          mkdir -p "$OUT/audit"
+          for SECOND in 12 37 67; do
+            ffmpeg -hide_banner -loglevel error -nostdin -ss "$SECOND" \
+              -i "$OUT/NOVA-01-Real-Blender-Modeling-And-Rigging.mp4" -frames:v 1 \
+              "$OUT/audit/modeling-$(printf '%02d' "$SECOND").png"
+          done
+          python3 - <<'PY'
+          from pathlib import Path
+          from PIL import Image,ImageStat,ImageDraw,ImageFont
+          from io import BytesIO
+          import base64
+          o=Path("characters/nova-01/outputs")
+          audit=o/"audit"
+          names=["01-NOVA-Full-Body-Idle.png","02-NOVA-Walk-Cycle.png",
+                 "03-NOVA-Run-Cycle.png","04-NOVA-Punch-Action.png"]
+          out=Image.new("RGB",(1000,660),(16,25,39))
+          draw=ImageDraw.Draw(out)
+          for i,n in enumerate(names):
+              im=Image.open(o/n).convert("RGB");im.thumbnail((500,295))
+              x=(i%2)*500;y=(i//2)*330+28
+              out.paste(im,(x,y))
+              draw.text((x+12,y-22),["IDLE","WALK","RUN","PUNCH"][i],fill=(173,235,250))
+              print("RENDER_RGB",n,[round(x,1) for x in ImageStat.Stat(im).stddev])
+          out.save(audit/"four-poses-contact-sheet.jpg",quality=82,optimize=True)
+          stage=Image.new("RGB",(1050,320),(15,22,34))
+          d=ImageDraw.Draw(stage)
+          for i,second in enumerate((12,37,67)):
+              im=Image.open(audit/("modeling-%02d.png"%second)).convert("RGB")
+              im.thumbnail((350,250))
+              stage.paste(im,(350*i,36))
+              d.text((350*i+8,8),str(second)+" SEC",fill=(142,228,250))
+          stage.save(audit/"three-blender-modeling-stages.jpg",quality=82,optimize=True)
+          # Expose condensed previews through GitHub UTF-8 content fetch
+          for src,name in [(audit/"four-poses-contact-sheet.jpg","POSE-AUDIT.b64.txt"),
+                           (audit/"three-blender-modeling-stages.jpg","VIDEO-AUDIT.b64.txt")]:
+              image=Image.open(src).convert("RGB")
+              io=BytesIO();image.save(io,format="JPEG",quality=68,optimize=True)
+              (audit/name).write_text(base64.b64encode(io.getvalue()).decode("ascii")+"\n")
+          PY
+      - name: Commit photo audit and export thumbnails
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add characters/nova-01/outputs/audit
+          git commit -m "Inspect actual NOVA humanoid poses and Blender modeling capture"
+          git push origin HEAD:mechanical-arm-workshop
