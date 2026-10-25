@@ -1,0 +1,316 @@
+AETHER_STAGE 00 / Studio prepared MESH_PARTS 0
+AETHER_LIVE_BLENDER_MODELING_STARTED
+AETHER_STAGE 01 / Full humanoid armature with hands and toes MESH_PARTS 0
+AETHER_STAGE 02 / Contoured torso and athletic textile MESH_PARTS 11
+AETHER_STAGE 03 / L human leg muscle shapes and clothes MESH_PARTS 19
+AETHER_STAGE 03 / R human leg muscle shapes and clothes MESH_PARTS 27
+AETHER_STAGE 04 / L upper arm, forearm and cuffs MESH_PARTS 33
+AETHER_STAGE 04 / R upper arm, forearm and cuffs MESH_PARTS 39
+AETHER_STAGE 05 / Face with eyes, nose, ears, eyebrows and lips MESH_PARTS 59
+AETHER_STAGE 06 / Sculpted short hairstyle and face detailing MESH_PARTS 98
+AETHER_STAGE 07 / L human hands with independently skinned fingers MESH_PARTS 106
+AETHER_STAGE 07 / R human hands with independently skinned fingers MESH_PARTS 114
+AETHER_STAGE 08 / L high-detail athletic footwear MESH_PARTS 125
+AETHER_STAGE 08 / R high-detail athletic footwear MESH_PARTS 136
+AETHER_STAGE 09 / Character branding, suit reflectors and finishing MESH_PARTS 140
+AETHER_STAGE 10 / ANIMATED Idle 99 keyed channels MESH_PARTS 140
+AETHER_STAGE 10 / ANIMATED Walk 99 keyed channels MESH_PARTS 140
+AETHER_STAGE 10 / ANIMATED Run 99 keyed channels MESH_PARTS 140
+AETHER_STAGE 10 / ANIMATED Punch 99 keyed channels MESH_PARTS 140
+Info: Total files 0 | Changed 0 | Failed 0
+/usr/share/blender/scripts/addons/io_scene_gltf2/io/exp/gltf2_io_image_data.py:25: SyntaxWarning: invalid escape sequence '\.'
+  regex_dot = re.compile("\.")
+/usr/share/blender/scripts/addons/io_scene_gltf2/io/exp/gltf2_io_image_data.py:27: SyntaxWarning: invalid escape sequence '\]'
+  new_name = "".join([char for char in adjusted_name if char not in "!#$&'()*+,/:;<>?@[\]^`{|}~"])
+Info: Saved "AETHER-01-Rigged-Animated-Human.blend"
+17:47:18 | ERROR: Draco mesh compression is not available because library could not be found at /usr/bin/4.0/python/lib/python3.12/site-packages/libextern_draco.so
+17:47:19 | INFO: Starting glTF 2.0 export
+17:47:19 | INFO: Extracting primitive: Pants / athletic pelvic block_mesh
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Torso / fitted compression undershirt_mesh
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Chest / technical jacket_mesh
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Jacket zipper front
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Cube.002
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Torso sports seam
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.001
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Torso sports seam.001
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.002
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Cube.003
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Thigh L / tapered running tights_mesh
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Lower leg L / shin fabric_mesh
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.003
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.004
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Thigh L / luminous contour stripe_mesh
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Cube.004
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Cube.005
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Cube.006
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Thigh R / tapered running tights_mesh
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Lower leg R / shin fabric_mesh
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.005
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.006
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Thigh R / luminous contour stripe_mesh
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Cube.007
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Cube.008
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Cube.009
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Upper arm L / tailored jacket sleeve_mesh
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.007
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Forearm L / tapered athletic sleeve_mesh
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Shoulder L / contrast stripe
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.008
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.009
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Upper arm R / tailored jacket sleeve_mesh
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.010
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Forearm R / tapered athletic sleeve_mesh
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Shoulder R / contrast stripe
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.011
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.012
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Neck / warm skin anatomy_mesh
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.013
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.014
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.015
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.016
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.017
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.018
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.019
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.020
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.021
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.022
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.023
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Eyebrow left hair_mesh
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.024
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.025
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.026
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.027
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.028
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Eyebrow right hair_mesh
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.029
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.030
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.031
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.032
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.033
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.034
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.035
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.036
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.037
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.038
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.039
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.040
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.041
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.042
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.043
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.044
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.045
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.046
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.047
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.048
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.049
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.050
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.051
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.052
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.053
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.054
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.055
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.056
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.057
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.058
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.059
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.060
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.061
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.062
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.063
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.064
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.065
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.066
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.067
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.068
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.069
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Hand L finger 0_mesh
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.070
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Hand L finger 1_mesh
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.071
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Hand L finger 2_mesh
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.072
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Hand L thumb_mesh
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.073
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Hand R finger 0_mesh
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.074
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Hand R finger 1_mesh
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.075
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Hand R finger 2_mesh
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.076
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Hand R thumb_mesh
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.077
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Cube.010
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Cube.011
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.078
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Cube.012
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Cube.013
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Cube.014
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Cube.015
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.079
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.080
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.081
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.082
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Cube.016
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Cube.017
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.083
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Cube.018
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Cube.019
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Cube.020
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Cube.021
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.084
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.085
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.086
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Tech label
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Tech label.001
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.087
+17:47:19 | INFO: Primitives created: 1
+17:47:19 | INFO: Extracting primitive: Sphere.088
+17:47:19 | INFO: Primitives created: 1
+17:47:20 | INFO: Finished glTF 2.0 export in 0.8907482624053955 s
+
+AETHER_RIG_BONES 24
+AETHER_CHARACTER_MESHES 140
+AETHER_ACTIONS Idle,Walk,Run,Punch
+AETHER_ASSET /home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/AETHER-01-Rigged-Animated-Human.blend 5591640
+AETHER_ASSET /home/runner/work/AI-coding/AI-coding/humanoid-motion-studio/outputs/AETHER-01-Rigged-Animated-Human.glb 1622040
+AETHER_STAGE FINISHED / BLEND + RIGGED GLB + ANIMATION CLIPS MESH_PARTS 140
+AETHER_COMPLETED
