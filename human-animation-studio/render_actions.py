@@ -22,10 +22,10 @@ rig=bpy.data.objects["KINETIC_HUMAN_RIG"]
 for track in rig.animation_data.nla_tracks:track.mute=True
 cam=scene.camera
 render_list=[
-    ("KINETIC-HUMAN-01-Idle.png","Idle_Breathing",20,(2.7,-5.1,2.50),2.53),
-    ("KINETIC-HUMAN-02-Walk.png","Walk_Loop",12,(3.15,-5.0,2.37),2.57),
-    ("KINETIC-HUMAN-03-Run.png","Run_Loop",10,(3.18,-5.0,2.41),2.57),
-    ("KINETIC-HUMAN-04-Punch.png","Punch_Right_Jab",26,(2.7,-4.65,2.45),2.45),
+    ("KINETIC-HUMAN-01-Idle.png","Idle_Breathing",20,(3.1,-6.1,2.65),3.76),
+    ("KINETIC-HUMAN-02-Walk.png","Walk_Loop",12,(3.1,-6.1,2.65),3.82),
+    ("KINETIC-HUMAN-03-Run.png","Run_Loop",10,(3.1,-6.1,2.65),3.82),
+    ("KINETIC-HUMAN-04-Punch.png","Punch_Right_Jab",26,(3.1,-6.1,2.65),3.76),
 ]
 for filename,action,frame,position,orthoscale in render_list:
     rig.animation_data.action=bpy.data.actions[action]
@@ -35,5 +35,5 @@ for filename,action,frame,position,orthoscale in render_list:
     cam.data.ortho_scale=orthoscale
     scene.render.filepath=os.path.join(out,filename)
     bpy.ops.render.render(write_still=True)
-    print("HUMAN_RENDER",filename,os.stat(scene.render.filepath).st_size,flush=True)
+    print("HUMAN_RENDER_FULL_BODY",filename,os.stat(scene.render.filepath).st_size,flush=True)
 print("HUMAN_RENDERING_COMPLETED")
