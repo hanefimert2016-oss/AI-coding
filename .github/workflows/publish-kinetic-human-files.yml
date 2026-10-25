@@ -1,0 +1,73 @@
+name: Publish verified KINETIC HUMAN final files
+
+on:
+  push:
+    branches: [human-rig-animation-studio]
+    paths:
+      - ".github/workflows/publish-kinetic-human-files.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  publish-previously-verified-artifact:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - name: Checkout latest human project branch
+        uses: actions/checkout@v4
+        with:
+          ref: human-rig-animation-studio
+          fetch-depth: 0
+
+      - name: Retrieve completed rig, GLB, video and PNGs without re-rendering
+        uses: actions/download-artifact@v4
+        with:
+          run-id: 40216840790
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          name: KINETIC-HUMAN-RIG-WALK-RUN-PUNCH-GLB-BLEND-MP4
+          path: human-animation-studio/output/
+
+      - name: Validate animated output is complete
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT=human-animation-studio/output
+          for fname in \
+            KINETIC-HUMAN-Rigged-Animated.glb \
+            KINETIC-HUMAN-Rigged-Animated.blend \
+            KINETIC-HUMAN-Real-Blender-Creation-And-Animations.mp4 \
+            KINETIC-HUMAN-01-Idle.png \
+            KINETIC-HUMAN-02-Walk.png \
+            KINETIC-HUMAN-03-Run.png \
+            KINETIC-HUMAN-04-Punch.png \
+            Modeling-Progress-Contact-Sheet.jpg \
+            rig-animation-check.json; do
+            test -s "$OUT/$fname" || { echo "::error::Missing $fname"; exit 1; }
+          done
+          python3 - <<'PY'
+          import json,struct
+          from pathlib import Path
+          out=Path("human-animation-studio/output")
+          b=(out/"KINETIC-HUMAN-Rigged-Animated.glb").read_bytes()
+          assert b[:4]==b'glTF'
+          n=struct.unpack_from('<I',b,12)[0]
+          gltf=json.loads(b[20:20+n])
+          names=[a.get('name','') for a in gltf.get('animations',[])]
+          assert len(gltf.get('skins',[]))>=1
+          for required in ['Idle','Walk','Run','Punch']:
+              assert any(required.lower() in x.lower() for x in names)
+          print("RIGGED_GLTF_WITH_ALL_ACTIONS",names)
+          PY
+
+      - name: Publish binary outputs into dedicated project branch
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add human-animation-studio/output
+          git commit -m "Publish verified rigged human GLB BLEND MP4 and four motion PNG renders"
+          git push origin HEAD:human-rig-animation-studio
+          echo "All original Blender-generated assets are now available as permanent GitHub file links." >> "$GITHUB_STEP_SUMMARY"
