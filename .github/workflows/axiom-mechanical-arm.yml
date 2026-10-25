@@ -1,0 +1,173 @@
+name: AXIOM-6 robotic arm - Blender modeling MP4 GLB BLEND
+
+on:
+  push:
+    branches: [mechanical-arm-workshop]
+    paths:
+      - ".github/workflows/axiom-mechanical-arm.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: axiom6-blender-modeler
+  cancel-in-progress: false
+
+jobs:
+  model-and-record:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - name: Check out Blender modeling source
+        uses: actions/checkout@v4
+        with:
+          ref: mechanical-arm-workshop
+          fetch-depth: 0
+
+      - name: Install real Blender GUI + Blender exporter + ffmpeg recording
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive timeout 480s apt-get install -y --no-install-recommends \
+            blender python3-numpy xvfb xauth openbox xdotool wmctrl scrot ffmpeg \
+            libgl1-mesa-dri libpulse0 mesa-utils fonts-dejavu-core
+          blender -b --factory-startup --python-expr \
+            "import bpy,numpy;print('AXIOM_BLENDER_VERSION',bpy.app.version_string,'NUMPY',numpy.__version__)" \
+            > install-verify.log 2>&1
+          cat install-verify.log
+          mkdir -p mechanical-arm/outputs
+
+      - name: Start Blender desktop and record the real 10-stage modeling process
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p mechanical-arm/outputs
+          OUT="$PWD/mechanical-arm/outputs"
+          export DISPLAY=:93
+          export LIBGL_ALWAYS_SOFTWARE=1
+          export MESA_GL_VERSION_OVERRIDE=4.5
+          Xvfb :93 -screen 0 1280x720x24 -nolisten tcp > "$OUT/xvfb.log" 2>&1 &
+          XVPID=$!
+          sleep 2
+          openbox > "$OUT/openbox.log" 2>&1 &
+          WMPID=$!
+          sleep 2
+          ffmpeg -hide_banner -loglevel error -y -nostdin \
+            -f x11grab -video_size 1280x720 -framerate 18 -i :93 \
+            -t 78 -c:v libx264 -preset ultrafast -crf 23 \
+            -pix_fmt yuv420p -movflags +faststart \
+            "$OUT/AXIOM-6-Blender-Modeling-Process.mp4" \
+            > "$OUT/ffmpeg.log" 2>&1 &
+          REC_PID=$!
+
+          timeout 120s blender -W --python mechanical-arm/axiom_builder.py -- "$OUT" --live \
+            > "$OUT/modeling-steps.log" 2>&1 &
+          BLENDER_PID=$!
+          sleep 15
+          wmctrl -l > "$OUT/blender-windows.txt" || true
+          scrot "$OUT/AXIOM-6-Modeling-In-Progress.png" || true
+
+          RESULT=0
+          for tick in $(seq 1 84); do
+            if grep -q 'AXIOM_COMPLETED' "$OUT/modeling-steps.log"; then
+              echo 'AXIOM_GUI_MODEL_COMPLETED'
+              break
+            fi
+            if ! kill -0 "$BLENDER_PID" 2>/dev/null; then
+              echo 'Blender GUI ended before completing the model.'
+              RESULT=1
+              break
+            fi
+            sleep 1
+          done
+          if ! grep -q 'AXIOM_COMPLETED' "$OUT/modeling-steps.log"; then
+            echo 'AXIOM_GUI_MODEL_TIMED_OUT'
+            RESULT=1
+          fi
+          scrot "$OUT/AXIOM-6-Finished-Blender-Viewport.png" || true
+          sleep 3
+          kill "$BLENDER_PID" 2>/dev/null || true
+          wait "$BLENDER_PID" 2>/dev/null || true
+          # Recording has independent finite duration and will finish on its own.
+          wait "$REC_PID" || RESULT=1
+          kill "$XVPID" "$WMPID" 2>/dev/null || true
+          tail -65 "$OUT/modeling-steps.log"
+          test "$RESULT" -eq 0
+          grep -E '^AXIOM_PHASE|^AXIOM_OBJECT_COUNT|^AXIOM_COMPLETED' "$OUT/modeling-steps.log" \
+            | tee "$OUT/modeling-verified.txt"
+          test -s "$OUT/AXIOM-6-Industrial-Robotic-Arm.blend"
+          test -s "$OUT/AXIOM-6-Industrial-Robotic-Arm.glb"
+          test -s "$OUT/AXIOM-6-Blender-Modeling-Process.mp4"
+
+      - name: Produce two studio-quality Cycles renders using actual BLEND file
+        run: |
+          set -euo pipefail
+          timeout 650s blender -b \
+            mechanical-arm/outputs/AXIOM-6-Industrial-Robotic-Arm.blend \
+            -t 4 \
+            --python mechanical-arm/render_stills.py -- "$PWD/mechanical-arm/outputs" \
+            > mechanical-arm/outputs/studio-render.log 2>&1 || {
+              tail -140 mechanical-arm/outputs/studio-render.log
+              exit 1
+            }
+          grep 'AXIOM_RENDER' mechanical-arm/outputs/studio-render.log
+          test -s mechanical-arm/outputs/AXIOM-6-Hero-Render.png
+          test -s mechanical-arm/outputs/AXIOM-6-Technical-Side.png
+
+      - name: Verify GLB meshes, Blender file header and actual captured MP4
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          import json,struct
+          out=Path("mechanical-arm/outputs")
+          b=(out/"AXIOM-6-Industrial-Robotic-Arm.glb").read_bytes()
+          assert b[:4]==b'glTF' and struct.unpack_from('<I',b,4)[0]==2
+          size=struct.unpack_from('<I',b,8)[0]
+          assert size==len(b)
+          json_size=struct.unpack_from('<I',b,12)[0]
+          info=json.loads(b[20:20+json_size])
+          meshes=len(info.get("meshes",[]))
+          nodes=len(info.get("nodes",[]))
+          assert meshes>=100, f"Insufficient high-detail meshes: {meshes}"
+          assert nodes>=100
+          blend=out/"AXIOM-6-Industrial-Robotic-Arm.blend"
+          assert blend.open('rb').read(7)==b'BLENDER'
+          for name in ["AXIOM-6-Hero-Render.png","AXIOM-6-Technical-Side.png",
+                       "AXIOM-6-Finished-Blender-Viewport.png"]:
+              p=out/name
+              assert p.exists() and p.stat().st_size>10000,name
+          print(f"AXIOM_GLTF_VALID meshes={meshes} nodes={nodes} size={len(b)}")
+          print(f"AXIOM_BLEND_VALID size={blend.stat().st_size}")
+          PY
+          ffprobe -v error \
+            -show_entries format=duration,size:stream=width,height,r_frame_rate \
+            -of default=nw=1 \
+            mechanical-arm/outputs/AXIOM-6-Blender-Modeling-Process.mp4 \
+            | tee mechanical-arm/outputs/video-metadata.txt
+          test -s mechanical-arm/outputs/AXIOM-6-Blender-Modeling-Process.mp4
+          echo "## AXIOM-6 complete" >> "$GITHUB_STEP_SUMMARY"
+          echo "Blender GUI created original meshes in 10 visible phases; exported editable BLEND, portable GLB, two studio renders and real desktop modeling MP4." >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Persist all final assets to GitHub branch for direct downloading
+        run: |
+          set -euo pipefail
+          OUT=mechanical-arm/outputs
+          ls -lah "$OUT"
+          find "$OUT" -maxdepth 1 -type f -size +95M -print -quit | \
+            grep -q . && { echo "::error::Output exceeds GitHub git individual-file limit"; exit 1; } || true
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$OUT"
+          git commit -m "Deliver AXIOM-6 Blender mechanical arm GLB BLEND modeling recording and rendered images"
+          git push origin HEAD:mechanical-arm-workshop
+
+      - name: Provide complete backup package for one-click download
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: AXIOM-6-BLEND-GLB-Modeling-MP4
+          path: mechanical-arm/outputs/
+          retention-days: 7
+          if-no-files-found: warn
