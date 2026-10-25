@@ -1,0 +1,1007 @@
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Belt technical buckle", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket pocket 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 3", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket chest color insert 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 3", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Mouth upper lip", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket pocket -1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Eyebrow L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket chest color insert -1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Front shirt / decorative zipper", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Eyebrow R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Rubber outsole R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sneaker toe cap R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Rubber outsole L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Boot leather ankle R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sneaker toe cap L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Boot leather ankle L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket pocket 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Belt technical buckle", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 3", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 3", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket chest color insert 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket pocket -1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket chest color insert -1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Mouth upper lip", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Front shirt / decorative zipper", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Eyebrow L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Rubber outsole L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Rubber outsole R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sneaker toe cap L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sneaker toe cap R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Eyebrow R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Boot leather ankle L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Boot leather ankle R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Belt technical buckle", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Belt technical buckle", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket pocket -1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket pocket -1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 3", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 3", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket pocket 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket pocket 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Mouth upper lip", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Mouth upper lip", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket chest color insert -1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket chest color insert -1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket chest color insert 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket chest color insert 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Eyebrow L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Eyebrow L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Front shirt / decorative zipper", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Front shirt / decorative zipper", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 3", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 3", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Eyebrow R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Eyebrow R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Rubber outsole L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Rubber outsole L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sneaker toe cap L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sneaker toe cap L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Boot leather ankle L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Boot leather ankle L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Boot leather ankle R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Boot leather ankle R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Rubber outsole R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Rubber outsole R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sneaker toe cap R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sneaker toe cap R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+Blender 4.0.2
+Read blend: "/home/runner/work/AI-coding/AI-coding/characters/nova-01/outputs/NOVA-01-Rigged-Human-Animated.blend"
+Fra:6 Mem:23.63M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | STUDIO GROUND — not included in GLB
+Fra:6 Mem:23.63M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tapered hip and pelvis
+Fra:6 Mem:23.67M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Inner undershirt neckline
+Fra:6 Mem:23.68M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Front shirt / decorative zipper
+Fra:6 Mem:23.70M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Raised shoulder deltoid -1
+Fra:6 Mem:23.72M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket pocket -1
+Fra:6 Mem:23.74M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Raised shoulder deltoid 1
+Fra:6 Mem:23.74M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket chest color insert 1
+Fra:6 Mem:23.78M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket pocket 1
+Fra:6 Mem:23.79M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Belt technical buckle
+Fra:6 Mem:23.80M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skull / proportional cranium
+Fra:6 Mem:23.82M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jaw and chin
+Fra:6 Mem:23.86M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nose bridge
+Fra:6 Mem:23.92M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nose tip
+Fra:6 Mem:23.95M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | External ear R
+Fra:6 Mem:23.97M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye white R
+Fra:6 Mem:23.97M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Iris R
+Fra:6 Mem:24.01M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pupil R
+Fra:6 Mem:24.04M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eyebrow R
+Fra:6 Mem:24.05M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | External ear L
+Fra:6 Mem:24.06M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye white L
+Fra:6 Mem:24.12M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Iris L
+Fra:6 Mem:24.15M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pupil L
+Fra:6 Mem:24.18M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cheek volume L
+Fra:6 Mem:24.21M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Mouth upper lip
+Fra:6 Mem:24.22M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side fade -1
+Fra:6 Mem:24.22M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side fade 1
+Fra:6 Mem:24.32M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Individually sculpted hair lock 00
+Fra:6 Mem:24.34M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Individually sculpted hair lock 01
+Fra:6 Mem:24.38M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Individually sculpted hair lock 02
+Fra:6 Mem:24.40M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Individually sculpted hair lock 04
+Fra:6 Mem:24.42M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Individually sculpted hair lock 05
+Fra:6 Mem:24.48M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Individually sculpted hair lock 06
+Fra:6 Mem:24.48M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Individually sculpted hair lock 07
+Fra:6 Mem:24.52M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Individually sculpted hair lock 08
+Fra:6 Mem:24.52M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Upper arm jacket / R
+Fra:6 Mem:24.54M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket cuff / R
+Fra:6 Mem:24.58M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Soft elbow connector / R
+Fra:6 Mem:24.59M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Technical forearm sleeve / R
+Fra:6 Mem:24.63M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wrist skin / R
+Fra:6 Mem:24.63M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hand palm / R
+Fra:6 Mem:24.64M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hand finger R 0
+Fra:6 Mem:24.67M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hand finger R 1
+Fra:6 Mem:24.67M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoulder reflective tape L 2
+Fra:6 Mem:24.69M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hand finger R 3
+Fra:6 Mem:24.70M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Thumb R
+Fra:6 Mem:24.72M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Anatomical thigh / denim R
+Fra:6 Mem:24.72M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoulder reflective tape L 1
+Fra:6 Mem:24.73M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Kneecap / tailored trouser R
+Fra:6 Mem:24.75M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoulder reflective tape L 0
+Fra:6 Mem:24.77M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sock heel R
+Fra:6 Mem:24.80M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Boot leather ankle R
+Fra:6 Mem:24.81M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side trouser stitching L 3
+Fra:6 Mem:24.83M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rubber outsole R
+Fra:6 Mem:24.84M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side trouser stitching L 2
+Fra:6 Mem:24.84M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoe lacing R 1
+Fra:6 Mem:24.85M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side trouser stitching L 1
+Fra:6 Mem:24.87M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side trouser stitching L 0
+Fra:6 Mem:24.87M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoe lacing R 3
+Fra:6 Mem:24.89M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Glowing wrist wearable R
+Fra:6 Mem:24.91M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Elbow protective seam R
+Fra:6 Mem:24.93M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoulder reflective tape R 2
+Fra:6 Mem:24.96M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Upper arm jacket / L
+Fra:6 Mem:24.98M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket cuff / L
+Fra:6 Mem:24.98M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Technical forearm sleeve / L
+Fra:6 Mem:25.03M (Peak 25.03M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wrist skin / L
+Fra:6 Mem:25.06M (Peak 25.06M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hand palm / L
+Fra:6 Mem:25.05M (Peak 25.06M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hand finger L 0
+Fra:6 Mem:25.08M (Peak 25.08M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hand finger L 1
+Fra:6 Mem:25.08M (Peak 25.08M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hand finger L 2
+Fra:6 Mem:25.09M (Peak 25.09M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hand finger L 3
+Fra:6 Mem:25.10M (Peak 25.10M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoulder reflective tape R 1
+Fra:6 Mem:25.11M (Peak 25.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Thumb L
+Fra:6 Mem:25.12M (Peak 25.12M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Anatomical thigh / denim L
+Fra:6 Mem:25.14M (Peak 25.14M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Kneecap / tailored trouser L
+Fra:6 Mem:25.16M (Peak 25.16M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shin / tapered denim L
+Fra:6 Mem:25.18M (Peak 25.18M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sock heel L
+Fra:6 Mem:25.20M (Peak 25.20M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side trouser stitching R 3
+Fra:6 Mem:25.20M (Peak 25.20M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker toe cap L
+Fra:6 Mem:25.21M (Peak 25.21M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rubber outsole L
+Fra:6 Mem:25.23M (Peak 25.23M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoe lacing L 0
+Fra:6 Mem:25.24M (Peak 25.24M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoe lacing L 1
+Fra:6 Mem:25.25M (Peak 25.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoe lacing L 2
+Fra:6 Mem:25.26M (Peak 25.26M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoe lacing L 3
+Fra:6 Mem:25.26M (Peak 25.26M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Elbow protective seam L
+Fra:6 Mem:25.31M (Peak 25.31M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side trouser stitching R 0
+Fra:6 Mem:25.33M (Peak 25.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side trouser stitching R 1
+Fra:6 Mem:25.33M (Peak 25.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:6 Mem:19.19M (Peak 25.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:6 Mem:19.19M (Peak 25.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:6 Mem:19.19M (Peak 25.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:6 Mem:19.19M (Peak 25.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:6 Mem:19.28M (Peak 25.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Procedurals
+Fra:6 Mem:19.28M (Peak 25.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Background
+Fra:6 Mem:19.28M (Peak 25.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Camera
+Fra:6 Mem:19.28M (Peak 25.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:6 Mem:19.28M (Peak 25.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects
+Fra:6 Mem:19.28M (Peak 25.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:6 Mem:19.31M (Peak 25.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:6 Mem:19.31M (Peak 25.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Particle Systems
+Fra:6 Mem:19.31M (Peak 25.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:6 Mem:19.31M (Peak 25.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Meshes
+Fra:6 Mem:19.78M (Peak 25.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:6 Mem:19.98M (Peak 25.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:6 Mem:19.96M (Peak 25.33M) | Time:00:00.01 | Mem:0.22M, Peak:0.22M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:6 Mem:19.96M (Peak 25.33M) | Time:00:00.01 | Mem:0.22M, Peak:0.22M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:6 Mem:19.96M (Peak 25.33M) | Time:00:00.01 | Mem:1.16M, Peak:1.16M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:6 Mem:19.96M (Peak 25.33M) | Time:00:00.02 | Mem:2.28M, Peak:3.21M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:6 Mem:19.96M (Peak 25.33M) | Time:00:00.02 | Mem:2.28M, Peak:3.21M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:6 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:2.28M, Peak:3.21M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:6 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:3.34M, Peak:3.34M | Scene, ViewLayer | Updating Objects Flags
+Fra:6 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:3.34M, Peak:3.34M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:6 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:3.34M, Peak:3.34M | Scene, ViewLayer | Updating Images
+Fra:6 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:3.34M, Peak:3.34M | Scene, ViewLayer | Updating Camera Volume
+Fra:6 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:3.34M, Peak:3.34M | Scene, ViewLayer | Updating Lookup Tables
+Fra:6 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:3.42M, Peak:3.42M | Scene, ViewLayer | Updating Lights
+Fra:6 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:3.42M, Peak:3.42M | Scene, ViewLayer | Updating Lights | Computing distribution
+Fra:6 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:3.42M, Peak:3.42M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:6 Mem:21.40M (Peak 25.33M) | Time:00:00.02 | Mem:3.80M, Peak:3.80M | Scene, ViewLayer | Updating Integrator
+Fra:6 Mem:22.40M (Peak 25.33M) | Time:00:00.03 | Mem:4.80M, Peak:4.80M | Scene, ViewLayer | Updating Film
+Fra:6 Mem:22.40M (Peak 25.33M) | Time:00:00.03 | Mem:4.72M, Peak:4.80M | Scene, ViewLayer | Updating Lookup Tables
+Fra:6 Mem:22.40M (Peak 25.33M) | Time:00:00.03 | Mem:4.80M, Peak:4.80M | Scene, ViewLayer | Updating Baking
+Fra:6 Mem:22.40M (Peak 25.33M) | Time:00:00.03 | Mem:4.80M, Peak:4.80M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:6 Mem:22.41M (Peak 25.33M) | Time:00:00.03 | Mem:4.80M, Peak:4.80M | Scene, ViewLayer | Sample 0/28
+Fra:6 Mem:65.68M (Peak 65.68M) | Time:00:01.38 | Remaining:00:36.46 | Mem:48.06M, Peak:48.06M | Scene, ViewLayer | Sample 1/28
+Fra:6 Mem:65.68M (Peak 65.68M) | Time:00:21.67 | Remaining:00:14.00 | Mem:48.06M, Peak:48.06M | Scene, ViewLayer | Sample 17/28
+Fra:6 Mem:84.91M (Peak 123.36M) | Time:00:35.71 | Mem:48.06M, Peak:48.06M | Scene, ViewLayer | Sample 28/28
+Fra:6 Mem:84.91M (Peak 123.36M) | Time:00:35.71 | Mem:48.06M, Peak:48.06M | Scene, ViewLayer | Finished
+Saved: '/home/runner/work/AI-coding/AI-coding/characters/nova-01/outputs/01-NOVA-Full-Body-Idle.png'
+Time: 00:36.04 (Saving: 00:00.32)
+
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Belt technical buckle", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket pocket 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 3", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 3", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket chest color insert 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Boot leather ankle L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Boot leather ankle R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket pocket -1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket chest color insert -1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Front shirt / decorative zipper", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Rubber outsole L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Rubber outsole R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Mouth upper lip", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sneaker toe cap L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sneaker toe cap R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Eyebrow L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Eyebrow R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+NOVA_RENDER Idle /home/runner/work/AI-coding/AI-coding/characters/nova-01/outputs/01-NOVA-Full-Body-Idle.png 2063813
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Belt technical buckle", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket pocket 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 3", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 3", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket chest color insert 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket pocket -1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Mouth upper lip", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket chest color insert -1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Eyebrow L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Front shirt / decorative zipper", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Rubber outsole R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Rubber outsole L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sneaker toe cap L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Eyebrow R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sneaker toe cap R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Boot leather ankle L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Boot leather ankle R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Belt technical buckle", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Belt technical buckle", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket pocket 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket pocket 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 3", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 3", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 3", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 3", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket chest color insert 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket chest color insert 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Mouth upper lip", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Mouth upper lip", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket pocket -1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket pocket -1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket chest color insert -1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket chest color insert -1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Eyebrow L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Eyebrow L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Rubber outsole R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Rubber outsole R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Front shirt / decorative zipper", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Front shirt / decorative zipper", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Rubber outsole L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Rubber outsole L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Eyebrow R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Eyebrow R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sneaker toe cap R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sneaker toe cap R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sneaker toe cap L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sneaker toe cap L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Boot leather ankle R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Boot leather ankle R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Boot leather ankle L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Boot leather ankle L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+Fra:7 Mem:23.72M (Peak 23.72M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | STUDIO GROUND — not included in GLB
+Fra:7 Mem:23.73M (Peak 23.73M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tapered hip and pelvis
+Fra:7 Mem:23.75M (Peak 23.75M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Inner undershirt neckline
+Fra:7 Mem:23.77M (Peak 23.77M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Neck above jacket collar
+Fra:7 Mem:23.78M (Peak 23.78M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Raised shoulder deltoid -1
+Fra:7 Mem:23.79M (Peak 23.79M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket chest color insert -1
+Fra:7 Mem:23.79M (Peak 23.79M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket pocket -1
+Fra:7 Mem:23.84M (Peak 23.84M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Raised shoulder deltoid 1
+Fra:7 Mem:23.84M (Peak 23.84M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket pocket 1
+Fra:7 Mem:23.88M (Peak 23.88M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Belt technical buckle
+Fra:7 Mem:23.89M (Peak 23.89M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nose bridge
+Fra:7 Mem:23.96M (Peak 23.96M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nose tip
+Fra:7 Mem:24.02M (Peak 24.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | External ear R
+Fra:7 Mem:24.04M (Peak 24.04M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye white R
+Fra:7 Mem:24.07M (Peak 24.07M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Iris R
+Fra:7 Mem:24.07M (Peak 24.07M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pupil R
+Fra:7 Mem:24.09M (Peak 24.09M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eyebrow R
+Fra:7 Mem:24.13M (Peak 24.13M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cheek volume R
+Fra:7 Mem:24.15M (Peak 24.15M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | External ear L
+Fra:7 Mem:24.15M (Peak 24.15M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Iris L
+Fra:7 Mem:24.23M (Peak 24.23M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pupil L
+Fra:7 Mem:24.22M (Peak 24.23M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cheek volume L
+Fra:7 Mem:24.25M (Peak 24.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Mouth upper lip
+Fra:7 Mem:24.26M (Peak 24.26M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main side-parted cropped hair cap
+Fra:7 Mem:24.27M (Peak 24.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side fade -1
+Fra:7 Mem:24.36M (Peak 24.36M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side fade 1
+Fra:7 Mem:24.38M (Peak 24.38M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Individually sculpted hair lock 01
+Fra:7 Mem:24.41M (Peak 24.41M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Individually sculpted hair lock 02
+Fra:7 Mem:24.46M (Peak 24.46M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Individually sculpted hair lock 04
+Fra:7 Mem:24.45M (Peak 24.46M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Individually sculpted hair lock 05
+Fra:7 Mem:24.52M (Peak 24.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Individually sculpted hair lock 06
+Fra:7 Mem:24.53M (Peak 24.53M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Individually sculpted hair lock 08
+Fra:7 Mem:24.58M (Peak 24.58M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Upper arm jacket / R
+Fra:7 Mem:24.59M (Peak 24.59M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket cuff / R
+Fra:7 Mem:24.62M (Peak 24.62M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Soft elbow connector / R
+Fra:7 Mem:24.64M (Peak 24.64M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wrist skin / R
+Fra:7 Mem:24.69M (Peak 24.69M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoulder reflective tape L 2
+Fra:7 Mem:24.70M (Peak 24.70M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hand palm / R
+Fra:7 Mem:24.71M (Peak 24.71M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hand finger R 1
+Fra:7 Mem:24.72M (Peak 24.72M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoulder reflective tape L 1
+Fra:7 Mem:24.74M (Peak 24.74M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hand finger R 2
+Fra:7 Mem:24.75M (Peak 24.75M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Thumb R
+Fra:7 Mem:24.75M (Peak 24.75M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoulder reflective tape L 0
+Fra:7 Mem:24.76M (Peak 24.76M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Anatomical thigh / denim R
+Fra:7 Mem:24.79M (Peak 24.79M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Kneecap / tailored trouser R
+Fra:7 Mem:24.79M (Peak 24.79M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side trouser stitching L 3
+Fra:7 Mem:24.80M (Peak 24.80M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shin / tapered denim R
+Fra:7 Mem:24.82M (Peak 24.82M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side trouser stitching L 2
+Fra:7 Mem:24.84M (Peak 24.84M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Boot leather ankle R
+Fra:7 Mem:24.87M (Peak 24.87M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side trouser stitching L 1
+Fra:7 Mem:24.87M (Peak 24.87M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoe lacing R 0
+Fra:7 Mem:24.90M (Peak 24.90M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Glowing wrist wearable R
+Fra:7 Mem:24.91M (Peak 24.91M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoe lacing R 2
+Fra:7 Mem:24.92M (Peak 24.92M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoe lacing R 3
+Fra:7 Mem:24.93M (Peak 24.93M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Elbow protective seam R
+Fra:7 Mem:24.94M (Peak 24.94M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Upper arm jacket / L
+Fra:7 Mem:24.98M (Peak 24.98M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket cuff / L
+Fra:7 Mem:24.98M (Peak 24.98M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Soft elbow connector / L
+Fra:7 Mem:24.99M (Peak 24.99M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Technical forearm sleeve / L
+Fra:7 Mem:25.03M (Peak 25.03M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wrist skin / L
+Fra:7 Mem:25.06M (Peak 25.06M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hand finger L 0
+Fra:7 Mem:25.09M (Peak 25.09M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hand finger L 1
+Fra:7 Mem:25.11M (Peak 25.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoulder reflective tape R 2
+Fra:7 Mem:25.10M (Peak 25.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Thumb L
+Fra:7 Mem:25.11M (Peak 25.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoulder reflective tape R 1
+Fra:7 Mem:25.12M (Peak 25.12M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Anatomical thigh / denim L
+Fra:7 Mem:25.14M (Peak 25.14M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoulder reflective tape R 0
+Fra:7 Mem:25.16M (Peak 25.16M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shin / tapered denim L
+Fra:7 Mem:25.17M (Peak 25.17M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sock heel L
+Fra:7 Mem:25.23M (Peak 25.23M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Boot leather ankle L
+Fra:7 Mem:25.23M (Peak 25.23M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rubber outsole L
+Fra:7 Mem:25.24M (Peak 25.24M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoe lacing L 0
+Fra:7 Mem:25.25M (Peak 25.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoe lacing L 1
+Fra:7 Mem:25.26M (Peak 25.26M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoe lacing L 2
+Fra:7 Mem:25.28M (Peak 25.28M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoe lacing L 3
+Fra:7 Mem:25.28M (Peak 25.28M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Elbow protective seam L
+Fra:7 Mem:25.31M (Peak 25.31M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side trouser stitching R 0
+Fra:7 Mem:25.31M (Peak 25.31M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side trouser stitching R 1
+Fra:7 Mem:25.33M (Peak 25.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:7 Mem:19.19M (Peak 25.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:7 Mem:19.19M (Peak 25.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:7 Mem:19.19M (Peak 25.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:7 Mem:19.19M (Peak 25.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:7 Mem:19.28M (Peak 25.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Procedurals
+Fra:7 Mem:19.28M (Peak 25.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Background
+Fra:7 Mem:19.28M (Peak 25.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Camera
+Fra:7 Mem:19.28M (Peak 25.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:7 Mem:19.28M (Peak 25.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects
+Fra:7 Mem:19.28M (Peak 25.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:7 Mem:19.31M (Peak 25.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:7 Mem:19.31M (Peak 25.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Particle Systems
+Fra:7 Mem:19.31M (Peak 25.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:7 Mem:19.31M (Peak 25.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Meshes
+Fra:7 Mem:19.78M (Peak 25.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:7 Mem:19.98M (Peak 25.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:7 Mem:19.96M (Peak 25.33M) | Time:00:00.01 | Mem:0.22M, Peak:0.22M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:7 Mem:19.96M (Peak 25.33M) | Time:00:00.01 | Mem:0.22M, Peak:0.22M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:7 Mem:19.96M (Peak 25.33M) | Time:00:00.01 | Mem:1.16M, Peak:1.16M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:7 Mem:19.96M (Peak 25.33M) | Time:00:00.02 | Mem:2.28M, Peak:3.21M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:7 Mem:19.96M (Peak 25.33M) | Time:00:00.02 | Mem:2.28M, Peak:3.21M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:7 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:2.28M, Peak:3.21M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:7 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:3.34M, Peak:3.34M | Scene, ViewLayer | Updating Objects Flags
+Fra:7 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:3.34M, Peak:3.34M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:7 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:3.34M, Peak:3.34M | Scene, ViewLayer | Updating Images
+Fra:7 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:3.34M, Peak:3.34M | Scene, ViewLayer | Updating Camera Volume
+Fra:7 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:3.34M, Peak:3.34M | Scene, ViewLayer | Updating Lookup Tables
+Fra:7 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:3.42M, Peak:3.42M | Scene, ViewLayer | Updating Lights
+Fra:7 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:3.42M, Peak:3.42M | Scene, ViewLayer | Updating Lights | Computing distribution
+Fra:7 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:3.42M, Peak:3.42M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:7 Mem:21.40M (Peak 25.33M) | Time:00:00.02 | Mem:3.80M, Peak:3.80M | Scene, ViewLayer | Updating Integrator
+Fra:7 Mem:22.40M (Peak 25.33M) | Time:00:00.02 | Mem:4.80M, Peak:4.80M | Scene, ViewLayer | Updating Film
+Fra:7 Mem:22.40M (Peak 25.33M) | Time:00:00.02 | Mem:4.72M, Peak:4.80M | Scene, ViewLayer | Updating Lookup Tables
+Fra:7 Mem:22.40M (Peak 25.33M) | Time:00:00.02 | Mem:4.80M, Peak:4.80M | Scene, ViewLayer | Updating Baking
+Fra:7 Mem:22.40M (Peak 25.33M) | Time:00:00.02 | Mem:4.80M, Peak:4.80M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:7 Mem:22.41M (Peak 25.33M) | Time:00:00.02 | Mem:4.80M, Peak:4.80M | Scene, ViewLayer | Sample 0/28
+Fra:7 Mem:65.68M (Peak 65.68M) | Time:00:01.38 | Remaining:00:36.70 | Mem:48.06M, Peak:48.06M | Scene, ViewLayer | Sample 1/28
+Fra:7 Mem:65.68M (Peak 65.68M) | Time:00:21.73 | Remaining:00:14.04 | Mem:48.06M, Peak:48.06M | Scene, ViewLayer | Sample 17/28
+Fra:7 Mem:84.91M (Peak 123.36M) | Time:00:35.76 | Mem:48.06M, Peak:48.06M | Scene, ViewLayer | Sample 28/28
+Fra:7 Mem:84.91M (Peak 123.36M) | Time:00:35.76 | Mem:48.06M, Peak:48.06M | Scene, ViewLayer | Finished
+Saved: '/home/runner/work/AI-coding/AI-coding/characters/nova-01/outputs/02-NOVA-Walk-Cycle.png'
+Time: 00:35.94 (Saving: 00:00.18)
+
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Belt technical buckle", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket pocket 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 3", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 3", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket chest color insert 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket pocket -1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Mouth upper lip", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket chest color insert -1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Eyebrow L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Rubber outsole R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Front shirt / decorative zipper", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Rubber outsole L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sneaker toe cap L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Eyebrow R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Boot leather ankle L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sneaker toe cap R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Boot leather ankle R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+NOVA_RENDER Walk /home/runner/work/AI-coding/AI-coding/characters/nova-01/outputs/02-NOVA-Walk-Cycle.png 2032510
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket pocket 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Belt technical buckle", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 3", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 3", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket chest color insert 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket pocket -1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Mouth upper lip", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket chest color insert -1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Rubber outsole R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Eyebrow L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Front shirt / decorative zipper", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Rubber outsole L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sneaker toe cap R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Eyebrow R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sneaker toe cap L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Boot leather ankle R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Boot leather ankle L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket pocket 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket pocket 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Belt technical buckle", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Belt technical buckle", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket chest color insert 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket chest color insert 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 3", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 3", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Mouth upper lip", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Mouth upper lip", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket pocket -1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket pocket -1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Eyebrow L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Eyebrow L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket chest color insert -1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket chest color insert -1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 3", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Front shirt / decorative zipper", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 3", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Front shirt / decorative zipper", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Eyebrow R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Eyebrow R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Rubber outsole L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Rubber outsole L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sneaker toe cap L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sneaker toe cap L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Boot leather ankle R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Boot leather ankle R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Boot leather ankle L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Boot leather ankle L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sneaker toe cap R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sneaker toe cap R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Rubber outsole R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Rubber outsole R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+Fra:6 Mem:23.72M (Peak 23.72M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | STUDIO GROUND — not included in GLB
+Fra:6 Mem:23.73M (Peak 23.73M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tapered hip and pelvis
+Fra:6 Mem:23.73M (Peak 23.73M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Inner undershirt neckline
+Fra:6 Mem:23.75M (Peak 23.75M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Neck above jacket collar
+Fra:6 Mem:23.77M (Peak 23.77M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Front shirt / decorative zipper
+Fra:6 Mem:23.80M (Peak 23.80M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Raised shoulder deltoid -1
+Fra:6 Mem:23.79M (Peak 23.80M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket chest color insert -1
+Fra:6 Mem:23.83M (Peak 23.83M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Raised shoulder deltoid 1
+Fra:6 Mem:23.85M (Peak 23.85M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket chest color insert 1
+Fra:6 Mem:23.85M (Peak 23.85M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket pocket 1
+Fra:6 Mem:23.87M (Peak 23.87M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Belt technical buckle
+Fra:6 Mem:23.89M (Peak 23.89M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jaw and chin
+Fra:6 Mem:23.91M (Peak 23.91M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nose bridge
+Fra:6 Mem:23.94M (Peak 23.94M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nose tip
+Fra:6 Mem:24.01M (Peak 24.01M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | External ear R
+Fra:6 Mem:24.04M (Peak 24.04M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye white R
+Fra:6 Mem:24.07M (Peak 24.07M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Iris R
+Fra:6 Mem:24.08M (Peak 24.08M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eyebrow R
+Fra:6 Mem:24.13M (Peak 24.13M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cheek volume R
+Fra:6 Mem:24.14M (Peak 24.14M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye white L
+Fra:6 Mem:24.18M (Peak 24.18M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Iris L
+Fra:6 Mem:24.20M (Peak 24.20M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pupil L
+Fra:6 Mem:24.23M (Peak 24.23M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eyebrow L
+Fra:6 Mem:24.25M (Peak 24.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cheek volume L
+Fra:6 Mem:24.26M (Peak 24.26M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main side-parted cropped hair cap
+Fra:6 Mem:24.29M (Peak 24.29M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side fade -1
+Fra:6 Mem:24.35M (Peak 24.35M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side fade 1
+Fra:6 Mem:24.38M (Peak 24.38M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Individually sculpted hair lock 00
+Fra:6 Mem:24.40M (Peak 24.40M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Individually sculpted hair lock 01
+Fra:6 Mem:24.41M (Peak 24.41M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Individually sculpted hair lock 03
+Fra:6 Mem:24.48M (Peak 24.48M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Individually sculpted hair lock 04
+Fra:6 Mem:24.50M (Peak 24.50M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Individually sculpted hair lock 06
+Fra:6 Mem:24.50M (Peak 24.50M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Individually sculpted hair lock 07
+Fra:6 Mem:24.57M (Peak 24.57M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Individually sculpted hair lock 08
+Fra:6 Mem:24.57M (Peak 24.57M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Upper arm jacket / R
+Fra:6 Mem:24.60M (Peak 24.60M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Soft elbow connector / R
+Fra:6 Mem:24.62M (Peak 24.62M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Technical forearm sleeve / R
+Fra:6 Mem:24.64M (Peak 24.64M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wrist skin / R
+Fra:6 Mem:24.69M (Peak 24.69M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoulder reflective tape L 2
+Fra:6 Mem:24.69M (Peak 24.69M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hand finger R 1
+Fra:6 Mem:24.71M (Peak 24.71M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoulder reflective tape L 1
+Fra:6 Mem:24.71M (Peak 24.71M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hand finger R 2
+Fra:6 Mem:24.73M (Peak 24.73M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hand finger R 3
+Fra:6 Mem:24.73M (Peak 24.73M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Thumb R
+Fra:6 Mem:24.76M (Peak 24.76M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Anatomical thigh / denim R
+Fra:6 Mem:24.78M (Peak 24.78M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shin / tapered denim R
+Fra:6 Mem:24.80M (Peak 24.80M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sock heel R
+Fra:6 Mem:24.82M (Peak 24.82M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Boot leather ankle R
+Fra:6 Mem:24.83M (Peak 24.83M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker toe cap R
+Fra:6 Mem:24.84M (Peak 24.84M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side trouser stitching L 3
+Fra:6 Mem:24.84M (Peak 24.84M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side trouser stitching L 2
+Fra:6 Mem:24.86M (Peak 24.86M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoe lacing R 0
+Fra:6 Mem:24.87M (Peak 24.87M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side trouser stitching L 1
+Fra:6 Mem:24.88M (Peak 24.88M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoe lacing R 1
+Fra:6 Mem:24.90M (Peak 24.90M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoe lacing R 2
+Fra:6 Mem:24.91M (Peak 24.91M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoe lacing R 3
+Fra:6 Mem:24.92M (Peak 24.92M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Elbow protective seam R
+Fra:6 Mem:24.94M (Peak 24.94M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Upper arm jacket / L
+Fra:6 Mem:24.96M (Peak 24.96M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket cuff / L
+Fra:6 Mem:24.97M (Peak 24.97M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Soft elbow connector / L
+Fra:6 Mem:24.99M (Peak 24.99M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Technical forearm sleeve / L
+Fra:6 Mem:25.01M (Peak 25.01M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wrist skin / L
+Fra:6 Mem:25.02M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hand palm / L
+Fra:6 Mem:25.02M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hand finger L 0
+Fra:6 Mem:25.05M (Peak 25.05M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hand finger L 1
+Fra:6 Mem:25.06M (Peak 25.06M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hand finger L 2
+Fra:6 Mem:25.06M (Peak 25.06M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hand finger L 3
+Fra:6 Mem:25.07M (Peak 25.07M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Thumb L
+Fra:6 Mem:25.09M (Peak 25.09M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Glowing wrist wearable R
+Fra:6 Mem:25.09M (Peak 25.09M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Kneecap / tailored trouser L
+Fra:6 Mem:25.12M (Peak 25.12M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shin / tapered denim L
+Fra:6 Mem:25.18M (Peak 25.18M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sock heel L
+Fra:6 Mem:25.18M (Peak 25.18M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker toe cap L
+Fra:6 Mem:25.20M (Peak 25.20M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rubber outsole L
+Fra:6 Mem:25.21M (Peak 25.21M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoe lacing L 0
+Fra:6 Mem:25.23M (Peak 25.23M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoe lacing L 1
+Fra:6 Mem:25.24M (Peak 25.24M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoe lacing L 3
+Fra:6 Mem:25.25M (Peak 25.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoulder reflective tape R 1
+Fra:6 Mem:25.26M (Peak 25.26M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side trouser stitching R 0
+Fra:6 Mem:25.28M (Peak 25.28M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side trouser stitching R 1
+Fra:6 Mem:25.28M (Peak 25.28M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoulder reflective tape R 0
+Fra:6 Mem:25.29M (Peak 25.29M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side trouser stitching R 2
+Fra:6 Mem:25.30M (Peak 25.30M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side trouser stitching R 3
+Fra:6 Mem:25.33M (Peak 25.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:6 Mem:19.19M (Peak 25.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:6 Mem:19.19M (Peak 25.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:6 Mem:19.19M (Peak 25.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:6 Mem:19.19M (Peak 25.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:6 Mem:19.28M (Peak 25.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Procedurals
+Fra:6 Mem:19.28M (Peak 25.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Background
+Fra:6 Mem:19.28M (Peak 25.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Camera
+Fra:6 Mem:19.28M (Peak 25.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:6 Mem:19.28M (Peak 25.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects
+Fra:6 Mem:19.28M (Peak 25.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:6 Mem:19.31M (Peak 25.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:6 Mem:19.31M (Peak 25.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Particle Systems
+Fra:6 Mem:19.31M (Peak 25.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:6 Mem:19.31M (Peak 25.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Meshes
+Fra:6 Mem:19.78M (Peak 25.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:6 Mem:19.98M (Peak 25.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:6 Mem:19.96M (Peak 25.33M) | Time:00:00.01 | Mem:0.22M, Peak:0.22M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:6 Mem:19.96M (Peak 25.33M) | Time:00:00.01 | Mem:0.22M, Peak:0.22M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:6 Mem:19.96M (Peak 25.33M) | Time:00:00.01 | Mem:1.16M, Peak:1.16M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:6 Mem:19.96M (Peak 25.33M) | Time:00:00.02 | Mem:2.28M, Peak:3.21M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:6 Mem:19.96M (Peak 25.33M) | Time:00:00.02 | Mem:2.28M, Peak:3.21M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:6 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:2.28M, Peak:3.21M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:6 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:3.34M, Peak:3.34M | Scene, ViewLayer | Updating Objects Flags
+Fra:6 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:3.34M, Peak:3.34M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:6 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:3.34M, Peak:3.34M | Scene, ViewLayer | Updating Images
+Fra:6 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:3.34M, Peak:3.34M | Scene, ViewLayer | Updating Camera Volume
+Fra:6 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:3.34M, Peak:3.34M | Scene, ViewLayer | Updating Lookup Tables
+Fra:6 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:3.42M, Peak:3.42M | Scene, ViewLayer | Updating Lights
+Fra:6 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:3.42M, Peak:3.42M | Scene, ViewLayer | Updating Lights | Computing distribution
+Fra:6 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:3.42M, Peak:3.42M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:6 Mem:21.40M (Peak 25.33M) | Time:00:00.02 | Mem:3.80M, Peak:3.80M | Scene, ViewLayer | Updating Integrator
+Fra:6 Mem:22.40M (Peak 25.33M) | Time:00:00.02 | Mem:4.80M, Peak:4.80M | Scene, ViewLayer | Updating Film
+Fra:6 Mem:22.40M (Peak 25.33M) | Time:00:00.02 | Mem:4.72M, Peak:4.80M | Scene, ViewLayer | Updating Lookup Tables
+Fra:6 Mem:22.40M (Peak 25.33M) | Time:00:00.02 | Mem:4.80M, Peak:4.80M | Scene, ViewLayer | Updating Baking
+Fra:6 Mem:22.40M (Peak 25.33M) | Time:00:00.02 | Mem:4.80M, Peak:4.80M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:6 Mem:22.41M (Peak 25.33M) | Time:00:00.02 | Mem:4.80M, Peak:4.80M | Scene, ViewLayer | Sample 0/28
+Fra:6 Mem:65.68M (Peak 65.68M) | Time:00:01.38 | Remaining:00:36.52 | Mem:48.06M, Peak:48.06M | Scene, ViewLayer | Sample 1/28
+Fra:6 Mem:65.68M (Peak 65.68M) | Time:00:21.74 | Remaining:00:14.05 | Mem:48.06M, Peak:48.06M | Scene, ViewLayer | Sample 17/28
+Fra:6 Mem:84.91M (Peak 123.36M) | Time:00:35.75 | Mem:48.06M, Peak:48.06M | Scene, ViewLayer | Sample 28/28
+Fra:6 Mem:84.91M (Peak 123.36M) | Time:00:35.75 | Mem:48.06M, Peak:48.06M | Scene, ViewLayer | Finished
+Saved: '/home/runner/work/AI-coding/AI-coding/characters/nova-01/outputs/03-NOVA-Run-Cycle.png'
+Time: 00:35.93 (Saving: 00:00.18)
+
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket pocket 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Belt technical buckle", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 3", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 3", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket chest color insert 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Boot leather ankle R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket pocket -1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket chest color insert -1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Mouth upper lip", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Front shirt / decorative zipper", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Rubber outsole L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Eyebrow L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sneaker toe cap L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Rubber outsole R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Boot leather ankle L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sneaker toe cap R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Eyebrow R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+NOVA_RENDER Run /home/runner/work/AI-coding/AI-coding/characters/nova-01/outputs/03-NOVA-Run-Cycle.png 2064101
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Belt technical buckle", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket pocket 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 3", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 3", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket chest color insert 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket pocket -1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Mouth upper lip", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket chest color insert -1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Eyebrow L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Front shirt / decorative zipper", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Rubber outsole R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Rubber outsole L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sneaker toe cap R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Eyebrow R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sneaker toe cap L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Boot leather ankle R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Boot leather ankle L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket pocket 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket pocket 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Belt technical buckle", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Belt technical buckle", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 3", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 3", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket chest color insert 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket chest color insert 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Mouth upper lip", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Mouth upper lip", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 3", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 3", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Eyebrow L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Eyebrow L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket pocket -1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket pocket -1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket chest color insert -1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket chest color insert -1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Eyebrow R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Eyebrow R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Rubber outsole R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Rubber outsole R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Front shirt / decorative zipper", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Front shirt / decorative zipper", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sneaker toe cap R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sneaker toe cap R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Rubber outsole L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Rubber outsole L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Boot leather ankle R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Boot leather ankle R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sneaker toe cap L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sneaker toe cap L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Boot leather ankle L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Boot leather ankle L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+Fra:15 Mem:23.72M (Peak 23.72M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | STUDIO GROUND — not included in GLB
+Fra:15 Mem:23.73M (Peak 23.73M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tapered hip and pelvis
+Fra:15 Mem:23.76M (Peak 23.76M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Inner undershirt neckline
+Fra:15 Mem:23.77M (Peak 23.77M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Neck above jacket collar
+Fra:15 Mem:23.77M (Peak 23.78M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Raised shoulder deltoid -1
+Fra:15 Mem:23.81M (Peak 23.81M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket chest color insert -1
+Fra:15 Mem:23.83M (Peak 23.83M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Raised shoulder deltoid 1
+Fra:15 Mem:23.83M (Peak 23.83M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket chest color insert 1
+Fra:15 Mem:23.86M (Peak 23.87M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket pocket 1
+Fra:15 Mem:23.87M (Peak 23.87M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Belt technical buckle
+Fra:15 Mem:23.89M (Peak 23.89M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skull / proportional cranium
+Fra:15 Mem:23.91M (Peak 23.91M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jaw and chin
+Fra:15 Mem:23.98M (Peak 23.98M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nose bridge
+Fra:15 Mem:23.99M (Peak 23.99M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nose tip
+Fra:15 Mem:24.02M (Peak 24.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye white R
+Fra:15 Mem:24.06M (Peak 24.06M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Iris R
+Fra:15 Mem:24.07M (Peak 24.07M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pupil R
+Fra:15 Mem:24.10M (Peak 24.10M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cheek volume R
+Fra:15 Mem:24.15M (Peak 24.15M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | External ear L
+Fra:15 Mem:24.16M (Peak 24.16M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Iris L
+Fra:15 Mem:24.22M (Peak 24.22M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pupil L
+Fra:15 Mem:24.22M (Peak 24.22M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eyebrow L
+Fra:15 Mem:24.25M (Peak 24.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cheek volume L
+Fra:15 Mem:24.28M (Peak 24.28M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main side-parted cropped hair cap
+Fra:15 Mem:24.32M (Peak 24.32M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side fade -1
+Fra:15 Mem:24.37M (Peak 24.37M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side fade 1
+Fra:15 Mem:24.39M (Peak 24.39M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Individually sculpted hair lock 00
+Fra:15 Mem:24.41M (Peak 24.41M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Individually sculpted hair lock 01
+Fra:15 Mem:24.43M (Peak 24.43M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Individually sculpted hair lock 02
+Fra:15 Mem:24.43M (Peak 24.43M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Glowing wrist wearable L
+Fra:15 Mem:24.47M (Peak 24.47M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Individually sculpted hair lock 04
+Fra:15 Mem:24.49M (Peak 24.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoulder reflective tape L 2
+Fra:15 Mem:24.51M (Peak 24.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Individually sculpted hair lock 06
+Fra:15 Mem:24.55M (Peak 24.55M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoulder reflective tape L 1
+Fra:15 Mem:24.57M (Peak 24.57M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Individually sculpted hair lock 07
+Fra:15 Mem:24.60M (Peak 24.60M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Individually sculpted hair lock 08
+Fra:15 Mem:24.60M (Peak 24.60M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket cuff / R
+Fra:15 Mem:24.65M (Peak 24.65M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Soft elbow connector / R
+Fra:15 Mem:24.65M (Peak 24.65M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoulder reflective tape L 0
+Fra:15 Mem:24.68M (Peak 24.68M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Technical forearm sleeve / R
+Fra:15 Mem:24.71M (Peak 24.71M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wrist skin / R
+Fra:15 Mem:24.72M (Peak 24.72M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hand finger R 0
+Fra:15 Mem:24.74M (Peak 24.74M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hand finger R 1
+Fra:15 Mem:24.75M (Peak 24.75M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hand finger R 2
+Fra:15 Mem:24.76M (Peak 24.76M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hand finger R 3
+Fra:15 Mem:24.76M (Peak 24.76M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Thumb R
+Fra:15 Mem:24.77M (Peak 24.77M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Anatomical thigh / denim R
+Fra:15 Mem:24.77M (Peak 24.77M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Kneecap / tailored trouser R
+Fra:15 Mem:24.78M (Peak 24.78M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shin / tapered denim R
+Fra:15 Mem:24.80M (Peak 24.80M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side trouser stitching L 2
+Fra:15 Mem:24.84M (Peak 24.84M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sock heel R
+Fra:15 Mem:24.84M (Peak 24.84M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Boot leather ankle R
+Fra:15 Mem:24.86M (Peak 24.86M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker toe cap R
+Fra:15 Mem:24.88M (Peak 24.88M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rubber outsole R
+Fra:15 Mem:24.89M (Peak 24.89M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoe lacing R 1
+Fra:15 Mem:24.90M (Peak 24.90M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoe lacing R 2
+Fra:15 Mem:24.91M (Peak 24.91M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoe lacing R 3
+Fra:15 Mem:24.92M (Peak 24.92M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Elbow protective seam R
+Fra:15 Mem:24.92M (Peak 24.92M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Upper arm jacket / L
+Fra:15 Mem:24.94M (Peak 24.94M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Glowing wrist wearable R
+Fra:15 Mem:24.95M (Peak 24.95M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket cuff / L
+Fra:15 Mem:25.01M (Peak 25.01M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Soft elbow connector / L
+Fra:15 Mem:25.02M (Peak 25.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Technical forearm sleeve / L
+Fra:15 Mem:25.05M (Peak 25.05M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wrist skin / L
+Fra:15 Mem:25.05M (Peak 25.05M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hand finger L 0
+Fra:15 Mem:25.08M (Peak 25.08M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoulder reflective tape R 1
+Fra:15 Mem:25.09M (Peak 25.09M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hand finger L 2
+Fra:15 Mem:25.11M (Peak 25.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoulder reflective tape R 0
+Fra:15 Mem:25.10M (Peak 25.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hand finger L 3
+Fra:15 Mem:25.11M (Peak 25.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Thumb L
+Fra:15 Mem:25.12M (Peak 25.12M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Anatomical thigh / denim L
+Fra:15 Mem:25.15M (Peak 25.15M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Kneecap / tailored trouser L
+Fra:15 Mem:25.15M (Peak 25.15M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shin / tapered denim L
+Fra:15 Mem:25.18M (Peak 25.18M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sock heel L
+Fra:15 Mem:25.20M (Peak 25.20M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side trouser stitching R 1
+Fra:15 Mem:25.22M (Peak 25.22M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Boot leather ankle L
+Fra:15 Mem:25.24M (Peak 25.24M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side trouser stitching R 0
+Fra:15 Mem:25.25M (Peak 25.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rubber outsole L
+Fra:15 Mem:25.26M (Peak 25.26M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Elbow protective seam L
+Fra:15 Mem:25.27M (Peak 25.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoe lacing L 1
+Fra:15 Mem:25.29M (Peak 25.29M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoe lacing L 2
+Fra:15 Mem:25.30M (Peak 25.30M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoe lacing L 3
+Fra:15 Mem:25.33M (Peak 25.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:15 Mem:19.19M (Peak 25.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:15 Mem:19.19M (Peak 25.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:15 Mem:19.19M (Peak 25.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:15 Mem:19.19M (Peak 25.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:15 Mem:19.28M (Peak 25.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Procedurals
+Fra:15 Mem:19.28M (Peak 25.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Background
+Fra:15 Mem:19.28M (Peak 25.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Camera
+Fra:15 Mem:19.28M (Peak 25.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:15 Mem:19.28M (Peak 25.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects
+Fra:15 Mem:19.28M (Peak 25.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:15 Mem:19.31M (Peak 25.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:15 Mem:19.31M (Peak 25.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Particle Systems
+Fra:15 Mem:19.31M (Peak 25.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:15 Mem:19.31M (Peak 25.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Meshes
+Fra:15 Mem:19.78M (Peak 25.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:15 Mem:19.98M (Peak 25.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:15 Mem:19.96M (Peak 25.33M) | Time:00:00.01 | Mem:0.22M, Peak:0.22M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:15 Mem:19.96M (Peak 25.33M) | Time:00:00.01 | Mem:0.22M, Peak:0.22M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:15 Mem:19.96M (Peak 25.33M) | Time:00:00.01 | Mem:1.16M, Peak:1.16M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:15 Mem:19.96M (Peak 25.33M) | Time:00:00.02 | Mem:2.28M, Peak:3.21M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:15 Mem:19.96M (Peak 25.33M) | Time:00:00.02 | Mem:2.28M, Peak:3.21M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:15 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:2.28M, Peak:3.21M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:15 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:3.34M, Peak:3.34M | Scene, ViewLayer | Updating Objects Flags
+Fra:15 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:3.34M, Peak:3.34M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:15 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:3.34M, Peak:3.34M | Scene, ViewLayer | Updating Images
+Fra:15 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:3.34M, Peak:3.34M | Scene, ViewLayer | Updating Camera Volume
+Fra:15 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:3.34M, Peak:3.34M | Scene, ViewLayer | Updating Lookup Tables
+Fra:15 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:3.42M, Peak:3.42M | Scene, ViewLayer | Updating Lights
+Fra:15 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:3.42M, Peak:3.42M | Scene, ViewLayer | Updating Lights | Computing distribution
+Fra:15 Mem:21.02M (Peak 25.33M) | Time:00:00.02 | Mem:3.42M, Peak:3.42M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:15 Mem:21.40M (Peak 25.33M) | Time:00:00.02 | Mem:3.80M, Peak:3.80M | Scene, ViewLayer | Updating Integrator
+Fra:15 Mem:22.40M (Peak 25.33M) | Time:00:00.02 | Mem:4.80M, Peak:4.80M | Scene, ViewLayer | Updating Film
+Fra:15 Mem:22.40M (Peak 25.33M) | Time:00:00.02 | Mem:4.72M, Peak:4.80M | Scene, ViewLayer | Updating Lookup Tables
+Fra:15 Mem:22.40M (Peak 25.33M) | Time:00:00.02 | Mem:4.80M, Peak:4.80M | Scene, ViewLayer | Updating Baking
+Fra:15 Mem:22.40M (Peak 25.33M) | Time:00:00.02 | Mem:4.80M, Peak:4.80M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:15 Mem:22.41M (Peak 25.33M) | Time:00:00.02 | Mem:4.80M, Peak:4.80M | Scene, ViewLayer | Sample 0/28
+Fra:15 Mem:65.68M (Peak 65.68M) | Time:00:01.39 | Remaining:00:36.82 | Mem:48.06M, Peak:48.06M | Scene, ViewLayer | Sample 1/28
+Fra:15 Mem:65.68M (Peak 65.68M) | Time:00:21.84 | Remaining:00:14.11 | Mem:48.06M, Peak:48.06M | Scene, ViewLayer | Sample 17/28
+Fra:15 Mem:84.91M (Peak 123.36M) | Time:00:35.97 | Mem:48.06M, Peak:48.06M | Scene, ViewLayer | Sample 28/28
+Fra:15 Mem:84.91M (Peak 123.36M) | Time:00:35.97 | Mem:48.06M, Peak:48.06M | Scene, ViewLayer | Finished
+Saved: '/home/runner/work/AI-coding/AI-coding/characters/nova-01/outputs/04-NOVA-Punch-Action.png'
+Time: 00:36.16 (Saving: 00:00.18)
+
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket pocket 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Belt technical buckle", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 3", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 3", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket chest color insert 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket pocket -1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Jacket chest color insert -1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Mouth upper lip", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing R 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoe lacing L 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Front shirt / decorative zipper", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Eyebrow L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Rubber outsole R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Rubber outsole L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sneaker toe cap R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Sneaker toe cap L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Eyebrow R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Boot leather ankle R", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Boot leather ankle L", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape L 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 2", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 1", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Shoulder reflective tape R 0", Modifier: "Weighted custom normals", Enable 'Auto Smooth' in Object Data Properties
+NOVA_RENDER Punch /home/runner/work/AI-coding/AI-coding/characters/nova-01/outputs/04-NOVA-Punch-Action.png 2028701
+
+Blender quit
