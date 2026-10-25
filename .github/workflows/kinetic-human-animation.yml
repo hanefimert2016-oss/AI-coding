@@ -1,0 +1,246 @@
+name: KINETIC HUMAN - rigged 3D character, walk run punch animation, Blender MP4
+
+on:
+  push:
+    branches: [human-rig-animation-studio]
+    paths:
+      - ".github/workflows/kinetic-human-animation.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kinetic-human-build-studio
+  cancel-in-progress: true
+
+jobs:
+  make-human-and-video:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - name: Checkout animated human generator
+        uses: actions/checkout@v4
+        with:
+          ref: human-rig-animation-studio
+          fetch-depth: 0
+
+      - name: Install Blender, video recording and image validation tools
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive timeout 480s apt-get install -y --no-install-recommends \
+            blender python3-numpy python3-pil xvfb xauth openbox xdotool wmctrl scrot \
+            ffmpeg libgl1-mesa-dri libpulse0 mesa-utils fonts-dejavu-core
+          blender -b --factory-startup --python-expr \
+            "import bpy,numpy; print('HUMAN_BLENDER_VERSION',bpy.app.version_string,'NUMPY',numpy.__version__)" \
+            > human-animation-studio/blender-setup.log 2>&1
+          tail -12 human-animation-studio/blender-setup.log
+          mkdir -p human-animation-studio/output
+
+      - name: Live Blender GUI construction and recording of human and four motion types
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT="$PWD/human-animation-studio/output"
+          export DISPLAY=:95
+          export LIBGL_ALWAYS_SOFTWARE=1
+          export MESA_GL_VERSION_OVERRIDE=4.5
+          Xvfb :95 -screen 0 1600x900x24 -nolisten tcp > "$OUT/xvfb.log" 2>&1 &
+          XV=$!
+          sleep 2
+          openbox > "$OUT/window-manager.log" 2>&1 &
+          WM=$!
+          sleep 2
+          printf 'CHARACTER STUDIO / STARTING BLENDER' > "$OUT/current-stage.txt"
+          timeout 210s blender -W --python human-animation-studio/build_human.py -- "$OUT" --live \
+            > "$OUT/blender-modeling.log" 2>&1 &
+          BL=$!
+          sleep 6
+          xdotool search --name 'Blender' windowactivate 2>/dev/null || true
+          xdotool key Escape || true
+          wmctrl -r ':ACTIVE:' -b add,maximized_vert,maximized_horz || true
+          wmctrl -l > "$OUT/desktop-windows.txt" || true
+          FONT=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+          FILTER="scale=1280:720:flags=lanczos,drawbox=x=0:y=0:w=iw:h=72:color=0x061625@0.88:t=fill,drawtext=fontfile=$FONT:text='KINETIC HUMAN - LIVE BLENDER CREATION':fontsize=22:fontcolor=white:x=27:y=6,drawtext=fontfile=$FONT:textfile=$OUT/current-stage.txt:reload=1:fontsize=18:fontcolor=0x53f1dd:x=27:y=37"
+          ffmpeg -hide_banner -loglevel error -y -nostdin \
+            -f x11grab -video_size 1600x900 -framerate 24 -i :95 \
+            -t 101 -vf "$FILTER" \
+            -c:v libx264 -profile:v high -level:v 4.0 \
+            -preset veryfast -crf 20 -pix_fmt yuv420p -movflags +faststart \
+            "$OUT/KINETIC-HUMAN-Real-Blender-Creation-And-Animations.mp4" \
+            > "$OUT/ffmpeg.log" 2>&1 &
+          REC=$!
+          sleep 14
+          scrot "$OUT/01-Blender-Body-Construction.png"
+          sleep 23
+          scrot "$OUT/02-Blender-Full-Human.png"
+          sleep 27
+          scrot "$OUT/03-Blender-Animation-Editor.png"
+          RESULT=0
+          for tick in $(seq 1 65); do
+            if grep -q HUMAN_COMPLETED "$OUT/blender-modeling.log"; then
+              break
+            fi
+            if ! kill -0 "$BL" 2>/dev/null; then
+              echo "::error::Blender GUI exited before exporting rig and clips"
+              RESULT=1
+              break
+            fi
+            sleep 1
+          done
+          if ! grep -q HUMAN_COMPLETED "$OUT/blender-modeling.log"; then
+            echo "::error::Rig and animation export never reached completion"
+            tail -120 "$OUT/blender-modeling.log"
+            RESULT=1
+          fi
+          # Let encoder finish finite-duration MP4.
+          wait "$REC" || RESULT=1
+          kill "$BL" "$XV" "$WM" 2>/dev/null || true
+          wait "$BL" 2>/dev/null || true
+          grep -E "^HUMAN_PHASE|^EXPORT_GLTF|^HUMAN_COMPLETED" "$OUT/blender-modeling.log" \
+            | tee "$OUT/stages-and-rig-test.txt" || true
+          if test "$RESULT" -ne 0; then
+            cat "$OUT/ffmpeg.log"
+            exit 1
+          fi
+          test -s "$OUT/KINETIC-HUMAN-Rigged-Animated.blend"
+          test -s "$OUT/KINETIC-HUMAN-Rigged-Animated.glb"
+          test -s "$OUT/KINETIC-HUMAN-Real-Blender-Creation-And-Animations.mp4"
+
+      - name: Render 4 character poses from actual rig animation actions
+        run: |
+          set -euo pipefail
+          timeout 900s blender -b human-animation-studio/output/KINETIC-HUMAN-Rigged-Animated.blend \
+            -t 4 --python human-animation-studio/render_actions.py -- \
+            "$PWD/human-animation-studio/output" \
+            > human-animation-studio/output/render-log.txt 2>&1 || {
+              tail -100 human-animation-studio/output/render-log.txt
+              exit 1
+            }
+          grep 'HUMAN_RENDER' human-animation-studio/output/render-log.txt
+
+      - name: Decode MP4, validate humanoid bones and named GLB skeletal animations
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT=human-animation-studio/output
+          python3 - <<'PY'
+          import json,struct
+          from pathlib import Path
+          from PIL import Image,ImageStat
+          out=Path("human-animation-studio/output")
+          f=out/"KINETIC-HUMAN-Rigged-Animated.glb"
+          b=f.read_bytes()
+          assert b[:4]==b'glTF' and struct.unpack_from("<I",b,4)[0]==2
+          assert struct.unpack_from("<I",b,8)[0]==len(b)
+          json_len=struct.unpack_from("<I",b,12)[0]
+          obj=json.loads(b[20:20+json_len])
+          skins=obj.get("skins",[])
+          animations=obj.get("animations",[])
+          meshes=obj.get("meshes",[])
+          assert skins, "GLB has no skinning or armature"
+          assert len(animations)>=4, "Required Idle Walk Run Punch animation clips missing"
+          names=[a.get("name","") for a in animations]
+          wanted=["Idle","Walk","Run","Punch"]
+          for name in wanted:
+              assert any(name.lower() in x.lower() for x in names), (name,names)
+          for a in animations:
+              assert len(a.get("channels",[]))>=1, ("Empty animation",a)
+          assert len(meshes)>=30, len(meshes)
+          rig=json.loads((out/"rig-animation-check.json").read_text())
+          assert rig["deform_bones"]>=18,rig
+          assert (out/"KINETIC-HUMAN-Rigged-Animated.blend").read_bytes()[:7]==b'BLENDER'
+          for name in ["KINETIC-HUMAN-01-Idle.png","KINETIC-HUMAN-02-Walk.png",
+                       "KINETIC-HUMAN-03-Run.png","KINETIC-HUMAN-04-Punch.png"]:
+              path=out/name
+              assert path.stat().st_size>30000,(name,path.stat().st_size)
+              im=Image.open(path)
+              assert im.size==(1440,900),name
+              print("POSE_RENDER_VERIFIED",name,path.stat().st_size)
+          for name in ["01-Blender-Body-Construction.png",
+                       "02-Blender-Full-Human.png",
+                       "03-Blender-Animation-Editor.png"]:
+              im=Image.open(out/name).convert("RGB").crop((200,110,1400,760))
+              stats=ImageStat.Stat(im)
+              assert min(stats.stddev)>6.0,(name,stats.stddev)
+              print("GUI_CAPTURE_VERIFIED",name)
+          print("KINETIC_HUMAN_GLTF_SKINS",len(skins))
+          print("KINETIC_HUMAN_GLTF_ANIMATIONS",names)
+          print("KINETIC_HUMAN_GLTF_MESHES",len(meshes))
+          PY
+          ffprobe -v error -show_entries stream=codec_name,width,height,r_frame_rate:format=duration,size \
+            -of default=noprint_wrappers=1 \
+            "$OUT/KINETIC-HUMAN-Real-Blender-Creation-And-Animations.mp4" \
+            | tee "$OUT/video-metadata.txt"
+          ffmpeg -hide_banner -nostdin -loglevel error -xerror \
+            -i "$OUT/KINETIC-HUMAN-Real-Blender-Creation-And-Animations.mp4" \
+            -f null - > "$OUT/decoder-check.txt" 2>&1
+          python3 - <<'PY'
+          from pathlib import Path
+          t=Path('human-animation-studio/output/video-metadata.txt').read_text()
+          x=dict(line.split('=',1) for line in t.splitlines() if '=' in line)
+          assert float(x['duration'])>=95
+          assert int(x['width'])==1280 and int(x['height'])==720
+          assert x['codec_name']=='h264'
+          print("VIDEO_MP4_DECODED_ALL_FRAMES",x)
+          PY
+
+      - name: Extract actual motion-preview stills and make contact sheet
+        run: |
+          set -euo pipefail
+          OUT=human-animation-studio/output
+          mkdir -p "$OUT/video-frames"
+          for TIME in 18 43 70 88; do
+            ffmpeg -hide_banner -nostdin -loglevel error \
+              -ss "$TIME" -i "$OUT/KINETIC-HUMAN-Real-Blender-Creation-And-Animations.mp4" \
+              -frames:v 1 -q:v 3 "$OUT/video-frames/real-blender-$TIME.jpg"
+          done
+          python3 - <<'PY'
+          from PIL import Image,ImageStat,ImageDraw
+          from pathlib import Path
+          from io import BytesIO
+          import base64
+          o=Path("human-animation-studio/output")
+          contact=Image.new("RGB",(960,540),(10,18,29))
+          for j,t in enumerate([18,43,70,88]):
+              im=Image.open(o/f"video-frames/real-blender-{t}.jpg").convert("RGB")
+              im=im.resize((480,270))
+              contact.paste(im,((j%2)*480,(j//2)*270))
+              s=ImageStat.Stat(im)
+              assert min(s.stddev)>5.0,(t,s.stddev)
+          contact.save(o/"Modeling-Progress-Contact-Sheet.jpg",quality=85)
+          for src,n in [(o/"Modeling-Progress-Contact-Sheet.jpg","video"),
+                        (o/"KINETIC-HUMAN-01-Idle.png","render")]:
+              im=Image.open(src).convert("RGB")
+              im.thumbnail((960,540))
+              by=BytesIO()
+              im.save(by,"JPEG",quality=75,optimize=True)
+              (o/("visual-review-"+n+".b64.txt")).write_text(base64.b64encode(by.getvalue()).decode("ascii"))
+          print("CAPTURED_REAL_MODELING_FRAMES",4)
+          PY
+
+      - name: Commit full animated GLB, BLEND, MP4, PNGs and rig verification
+        run: |
+          set -euo pipefail
+          OUT=human-animation-studio/output
+          if find "$OUT" -type f -size +95M | grep -q .; then
+            echo "::error::Output exceeds GitHub maximum single Git file size"
+            exit 1
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$OUT"
+          git commit -m "Deliver KINETIC HUMAN rigged skinned GLB with Idle Walk Run Punch, real Blender model video and 4 pose PNGs"
+          git push origin HEAD:human-rig-animation-studio
+          echo "Human model, Blender rig, 4 GLB animations, video and images validated and committed." >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Download complete human character modeling package
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: KINETIC-HUMAN-RIG-WALK-RUN-PUNCH-GLB-BLEND-MP4
+          path: human-animation-studio/output/
+          if-no-files-found: warn
+          retention-days: 7
