@@ -1,0 +1,6 @@
+width=1600
+height=900
+r_frame_rate=24/1
+nb_frames=2040
+duration=85.000000
+size=1468062

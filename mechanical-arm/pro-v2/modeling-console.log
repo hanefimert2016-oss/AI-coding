@@ -1,0 +1,1399 @@
+AXIOM_PHASE 00 SETUP
+AXIOM_LIVE_GUI_MODELING_STARTED
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | heavyweight anti-vibration base", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base chrome chamfer", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | yaw index dial", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | shoulder riser", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 00 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 00 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 01 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 01 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 02 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 02 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 03 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 03 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 04 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 04 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 05 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 05 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 06 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 06 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 07 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 07 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | service USB panel", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | service socket LED", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+AXIOM_PHASE 01 BASE 28
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | cast shoulder yoke", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bearing", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 0 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 0 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 1 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 1 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 2 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 2 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 3 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 3 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 4 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 4 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 5 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 5 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | cast shoulder yoke", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bearing", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 0 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 0 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 1 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 1 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 2 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 2 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 3 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 3 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 4 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 4 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 5 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 5 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | heavy joint shaft", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+AXIOM_PHASE 02 SHOULDER 60
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder rear cover", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | tapered ceramic upper arm chassis", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | recessed carbon fiber dorsal keel", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | polished support spar", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | raised center armor spine", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | optical trace left", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | upper arm ventilation tooth 00", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | upper arm ventilation tooth 01", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | upper arm ventilation tooth 02", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | upper arm ventilation tooth 03", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | upper arm ventilation tooth 04", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+AXIOM_PHASE 03 UPPER ARM 71
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow rotor main", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | ceramic joint cover", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | annular gear teeth", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | micro gear boss", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 0 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 0 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 1 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 1 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 2 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 2 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 3 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 3 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 4 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 4 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 5 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 5 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 6 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 6 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 7 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 7 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | ceramic joint cover", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | annular gear teeth", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | micro gear boss", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 0 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 0 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 1 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 1 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 2 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 2 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 3 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 3 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 4 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 4 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 5 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 5 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 6 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 6 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 7 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+AXIOM_PHASE 04 ELBOW JOINT 112
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 7 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | forged forearm inner chassis", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | upper smart armor", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | lower smart armor", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | central exposed actuator groove", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | high voltage tracer", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | titanium heat fin 00", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | titanium heat fin 01", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | titanium heat fin 02", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | titanium heat fin 03", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | titanium heat fin 04", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+AXIOM_PHASE 05 FOREARM 123
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "06 | wrist roll coupling", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "06 | universal wrist endcap", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "06 | universal wrist endcap", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "06 | gripper adapter", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "06 | tool release mechanism", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "06 | tool lock tab", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+AXIOM_PHASE 06 UNIVERSAL WRIST 132
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "06 | tool lock tab", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | tool changer rotary clasp", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | gripper palm motor", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip 0 upper actuator", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip 0 distal", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip silicone pad 0", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | tactile optical sensor 0", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip 1 upper actuator", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip 1 distal", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip silicone pad 1", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | tactile optical sensor 1", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip 2 upper actuator", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip 2 distal", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip silicone pad 2", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+AXIOM_PHASE 07 PRECISION THREE-FINGER TOOL 149
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | tactile optical sensor 2", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "08 | primary hydraulic reservoir", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "08 | primary chrome ram", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "08 | secondary actuator reservoir", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "08 | secondary polished rod", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "08 | primary hydraulic reservoir", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "08 | primary chrome ram", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "08 | secondary actuator reservoir", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "08 | secondary polished rod", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+AXIOM_PHASE 08 DUAL HYDRAULIC ACTUATION 165
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "09 | base tooling marker", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "09 | base tooling marker", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "09 | base tooling marker", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "09 | base tooling marker", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "09 | base tooling marker", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "09 | base tooling marker", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "09 | base tooling marker", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+AXIOM_PHASE 09 BRAIDED HARNESS + ENCODERS 189
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "09 | base tooling marker", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "10 | ceramic panel inset", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "10 | ceramic panel inset", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "10 | ceramic panel inset", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "10 | ceramic panel inset", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+AXIOM_PHASE 10 ENGINEERED SURFACE FINISH 199
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "11 / rear structural carbon inset", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "11 / rear forearm carbon inset", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "11 / CNC lower forearm fairing", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "11 / bespoke upper ceramic exoshell", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "11 / machined dorsal louvre 00", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "11 / illuminated dorsal track 00", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "11 / machined dorsal louvre 01", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "11 / illuminated dorsal track 01", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "11 / machined dorsal louvre 02", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "11 / illuminated dorsal track 02", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "11 / machined dorsal louvre 03", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "11 / illuminated dorsal track 03", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "11 / machined dorsal louvre 04", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "11 / illuminated dorsal track 04", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "11 / machined dorsal louvre 05", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "11 / illuminated dorsal track 05", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "11 / machined dorsal louvre 06", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "11 / illuminated dorsal track 06", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "11 / machined dorsal louvre 07", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "11 / illuminated dorsal track 07", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "11 / honeycomb forearm exhaust fin 00", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "11 / honeycomb forearm exhaust fin 01", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "11 / honeycomb forearm exhaust fin 02", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "11 / honeycomb forearm exhaust fin 03", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "11 / honeycomb forearm exhaust fin 04", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+AXIOM_PHASE 11 CUSTOM CNC SHELLS 225
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "11 / honeycomb forearm exhaust fin 05", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder internal precision drive / annular gear hub", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder internal precision drive / involute tooth 00", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder internal precision drive / involute tooth 01", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder internal precision drive / involute tooth 02", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder internal precision drive / involute tooth 03", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder internal precision drive / involute tooth 04", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder internal precision drive / involute tooth 05", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder internal precision drive / involute tooth 06", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder internal precision drive / involute tooth 07", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder internal precision drive / involute tooth 08", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder internal precision drive / involute tooth 09", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder internal precision drive / involute tooth 10", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder internal precision drive / involute tooth 11", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder internal precision drive / involute tooth 12", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder internal precision drive / involute tooth 13", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder internal precision drive / involute tooth 14", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder internal precision drive / involute tooth 15", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder internal precision drive / involute tooth 16", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder internal precision drive / involute tooth 17", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder internal precision drive / involute tooth 18", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder internal precision drive / involute tooth 19", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder internal precision drive / involute tooth 20", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder internal precision drive / involute tooth 21", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder internal precision drive / involute tooth 22", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder internal precision drive / involute tooth 23", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow planetary ring / annular gear hub", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow planetary ring / involute tooth 00", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow planetary ring / involute tooth 01", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow planetary ring / involute tooth 02", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow planetary ring / involute tooth 03", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow planetary ring / involute tooth 04", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow planetary ring / involute tooth 05", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow planetary ring / involute tooth 06", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow planetary ring / involute tooth 07", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow planetary ring / involute tooth 08", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow planetary ring / involute tooth 09", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow planetary ring / involute tooth 10", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow planetary ring / involute tooth 11", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow planetary ring / involute tooth 12", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow planetary ring / involute tooth 13", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow planetary ring / involute tooth 14", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow planetary ring / involute tooth 15", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow planetary ring / involute tooth 16", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow planetary ring / involute tooth 17", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow planetary ring / involute tooth 18", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow planetary ring / involute tooth 19", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow planetary ring / involute tooth 20", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow planetary ring / involute tooth 21", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow planetary ring / involute tooth 22", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow planetary ring / involute tooth 23", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow planetary ring / involute tooth 24", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow planetary ring / involute tooth 25", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow planetary ring / involute tooth 26", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow planetary ring / involute tooth 27", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow planetary ring / involute tooth 28", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow planetary ring / involute tooth 29", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow planetary ring / involute tooth 30", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow planetary ring / involute tooth 31", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / wrist indexed roll / annular gear hub", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / wrist indexed roll / involute tooth 00", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / wrist indexed roll / involute tooth 01", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / wrist indexed roll / involute tooth 02", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / wrist indexed roll / involute tooth 03", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / wrist indexed roll / involute tooth 04", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / wrist indexed roll / involute tooth 05", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / wrist indexed roll / involute tooth 06", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / wrist indexed roll / involute tooth 07", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / wrist indexed roll / involute tooth 08", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / wrist indexed roll / involute tooth 09", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / wrist indexed roll / involute tooth 10", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / wrist indexed roll / involute tooth 11", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / wrist indexed roll / involute tooth 12", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / wrist indexed roll / involute tooth 13", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / wrist indexed roll / involute tooth 14", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / wrist indexed roll / involute tooth 15", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / wrist indexed roll / involute tooth 16", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / wrist indexed roll / involute tooth 17", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / wrist indexed roll / involute tooth 18", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / wrist indexed roll / involute tooth 19", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder inner ring M3 00 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder inner ring M3 00 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder inner ring M3 01 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder inner ring M3 01 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder inner ring M3 02 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder inner ring M3 02 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder inner ring M3 03 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder inner ring M3 03 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder inner ring M3 04 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder inner ring M3 04 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder inner ring M3 05 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder inner ring M3 05 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder inner ring M3 06 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder inner ring M3 06 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder inner ring M3 07 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder inner ring M3 07 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder inner ring M3 08 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder inner ring M3 08 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder inner ring M3 09 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder inner ring M3 09 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder inner ring M3 10 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder inner ring M3 10 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder inner ring M3 11 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / shoulder inner ring M3 11 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow inner ring M3 00 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow inner ring M3 00 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow inner ring M3 01 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow inner ring M3 01 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow inner ring M3 02 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow inner ring M3 02 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow inner ring M3 03 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow inner ring M3 03 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow inner ring M3 04 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow inner ring M3 04 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow inner ring M3 05 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow inner ring M3 05 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow inner ring M3 06 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow inner ring M3 06 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow inner ring M3 07 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow inner ring M3 07 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow inner ring M3 08 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow inner ring M3 08 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow inner ring M3 09 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow inner ring M3 09 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow inner ring M3 10 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow inner ring M3 10 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow inner ring M3 11 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+AXIOM_PHASE 12 PLANETARY GEARTRAINS 355
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "12 / elbow inner ring M3 11 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "13 / servo hydraulic triple-stage barrel", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "13 / servo inner telescopic actuator", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "13 / hydraulic heat exchanger tooth 00", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "13 / hydraulic heat exchanger tooth 01", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "13 / hydraulic heat exchanger tooth 02", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "13 / hydraulic heat exchanger tooth 03", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "13 / hydraulic heat exchanger tooth 04", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "13 / hydraulic heat exchanger tooth 05", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "13 / hydraulic heat exchanger tooth 06", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "13 / servo hydraulic triple-stage barrel", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "13 / servo inner telescopic actuator", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "13 / hydraulic heat exchanger tooth 00", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "13 / hydraulic heat exchanger tooth 01", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "13 / hydraulic heat exchanger tooth 02", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "13 / hydraulic heat exchanger tooth 03", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "13 / hydraulic heat exchanger tooth 04", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "13 / hydraulic heat exchanger tooth 05", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+AXIOM_PHASE 13 HYDRAULIC ACTUATORS 389
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "13 / hydraulic heat exchanger tooth 06", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "14 / fingertip micro-knurl 0-0", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "14 / fingertip micro-knurl 0-1", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "14 / fingertip micro-knurl 0-2", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "14 / fingertip micro-knurl 0-3", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "14 / fingertip micro-knurl 0-4", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "14 / end effector mounting bolt 0 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "14 / end effector mounting bolt 0 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "14 / fingertip micro-knurl 1-0", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "14 / fingertip micro-knurl 1-1", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "14 / fingertip micro-knurl 1-2", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "14 / fingertip micro-knurl 1-3", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "14 / fingertip micro-knurl 1-4", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "14 / end effector mounting bolt 1 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "14 / end effector mounting bolt 1 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "14 / fingertip micro-knurl 2-0", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "14 / fingertip micro-knurl 2-1", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "14 / fingertip micro-knurl 2-2", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "14 / fingertip micro-knurl 2-3", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "14 / fingertip micro-knurl 2-4", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "14 / end effector mounting bolt 2 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "14 / end effector mounting bolt 2 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "14 / yaw laser index stud 00", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "14 / yaw laser index stud 01", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "14 / yaw laser index stud 02", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "14 / yaw laser index stud 03", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "14 / yaw laser index stud 04", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "14 / yaw laser index stud 05", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "14 / yaw laser index stud 06", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "14 / yaw laser index stud 07", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "14 / yaw laser index stud 08", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "14 / yaw laser index stud 09", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "14 / yaw laser index stud 10", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "14 / yaw laser index stud 11", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+AXIOM_PHASE 14 MICRO PRECISION GRIPPER 438
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / upper chassis captive fastener 0 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / upper chassis captive fastener 0 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / brushed CNC edge highlight 0", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / upper chassis captive fastener 1 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / upper chassis captive fastener 1 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / brushed CNC edge highlight 1", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / upper chassis captive fastener 2 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / upper chassis captive fastener 2 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / brushed CNC edge highlight 2", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / upper chassis captive fastener 3 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / upper chassis captive fastener 3 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / brushed CNC edge highlight 3", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / upper chassis captive fastener 4 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / upper chassis captive fastener 4 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / brushed CNC edge highlight 4", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / upper chassis captive fastener 5 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / upper chassis captive fastener 5 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / brushed CNC edge highlight 5", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / lower chassis captive fastener 0 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / lower chassis captive fastener 0 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / lower chassis captive fastener 1 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / lower chassis captive fastener 1 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / lower chassis captive fastener 2 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / lower chassis captive fastener 2 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / lower chassis captive fastener 3 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / lower chassis captive fastener 3 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / lower chassis captive fastener 4 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / lower chassis captive fastener 4 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / lower chassis captive fastener 5 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / lower chassis captive fastener 5 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / lower chassis captive fastener 6 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / lower chassis captive fastener 6 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / lower chassis captive fastener 7 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / lower chassis captive fastener 7 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / base radial encoder tick 00", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / base radial encoder tick 01", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / base radial encoder tick 02", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / base radial encoder tick 03", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / base radial encoder tick 04", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / base radial encoder tick 05", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / base radial encoder tick 06", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / base radial encoder tick 07", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / base radial encoder tick 08", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "15 / base radial encoder tick 09", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+AXIOM_PHASE 15 DETAIL SURFACE ENGINEERING 484
+Info: Total files 0 | Changed 0 | Failed 0
+Info: Saved "AXIOM-6-PRO-Industrial-Robotic-Arm.blend"
+BLEND_FILE /home/runner/work/AI-coding/AI-coding/mechanical-arm/pro-v2/AXIOM-6-PRO-Industrial-Robotic-Arm.blend 9446284
+/usr/share/blender/scripts/addons/io_scene_gltf2/io/exp/gltf2_io_image_data.py:25: SyntaxWarning: invalid escape sequence '\.'
+  regex_dot = re.compile("\.")
+/usr/share/blender/scripts/addons/io_scene_gltf2/io/exp/gltf2_io_image_data.py:27: SyntaxWarning: invalid escape sequence '\]'
+  new_name = "".join([char for char in adjusted_name if char not in "!#$&'()*+,/:;<>?@[\]^`{|}~"])
+11:46:39 | ERROR: Draco mesh compression is not available because library could not be found at /usr/bin/4.0/python/lib/python3.12/site-packages/libextern_draco.so
+11:46:39 | INFO: Starting glTF 2.0 export
+11:46:39 | INFO: Extracting primitive: Cylinder
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.001
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.002
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Torus
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.003
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.004
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.005
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.006
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.007
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.008
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.009
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.010
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.011
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.012
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.013
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.014
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.015
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.016
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.017
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.018
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.019
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere.001
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere.002
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere.003
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.002
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.003
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: LASER ETCH / AXIOM / 6
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.004
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.020
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Torus.001
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.021
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.022
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.023
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.024
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.025
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.026
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.027
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.028
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.029
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.030
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.031
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.032
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.005
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.033
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Torus.002
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.034
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.035
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.036
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.037
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.038
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.039
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.040
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.041
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.042
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.043
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.044
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.045
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.046
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.006
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.007
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.008
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.009
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.010
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.011
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.012
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.013
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.014
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.015
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.016
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: LASER ETCH / SERVO / R 06
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.047
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.048
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.049
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Torus.003
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.050
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.051
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.052
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.053
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.054
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.055
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.056
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.057
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.058
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.059
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.060
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.061
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.062
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.063
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.064
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.065
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.066
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.067
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.068
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Torus.004
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.069
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.070
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.071
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.072
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.073
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.074
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.075
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.076
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.077
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.078
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.079
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.080
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.081
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.082
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.083
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.084
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.085
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.017
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.018
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.019
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.020
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.021
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.022
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.023
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.024
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.025
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.026
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: LASER ETCH / AXIS 03 / 250 Nm
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.086
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.087
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Torus.005
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.088
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Torus.006
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.027
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.028
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.029
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.030
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.089
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.090
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.031
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere.004
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.032
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.033
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.034
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.035
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere.005
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.036
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.037
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.038
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.039
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere.006
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.040
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.041
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.042
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.091
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.092
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere.007
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere.008
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.093
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.094
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere.009
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere.010
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.095
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.096
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere.011
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere.012
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.097
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.098
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere.013
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere.014
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: 09 | servo CANBUS braided line 0
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Torus.007
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Torus.008
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Torus.009
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: 09 | servo CANBUS braided line 1
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Torus.010
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Torus.011
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Torus.012
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: 09 | servo CANBUS braided line 2
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Torus.013
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Torus.014
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Torus.015
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: 09 | servo CANBUS braided line 3
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Torus.016
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Torus.017
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Torus.018
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.043
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.044
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.045
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.046
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.047
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.048
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.049
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.050
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere.015
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere.016
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere.017
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere.018
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere.019
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.051
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.052
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.053
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.054
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: LASER ETCH / 6 AXIS / INDUSTRIAL
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: 11 / bespoke upper ceramic exoshell CAD quad shell
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: 11 / CNC lower forearm fairing CAD quad shell
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: 11 / rear structural carbon inset CAD quad shell
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: 11 / rear forearm carbon inset CAD quad shell
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.055
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.056
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.057
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.058
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.059
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.060
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.061
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.062
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.063
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.064
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.065
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.066
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.067
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.068
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.069
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.070
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.071
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.072
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.073
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.074
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.075
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.076
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.099
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Torus.019
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.077
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.078
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.079
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.080
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.081
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.082
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.083
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.084
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.085
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.086
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.087
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.088
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.089
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.090
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.091
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.092
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.093
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.094
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.095
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.096
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.097
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.098
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.099
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.100
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.100
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Torus.020
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.101
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.102
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.103
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.104
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.105
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.106
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.107
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.108
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.109
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.110
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.111
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.112
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.113
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.114
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.115
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.116
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.117
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.118
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.119
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.120
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.121
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.122
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.123
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.124
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.125
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.126
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.127
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.128
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.129
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.130
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.131
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.132
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.101
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Torus.021
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.133
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.134
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.135
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.136
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.137
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.138
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.139
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.140
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.141
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.142
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.143
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.144
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.145
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.146
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.147
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.148
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.149
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.150
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.151
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.152
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.102
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.103
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.104
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.105
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.106
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.107
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.108
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.109
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.110
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.111
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.112
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.113
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.114
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.115
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.116
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.117
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.118
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.119
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.120
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.121
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.122
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.123
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.124
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.125
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.126
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.127
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.128
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.129
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.130
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.131
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.132
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.133
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.134
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.135
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.136
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.137
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.138
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.139
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.140
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.141
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.142
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.143
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.144
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.145
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.146
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.147
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.148
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.149
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.150
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.151
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere.020
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere.021
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Torus.022
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Torus.023
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Torus.024
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Torus.025
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: 13 / high pressure hose port
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: 13 / blue coolant return line
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.153
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.154
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.155
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.156
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.157
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.158
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.159
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.152
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.153
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere.022
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere.023
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Torus.026
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Torus.027
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Torus.028
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Torus.029
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: 13 / high pressure hose port.001
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: 13 / blue coolant return line.001
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.160
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.161
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.162
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.163
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.164
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.165
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.166
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.167
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.168
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.169
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.170
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.171
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere.024
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere.025
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere.026
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere.027
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.154
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.155
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.172
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.173
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.174
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.175
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.176
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere.028
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere.029
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere.030
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere.031
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.156
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.157
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.177
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.178
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.179
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.180
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.181
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere.032
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere.033
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere.034
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Sphere.035
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.158
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.159
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.160
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.161
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.162
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.163
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.164
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.165
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.166
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.167
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.168
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.169
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.170
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.171
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: 14 / wired finger strain gauges 00
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: 14 / wired finger strain gauges 01
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: 14 / wired finger strain gauges 02
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: 14 / wired finger strain gauges 03
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.172
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.173
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.182
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.174
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.175
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.183
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.176
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.177
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.184
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.178
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.179
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.185
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.180
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.181
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.186
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.182
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.183
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.187
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.184
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.185
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.186
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.187
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.188
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.189
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.190
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.191
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.192
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.193
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.194
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.195
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.196
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.197
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.198
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cylinder.199
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.188
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.189
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.190
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.191
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.192
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.193
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.194
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.195
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.196
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: Cube.197
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: LASER ETCH / AXIOM - 6 PRO
+11:46:39 | INFO: Primitives created: 1
+11:46:39 | INFO: Extracting primitive: LASER ETCH / SERVO / INDUSTRIAL
+11:46:39 | INFO: Primitives created: 1
+11:46:40 | INFO: Finished glTF 2.0 export in 0.8655667304992676 s
+
+GLB_FILE /home/runner/work/AI-coding/AI-coding/mechanical-arm/pro-v2/AXIOM-6-PRO-Industrial-Robotic-Arm.glb 6274472
+AXIOM_OBJECT_COUNT 484
+AXIOM_COMPLETED
