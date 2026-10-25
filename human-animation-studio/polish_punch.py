@@ -33,7 +33,7 @@ for frame in list(range(1,49,3))+[49]:
     hit=wind*(1.0-release)
     # Rest upper arm points down/outside; desired points forward
     # (negative Y) with an anatomically plausible shoulder position.
-    aim_upper=interp(upper_rest,Vector((.03,-.98,-.12)).normalized(),hit)
+    aim_upper=interp(upper_rest,Vector((.55,-.83,-.10)).normalized(),hit)
     q_world_upper=upper_rest.rotation_difference(aim_upper)
     delta_upper=u_q.inverted() @ q_world_upper @ u_q
     upper.rotation_mode='XYZ'
@@ -42,7 +42,7 @@ for frame in list(range(1,49,3))+[49]:
 
     # Calculate wrist direction after shoulder rotation in REST parent
     # space, then convert precisely back to forearm's LOCAL axes.
-    goal_fore=interp(fore_rest,Vector((.30,-.94,.04)).normalized(),hit)
+    goal_fore=interp(fore_rest,Vector((.34,-.94,.04)).normalized(),hit)
     target_in_upper_rest=q_world_upper.inverted() @ goal_fore
     f_world_d=fore_rest.rotation_difference(target_in_upper_rest)
     delta_fore=f_q.inverted() @ f_world_d @ f_q
