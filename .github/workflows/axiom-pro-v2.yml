@@ -1,0 +1,184 @@
+name: AXIOM-6 PRO V2 - high fidelity robot arm and verified modeling video
+
+on:
+  push:
+    branches: [mechanical-arm-workshop]
+    paths:
+      - ".github/workflows/axiom-pro-v2.yml"
+      - "mechanical-arm/axiom_builder_pro.py"
+      - "mechanical-arm/render_stills_pro.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: axiom6-pro-v2-fabrication
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - name: Checkout Blender source project
+        uses: actions/checkout@v4
+        with:
+          ref: mechanical-arm-workshop
+          fetch-depth: 0
+
+      - name: Install Blender, X11 and media verification requirements
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive timeout 480s apt-get install -y --no-install-recommends \
+            blender python3-numpy python3-pil xvfb xauth openbox xdotool wmctrl scrot ffmpeg \
+            libgl1-mesa-dri libpulse0 mesa-utils fonts-dejavu-core
+          blender -b --factory-startup --python-expr "import bpy,numpy;print('BLENDER_VERSION',bpy.app.version_string,'NUMPY',numpy.__version__)" \
+            > setup-pro.log 2>&1
+          tail -10 setup-pro.log
+          mkdir -p mechanical-arm/pro-v2
+
+      - name: Open real Blender graphical interface and record every modeling stage
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT="$PWD/mechanical-arm/pro-v2"
+          export DISPLAY=:94
+          export LIBGL_ALWAYS_SOFTWARE=1
+          export MESA_GL_VERSION_OVERRIDE=4.5
+          Xvfb :94 -screen 0 1600x900x24 -nolisten tcp > "$OUT/xvfb.log" 2>&1 &
+          XVPID=$!
+          sleep 2
+          openbox > "$OUT/window-manager.log" 2>&1 &
+          WMPID=$!
+          sleep 2
+          printf '%s\n' "BLENDER STARTING / GENERATING SCENE" > "$OUT/current-stage.txt"
+          timeout 150s blender -W --python mechanical-arm/axiom_builder_pro.py -- "$OUT" --live \
+            > "$OUT/modeling-console.log" 2>&1 &
+          BLPID=$!
+          sleep 5
+          xdotool search --name 'Blender' windowactivate 2>/dev/null || true
+          xdotool key Escape || true
+          wmctrl -r ':ACTIVE:' -b add,maximized_vert,maximized_horz || true
+          sleep 1
+          wmctrl -l | tee "$OUT/window-list.txt"
+          # This captures Blender's real on-screen construction. The stage title
+          # updates live, rather than presenting a slideshow of finished renders.
+          FONT=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+          FILTER="drawbox=x=0:y=0:w=iw:h=93:color=0x091422@0.91:t=fill,drawtext=fontfile=$FONT:text='AXIOM 6 PRO / LIVE BLENDER MODELING':fontsize=27:fontcolor=white:x=31:y=11,drawtext=fontfile=$FONT:textfile=$OUT/current-stage.txt:reload=1:fontsize=22:fontcolor=0x68deff:x=31:y=48"
+          ffmpeg -hide_banner -loglevel error -y -nostdin \
+            -f x11grab -video_size 1600x900 -framerate 24 -i :94 \
+            -t 85 -vf "$FILTER" -c:v libx264 -preset veryfast -crf 21 \
+            -pix_fmt yuv420p -movflags +faststart \
+            "$OUT/AXIOM-6-PRO-Real-Blender-Modeling.mp4" \
+            > "$OUT/ffmpeg-recording.log" 2>&1 &
+          RECPID=$!
+          sleep 16
+          scrot "$OUT/AXIOM-6-PRO-Stage-01.png"
+          sleep 27
+          scrot "$OUT/AXIOM-6-PRO-Stage-08.png"
+          sleep 29
+          scrot "$OUT/AXIOM-6-PRO-Stage-15.png"
+          RET=0
+          if ! grep -q 'AXIOM_COMPLETED' "$OUT/modeling-console.log"; then
+            echo "::error::Blender never reported successful model export"
+            tail -90 "$OUT/modeling-console.log"
+            RET=1
+          fi
+          wait "$RECPID" || { cat "$OUT/ffmpeg-recording.log"; RET=1; }
+          kill "$BLPID" "$XVPID" "$WMPID" 2>/dev/null || true
+          wait "$BLPID" 2>/dev/null || true
+          test "$RET" -eq 0
+          grep -E '^AXIOM_PHASE|^AXIOM_OBJECT_COUNT|^AXIOM_COMPLETED' "$OUT/modeling-console.log" \
+            | tee "$OUT/phase-report.txt"
+          test -s "$OUT/AXIOM-6-PRO-Industrial-Robotic-Arm.blend"
+          test -s "$OUT/AXIOM-6-PRO-Industrial-Robotic-Arm.glb"
+          test -s "$OUT/AXIOM-6-PRO-Real-Blender-Modeling.mp4"
+
+      - name: Render 3 higher quality studio shots from the actual final Blender model
+        shell: bash
+        run: |
+          set -euo pipefail
+          timeout 1100s blender -b mechanical-arm/pro-v2/AXIOM-6-PRO-Industrial-Robotic-Arm.blend \
+            -t 4 --python mechanical-arm/render_stills_pro.py -- "$PWD/mechanical-arm/pro-v2" \
+            > mechanical-arm/pro-v2/studio-render.log 2>&1 || {
+              tail -95 mechanical-arm/pro-v2/studio-render.log
+              exit 1
+            }
+          grep AXIOM_RENDER mechanical-arm/pro-v2/studio-render.log
+
+      - name: Strict geometry, motion, brightness and playable MP4 verification
+        run: |
+          set -euo pipefail
+          OUT=mechanical-arm/pro-v2
+          python3 - <<'PY'
+          from pathlib import Path
+          import json,struct
+          from PIL import Image,ImageStat
+          o=Path("mechanical-arm/pro-v2")
+          glb=(o/"AXIOM-6-PRO-Industrial-Robotic-Arm.glb").read_bytes()
+          assert glb[:4]==b'glTF'
+          assert struct.unpack_from("<I",glb,4)[0]==2
+          assert struct.unpack_from("<I",glb,8)[0]==len(glb)
+          jlen=struct.unpack_from("<I",glb,12)[0]
+          data=json.loads(glb[20:20+jlen])
+          meshes=len(data.get("meshes",[]))
+          assert meshes>=320, f"Not enough model detail ({meshes})"
+          assert (o/"AXIOM-6-PRO-Industrial-Robotic-Arm.blend").read_bytes()[:7]==b'BLENDER'
+          for filename in ["AXIOM-6-PRO-Hero-Render.png","AXIOM-6-PRO-Technical-Side.png",
+                           "AXIOM-6-PRO-Gripper-Closeup.png"]:
+              f=o/filename
+              assert f.stat().st_size>50000,(filename,f.stat().st_size)
+              assert Image.open(f).size==(1600,900)
+          for filename in ["AXIOM-6-PRO-Stage-01.png","AXIOM-6-PRO-Stage-08.png","AXIOM-6-PRO-Stage-15.png"]:
+              a=Image.open(o/filename).convert('RGB').crop((100,100,1450,830))
+              stat=ImageStat.Stat(a)
+              # catches blank or uniformly black/white desktops, not only missing files
+              assert min(stat.stddev)>7.0,(filename,stat.stddev)
+              print("DESKTOP_VISIBLE",filename,["%.1f"%v for v in stat.stddev])
+          print("GLB_GEOMETRY_VERIFIED",meshes, "MESHES",len(data.get("nodes",[])),"NODES")
+          PY
+          ffprobe -v error -show_entries stream=width,height,r_frame_rate,nb_frames:format=duration,size \
+            -of default=noprint_wrappers=1 "$OUT/AXIOM-6-PRO-Real-Blender-Modeling.mp4" \
+            | tee "$OUT/video-verification.txt"
+          ffmpeg -hide_banner -loglevel error -xerror -i "$OUT/AXIOM-6-PRO-Real-Blender-Modeling.mp4" \
+            -f null - > "$OUT/decoder-check.txt" 2>&1
+          python3 - <<'PY'
+          from pathlib import Path
+          info=Path("mechanical-arm/pro-v2/video-verification.txt").read_text()
+          fields=dict(line.split("=",1) for line in info.splitlines() if "=" in line)
+          assert float(fields['duration'])>=75
+          assert int(fields['width'])==1600 and int(fields['height'])==900
+          print("VIDEO_DECODES_ALL_FRAMES", fields)
+          PY
+          for TIME in 15 47 74; do
+            ffmpeg -hide_banner -loglevel error -ss "$TIME" \
+              -i "$OUT/AXIOM-6-PRO-Real-Blender-Modeling.mp4" \
+              -vf 'crop=1000:670:320:155' -frames:v 1 -f md5 - \
+              > "$OUT/center-frame-$TIME.md5"
+          done
+          ! cmp -s "$OUT/center-frame-15.md5" "$OUT/center-frame-47.md5" || \
+            { echo "::error::Center viewport frozen between modeling steps"; exit 1; }
+          ! cmp -s "$OUT/center-frame-47.md5" "$OUT/center-frame-74.md5" || \
+            { echo "::error::Center viewport frozen during final stages"; exit 1; }
+          echo "VERIFIED: video decodes from beginning to end, 3 model-building snapshots, viewport motion, and real glTF meshes." >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Persist source models, GLB, corrected video and renders
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add mechanical-arm/pro-v2
+          git commit -m "Deliver AXIOM-6 PRO v2: detailed CNC mechanical model and validated screen recording"
+          git push origin HEAD:mechanical-arm-workshop
+          echo "[Download individual files from persistent branch](https://github.com/$GITHUB_REPOSITORY/tree/mechanical-arm-workshop/mechanical-arm/pro-v2)" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Download complete package
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: AXIOM-6-PRO-V2-GLB-BLEND-Real-Modeling-MP4
+          path: mechanical-arm/pro-v2/
+          if-no-files-found: warn
+          retention-days: 7
