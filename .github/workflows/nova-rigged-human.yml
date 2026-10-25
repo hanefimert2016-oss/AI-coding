@@ -1,0 +1,210 @@
+name: NOVA Rigged Human - Blender bones animations GLB MP4
+
+on:
+  push:
+    branches: [mechanical-arm-workshop]
+    paths:
+      - ".github/workflows/nova-rigged-human.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nova-01-skeleton-modeler
+  cancel-in-progress: true
+
+jobs:
+  create-rig-and-record:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - name: Checkout human modeling project
+        uses: actions/checkout@v4
+        with:
+          ref: mechanical-arm-workshop
+          fetch-depth: 0
+
+      - name: Install actual Blender desktop and rendering tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive timeout 480s apt-get install -y --no-install-recommends \
+            blender python3-numpy python3-pil xvfb xauth openbox xdotool wmctrl scrot ffmpeg \
+            libgl1-mesa-dri libpulse0 fonts-dejavu-core
+          mkdir -p characters/nova-01/outputs
+          blender -b --factory-startup --python-expr \
+            "import bpy,numpy;print('BLENDER_VERSION',bpy.app.version_string,'NUMPY',numpy.__version__)" \
+            > characters/nova-01/outputs/blender-version.log 2>&1
+          tail -8 characters/nova-01/outputs/blender-version.log
+
+      - name: Record Blender creating humanoid, binding bones and exporting 4 animations
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT="$PWD/characters/nova-01/outputs"
+          export DISPLAY=:95 LIBGL_ALWAYS_SOFTWARE=1 MESA_GL_VERSION_OVERRIDE=4.5
+          Xvfb :95 -screen 0 1600x900x24 -nolisten tcp > "$OUT/xvfb.log" 2>&1 &
+          XV=$!
+          sleep 2
+          openbox > "$OUT/openbox.log" 2>&1 &
+          WM=$!
+          sleep 2
+          echo "NOVA HUMAN | OPENING BLENDER" > "$OUT/current-stage.txt"
+          timeout 180s blender -W --python characters/nova-01/build_human.py -- "$OUT" --live \
+            > "$OUT/blender-modeling.log" 2>&1 &
+          BPID=$!
+          sleep 7
+          xdotool search --name Blender windowactivate 2>/dev/null || true
+          xdotool key Escape 2>/dev/null || true
+          wmctrl -r ':ACTIVE:' -b add,maximized_vert,maximized_horz || true
+          wmctrl -l | tee "$OUT/window-list.txt"
+          FONT=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+          FILTER="scale=1280:720:flags=lanczos,drawbox=x=0:y=0:w=iw:h=72:color=0x08192C@0.93:t=fill,drawtext=fontfile=$FONT:text='NOVA 01 / REAL BLENDER CHARACTER MODELING':fontsize=23:fontcolor=white:x=27:y=8,drawtext=fontfile=$FONT:textfile=$OUT/current-stage.txt:reload=1:fontsize=19:fontcolor=0x70E3FC:x=27:y=38"
+          ffmpeg -hide_banner -nostdin -loglevel error -y \
+            -f x11grab -framerate 24 -video_size 1600x900 -i :95 \
+            -t 106 -vf "$FILTER" -c:v libx264 -profile:v baseline -level:v 3.1 \
+            -preset veryfast -crf 21 -pix_fmt yuv420p -movflags +faststart \
+            "$OUT/NOVA-01-Real-Blender-Modeling-And-Rigging.mp4" \
+            > "$OUT/recording.log" 2>&1 &
+          VID=$!
+          sleep 14
+          scrot "$OUT/01-Modeling-In-Progress.png"
+          sleep 20
+          scrot "$OUT/02-Character-With-Skeleton.png"
+          sleep 27
+          scrot "$OUT/03-Animation-Preview.png"
+          PROBLEM=0
+          if ! grep -q NOVA_CHARACTER_COMPLETE "$OUT/blender-modeling.log"; then
+            echo "No successful Blender character export in the first capture stages."
+            tail -100 "$OUT/blender-modeling.log"
+            PROBLEM=1
+          fi
+          sleep 16
+          wait "$VID" || { cat "$OUT/recording.log"; PROBLEM=1; }
+          kill "$BPID" "$XV" "$WM" 2>/dev/null || true
+          wait "$BPID" 2>/dev/null || true
+          test "$PROBLEM" -eq 0
+          grep -E 'NOVA_CHARACTER_COMPLETE|CREATED_ACTION|NOVA_GLTF_EXPORTED|HUMAN_STAGE' \
+            "$OUT/blender-modeling.log" | tee "$OUT/modeling-stage-summary.txt"
+          test -s "$OUT/NOVA-01-Rigged-Human-Animated.blend"
+          test -s "$OUT/NOVA-01-Rigged-Human-4-Animations.glb"
+
+      - name: Render four high quality pose images from real Blender rig actions
+        run: |
+          set -euo pipefail
+          OUT="$PWD/characters/nova-01/outputs"
+          timeout 1000s blender -b "$OUT/NOVA-01-Rigged-Human-Animated.blend" -t 4 \
+            --python characters/nova-01/render_poses.py -- "$OUT" \
+            > "$OUT/poses-render.log" 2>&1 || {
+              tail -120 "$OUT/poses-render.log"
+              exit 1
+            }
+          grep NOVA_RENDER "$OUT/poses-render.log"
+
+      - name: Check GLB has skin, bones and four different playable animation clips
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json,struct
+          from pathlib import Path
+          from PIL import Image,ImageStat
+          o=Path("characters/nova-01/outputs")
+          blob=(o/"NOVA-01-Rigged-Human-4-Animations.glb").read_bytes()
+          assert blob[:4]==b'glTF'
+          assert struct.unpack_from("<I",blob,4)[0]==2
+          assert struct.unpack_from("<I",blob,8)[0]==len(blob)
+          size=struct.unpack_from("<I",blob,12)[0]
+          data=json.loads(blob[20:20+size])
+          skins=data.get("skins",[])
+          anims=data.get("animations",[])
+          meshes=data.get("meshes",[])
+          nodes=data.get("nodes",[])
+          print("NOVA_GLTF_INSPECTION",json.dumps({
+            "skins":len(skins),"animations":[a.get("name") for a in anims],
+            "mesh_count":len(meshes),"node_count":len(nodes),
+            "joint_counts":[len(s["joints"]) for s in skins]}))
+          assert len(skins)>=1, "GLB lacks skeletal skinning"
+          assert max(len(s.get("joints",[])) for s in skins)>=18, "GLB skeleton missing bones"
+          names=[a.get("name","").lower() for a in anims]
+          for need in ("idle","walk","run","punch"):
+              assert any(need in n for n in names),f"Missing animation: {need}, got {names}"
+          assert len(anims)>=4
+          for a in anims:assert a.get("channels"),"Empty animation channels"
+          assert len(meshes)>=20
+          assert (o/"NOVA-01-Rigged-Human-Animated.blend").read_bytes()[:7]==b"BLENDER"
+          for filename in ["01-NOVA-Full-Body-Idle.png","02-NOVA-Walk-Cycle.png",
+                           "03-NOVA-Run-Cycle.png","04-NOVA-Punch-Action.png"]:
+              p=o/filename
+              assert p.stat().st_size>40000
+              assert Image.open(p).size==(1400,900)
+          for png in ["01-Modeling-In-Progress.png","02-Character-With-Skeleton.png",
+                      "03-Animation-Preview.png"]:
+              im=Image.open(o/png).convert("RGB")
+              stats=ImageStat.Stat(im)
+              assert max(stats.stddev)>10,png
+          print("NOVA_GLTF_SKIN_AND_ALL_FOUR_ANIMATIONS_VERIFIED")
+          PY
+          ffprobe -v error -show_entries format=duration,size:stream=codec_name,profile,width,height,r_frame_rate \
+            -of default=noprint_wrappers=1 \
+            characters/nova-01/outputs/NOVA-01-Real-Blender-Modeling-And-Rigging.mp4 \
+            | tee characters/nova-01/outputs/verified-video-info.txt
+          ffmpeg -nostdin -hide_banner -loglevel error -xerror \
+            -i characters/nova-01/outputs/NOVA-01-Real-Blender-Modeling-And-Rigging.mp4 \
+            -f null - > characters/nova-01/outputs/verified-video-decode.txt 2>&1
+          python3 - <<'PY'
+          from pathlib import Path
+          p=Path("characters/nova-01/outputs/verified-video-info.txt")
+          fields=dict(l.split("=",1) for l in p.read_text().splitlines() if "=" in l)
+          assert float(fields["duration"])>=100
+          assert fields.get("codec_name")=="h264"
+          assert fields["width"]=="1280" and fields["height"]=="720"
+          print("NOVA_FULL_VIDEO_DECODE_OK",fields)
+          PY
+          for SECOND in 15 39 69; do
+            ffmpeg -hide_banner -loglevel error -ss "$SECOND" \
+              -i characters/nova-01/outputs/NOVA-01-Real-Blender-Modeling-And-Rigging.mp4 \
+              -vf crop=760:520:255:150 -frames:v 1 -f md5 - \
+              > "characters/nova-01/outputs/viewport-$SECOND.md5"
+          done
+          ! cmp -s characters/nova-01/outputs/viewport-15.md5 characters/nova-01/outputs/viewport-39.md5
+          ! cmp -s characters/nova-01/outputs/viewport-39.md5 characters/nova-01/outputs/viewport-69.md5
+          echo "Verified rigged character, four separate animations, four Blender renders and fully decoded non-frozen H264 video." >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Generate render gallery and timeline contact sheet
+        run: |
+          python3 - <<'PY'
+          from PIL import Image,ImageDraw,ImageFont
+          from pathlib import Path
+          p=Path("characters/nova-01/outputs")
+          names=["01-NOVA-Full-Body-Idle.png","02-NOVA-Walk-Cycle.png",
+                 "03-NOVA-Run-Cycle.png","04-NOVA-Punch-Action.png"]
+          gallery=Image.new("RGB",(1600,1040),(16,25,37))
+          for idx,name in enumerate(names):
+              photo=Image.open(p/name).convert("RGB")
+              photo.thumbnail((790,490))
+              x=(idx%2)*800+5;y=(idx//2)*520+15
+              gallery.paste(photo,(x,y))
+          gallery.save(p/"NOVA-All-Four-Animations-Gallery.png")
+          PY
+
+      - name: Publish actual Blender model, animated GLB, MP4 and PNGs to GitHub branch
+        run: |
+          set -euo pipefail
+          OUT=characters/nova-01/outputs
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          find "$OUT" -maxdepth 1 -type f -size +95M -print -quit | \
+            grep -q . && { echo "::error::An output is too large for GitHub git"; exit 1; } || true
+          git add "$OUT"
+          git commit -m "Deliver NOVA human: skinned 22 bone rig, four glTF animations, Blender modeling MP4 and rendered poses"
+          git push origin HEAD:mechanical-arm-workshop
+
+      - name: Package complete deliverable
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: NOVA-01-Human-Rig-Idle-Walk-Run-Punch-GLB-BLEND-MP4-PNG
+          path: characters/nova-01/outputs/
+          if-no-files-found: warn
+          retention-days: 7
