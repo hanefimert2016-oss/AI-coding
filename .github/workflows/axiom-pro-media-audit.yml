@@ -1,0 +1,100 @@
+name: AXIOM-6 PRO - video playback compatibility and visual audit
+on:
+  push:
+    branches: [mechanical-arm-workshop]
+    paths: [".github/workflows/axiom-pro-media-audit.yml"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  inspect-and-encode:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: mechanical-arm-workshop
+          fetch-depth: 0
+      - name: Install image analysis and video encoding
+        run: |
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq --no-install-recommends ffmpeg python3-pil
+      - name: Create phone-compatible H.264 Baseline MP4 and verify playback
+        run: |
+          set -euo pipefail
+          OUT=mechanical-arm/pro-v2
+          ffmpeg -nostdin -hide_banner -loglevel error -y \
+            -i "$OUT/AXIOM-6-PRO-Real-Blender-Modeling.mp4" \
+            -vf 'scale=1280:720:flags=lanczos,fps=24' \
+            -c:v libx264 -profile:v baseline -level:v 3.1 -preset veryfast -crf 23 \
+            -pix_fmt yuv420p -movflags +faststart \
+            "$OUT/AXIOM-6-PRO-Modeling-Mobile-Compatible.mp4"
+          ffmpeg -nostdin -hide_banner -loglevel error -xerror \
+            -i "$OUT/AXIOM-6-PRO-Modeling-Mobile-Compatible.mp4" -f null - \
+            > "$OUT/mobile-decoder-check.txt" 2>&1
+          ffprobe -v error -show_entries stream=codec_name,profile,width,height,r_frame_rate:format=duration,size \
+            -of default=noprint_wrappers=1 "$OUT/AXIOM-6-PRO-Modeling-Mobile-Compatible.mp4" \
+            | tee "$OUT/mobile-video-info.txt"
+      - name: Generate visual inspection frames from actual MP4 and Blender renders
+        run: |
+          set -euo pipefail
+          OUT=mechanical-arm/pro-v2
+          mkdir -p "$OUT/preview-audit"
+          for SECOND in 13 42 70; do
+            ffmpeg -nostdin -hide_banner -loglevel error -ss "$SECOND" \
+              -i "$OUT/AXIOM-6-PRO-Modeling-Mobile-Compatible.mp4" \
+              -frames:v 1 -q:v 4 \
+              "$OUT/preview-audit/recording-$(printf '%02d' "$SECOND").jpg"
+          done
+          python3 - <<'PY'
+          from PIL import Image, ImageDraw, ImageFont, ImageStat
+          from pathlib import Path
+          import base64
+          p=Path("mechanical-arm/pro-v2")
+          previews=p/"preview-audit"
+          scene=Image.new("RGB",(960,540),(8,16,30))
+          names=["recording-13.jpg","recording-42.jpg","recording-70.jpg"]
+          for i,n in enumerate(names):
+              im=Image.open(previews/n).convert("RGB")
+              im.thumbnail((480,270))
+              if i==0: scene.paste(im,(0,0))
+              elif i==1: scene.paste(im,(480,0))
+              else: scene.paste(im,(240,270))
+          scene.save(previews/"video-3-stages-contact-sheet.jpg",quality=78,optimize=True)
+          # A compact encoded diagnostic preview that can be visually checked,
+          # without mistaking video metadata for verified on-screen content.
+          for source, dest in [
+              (previews/"video-3-stages-contact-sheet.jpg", previews/"VIDEO-CONTACT-SHEET.b64.txt"),
+              (p/"AXIOM-6-PRO-Hero-Render.png",previews/"RENDER-REVIEW.b64.txt"),
+          ]:
+              img=Image.open(source).convert("RGB")
+              if img.width>960:img.thumbnail((960,540))
+              from io import BytesIO
+              io=BytesIO()
+              img.save(io,"JPEG",quality=67,optimize=True)
+              dest.write_text(base64.b64encode(io.getvalue()).decode("ascii")+"\n")
+              print("PREVIEW",dest,"bytes",dest.stat().st_size)
+          means=[]
+          for n in names:
+              im=Image.open(previews/n).convert("RGB")
+              stat=ImageStat.Stat(im)
+              means.append(round(sum(stat.mean)/3.0,2))
+          print("ACTUAL_DESKTOP_FRAME_YAVG",means)
+          assert min(means)>14, "Blank/corrupt video frames"
+          PY
+      - name: Push mobile playback version and audit images
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add mechanical-arm/pro-v2
+          git commit -m "Deliver phone-compatible H264 video and real modeling screenshot audit"
+          git push origin HEAD:mechanical-arm-workshop
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: AXIOM-6-PRO-Compatible-Video-and-Audit
+          path: |
+            mechanical-arm/pro-v2/AXIOM-6-PRO-Modeling-Mobile-Compatible.mp4
+            mechanical-arm/pro-v2/preview-audit/*.jpg
+          retention-days: 7
