@@ -1,0 +1,880 @@
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | service USB panel", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | service socket LED", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 07 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 07 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | cast shoulder yoke.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 06 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 0 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 0 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 06 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 1 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 1 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 05 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 2 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 05 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 3 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 2 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 04 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 4 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 3 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 04 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 5 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 4 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | cast shoulder yoke", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 03 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 5 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 03 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bearing.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 0 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 02 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 1 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 0 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 02 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 1 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 2 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 01 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 2 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 3 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 01 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 4 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 3 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 00 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 5 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 4 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 00 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 5 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder rear cover", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bearing", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | tapered ceramic upper arm chassis", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | recessed carbon fiber dorsal keel", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | polished support spar", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | raised center armor spine", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | optical trace left", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | upper arm ventilation tooth 00", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | upper arm ventilation tooth 01", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | upper arm ventilation tooth 02", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | upper arm ventilation tooth 03", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | upper arm ventilation tooth 04", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | heavy joint shaft", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | shoulder riser", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow rotor main", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | annular gear teeth.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | ceramic joint cover.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 0 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 0 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 1 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 1 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 2 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 2 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 3 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 3 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 4 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | micro gear boss.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 5 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 4 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 6 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 5 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 6 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 7 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 7 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | yaw index dial", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | micro gear boss", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 0 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 0 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | annular gear teeth", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 1 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 1 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | ceramic joint cover", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 2 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 3 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 2 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 3 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 4 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 5 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 4 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 5 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 6 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 7 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 6 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | forged forearm inner chassis", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | upper smart armor", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 7 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | central exposed actuator groove", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | lower smart armor", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | high voltage tracer", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | titanium heat fin 00", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | titanium heat fin 01", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | titanium heat fin 02", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | titanium heat fin 03", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base chrome chamfer", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | titanium heat fin 04", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "06 | wrist roll coupling", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "06 | universal wrist endcap.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "06 | gripper adapter", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "06 | tool release mechanism", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "06 | tool lock tab.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "06 | tool lock tab", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "06 | universal wrist endcap", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | heavyweight anti-vibration base", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip 0 upper actuator", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | tool changer rotary clasp", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "10 | ceramic panel inset", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip silicone pad 0", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | gripper palm motor", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "10 | ceramic panel inset.003", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | tactile optical sensor 0", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "10 | ceramic panel inset.002", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip 1 upper actuator", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip 0 distal", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "10 | ceramic panel inset.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip 1 distal", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip silicone pad 1", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | tactile optical sensor 1", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip 2 upper actuator", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip 2 distal", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip silicone pad 2", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "09 | base tooling marker", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | tactile optical sensor 2", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "09 | base tooling marker.007", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "08 | primary hydraulic reservoir.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "08 | primary chrome ram.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "09 | base tooling marker.006", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "08 | secondary actuator reservoir.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "09 | base tooling marker.005", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "09 | base tooling marker.004", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "08 | secondary polished rod.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "08 | primary chrome ram", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "09 | base tooling marker.003", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "09 | base tooling marker.002", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "08 | secondary actuator reservoir", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "09 | base tooling marker.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "08 | secondary polished rod", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "08 | primary hydraulic reservoir", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "10 | ceramic panel inset", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "10 | ceramic panel inset.003", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "10 | ceramic panel inset.002", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "10 | ceramic panel inset.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "09 | base tooling marker", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "09 | base tooling marker.007", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "09 | base tooling marker.006", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "09 | base tooling marker.005", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "09 | base tooling marker.004", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "09 | base tooling marker.003", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "09 | base tooling marker.002", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "09 | base tooling marker.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "08 | secondary polished rod", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "08 | secondary actuator reservoir", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "08 | primary chrome ram", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "08 | primary hydraulic reservoir", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base chrome chamfer", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "08 | secondary polished rod.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "08 | secondary actuator reservoir.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "08 | primary chrome ram.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "08 | primary hydraulic reservoir.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | tactile optical sensor 2", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip silicone pad 2", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip 2 distal", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip 2 upper actuator", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | shoulder riser", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | tactile optical sensor 1", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip silicone pad 1", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 00 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip 1 distal", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 00 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip 1 upper actuator", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 01 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | tactile optical sensor 0", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip silicone pad 0", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 01 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip 0 distal", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 02 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip 0 upper actuator", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 02 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 03 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 03 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | heavyweight anti-vibration base", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 04 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 05 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 04 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 05 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 06 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 06 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | yaw index dial", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 07 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | gripper palm motor", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | service USB panel", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | service socket LED", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | cast shoulder yoke.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 0 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 0 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 07 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 1 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 2 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 2 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 3 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | tool changer rotary clasp", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 3 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bearing.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 4 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "06 | tool lock tab", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 5 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "06 | tool lock tab.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 1 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 4 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "06 | tool release mechanism", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | cast shoulder yoke", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 5 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "06 | gripper adapter", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 0 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 0 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 1 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 1 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 2 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 2 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 3 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 3 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 4 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 4 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 5 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 5 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bearing", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder rear cover", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | tapered ceramic upper arm chassis", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | recessed carbon fiber dorsal keel", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "06 | universal wrist endcap", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | polished support spar", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | raised center armor spine", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | optical trace left", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | upper arm ventilation tooth 00", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | upper arm ventilation tooth 01", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | upper arm ventilation tooth 02", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | upper arm ventilation tooth 03", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | upper arm ventilation tooth 04", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | heavy joint shaft", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "06 | universal wrist endcap.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow rotor main", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | ceramic joint cover.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 0 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | annular gear teeth.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 0 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 1 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 2 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 1 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 3 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 2 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "06 | wrist roll coupling", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | titanium heat fin 04", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 4 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 3 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | micro gear boss.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | titanium heat fin 03", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 4 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 5 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 5 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | titanium heat fin 02", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 6 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 6 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | titanium heat fin 01", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 7 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | titanium heat fin 00", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 7 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | high voltage tracer", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | central exposed actuator groove", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | lower smart armor", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | upper smart armor", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | forged forearm inner chassis", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 7 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | micro gear boss", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 7 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 0 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 6 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | annular gear teeth", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 6 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 0 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 1 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 1 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 5 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | ceramic joint cover", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 2 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 5 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 2 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 3 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 3 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 4 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 4 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+Blender 4.0.2
+Read blend: "/home/runner/work/AI-coding/AI-coding/mechanical-arm/outputs/AXIOM-6-Industrial-Robotic-Arm.blend"
+Fra:1 Mem:34.75M (Peak 34.99M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | STUDIO FLOOR
+Fra:1 Mem:34.75M (Peak 34.99M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | base chrome chamfer
+Fra:1 Mem:34.86M (Peak 34.99M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | yaw index dial
+Fra:1 Mem:35.01M (Peak 35.01M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | illuminated 360-degree encoder
+Fra:1 Mem:35.03M (Peak 35.03M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | shoulder riser
+Fra:1 Mem:35.09M (Peak 35.09M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | base anchor 00 | machine bolt
+Fra:1 Mem:35.18M (Peak 35.18M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | base anchor 00 | socket
+Fra:1 Mem:35.17M (Peak 35.18M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | base anchor 01 | machine bolt
+Fra:1 Mem:35.19M (Peak 35.19M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | base anchor 02 | machine bolt
+Fra:1 Mem:35.20M (Peak 35.20M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | base anchor 02 | socket
+Fra:1 Mem:35.23M (Peak 35.23M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | base anchor 03 | machine bolt
+Fra:1 Mem:35.24M (Peak 35.24M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | base anchor 03 | socket
+Fra:1 Mem:35.26M (Peak 35.26M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | base anchor 04 | socket
+Fra:1 Mem:35.26M (Peak 35.26M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | base anchor 05 | machine bolt
+Fra:1 Mem:35.28M (Peak 35.28M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | base anchor 05 | socket
+Fra:1 Mem:35.31M (Peak 35.31M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | base anchor 06 | machine bolt
+Fra:1 Mem:35.33M (Peak 35.33M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | base anchor 06 | socket
+Fra:1 Mem:35.33M (Peak 35.33M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | base anchor 07 | socket
+Fra:1 Mem:35.35M (Peak 35.35M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | anti-slip rubber pad 0
+Fra:1 Mem:35.38M (Peak 35.38M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | anti-slip rubber pad 1
+Fra:1 Mem:35.42M (Peak 35.42M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | anti-slip rubber pad 2
+Fra:1 Mem:35.45M (Peak 35.45M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | service USB panel
+Fra:1 Mem:35.49M (Peak 35.49M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | service socket LED
+Fra:1 Mem:35.51M (Peak 35.51M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | cast shoulder yoke.001
+Fra:1 Mem:35.52M (Peak 35.52M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bearing.001
+Fra:1 Mem:35.56M (Peak 35.56M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bronze seal.001
+Fra:1 Mem:35.75M (Peak 35.75M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 0 | machine bolt.001
+Fra:1 Mem:35.77M (Peak 35.77M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 0 | socket.001
+Fra:1 Mem:35.76M (Peak 35.77M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 1 | machine bolt.001
+Fra:1 Mem:35.78M (Peak 35.78M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 2 | machine bolt.001
+Fra:1 Mem:35.79M (Peak 35.79M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 2 | socket.001
+Fra:1 Mem:35.79M (Peak 35.79M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 3 | machine bolt.001
+Fra:1 Mem:35.83M (Peak 35.83M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 3 | socket.001
+Fra:1 Mem:35.85M (Peak 35.85M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 4 | machine bolt.001
+Fra:1 Mem:35.86M (Peak 35.86M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 5 | machine bolt.001
+Fra:1 Mem:35.88M (Peak 35.88M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | cast shoulder yoke
+Fra:1 Mem:35.89M (Peak 35.89M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bearing
+Fra:1 Mem:35.90M (Peak 35.90M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bronze seal
+Fra:1 Mem:36.03M (Peak 36.03M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 0 | machine bolt
+Fra:1 Mem:36.06M (Peak 36.06M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 0 | socket
+Fra:1 Mem:36.06M (Peak 36.06M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 1 | machine bolt
+Fra:1 Mem:36.10M (Peak 36.10M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 1 | socket
+Fra:1 Mem:36.11M (Peak 36.11M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 2 | socket
+Fra:1 Mem:36.13M (Peak 36.13M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 3 | machine bolt
+Fra:1 Mem:36.13M (Peak 36.13M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 4 | machine bolt
+Fra:1 Mem:36.15M (Peak 36.15M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 4 | socket
+Fra:1 Mem:36.19M (Peak 36.19M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 5 | machine bolt
+Fra:1 Mem:36.20M (Peak 36.20M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 5 | socket
+Fra:1 Mem:36.20M (Peak 36.20M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | heavy joint shaft
+Fra:1 Mem:36.26M (Peak 36.26M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder rear cover
+Fra:1 Mem:36.28M (Peak 36.28M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 03 | tapered ceramic upper arm chassis
+Fra:1 Mem:36.29M (Peak 36.29M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 03 | recessed carbon fiber dorsal keel
+Fra:1 Mem:36.29M (Peak 36.29M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 03 | polished support spar
+Fra:1 Mem:36.30M (Peak 36.30M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 03 | raised center armor spine
+Fra:1 Mem:36.32M (Peak 36.32M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 03 | optical trace left
+Fra:1 Mem:36.33M (Peak 36.33M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 03 | upper arm ventilation tooth 00
+Fra:1 Mem:36.34M (Peak 36.34M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 03 | upper arm ventilation tooth 02
+Fra:1 Mem:36.36M (Peak 36.36M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 03 | upper arm ventilation tooth 03
+Fra:1 Mem:36.38M (Peak 36.38M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 03 | upper arm ventilation tooth 04
+Fra:1 Mem:36.38M (Peak 36.38M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow rotor main
+Fra:1 Mem:36.44M (Peak 36.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | ceramic joint cover.001
+Fra:1 Mem:36.54M (Peak 36.54M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | annular gear teeth.001
+Fra:1 Mem:36.72M (Peak 36.72M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | glowing joint encoder.001
+Fra:1 Mem:36.74M (Peak 36.74M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | micro gear boss.001
+Fra:1 Mem:36.89M (Peak 36.89M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 0 | machine bolt.001
+Fra:1 Mem:36.90M (Peak 36.90M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 0 | socket.001
+Fra:1 Mem:36.93M (Peak 36.93M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 1 | machine bolt.001
+Fra:1 Mem:36.93M (Peak 36.93M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 1 | socket.001
+Fra:1 Mem:36.99M (Peak 36.99M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 2 | machine bolt.001
+Fra:1 Mem:36.99M (Peak 36.99M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 2 | socket.001
+Fra:1 Mem:37.02M (Peak 37.02M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 3 | machine bolt.001
+Fra:1 Mem:37.04M (Peak 37.04M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 3 | socket.001
+Fra:1 Mem:37.02M (Peak 37.04M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 4 | machine bolt.001
+Fra:1 Mem:37.02M (Peak 37.04M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 4 | socket.001
+Fra:1 Mem:37.04M (Peak 37.04M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 5 | machine bolt.001
+Fra:1 Mem:37.04M (Peak 37.04M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 5 | socket.001
+Fra:1 Mem:37.06M (Peak 37.06M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 6 | socket.001
+Fra:1 Mem:37.08M (Peak 37.08M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | LASER MARK | 6 AXIS / INDUSTRIAL
+Fra:1 Mem:37.09M (Peak 37.09M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | ceramic joint cover
+Fra:1 Mem:37.13M (Peak 37.13M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | annular gear teeth
+Fra:1 Mem:37.36M (Peak 37.36M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | glowing joint encoder
+Fra:1 Mem:37.44M (Peak 37.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | micro gear boss
+Fra:1 Mem:37.58M (Peak 37.58M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 0 | machine bolt
+Fra:1 Mem:37.60M (Peak 37.60M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 0 | socket
+Fra:1 Mem:37.62M (Peak 37.62M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 1 | machine bolt
+Fra:1 Mem:37.63M (Peak 37.63M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 1 | socket
+Fra:1 Mem:37.66M (Peak 37.66M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 2 | machine bolt
+Fra:1 Mem:37.64M (Peak 37.66M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 2 | socket
+Fra:1 Mem:37.64M (Peak 37.66M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 3 | socket
+Fra:1 Mem:37.67M (Peak 37.67M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 4 | machine bolt
+Fra:1 Mem:37.67M (Peak 37.67M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 10 | ceramic panel inset.003
+Fra:1 Mem:37.69M (Peak 37.69M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 4 | socket
+Fra:1 Mem:37.71M (Peak 37.71M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 5 | machine bolt
+Fra:1 Mem:37.72M (Peak 37.72M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 6 | machine bolt
+Fra:1 Mem:37.73M (Peak 37.73M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 6 | socket
+Fra:1 Mem:37.75M (Peak 37.75M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 7 | machine bolt
+Fra:1 Mem:37.76M (Peak 37.76M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 7 | socket
+Fra:1 Mem:37.79M (Peak 37.79M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 05 | forged forearm inner chassis
+Fra:1 Mem:37.81M (Peak 37.81M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 05 | upper smart armor
+Fra:1 Mem:37.81M (Peak 37.81M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 05 | lower smart armor
+Fra:1 Mem:37.82M (Peak 37.82M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 05 | high voltage tracer
+Fra:1 Mem:37.85M (Peak 37.85M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 05 | titanium heat fin 01
+Fra:1 Mem:37.88M (Peak 37.88M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 05 | titanium heat fin 03
+Fra:1 Mem:37.91M (Peak 37.91M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 05 | titanium heat fin 04
+Fra:1 Mem:37.93M (Peak 37.93M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | LASER MARK | AXIS 03 / 250 Nm
+Fra:1 Mem:37.93M (Peak 37.93M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 06 | wrist roll coupling
+Fra:1 Mem:38.07M (Peak 38.07M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 10 | optical machine status LED 02
+Fra:1 Mem:38.16M (Peak 38.16M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 06 | wrist positional encoder.001
+Fra:1 Mem:38.31M (Peak 38.31M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 10 | optical machine status LED 01
+Fra:1 Mem:38.41M (Peak 38.41M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 10 | optical machine status LED 00
+Fra:1 Mem:38.43M (Peak 38.43M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 06 | universal wrist endcap
+Fra:1 Mem:38.50M (Peak 38.50M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 06 | wrist positional encoder
+Fra:1 Mem:38.52M (Peak 38.52M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | base tooling marker
+Fra:1 Mem:38.60M (Peak 38.60M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | base tooling marker.007
+Fra:1 Mem:38.61M (Peak 38.61M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 06 | gripper adapter
+Fra:1 Mem:38.63M (Peak 38.63M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | base tooling marker.006
+Fra:1 Mem:38.65M (Peak 38.65M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 06 | tool release mechanism
+Fra:1 Mem:38.66M (Peak 38.66M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | base tooling marker.005
+Fra:1 Mem:38.68M (Peak 38.68M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 06 | tool lock tab.001
+Fra:1 Mem:38.70M (Peak 38.70M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | base tooling marker.004
+Fra:1 Mem:38.71M (Peak 38.71M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 06 | tool lock tab
+Fra:1 Mem:38.70M (Peak 38.71M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 07 | tool changer rotary clasp
+Fra:1 Mem:38.76M (Peak 38.76M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 07 | gripper palm motor
+Fra:1 Mem:38.80M (Peak 38.80M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | base tooling marker.002
+Fra:1 Mem:38.85M (Peak 38.85M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | base tooling marker.001
+Fra:1 Mem:38.86M (Peak 38.86M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 07 | finger joint 0
+Fra:1 Mem:38.94M (Peak 38.94M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | protective cable clamp
+Fra:1 Mem:38.94M (Peak 38.94M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 07 | fingertip 0 distal
+Fra:1 Mem:38.93M (Peak 38.94M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 07 | fingertip silicone pad 0
+Fra:1 Mem:39.05M (Peak 39.05M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 07 | tactile optical sensor 0
+Fra:1 Mem:39.01M (Peak 39.05M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 07 | finger joint 1
+Fra:1 Mem:39.04M (Peak 39.05M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 07 | fingertip 1 distal
+Fra:1 Mem:39.06M (Peak 39.06M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | protective cable clamp.011
+Fra:1 Mem:39.09M (Peak 39.09M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 07 | tactile optical sensor 1
+Fra:1 Mem:39.12M (Peak 39.12M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 07 | fingertip 2 upper actuator
+Fra:1 Mem:39.18M (Peak 39.18M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 07 | finger joint 2
+Fra:1 Mem:39.21M (Peak 39.21M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 07 | fingertip silicone pad 2
+Fra:1 Mem:39.21M (Peak 39.21M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | protective cable clamp.010
+Fra:1 Mem:39.23M (Peak 39.23M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 07 | tactile optical sensor 2
+Fra:1 Mem:39.23M (Peak 39.23M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 08 | primary chrome ram.001
+Fra:1 Mem:39.31M (Peak 39.31M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 08 | metal spherical rod bearing.001
+Fra:1 Mem:39.34M (Peak 39.34M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 08 | metal spherical rod bearing.002
+Fra:1 Mem:39.41M (Peak 39.41M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 08 | secondary actuator reservoir.001
+Fra:1 Mem:39.43M (Peak 39.43M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 08 | secondary polished rod.001
+Fra:1 Mem:39.44M (Peak 39.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 08 | secondary ball end.001
+Fra:1 Mem:39.45M (Peak 39.45M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 08 | secondary ball end.002
+Fra:1 Mem:39.47M (Peak 39.47M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 08 | primary hydraulic reservoir
+Fra:1 Mem:39.59M (Peak 39.59M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 08 | primary chrome ram
+Fra:1 Mem:39.60M (Peak 39.60M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 08 | metal spherical rod bearing
+Fra:1 Mem:39.61M (Peak 39.61M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | protective cable clamp.009
+Fra:1 Mem:39.69M (Peak 39.69M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 08 | secondary actuator reservoir
+Fra:1 Mem:39.75M (Peak 39.75M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 08 | secondary polished rod
+Fra:1 Mem:39.77M (Peak 39.77M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 08 | secondary ball end.003
+Fra:1 Mem:39.80M (Peak 39.80M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 08 | secondary ball end
+Fra:1 Mem:39.83M (Peak 39.83M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | servo CANBUS braided line 0
+Fra:1 Mem:39.85M (Peak 39.85M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | protective cable clamp.001
+Fra:1 Mem:39.90M (Peak 39.90M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | protective cable clamp.002
+Fra:1 Mem:40.00M (Peak 40.00M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | protective cable clamp.008
+Fra:1 Mem:40.12M (Peak 40.12M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | protective cable clamp.003
+Fra:1 Mem:40.17M (Peak 40.17M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | servo CANBUS braided line 1
+Fra:1 Mem:40.29M (Peak 40.29M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | protective cable clamp.007
+Fra:1 Mem:40.37M (Peak 40.37M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | protective cable clamp.004
+Fra:1 Mem:40.40M (Peak 40.40M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | protective cable clamp.005
+Fra:1 Mem:40.52M (Peak 40.52M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | servo CANBUS braided line 2
+Fra:1 Mem:40.59M (Peak 40.59M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | protective cable clamp.006
+Fra:1 Mem:40.71M (Peak 40.71M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:30.05M (Peak 40.71M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:30.05M (Peak 40.71M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:30.05M (Peak 40.71M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:30.05M (Peak 40.71M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:30.14M (Peak 40.71M) | Time:00:00.06 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:30.14M (Peak 40.71M) | Time:00:00.06 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:30.14M (Peak 40.71M) | Time:00:00.06 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:30.14M (Peak 40.71M) | Time:00:00.06 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:30.14M (Peak 40.71M) | Time:00:00.06 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:30.14M (Peak 40.71M) | Time:00:00.06 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:30.19M (Peak 40.71M) | Time:00:00.06 | Mem:0.05M, Peak:0.05M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:30.19M (Peak 40.71M) | Time:00:00.06 | Mem:0.05M, Peak:0.05M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:30.19M (Peak 40.71M) | Time:00:00.06 | Mem:0.05M, Peak:0.05M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:30.19M (Peak 40.71M) | Time:00:00.06 | Mem:0.05M, Peak:0.05M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:31.78M (Peak 40.71M) | Time:00:00.06 | Mem:0.05M, Peak:0.05M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:32.48M (Peak 40.71M) | Time:00:00.06 | Mem:0.07M, Peak:0.07M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:32.44M (Peak 40.71M) | Time:00:00.06 | Mem:0.72M, Peak:0.72M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:32.45M (Peak 40.71M) | Time:00:00.06 | Mem:0.72M, Peak:0.72M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:32.45M (Peak 40.71M) | Time:00:00.06 | Mem:3.90M, Peak:3.90M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:32.45M (Peak 40.71M) | Time:00:00.08 | Mem:7.69M, Peak:10.87M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:32.45M (Peak 40.71M) | Time:00:00.08 | Mem:7.69M, Peak:10.87M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:36.18M (Peak 40.71M) | Time:00:00.08 | Mem:7.69M, Peak:10.87M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:36.18M (Peak 40.71M) | Time:00:00.08 | Mem:11.42M, Peak:11.42M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:36.18M (Peak 40.71M) | Time:00:00.08 | Mem:11.42M, Peak:11.42M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:36.18M (Peak 40.71M) | Time:00:00.08 | Mem:11.42M, Peak:11.42M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:36.18M (Peak 40.71M) | Time:00:00.08 | Mem:11.42M, Peak:11.42M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:36.18M (Peak 40.71M) | Time:00:00.08 | Mem:11.42M, Peak:11.42M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:36.18M (Peak 40.71M) | Time:00:00.08 | Mem:11.50M, Peak:11.50M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:36.18M (Peak 40.71M) | Time:00:00.08 | Mem:11.50M, Peak:11.50M | Scene, ViewLayer | Updating Lights | Computing distribution
+Fra:1 Mem:36.18M (Peak 40.71M) | Time:00:00.08 | Mem:11.50M, Peak:11.50M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:37.73M (Peak 40.71M) | Time:00:00.10 | Mem:13.05M, Peak:13.05M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:38.73M (Peak 40.71M) | Time:00:00.10 | Mem:14.05M, Peak:14.05M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:38.74M (Peak 40.71M) | Time:00:00.10 | Mem:13.97M, Peak:14.05M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:38.74M (Peak 40.71M) | Time:00:00.10 | Mem:14.06M, Peak:14.06M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:38.74M (Peak 40.71M) | Time:00:00.10 | Mem:14.06M, Peak:14.06M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:38.74M (Peak 40.71M) | Time:00:00.10 | Mem:14.06M, Peak:14.06M | Scene, ViewLayer | Sample 0/32
+Fra:1 Mem:88.19M (Peak 88.19M) | Time:00:01.67 | Remaining:00:48.94 | Mem:63.50M, Peak:63.50M | Scene, ViewLayer | Sample 1/32
+Fra:1 Mem:88.19M (Peak 88.19M) | Time:00:25.66 | Remaining:00:22.55 | Mem:63.50M, Peak:63.50M | Scene, ViewLayer | Sample 17/32
+Fra:1 Mem:110.16M (Peak 154.11M) | Time:00:48.19 | Mem:63.50M, Peak:63.50M | Scene, ViewLayer | Sample 32/32
+Fra:1 Mem:110.16M (Peak 154.11M) | Time:00:48.19 | Mem:63.50M, Peak:63.50M | Scene, ViewLayer | Finished
+Saved: '/home/runner/work/AI-coding/AI-coding/mechanical-arm/outputs/AXIOM-6-Hero-Render.png'
+Time: 00:48.36 (Saving: 00:00.16)
+
+AXIOM_RENDER /home/runner/work/AI-coding/AI-coding/mechanical-arm/outputs/AXIOM-6-Hero-Render.png 2458824
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "10 | ceramic panel inset", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "10 | ceramic panel inset.003", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "10 | ceramic panel inset.002", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "10 | ceramic panel inset.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "09 | base tooling marker", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "09 | base tooling marker.007", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "09 | base tooling marker.006", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "09 | base tooling marker.005", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "09 | base tooling marker.004", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "09 | base tooling marker.003", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "09 | base tooling marker.002", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "09 | base tooling marker.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "08 | secondary polished rod", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "08 | secondary actuator reservoir", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "08 | primary chrome ram", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "08 | primary hydraulic reservoir", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | heavyweight anti-vibration base", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base chrome chamfer", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | yaw index dial", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "08 | secondary polished rod.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 00 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 00 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "08 | secondary actuator reservoir.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 01 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 01 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 02 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "08 | primary chrome ram.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 02 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 03 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 03 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 04 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "08 | primary hydraulic reservoir.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 05 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 04 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | tactile optical sensor 2", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 05 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip silicone pad 2", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 06 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip 2 distal", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 07 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 06 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip 2 upper actuator", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | shoulder riser", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | service USB panel", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | base anchor 07 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | tactile optical sensor 1", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "01 | service socket LED", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | cast shoulder yoke.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip silicone pad 1", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 0 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip 1 distal", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 0 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 1 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip 1 upper actuator", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 1 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | tactile optical sensor 0", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 2 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip silicone pad 0", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 2 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 3 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip 0 distal", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 4 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 3 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | fingertip 0 upper actuator", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 5 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 4 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | cast shoulder yoke", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 5 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 0 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bearing.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 0 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 1 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 1 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 2 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 3 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 2 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 3 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 4 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 5 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 4 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | gripper palm motor", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bolt 5 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder rear cover", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | shoulder bearing", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | tapered ceramic upper arm chassis", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | recessed carbon fiber dorsal keel", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | polished support spar", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | raised center armor spine", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | optical trace left", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | upper arm ventilation tooth 00", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | upper arm ventilation tooth 01", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | upper arm ventilation tooth 02", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | upper arm ventilation tooth 03", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "03 | upper arm ventilation tooth 04", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "02 | heavy joint shaft", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "07 | tool changer rotary clasp", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "06 | tool lock tab", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "06 | tool lock tab.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "06 | tool release mechanism", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "06 | gripper adapter", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | ceramic joint cover.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow rotor main", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | annular gear teeth.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 0 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 1 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 0 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 2 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 1 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "06 | universal wrist endcap", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 3 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 2 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 4 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 3 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | micro gear boss.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 5 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 4 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 5 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 6 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 6 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 7 | machine bolt.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 7 | socket.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "06 | universal wrist endcap.001", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | micro gear boss", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 0 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 0 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | annular gear teeth", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 1 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 1 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 2 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | ceramic joint cover", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 2 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 3 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 3 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 4 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 4 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 5 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 5 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 6 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 6 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 7 | machine bolt", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "06 | wrist roll coupling", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "04 | elbow M4 clamp 7 | socket", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | forged forearm inner chassis", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | upper smart armor", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | titanium heat fin 04", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | lower smart armor", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | central exposed actuator groove", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | high voltage tracer", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | titanium heat fin 03", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | titanium heat fin 00", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | titanium heat fin 01", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "05 | titanium heat fin 02", Modifier: "Face normals for precise highlights", Enable 'Auto Smooth' in Object Data Properties
+Fra:1 Mem:35.58M (Peak 35.58M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | STUDIO FLOOR
+Fra:1 Mem:35.58M (Peak 35.58M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | base chrome chamfer
+Fra:1 Mem:35.61M (Peak 35.61M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | yaw index dial
+Fra:1 Mem:35.74M (Peak 35.74M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | illuminated 360-degree encoder
+Fra:1 Mem:35.81M (Peak 35.81M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | shoulder riser
+Fra:1 Mem:35.86M (Peak 35.86M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | base anchor 00 | machine bolt
+Fra:1 Mem:35.89M (Peak 35.89M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | base anchor 00 | socket
+Fra:1 Mem:35.88M (Peak 35.89M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | base anchor 01 | machine bolt
+Fra:1 Mem:35.93M (Peak 35.93M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | base anchor 01 | socket
+Fra:1 Mem:35.98M (Peak 35.98M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | base anchor 02 | machine bolt
+Fra:1 Mem:36.00M (Peak 36.00M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | base anchor 02 | socket
+Fra:1 Mem:36.03M (Peak 36.03M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | base anchor 03 | machine bolt
+Fra:1 Mem:36.04M (Peak 36.04M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | base anchor 03 | socket
+Fra:1 Mem:36.03M (Peak 36.04M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | base anchor 04 | machine bolt
+Fra:1 Mem:36.07M (Peak 36.07M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | base anchor 04 | socket
+Fra:1 Mem:36.09M (Peak 36.09M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | base anchor 05 | socket
+Fra:1 Mem:36.10M (Peak 36.10M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | base anchor 06 | machine bolt
+Fra:1 Mem:36.11M (Peak 36.11M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | base anchor 06 | socket
+Fra:1 Mem:36.12M (Peak 36.12M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | base anchor 07 | machine bolt
+Fra:1 Mem:36.15M (Peak 36.15M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | base anchor 07 | socket
+Fra:1 Mem:36.16M (Peak 36.16M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | anti-slip rubber pad 1
+Fra:1 Mem:36.19M (Peak 36.19M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | anti-slip rubber pad 2
+Fra:1 Mem:36.21M (Peak 36.21M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | anti-slip rubber pad 3
+Fra:1 Mem:36.25M (Peak 36.25M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | service USB panel
+Fra:1 Mem:36.26M (Peak 36.26M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 01 | service socket LED
+Fra:1 Mem:36.28M (Peak 36.28M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | LASER MARK | AXIOM / 6
+Fra:1 Mem:36.31M (Peak 36.31M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | cast shoulder yoke.001
+Fra:1 Mem:36.35M (Peak 36.35M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bearing.001
+Fra:1 Mem:36.42M (Peak 36.42M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bronze seal.001
+Fra:1 Mem:36.41M (Peak 36.42M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 0 | machine bolt.001
+Fra:1 Mem:36.48M (Peak 36.48M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 0 | socket.001
+Fra:1 Mem:36.50M (Peak 36.50M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 1 | machine bolt.001
+Fra:1 Mem:36.52M (Peak 36.52M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 1 | socket.001
+Fra:1 Mem:36.52M (Peak 36.52M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 2 | socket.001
+Fra:1 Mem:36.54M (Peak 36.54M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 3 | machine bolt.001
+Fra:1 Mem:36.55M (Peak 36.55M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 3 | socket.001
+Fra:1 Mem:36.56M (Peak 36.56M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 4 | machine bolt.001
+Fra:1 Mem:36.59M (Peak 36.59M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 4 | socket.001
+Fra:1 Mem:36.61M (Peak 36.61M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 5 | machine bolt.001
+Fra:1 Mem:36.61M (Peak 36.61M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | cast shoulder yoke
+Fra:1 Mem:36.65M (Peak 36.65M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bearing
+Fra:1 Mem:36.66M (Peak 36.66M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 0 | machine bolt
+Fra:1 Mem:36.76M (Peak 36.76M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 0 | socket
+Fra:1 Mem:36.79M (Peak 36.79M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 1 | machine bolt
+Fra:1 Mem:36.81M (Peak 36.81M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 1 | socket
+Fra:1 Mem:36.82M (Peak 36.82M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 3 | machine bolt
+Fra:1 Mem:36.84M (Peak 36.84M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 3 | socket
+Fra:1 Mem:36.84M (Peak 36.84M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 4 | machine bolt
+Fra:1 Mem:36.87M (Peak 36.87M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 4 | socket
+Fra:1 Mem:36.87M (Peak 36.87M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 5 | machine bolt
+Fra:1 Mem:36.91M (Peak 36.91M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder bolt 5 | socket
+Fra:1 Mem:36.93M (Peak 36.93M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 02 | shoulder rear cover
+Fra:1 Mem:36.98M (Peak 36.98M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 03 | tapered ceramic upper arm chassis
+Fra:1 Mem:37.00M (Peak 37.00M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 03 | recessed carbon fiber dorsal keel
+Fra:1 Mem:37.00M (Peak 37.00M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 03 | polished support spar
+Fra:1 Mem:37.02M (Peak 37.02M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 03 | raised center armor spine
+Fra:1 Mem:37.03M (Peak 37.03M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 03 | optical trace left
+Fra:1 Mem:37.04M (Peak 37.04M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | LASER MARK | 6 AXIS / INDUSTRIAL
+Fra:1 Mem:37.04M (Peak 37.04M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 03 | upper arm ventilation tooth 01
+Fra:1 Mem:37.24M (Peak 37.24M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 03 | upper arm ventilation tooth 02
+Fra:1 Mem:37.25M (Peak 37.25M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 03 | upper arm ventilation tooth 04
+Fra:1 Mem:37.25M (Peak 37.25M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | LASER MARK | SERVO / R 06
+Fra:1 Mem:37.43M (Peak 37.43M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow rotor main
+Fra:1 Mem:37.50M (Peak 37.50M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | ceramic joint cover.001
+Fra:1 Mem:37.54M (Peak 37.54M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 10 | ceramic panel inset
+Fra:1 Mem:37.59M (Peak 37.59M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | annular gear teeth.001
+Fra:1 Mem:37.63M (Peak 37.63M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 10 | ceramic panel inset.003
+Fra:1 Mem:37.63M (Peak 37.63M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | glowing joint encoder.001
+Fra:1 Mem:37.69M (Peak 37.69M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 10 | ceramic panel inset.002
+Fra:1 Mem:37.73M (Peak 37.73M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 0 | machine bolt.001
+Fra:1 Mem:37.74M (Peak 37.74M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 10 | ceramic panel inset.001
+Fra:1 Mem:37.75M (Peak 37.75M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 1 | machine bolt.001
+Fra:1 Mem:37.76M (Peak 37.76M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 10 | optical machine status LED 04
+Fra:1 Mem:37.82M (Peak 37.82M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 1 | socket.001
+Fra:1 Mem:37.83M (Peak 37.83M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 2 | machine bolt.001
+Fra:1 Mem:37.83M (Peak 37.83M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 10 | optical machine status LED 03
+Fra:1 Mem:37.85M (Peak 37.85M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 3 | machine bolt.001
+Fra:1 Mem:37.87M (Peak 37.87M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 10 | optical machine status LED 02
+Fra:1 Mem:37.89M (Peak 37.89M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 4 | machine bolt.001
+Fra:1 Mem:37.90M (Peak 37.90M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 10 | optical machine status LED 01
+Fra:1 Mem:37.91M (Peak 37.91M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 4 | socket.001
+Fra:1 Mem:37.93M (Peak 37.93M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 5 | machine bolt.001
+Fra:1 Mem:37.94M (Peak 37.94M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 5 | socket.001
+Fra:1 Mem:37.97M (Peak 37.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 6 | machine bolt.001
+Fra:1 Mem:38.01M (Peak 38.01M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 6 | socket.001
+Fra:1 Mem:38.04M (Peak 38.04M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 7 | machine bolt.001
+Fra:1 Mem:38.05M (Peak 38.05M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 7 | socket.001
+Fra:1 Mem:38.05M (Peak 38.05M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | annular gear teeth
+Fra:1 Mem:38.11M (Peak 38.11M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | glowing joint encoder
+Fra:1 Mem:38.13M (Peak 38.13M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | micro gear boss
+Fra:1 Mem:38.23M (Peak 38.23M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | base tooling marker.007
+Fra:1 Mem:38.29M (Peak 38.29M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | base tooling marker.006
+Fra:1 Mem:38.30M (Peak 38.30M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 0 | machine bolt
+Fra:1 Mem:38.33M (Peak 38.33M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | base tooling marker.005
+Fra:1 Mem:38.34M (Peak 38.34M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 0 | socket
+Fra:1 Mem:38.35M (Peak 38.35M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 1 | machine bolt
+Fra:1 Mem:38.37M (Peak 38.37M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 1 | socket
+Fra:1 Mem:38.37M (Peak 38.37M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 2 | machine bolt
+Fra:1 Mem:38.40M (Peak 38.40M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 2 | socket
+Fra:1 Mem:38.40M (Peak 38.40M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | base tooling marker.003
+Fra:1 Mem:38.42M (Peak 38.42M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | base tooling marker.002
+Fra:1 Mem:38.43M (Peak 38.43M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 4 | machine bolt
+Fra:1 Mem:38.46M (Peak 38.46M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | base tooling marker.001
+Fra:1 Mem:38.47M (Peak 38.47M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | protective cable clamp
+Fra:1 Mem:38.53M (Peak 38.53M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 5 | machine bolt
+Fra:1 Mem:38.54M (Peak 38.54M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 5 | socket
+Fra:1 Mem:38.55M (Peak 38.55M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 6 | machine bolt
+Fra:1 Mem:38.59M (Peak 38.59M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 7 | machine bolt
+Fra:1 Mem:38.60M (Peak 38.60M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | protective cable clamp.011
+Fra:1 Mem:38.61M (Peak 38.61M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04 | elbow M4 clamp 7 | socket
+Fra:1 Mem:38.63M (Peak 38.63M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 05 | forged forearm inner chassis
+Fra:1 Mem:38.64M (Peak 38.64M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 05 | upper smart armor
+Fra:1 Mem:38.65M (Peak 38.65M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 05 | central exposed actuator groove
+Fra:1 Mem:38.71M (Peak 38.71M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 05 | high voltage tracer
+Fra:1 Mem:38.74M (Peak 38.74M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 05 | titanium heat fin 00
+Fra:1 Mem:38.74M (Peak 38.74M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 05 | titanium heat fin 02
+Fra:1 Mem:38.77M (Peak 38.77M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 05 | titanium heat fin 03
+Fra:1 Mem:38.77M (Peak 38.77M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 05 | titanium heat fin 04
+Fra:1 Mem:38.77M (Peak 38.77M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | LASER MARK | AXIS 03 / 250 Nm
+Fra:1 Mem:38.84M (Peak 38.84M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 06 | wrist roll coupling
+Fra:1 Mem:39.04M (Peak 39.04M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 06 | universal wrist endcap.001
+Fra:1 Mem:39.11M (Peak 39.11M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 06 | wrist positional encoder.001
+Fra:1 Mem:39.15M (Peak 39.15M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | servo CANBUS braided line 3
+Fra:1 Mem:39.28M (Peak 39.28M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 06 | universal wrist endcap
+Fra:1 Mem:39.32M (Peak 39.32M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 06 | wrist positional encoder
+Fra:1 Mem:39.31M (Peak 39.32M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | protective cable clamp.009
+Fra:1 Mem:39.50M (Peak 39.50M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 06 | gripper adapter
+Fra:1 Mem:39.50M (Peak 39.50M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 06 | tool release mechanism
+Fra:1 Mem:39.52M (Peak 39.52M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 06 | tool lock tab.001
+Fra:1 Mem:39.51M (Peak 39.52M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 06 | tool lock tab
+Fra:1 Mem:39.49M (Peak 39.52M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 07 | tool changer rotary clasp
+Fra:1 Mem:39.59M (Peak 39.59M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 07 | gripper palm motor
+Fra:1 Mem:39.62M (Peak 39.62M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 07 | fingertip 0 upper actuator
+Fra:1 Mem:39.67M (Peak 39.67M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 07 | finger joint 0
+Fra:1 Mem:39.70M (Peak 39.70M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 07 | fingertip 0 distal
+Fra:1 Mem:39.69M (Peak 39.70M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 07 | fingertip silicone pad 0
+Fra:1 Mem:39.70M (Peak 39.70M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 07 | fingertip 1 upper actuator
+Fra:1 Mem:39.71M (Peak 39.71M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 07 | finger joint 1
+Fra:1 Mem:39.71M (Peak 39.71M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 07 | fingertip 1 distal
+Fra:1 Mem:39.78M (Peak 39.78M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 07 | fingertip silicone pad 1
+Fra:1 Mem:39.82M (Peak 39.82M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 07 | tactile optical sensor 1
+Fra:1 Mem:39.83M (Peak 39.83M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 07 | fingertip 2 upper actuator
+Fra:1 Mem:39.86M (Peak 39.86M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 07 | finger joint 2
+Fra:1 Mem:39.86M (Peak 39.86M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 07 | fingertip silicone pad 2
+Fra:1 Mem:39.87M (Peak 39.87M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | servo CANBUS braided line 2
+Fra:1 Mem:39.89M (Peak 39.89M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 07 | tactile optical sensor 2
+Fra:1 Mem:39.94M (Peak 39.94M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 08 | primary hydraulic reservoir.001
+Fra:1 Mem:39.94M (Peak 39.94M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 08 | primary chrome ram.001
+Fra:1 Mem:39.98M (Peak 39.98M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | protective cable clamp.006
+Fra:1 Mem:40.03M (Peak 40.03M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 08 | secondary actuator reservoir.001
+Fra:1 Mem:40.11M (Peak 40.11M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 08 | secondary polished rod.001
+Fra:1 Mem:40.12M (Peak 40.12M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 08 | secondary ball end.001
+Fra:1 Mem:40.12M (Peak 40.12M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | protective cable clamp.005
+Fra:1 Mem:40.15M (Peak 40.15M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 08 | secondary ball end.002
+Fra:1 Mem:40.20M (Peak 40.20M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 08 | primary chrome ram
+Fra:1 Mem:40.26M (Peak 40.26M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 08 | metal spherical rod bearing.003
+Fra:1 Mem:40.27M (Peak 40.27M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 08 | secondary actuator reservoir
+Fra:1 Mem:40.32M (Peak 40.32M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | protective cable clamp.004
+Fra:1 Mem:40.32M (Peak 40.32M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 08 | secondary ball end.003
+Fra:1 Mem:40.36M (Peak 40.36M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 08 | secondary ball end
+Fra:1 Mem:40.43M (Peak 40.43M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | servo CANBUS braided line 0
+Fra:1 Mem:40.44M (Peak 40.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | protective cable clamp.001
+Fra:1 Mem:40.49M (Peak 40.49M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | protective cable clamp.002
+Fra:1 Mem:40.60M (Peak 40.60M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | servo CANBUS braided line 1
+Fra:1 Mem:40.66M (Peak 40.66M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 09 | protective cable clamp.003
+Fra:1 Mem:40.71M (Peak 40.71M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:30.05M (Peak 40.71M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:30.05M (Peak 40.71M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:30.05M (Peak 40.71M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:30.05M (Peak 40.71M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:30.14M (Peak 40.71M) | Time:00:00.05 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:30.14M (Peak 40.71M) | Time:00:00.05 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:30.14M (Peak 40.71M) | Time:00:00.05 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:30.14M (Peak 40.71M) | Time:00:00.05 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:30.14M (Peak 40.71M) | Time:00:00.05 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:30.14M (Peak 40.71M) | Time:00:00.05 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:30.19M (Peak 40.71M) | Time:00:00.05 | Mem:0.05M, Peak:0.05M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:30.19M (Peak 40.71M) | Time:00:00.05 | Mem:0.05M, Peak:0.05M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:30.19M (Peak 40.71M) | Time:00:00.05 | Mem:0.05M, Peak:0.05M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:30.19M (Peak 40.71M) | Time:00:00.05 | Mem:0.05M, Peak:0.05M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:31.78M (Peak 40.71M) | Time:00:00.05 | Mem:0.05M, Peak:0.05M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:32.48M (Peak 40.71M) | Time:00:00.05 | Mem:0.07M, Peak:0.07M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:32.44M (Peak 40.71M) | Time:00:00.05 | Mem:0.72M, Peak:0.72M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:32.45M (Peak 40.71M) | Time:00:00.05 | Mem:0.72M, Peak:0.72M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:32.45M (Peak 40.71M) | Time:00:00.06 | Mem:3.90M, Peak:3.90M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:32.45M (Peak 40.71M) | Time:00:00.07 | Mem:7.69M, Peak:10.87M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:32.45M (Peak 40.71M) | Time:00:00.07 | Mem:7.69M, Peak:10.87M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:36.18M (Peak 40.71M) | Time:00:00.07 | Mem:7.69M, Peak:10.87M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:36.18M (Peak 40.71M) | Time:00:00.07 | Mem:11.42M, Peak:11.42M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:36.18M (Peak 40.71M) | Time:00:00.07 | Mem:11.42M, Peak:11.42M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:36.18M (Peak 40.71M) | Time:00:00.07 | Mem:11.42M, Peak:11.42M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:36.18M (Peak 40.71M) | Time:00:00.07 | Mem:11.42M, Peak:11.42M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:36.18M (Peak 40.71M) | Time:00:00.07 | Mem:11.42M, Peak:11.42M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:36.18M (Peak 40.71M) | Time:00:00.07 | Mem:11.50M, Peak:11.50M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:36.18M (Peak 40.71M) | Time:00:00.07 | Mem:11.50M, Peak:11.50M | Scene, ViewLayer | Updating Lights | Computing distribution
+Fra:1 Mem:36.18M (Peak 40.71M) | Time:00:00.07 | Mem:11.50M, Peak:11.50M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:37.73M (Peak 40.71M) | Time:00:00.09 | Mem:13.05M, Peak:13.05M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:38.73M (Peak 40.71M) | Time:00:00.09 | Mem:14.05M, Peak:14.05M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:38.74M (Peak 40.71M) | Time:00:00.09 | Mem:13.97M, Peak:14.05M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:38.74M (Peak 40.71M) | Time:00:00.09 | Mem:14.06M, Peak:14.06M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:38.74M (Peak 40.71M) | Time:00:00.09 | Mem:14.06M, Peak:14.06M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:38.74M (Peak 40.71M) | Time:00:00.09 | Mem:14.06M, Peak:14.06M | Scene, ViewLayer | Sample 0/32
+Fra:1 Mem:88.19M (Peak 88.19M) | Time:00:01.69 | Remaining:00:49.69 | Mem:63.50M, Peak:63.50M | Scene, ViewLayer | Sample 1/32
+Fra:1 Mem:88.19M (Peak 88.19M) | Time:00:25.83 | Remaining:00:22.71 | Mem:63.50M, Peak:63.50M | Scene, ViewLayer | Sample 17/32
+Fra:1 Mem:110.16M (Peak 154.11M) | Time:00:48.56 | Mem:63.50M, Peak:63.50M | Scene, ViewLayer | Sample 32/32
+Fra:1 Mem:110.16M (Peak 154.11M) | Time:00:48.56 | Mem:63.50M, Peak:63.50M | Scene, ViewLayer | Finished
+Saved: '/home/runner/work/AI-coding/AI-coding/mechanical-arm/outputs/AXIOM-6-Technical-Side.png'
+Time: 00:48.72 (Saving: 00:00.16)
+
+AXIOM_RENDER /home/runner/work/AI-coding/AI-coding/mechanical-arm/outputs/AXIOM-6-Technical-Side.png 2434373
+
+Blender quit
