@@ -1,0 +1,212 @@
+name: AETHER-01 - FINAL Full Body Camera and Modeling Video
+
+on:
+  push:
+    branches: [aether-humanoid-rig-20261025]
+    paths: [".github/workflows/aether-fullbody-final.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: aether-character-final-framing
+  cancel-in-progress: true
+
+jobs:
+  fix-framing-and-rerecord:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: aether-humanoid-rig-20261025
+          fetch-depth: 0
+      - uses: actions/download-artifact@v4
+        with:
+          name: AETHER-01-Rigged-Human-All-GLB-BLEND-MP4-PNG
+          run-id: 40217343993
+          github-token: ${{ github.token }}
+          path: humanoid-motion-studio/outputs
+
+      - name: Install rigging and studio display dependencies
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive timeout 480s apt-get install -y --no-install-recommends \
+            blender python3-numpy python3-pil xvfb xauth openbox xdotool wmctrl scrot ffmpeg \
+            libegl1 libegl-mesa0 libgbm1 libgl1 libgl1-mesa-dri fonts-dejavu-core
+          mkdir -p humanoid-motion-studio/outputs
+          test -s humanoid-motion-studio/outputs/AETHER-01-Rigged-Animated-Human.glb
+
+      - name: Fix full-body framing in source copies before GUI recording
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          original=Path("humanoid-motion-studio/character_builder.py").read_text()
+          assert "camdata.ortho_scale=2.68" in original
+          corrected=original.replace("camdata.ortho_scale=2.68","camdata.ortho_scale=4.00")
+          corrected=corrected.replace("space.region_3d.view_camera_zoom=6","space.region_3d.view_camera_zoom=12")
+          Path("/tmp/aether_fullbody_builder.py").write_text(corrected)
+
+          script=Path("humanoid-motion-studio/render_poses_and_motion.py").read_text()
+          fixes=[
+              ("Vector((0,0,.98)),2.55)", "Vector((0,0,.98)),4.00)"),
+              ("Vector((0,0,1.00)),2.6)", "Vector((0,0,1.00)),4.00)"),
+              ("Vector((0,0,1.0)),2.65)", "Vector((0,0,1.0)),4.00)"),
+              ("Vector((0,0,1.04)),2.65)", "Vector((0,0,1.04)),4.00)"),
+              ("cam.data.ortho_scale=2.7","cam.data.ortho_scale=4.00"),
+          ]
+          for old,new in fixes:
+              assert old in script,old
+              script=script.replace(old,new)
+          Path("/tmp/aether_fullbody_render.py").write_text(script)
+          print("CAMERA_FRAMING_WIDENED_FOR_FULL_2M_HUMANOID")
+          PY
+
+      - name: Re-record genuine incremental humanoid modeling with head and feet visible
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT="$PWD/humanoid-motion-studio/outputs"
+          export DISPLAY=:91 LIBGL_ALWAYS_SOFTWARE=1 MESA_GL_VERSION_OVERRIDE=4.5
+          Xvfb :91 -screen 0 1600x900x24 -nolisten tcp > "$OUT/xvfb-final.log" 2>&1 &
+          XVPID=$!
+          sleep 2
+          openbox > "$OUT/openbox-final.log" 2>&1 &
+          WMPID=$!
+          sleep 2
+          echo 'FULL BODY MODELLING - INIT' > "$OUT/current-stage.txt"
+          timeout 160s blender -W --python /tmp/aether_fullbody_builder.py -- \
+            "$OUT" --live > "$OUT/live-modeling-final.log" 2>&1 &
+          BPID=$!
+          sleep 5
+          xdotool search --name Blender windowactivate 2>/dev/null || true
+          xdotool key Escape || true
+          wmctrl -r ':ACTIVE:' -b add,maximized_vert,maximized_horz || true
+          FONT=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+          FILTER="drawbox=x=0:y=0:w=iw:h=95:color=0x071829@0.91:t=fill,drawtext=fontfile=$FONT:text='AETHER 01 / FULL BODY CHARACTER MODELING + RIGGING':fontsize=26:fontcolor=white:x=28:y=11,drawtext=fontfile=$FONT:textfile=$OUT/current-stage.txt:reload=1:fontsize=21:fontcolor=0x50dfff:x=28:y=50,scale=1280:720"
+          ffmpeg -hide_banner -loglevel error -nostdin -y \
+            -f x11grab -framerate 24 -video_size 1600x900 -i :91 \
+            -t 133 -vf "$FILTER" -c:v libx264 -profile:v baseline -level:v 3.1 \
+            -preset veryfast -crf 19 -pix_fmt yuv420p -movflags +faststart \
+            "$OUT/AETHER-01-Blender-Modeling-Rigging-Process.mp4" \
+            > "$OUT/video-capture-final.log" 2>&1 &
+          REC=$!
+          sleep 24
+          scrot "$OUT/06-Blender-Modeling-Early.png"
+          sleep 30
+          scrot "$OUT/07-Blender-Modeling-Middle.png"
+          sleep 42
+          scrot "$OUT/08-Blender-Finished-Character.png"
+          for i in $(seq 1 46); do
+            grep -q AETHER_COMPLETED "$OUT/live-modeling-final.log" && break
+            sleep 1
+          done
+          grep -q AETHER_COMPLETED "$OUT/live-modeling-final.log" || {
+            tail -100 "$OUT/live-modeling-final.log"
+            exit 1
+          }
+          wait "$REC"
+          kill "$BPID" "$XVPID" "$WMPID" 2>/dev/null || true
+          wait "$BPID" 2>/dev/null || true
+          grep -E '^AETHER_(COMPLETED|RIG_BONES|CHARACTER_MESHES|ACTIONS)' \
+            "$OUT/live-modeling-final.log"
+          rm -f "$OUT"/*.blend1
+
+      - name: Render completely visible neutral walking running punching and portrait PNGs
+        run: |
+          set -euo pipefail
+          OUT="$PWD/humanoid-motion-studio/outputs"
+          timeout 1080s xvfb-run -a -s "-screen 0 1280x720x24 -nolisten tcp" \
+            env LIBGL_ALWAYS_SOFTWARE=1 MESA_GL_VERSION_OVERRIDE=4.5 \
+            blender -b -t 4 "$OUT/AETHER-01-Rigged-Animated-Human.blend" \
+              --python /tmp/aether_fullbody_render.py -- "$OUT" \
+            > "$OUT/fullbody-render.log" 2>&1 || {
+              tail -115 "$OUT/fullbody-render.log"
+              exit 1
+            }
+          grep "AETHER_MOTION_FRAMES_TOTAL 96" "$OUT/fullbody-render.log"
+
+      - name: Re-encode actual motion actions at proper full-body framing
+        run: |
+          set -euo pipefail
+          OUT=humanoid-motion-studio/outputs
+          FONT=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+          FILTER="drawbox=x=0:y=0:w=iw:h=55:color=0x061a2c@0.92:t=fill,drawtext=fontfile=$FONT:text='AETHER 01 / FULL BODY SKELETAL ANIMATION':fontsize=22:fontcolor=white:x=22:y=12,drawtext=fontfile=$FONT:text='IDLE':enable='between(t,0,1.99)':fontsize=32:fontcolor=0x30eaff:x=22:y=77,drawtext=fontfile=$FONT:text='WALK':enable='between(t,2,3.99)':fontsize=32:fontcolor=0x30eaff:x=22:y=77,drawtext=fontfile=$FONT:text='RUN':enable='between(t,4,5.99)':fontsize=32:fontcolor=0x30eaff:x=22:y=77,drawtext=fontfile=$FONT:text='PUNCH':enable='between(t,6,8)':fontsize=32:fontcolor=0x30eaff:x=22:y=77"
+          ffmpeg -hide_banner -nostdin -loglevel error -y -framerate 12 \
+            -i "$OUT/sample_frames/frame-%04d.png" -vf "$FILTER" \
+            -c:v libx264 -profile:v baseline -level:v 3.1 -crf 18 \
+            -pix_fmt yuv420p -preset medium -movflags +faststart \
+            "$OUT/AETHER-01-Idle-Walk-Run-Punch-Demo.mp4"
+          cp "$OUT/sample_frames/frame-0006.png" "$OUT/09-Idle-Sample.png"
+          cp "$OUT/sample_frames/frame-0034.png" "$OUT/10-Walk-Sample.png"
+          cp "$OUT/sample_frames/frame-0058.png" "$OUT/11-Run-Sample.png"
+          cp "$OUT/sample_frames/frame-0084.png" "$OUT/12-Punch-Sample.png"
+          rm -rf "$OUT/sample_frames"
+
+      - name: Verify uncut body in PNG poses and model and both videos
+        run: |
+          set -euo pipefail
+          OUT=humanoid-motion-studio/outputs
+          python3 - <<'PY'
+          from PIL import Image,ImageDraw,ImageFont
+          from pathlib import Path
+          import struct,json,base64,io
+          out=Path('humanoid-motion-studio/outputs')
+          b=(out/'AETHER-01-Rigged-Animated-Human.glb').read_bytes()
+          assert b[:4]==b'glTF' and struct.unpack_from('<I',b,8)[0]==len(b)
+          n=struct.unpack_from('<I',b,12)[0]
+          j=json.loads(b[20:20+n])
+          assert j.get('skins') and len(j.get('animations',[]))>=4
+          names=[a.get('name','') for a in j['animations']]
+          for x in ['Idle','Walk','Run','Punch']:
+              assert any(x in name for name in names)
+          print('FULL_BODY_GLTF_SKELETON_VALID',len(j['skins']),names)
+          names=['01-AETHER-Human-Neutral.png','02-AETHER-Walking.png','03-AETHER-Running.png','04-AETHER-Punching.png']
+          canvas=Image.new("RGB",(1200,760),(12,21,35))
+          draw=ImageDraw.Draw(canvas)
+          font=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',22)
+          for i,name in enumerate(names):
+              im=Image.open(out/name).convert('RGB')
+              assert im.size==(1440,810)
+              im.thumbnail((570,340))
+              x=(i%2)*600+15
+              y=(i//2)*380+9
+              canvas.paste(im,(x,y))
+              draw.text((x+14,y+341),['IDLE','WALK','RUN','PUNCH'][i],font=font,fill=(73,223,252))
+          canvas.save(out/'AETHER-01-Four-Animation-Poses.jpg',quality=90,optimize=True)
+          small=canvas.copy()
+          small.thumbnail((780,500))
+          buf=io.BytesIO()
+          small.save(buf,format="JPEG",quality=70,optimize=True)
+          (out/"pose-review.b64.txt").write_text(base64.b64encode(buf.getvalue()).decode('ascii')+'\n')
+          print('FULL_BODY_POSE_CONTACT_SHEET_CREATED')
+          PY
+          for M in "$OUT/AETHER-01-Blender-Modeling-Rigging-Process.mp4" \
+                   "$OUT/AETHER-01-Idle-Walk-Run-Punch-Demo.mp4"; do
+            ffmpeg -hide_banner -loglevel error -nostdin -xerror -i "$M" -f null - \
+              > "$M.decoder-log" 2>&1
+            ffprobe -v error -show_entries format=duration,size:stream=codec_name,profile,width,height \
+              -of default=nw=1 "$M" | tee "$M.video-info"
+          done
+          echo "Full rigged human + 4 clips + uncut portrait and 2 decoded MP4 videos" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Publish corrected final complete assets
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add humanoid-motion-studio/outputs
+          git commit -m "Fix full body camera framing in character, modeling MP4 and four action screenshots"
+          git push origin HEAD:aether-humanoid-rig-20261025
+      - name: Downloadable final humanoid artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: AETHER-01-FINAL-FULLBODY-RIG-GLB-BLEND-MP4-PNG
+          path: humanoid-motion-studio/outputs
+          retention-days: 14
+          if-no-files-found: warn
