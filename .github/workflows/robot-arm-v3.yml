@@ -1,0 +1,67 @@
+name: High Detail Robot Arm - Blender GLB MP4
+on:
+  push:
+    branches: [gui-computer-use-20261023]
+    paths: ['.github/workflows/robot-arm-v3.yml']
+permissions:
+  contents: write
+jobs:
+  model-record:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Blender and recording tools
+        run: |
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq --no-install-recommends blender python3-numpy xvfb openbox ffmpeg xdotool scrot libgl1-mesa-dri
+      - name: Model and export GLB and blend
+        run: |
+          mkdir -p output
+          blender -b -t 2 --python experiments/robot-arm-v3/model.py -- "$PWD/output" > output/modeling.log 2>&1 || { tail -70 output/modeling.log; exit 1; }
+          grep ROBOT_MODEL_DONE output/modeling.log
+      - name: Record real Blender desktop inspecting model
+        run: |
+          export DISPLAY=:92 LIBGL_ALWAYS_SOFTWARE=1 MESA_GL_VERSION_OVERRIDE=4.5
+          Xvfb :92 -screen 0 1280x720x24 -nolisten tcp > output/xvfb.log 2>&1 &
+          sleep 2
+          openbox > output/openbox.log 2>&1 &
+          blender -W "$PWD/output/Titanium-Industrial-Robot-Arm.blend" > output/blender-gui.log 2>&1 &
+          sleep 9
+          ffmpeg -y -loglevel error -f x11grab -framerate 15 -video_size 1280x720 -i :92 -t 30 -c:v libx264 -preset ultrafast -crf 25 -pix_fmt yuv420p output/robot-arm-blender-desktop.mp4 &
+          sleep 3
+          xdotool key KP_1 || true
+          sleep 3
+          xdotool key KP_3 || true
+          sleep 3
+          xdotool key KP_7 || true
+          sleep 3
+          xdotool key KP_2 KP_2 KP_4 KP_4 || true
+          sleep 4
+          scrot output/blender-modeling-screen.png
+          wait
+      - name: Save all outputs on persistent Git branch
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git fetch origin godot-persistent-state
+          mkdir -p /tmp/robot-state
+          git -C /tmp/robot-state init -q
+          git -C /tmp/robot-state remote add origin "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY"
+          git -C /tmp/robot-state fetch -q origin godot-persistent-state
+          git -C /tmp/robot-state checkout -q -b godot-persistent-state FETCH_HEAD
+          mkdir -p /tmp/robot-state/persistent/showcase/robot-arm-v3
+          cp -v output/*.glb output/*.blend output/*.png output/*.mp4 /tmp/robot-state/persistent/showcase/robot-arm-v3/ || true
+          cd /tmp/robot-state
+          git config user.name github-actions
+          git config user.email github-actions@users.noreply.github.com
+          git add persistent/showcase/robot-arm-v3
+          git commit -m "Save Blender industrial robot arm GLB blend and screen capture" || true
+          git -c http.extraheader="AUTHORIZATION: basic $(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)" push origin HEAD:godot-persistent-state
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: High-Detail-Mechanical-Arm-GLB-BLEND-MP4
+          path: output/
+          retention-days: 7
