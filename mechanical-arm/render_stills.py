@@ -13,12 +13,12 @@ scene.render.image_settings.file_format="PNG"
 scene.render.film_transparent=False
 scene.render.engine='CYCLES'
 scene.cycles.device='CPU'
-scene.cycles.samples=20
+scene.cycles.samples=32
 scene.render.threads_mode='FIXED'
 scene.render.threads=4
 scene.view_settings.view_transform='AgX' if 'AgX' in [x.identifier for x in bpy.types.ColorManagedViewSettings.bl_rna.properties['view_transform'].enum_items] else 'Standard'
 try:
-    bpy.context.view_layer.cycles.use_denoising=True
+    bpy.context.view_layer.cycles.use_denoising=False
 except Exception: pass
 cam=scene.camera
 target=Vector((.40,0,.89))
