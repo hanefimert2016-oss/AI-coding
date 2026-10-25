@@ -1,0 +1,12 @@
+{
+  "skins": 1,
+  "animations": [
+    "Idle_Breathing",
+    "Punch_Right_Jab",
+    "Run_Loop",
+    "Walk_Loop"
+  ],
+  "meshes": 133,
+  "deform_bones": 18,
+  "blender_objects": 133
+}

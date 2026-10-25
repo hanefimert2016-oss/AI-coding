@@ -1,0 +1,630 @@
+Blender 4.0.2
+Read blend: "/home/runner/work/AI-coding/AI-coding/human-animation-studio/output/KINETIC-HUMAN-Rigged-Animated.blend"
+Fra:20 Mem:27.97M (Peak 27.97M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | STUDIO / FLOOR
+Fra:20 Mem:27.97M (Peak 27.97M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sculpted upper body | textile training jacket
+Fra:20 Mem:28.00M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Elastic waist band | charcoal panel
+Fra:20 Mem:28.04M (Peak 28.04M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Neck | anatomical neck
+Fra:20 Mem:28.07M (Peak 28.07M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Neck collar undercut
+Fra:20 Mem:28.11M (Peak 28.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoulder muscle | right
+Fra:20 Mem:28.15M (Peak 28.15M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket shoulder piping right segment 0
+Fra:20 Mem:28.15M (Peak 28.15M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket shoulder piping right segment 1
+Fra:20 Mem:28.16M (Peak 28.16M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoulder muscle | left
+Fra:20 Mem:28.17M (Peak 28.17M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket shoulder piping left segment 0
+Fra:20 Mem:28.20M (Peak 28.20M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket shoulder piping left segment 1
+Fra:20 Mem:28.21M (Peak 28.21M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket front seam zip
+Fra:20 Mem:28.23M (Peak 28.23M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Zip fastening head
+Fra:20 Mem:28.26M (Peak 28.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Torso side body panel left segment 0
+Fra:20 Mem:28.27M (Peak 28.27M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Muscular thigh R
+Fra:20 Mem:28.33M (Peak 28.33M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Knee cloth joint R
+Fra:20 Mem:28.34M (Peak 28.34M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tapered shin R
+Fra:20 Mem:28.46M (Peak 28.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trouser cuff R
+Fra:20 Mem:28.48M (Peak 28.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Anatomical sneaker heel R
+Fra:20 Mem:28.51M (Peak 28.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Foot toe upper R
+Fra:20 Mem:28.58M (Peak 28.58M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker outer sole R
+Fra:20 Mem:28.59M (Peak 28.59M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker bright tongue R
+Fra:20 Mem:28.66M (Peak 28.66M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker laces R 0 segment 0
+Fra:20 Mem:28.66M (Peak 28.66M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker laces R 1 segment 0
+Fra:20 Mem:28.66M (Peak 28.66M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker laces R 2 segment 0
+Fra:20 Mem:28.67M (Peak 28.67M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trouser seam R 0 segment 0
+Fra:20 Mem:28.67M (Peak 28.67M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trouser seam R 1 segment 0
+Fra:20 Mem:28.68M (Peak 28.68M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trouser seam R 2 segment 0
+Fra:20 Mem:28.68M (Peak 28.68M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Muscular thigh L
+Fra:20 Mem:28.70M (Peak 28.70M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Knee cloth joint L
+Fra:20 Mem:28.74M (Peak 28.74M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tapered shin L
+Fra:20 Mem:28.87M (Peak 28.87M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trouser cuff L
+Fra:20 Mem:28.88M (Peak 28.88M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Anatomical sneaker heel L
+Fra:20 Mem:28.92M (Peak 28.92M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Foot toe upper L
+Fra:20 Mem:28.97M (Peak 28.97M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker outer sole L
+Fra:20 Mem:29.01M (Peak 29.01M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker bright tongue L
+Fra:20 Mem:29.04M (Peak 29.04M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker laces L 0 segment 0
+Fra:20 Mem:29.06M (Peak 29.06M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker laces L 1 segment 0
+Fra:20 Mem:29.07M (Peak 29.07M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker laces L 2 segment 0
+Fra:20 Mem:29.08M (Peak 29.08M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker laces L 3 segment 0
+Fra:20 Mem:29.08M (Peak 29.08M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trouser seam L 0 segment 0
+Fra:20 Mem:29.08M (Peak 29.08M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trouser seam L 2 segment 0
+Fra:20 Mem:29.09M (Peak 29.09M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sculpted upper arm sleeve R
+Fra:20 Mem:29.12M (Peak 29.12M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Soft elbow panel R
+Fra:20 Mem:29.18M (Peak 29.18M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forearm anatomical sleeve R
+Fra:20 Mem:29.23M (Peak 29.23M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cuff sportswear R
+Fra:20 Mem:29.24M (Peak 29.24M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Finger R 0
+Fra:20 Mem:29.27M (Peak 29.27M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Finger R 1
+Fra:20 Mem:29.31M (Peak 29.31M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Finger R 2
+Fra:20 Mem:29.32M (Peak 29.32M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Finger R 3
+Fra:20 Mem:29.33M (Peak 29.33M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Thumb R
+Fra:20 Mem:29.34M (Peak 29.34M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sleeve fluorescent stripe R segment 1
+Fra:20 Mem:29.35M (Peak 29.35M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Logo chest center
+Fra:20 Mem:29.37M (Peak 29.38M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lower sleeve seam R segment 0
+Fra:20 Mem:29.40M (Peak 29.40M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Soft elbow panel L
+Fra:20 Mem:29.44M (Peak 29.44M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoe reflective heel disk L
+Fra:20 Mem:29.49M (Peak 29.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forearm anatomical sleeve L
+Fra:20 Mem:29.54M (Peak 29.54M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cuff sportswear L
+Fra:20 Mem:29.59M (Peak 29.59M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pants side outseam L segment 2
+Fra:20 Mem:29.61M (Peak 29.61M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hand palm L
+Fra:20 Mem:29.61M (Peak 29.61M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pants side outseam L segment 1
+Fra:20 Mem:29.62M (Peak 29.62M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Finger L 0
+Fra:20 Mem:29.65M (Peak 29.65M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pants side outseam L segment 0
+Fra:20 Mem:29.69M (Peak 29.69M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket chest badge L
+Fra:20 Mem:29.68M (Peak 29.69M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Finger L 2
+Fra:20 Mem:29.71M (Peak 29.71M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Finger L 3
+Fra:20 Mem:29.72M (Peak 29.72M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Thumb L
+Fra:20 Mem:29.73M (Peak 29.73M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Chest reflective piping L segment 1
+Fra:20 Mem:29.74M (Peak 29.74M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lower sleeve seam L segment 0
+Fra:20 Mem:29.74M (Peak 29.74M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Chest reflective piping L segment 0
+Fra:20 Mem:29.74M (Peak 29.74M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Organic face and cranium
+Fra:20 Mem:29.78M (Peak 29.78M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoe reflective heel disk R
+Fra:20 Mem:29.82M (Peak 29.82M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lower jaw and chin
+Fra:20 Mem:29.97M (Peak 29.97M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Real human ear R
+Fra:20 Mem:30.04M (Peak 30.04M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pants side outseam R segment 2
+Fra:20 Mem:30.05M (Peak 30.05M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Ear concha R
+Fra:20 Mem:30.07M (Peak 30.07M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eyeball R
+Fra:20 Mem:30.10M (Peak 30.10M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Iris R
+Fra:20 Mem:30.14M (Peak 30.14M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pupil R
+Fra:20 Mem:30.23M (Peak 30.23M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pants side outseam R segment 0
+Fra:20 Mem:30.23M (Peak 30.23M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye glint R
+Fra:20 Mem:30.23M (Peak 30.23M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket chest badge R
+Fra:20 Mem:30.27M (Peak 30.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cheek tissue R
+Fra:20 Mem:30.29M (Peak 30.29M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Real human ear L
+Fra:20 Mem:30.32M (Peak 30.32M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Chest reflective piping R segment 1
+Fra:20 Mem:30.36M (Peak 30.36M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Chest reflective piping R segment 0
+Fra:20 Mem:30.38M (Peak 30.38M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Ear concha L
+Fra:20 Mem:30.38M (Peak 30.38M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Iris L
+Fra:20 Mem:30.48M (Peak 30.48M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pupil L
+Fra:20 Mem:30.53M (Peak 30.53M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture L 4
+Fra:20 Mem:30.58M (Peak 30.58M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye glint L
+Fra:20 Mem:30.59M (Peak 30.59M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Subtle brow arch L
+Fra:20 Mem:30.61M (Peak 30.61M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cheek tissue L
+Fra:20 Mem:30.62M (Peak 30.62M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nose bridge
+Fra:20 Mem:30.64M (Peak 30.64M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nose tip
+Fra:20 Mem:30.73M (Peak 30.73M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture L 2
+Fra:20 Mem:30.78M (Peak 30.78M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nostril alar -1
+Fra:20 Mem:30.84M (Peak 30.84M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nostril alar 1
+Fra:20 Mem:30.84M (Peak 30.84M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture L 1
+Fra:20 Mem:30.93M (Peak 30.93M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Natural mouth lower lip
+Fra:20 Mem:30.99M (Peak 30.99M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture L 0
+Fra:20 Mem:31.01M (Peak 31.01M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Short dark swept hairstyle | scalp
+Fra:20 Mem:31.05M (Peak 31.05M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 00
+Fra:20 Mem:31.10M (Peak 31.10M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture R 5
+Fra:20 Mem:31.13M (Peak 31.13M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 02
+Fra:20 Mem:31.14M (Peak 31.14M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture R 4
+Fra:20 Mem:31.16M (Peak 31.16M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 03
+Fra:20 Mem:31.17M (Peak 31.17M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 04
+Fra:20 Mem:31.17M (Peak 31.17M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 05
+Fra:20 Mem:31.20M (Peak 31.20M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 06
+Fra:20 Mem:31.22M (Peak 31.22M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture R 2
+Fra:20 Mem:31.24M (Peak 31.24M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 08
+Fra:20 Mem:31.25M (Peak 31.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture R 1
+Fra:20 Mem:31.29M (Peak 31.29M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 09
+Fra:20 Mem:31.30M (Peak 31.30M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture R 0
+Fra:20 Mem:31.33M (Peak 31.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:20 Mem:23.29M (Peak 31.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:20 Mem:23.29M (Peak 31.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:20 Mem:23.29M (Peak 31.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:20 Mem:23.29M (Peak 31.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:20 Mem:23.38M (Peak 31.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Procedurals
+Fra:20 Mem:23.38M (Peak 31.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Background
+Fra:20 Mem:23.38M (Peak 31.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Camera
+Fra:20 Mem:23.38M (Peak 31.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:20 Mem:23.38M (Peak 31.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects
+Fra:20 Mem:23.38M (Peak 31.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:20 Mem:23.41M (Peak 31.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:20 Mem:23.41M (Peak 31.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Particle Systems
+Fra:20 Mem:23.41M (Peak 31.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:20 Mem:23.41M (Peak 31.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Meshes
+Fra:20 Mem:24.33M (Peak 31.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:20 Mem:24.72M (Peak 31.33M) | Time:00:00.01 | Mem:0.05M, Peak:0.05M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:20 Mem:24.69M (Peak 31.33M) | Time:00:00.01 | Mem:0.41M, Peak:0.41M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:20 Mem:24.70M (Peak 31.33M) | Time:00:00.01 | Mem:0.41M, Peak:0.41M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:20 Mem:24.70M (Peak 31.33M) | Time:00:00.01 | Mem:2.24M, Peak:2.24M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:20 Mem:24.70M (Peak 31.33M) | Time:00:00.02 | Mem:4.23M, Peak:6.06M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:20 Mem:24.70M (Peak 31.33M) | Time:00:00.02 | Mem:4.23M, Peak:6.06M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:20 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:4.23M, Peak:6.06M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:20 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.34M, Peak:6.34M | Scene, ViewLayer | Updating Objects Flags
+Fra:20 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.34M, Peak:6.34M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:20 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.34M, Peak:6.34M | Scene, ViewLayer | Updating Images
+Fra:20 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.34M, Peak:6.34M | Scene, ViewLayer | Updating Camera Volume
+Fra:20 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.34M, Peak:6.34M | Scene, ViewLayer | Updating Lookup Tables
+Fra:20 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.42M, Peak:6.42M | Scene, ViewLayer | Updating Lights
+Fra:20 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.42M, Peak:6.42M | Scene, ViewLayer | Updating Lights | Computing distribution
+Fra:20 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.42M, Peak:6.42M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:20 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.42M, Peak:6.42M | Scene, ViewLayer | Updating Integrator
+Fra:20 Mem:27.80M (Peak 31.33M) | Time:00:00.02 | Mem:7.42M, Peak:7.42M | Scene, ViewLayer | Updating Film
+Fra:20 Mem:27.81M (Peak 31.33M) | Time:00:00.02 | Mem:7.34M, Peak:7.42M | Scene, ViewLayer | Updating Lookup Tables
+Fra:20 Mem:27.81M (Peak 31.33M) | Time:00:00.02 | Mem:7.43M, Peak:7.43M | Scene, ViewLayer | Updating Baking
+Fra:20 Mem:27.81M (Peak 31.33M) | Time:00:00.02 | Mem:7.43M, Peak:7.43M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:20 Mem:27.81M (Peak 31.33M) | Time:00:00.02 | Mem:7.43M, Peak:7.43M | Scene, ViewLayer | Sample 0/32
+Fra:20 Mem:72.32M (Peak 72.32M) | Time:00:01.41 | Remaining:00:43.01 | Mem:51.92M, Peak:51.92M | Scene, ViewLayer | Sample 1/32
+Fra:20 Mem:72.32M (Peak 72.32M) | Time:00:22.03 | Remaining:00:19.41 | Mem:51.92M, Peak:51.92M | Scene, ViewLayer | Sample 17/32
+Fra:20 Mem:92.09M (Peak 131.65M) | Time:00:41.35 | Mem:51.92M, Peak:51.92M | Scene, ViewLayer | Sample 32/32
+Fra:20 Mem:92.09M (Peak 131.65M) | Time:00:41.35 | Mem:51.92M, Peak:51.92M | Scene, ViewLayer | Finished
+Saved: '/home/runner/work/AI-coding/AI-coding/human-animation-studio/output/KINETIC-HUMAN-01-Idle.png'
+Time: 00:41.68 (Saving: 00:00.32)
+
+HUMAN_RENDER KINETIC-HUMAN-01-Idle.png 2080678
+Fra:12 Mem:28.20M (Peak 28.20M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | STUDIO / FLOOR
+Fra:12 Mem:28.20M (Peak 28.20M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Elastic waist band | charcoal panel
+Fra:12 Mem:28.21M (Peak 28.21M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Neck | anatomical neck
+Fra:12 Mem:28.25M (Peak 28.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Neck collar undercut
+Fra:12 Mem:28.32M (Peak 28.32M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoulder muscle | right
+Fra:12 Mem:28.33M (Peak 28.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket shoulder piping right segment 0
+Fra:12 Mem:28.38M (Peak 28.38M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket shoulder piping right segment 1
+Fra:12 Mem:28.38M (Peak 28.38M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoulder muscle | left
+Fra:12 Mem:28.39M (Peak 28.39M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket shoulder piping left segment 0
+Fra:12 Mem:28.43M (Peak 28.43M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket shoulder piping left segment 1
+Fra:12 Mem:28.43M (Peak 28.43M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Zip fastening head
+Fra:12 Mem:28.44M (Peak 28.44M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Torso side body panel left segment 0
+Fra:12 Mem:28.45M (Peak 28.45M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Torso side body panel right segment 0
+Fra:12 Mem:28.49M (Peak 28.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Muscular thigh R
+Fra:12 Mem:28.50M (Peak 28.50M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Knee cloth joint R
+Fra:12 Mem:28.57M (Peak 28.57M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tapered shin R
+Fra:12 Mem:28.61M (Peak 28.61M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trouser cuff R
+Fra:12 Mem:28.64M (Peak 28.64M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Anatomical sneaker heel R
+Fra:12 Mem:28.71M (Peak 28.71M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Foot toe upper R
+Fra:12 Mem:28.77M (Peak 28.77M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker outer sole R
+Fra:12 Mem:28.77M (Peak 28.77M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker bright tongue R
+Fra:12 Mem:28.83M (Peak 28.83M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker laces R 0 segment 0
+Fra:12 Mem:28.85M (Peak 28.85M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker laces R 2 segment 0
+Fra:12 Mem:28.86M (Peak 28.86M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker laces R 3 segment 0
+Fra:12 Mem:28.86M (Peak 28.86M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trouser seam R 1 segment 0
+Fra:12 Mem:28.87M (Peak 28.87M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trouser seam R 2 segment 0
+Fra:12 Mem:28.87M (Peak 28.87M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Knee cloth joint L
+Fra:12 Mem:28.94M (Peak 28.94M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tapered shin L
+Fra:12 Mem:29.04M (Peak 29.04M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trouser cuff L
+Fra:12 Mem:29.07M (Peak 29.07M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Anatomical sneaker heel L
+Fra:12 Mem:29.08M (Peak 29.08M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Foot toe upper L
+Fra:12 Mem:29.11M (Peak 29.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker outer sole L
+Fra:12 Mem:29.18M (Peak 29.18M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker bright tongue L
+Fra:12 Mem:29.23M (Peak 29.23M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker laces L 0 segment 0
+Fra:12 Mem:29.24M (Peak 29.23M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker laces L 1 segment 0
+Fra:12 Mem:29.23M (Peak 29.23M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker laces L 3 segment 0
+Fra:12 Mem:29.24M (Peak 29.24M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trouser seam L 0 segment 0
+Fra:12 Mem:29.24M (Peak 29.24M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trouser seam L 1 segment 0
+Fra:12 Mem:29.24M (Peak 29.24M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Logo chest center
+Fra:12 Mem:29.27M (Peak 29.28M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sculpted upper arm sleeve R
+Fra:12 Mem:29.30M (Peak 29.30M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Soft elbow panel R
+Fra:12 Mem:29.37M (Peak 29.37M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoe reflective heel disk L
+Fra:12 Mem:29.39M (Peak 29.39M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forearm anatomical sleeve R
+Fra:12 Mem:29.39M (Peak 29.39M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cuff sportswear R
+Fra:12 Mem:29.48M (Peak 29.48M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hand palm R
+Fra:12 Mem:29.50M (Peak 29.50M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Finger R 0
+Fra:12 Mem:29.54M (Peak 29.54M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pants side outseam L segment 2
+Fra:12 Mem:29.56M (Peak 29.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Finger R 2
+Fra:12 Mem:29.55M (Peak 29.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pants side outseam L segment 1
+Fra:12 Mem:29.55M (Peak 29.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Thumb R
+Fra:12 Mem:29.56M (Peak 29.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sleeve fluorescent stripe R segment 0
+Fra:12 Mem:29.57M (Peak 29.57M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sleeve fluorescent stripe R segment 1
+Fra:12 Mem:29.57M (Peak 29.57M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lower sleeve seam R segment 0
+Fra:12 Mem:29.57M (Peak 29.57M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sculpted upper arm sleeve L
+Fra:12 Mem:29.58M (Peak 29.58M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket chest badge L
+Fra:12 Mem:29.58M (Peak 29.58M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Soft elbow panel L
+Fra:12 Mem:29.67M (Peak 29.67M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Chest reflective piping L segment 1
+Fra:12 Mem:29.69M (Peak 29.69M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forearm anatomical sleeve L
+Fra:12 Mem:29.72M (Peak 29.72M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Chest reflective piping L segment 0
+Fra:12 Mem:29.72M (Peak 29.72M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cuff sportswear L
+Fra:12 Mem:29.75M (Peak 29.75M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoe reflective heel disk R
+Fra:12 Mem:29.77M (Peak 29.77M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Finger L 0
+Fra:12 Mem:29.82M (Peak 29.82M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Finger L 1
+Fra:12 Mem:29.87M (Peak 29.87M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Finger L 2
+Fra:12 Mem:29.87M (Peak 29.87M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Finger L 3
+Fra:12 Mem:29.87M (Peak 29.87M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Thumb L
+Fra:12 Mem:29.91M (Peak 29.91M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sleeve fluorescent stripe L segment 0
+Fra:12 Mem:29.89M (Peak 29.91M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lower sleeve seam L segment 0
+Fra:12 Mem:29.89M (Peak 29.91M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Organic face and cranium
+Fra:12 Mem:29.94M (Peak 29.94M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lower jaw and chin
+Fra:12 Mem:30.04M (Peak 30.04M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pants side outseam R segment 0
+Fra:12 Mem:30.11M (Peak 30.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Real human ear R
+Fra:12 Mem:30.13M (Peak 30.13M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket chest badge R
+Fra:12 Mem:30.19M (Peak 30.19M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Ear concha R
+Fra:12 Mem:30.19M (Peak 30.19M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Chest reflective piping R segment 1
+Fra:12 Mem:30.25M (Peak 30.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Iris R
+Fra:12 Mem:30.26M (Peak 30.26M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pupil R
+Fra:12 Mem:30.34M (Peak 30.34M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture L 5
+Fra:12 Mem:30.35M (Peak 30.35M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye glint R
+Fra:12 Mem:30.38M (Peak 30.38M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Subtle brow arch R
+Fra:12 Mem:30.39M (Peak 30.39M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cheek tissue R
+Fra:12 Mem:30.40M (Peak 30.40M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Ear concha L
+Fra:12 Mem:30.49M (Peak 30.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eyeball L
+Fra:12 Mem:30.52M (Peak 30.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Iris L
+Fra:12 Mem:30.61M (Peak 30.61M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture L 3
+Fra:12 Mem:30.63M (Peak 30.63M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pupil L
+Fra:12 Mem:30.65M (Peak 30.65M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Subtle brow arch L
+Fra:12 Mem:30.67M (Peak 30.67M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture L 2
+Fra:12 Mem:30.70M (Peak 30.70M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cheek tissue L
+Fra:12 Mem:30.75M (Peak 30.75M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nose bridge
+Fra:12 Mem:30.77M (Peak 30.77M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nose tip
+Fra:12 Mem:30.79M (Peak 30.79M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture L 1
+Fra:12 Mem:30.81M (Peak 30.81M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nostril alar -1
+Fra:12 Mem:30.90M (Peak 30.90M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nostril alar 1
+Fra:12 Mem:30.92M (Peak 30.92M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture L 0
+Fra:12 Mem:30.92M (Peak 30.92M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Natural mouth upper lip
+Fra:12 Mem:31.00M (Peak 31.00M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Short dark swept hairstyle | scalp
+Fra:12 Mem:31.00M (Peak 31.00M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture R 5
+Fra:12 Mem:31.10M (Peak 31.10M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 00
+Fra:12 Mem:31.11M (Peak 31.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture R 4
+Fra:12 Mem:31.11M (Peak 31.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 01
+Fra:12 Mem:31.13M (Peak 31.13M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 02
+Fra:12 Mem:31.14M (Peak 31.14M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 03
+Fra:12 Mem:31.15M (Peak 31.15M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 04
+Fra:12 Mem:31.15M (Peak 31.15M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 05
+Fra:12 Mem:31.16M (Peak 31.16M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 06
+Fra:12 Mem:31.17M (Peak 31.17M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 07
+Fra:12 Mem:31.17M (Peak 31.17M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 08
+Fra:12 Mem:31.20M (Peak 31.20M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 09
+Fra:12 Mem:31.21M (Peak 31.21M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 10
+Fra:12 Mem:31.21M (Peak 31.21M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture R 0
+Fra:12 Mem:31.25M (Peak 31.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture R 1
+Fra:12 Mem:31.33M (Peak 31.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:12 Mem:23.29M (Peak 31.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:12 Mem:23.29M (Peak 31.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:12 Mem:23.29M (Peak 31.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:12 Mem:23.29M (Peak 31.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:12 Mem:23.38M (Peak 31.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Procedurals
+Fra:12 Mem:23.38M (Peak 31.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Background
+Fra:12 Mem:23.38M (Peak 31.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Camera
+Fra:12 Mem:23.38M (Peak 31.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:12 Mem:23.38M (Peak 31.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects
+Fra:12 Mem:23.38M (Peak 31.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:12 Mem:23.41M (Peak 31.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:12 Mem:23.41M (Peak 31.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Particle Systems
+Fra:12 Mem:23.41M (Peak 31.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:12 Mem:23.41M (Peak 31.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Meshes
+Fra:12 Mem:24.33M (Peak 31.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:12 Mem:24.72M (Peak 31.33M) | Time:00:00.01 | Mem:0.05M, Peak:0.05M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:12 Mem:24.70M (Peak 31.33M) | Time:00:00.01 | Mem:0.41M, Peak:0.41M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:12 Mem:24.70M (Peak 31.33M) | Time:00:00.01 | Mem:0.41M, Peak:0.41M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:12 Mem:24.70M (Peak 31.33M) | Time:00:00.01 | Mem:2.24M, Peak:2.24M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:12 Mem:24.70M (Peak 31.33M) | Time:00:00.02 | Mem:4.23M, Peak:6.06M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:12 Mem:24.70M (Peak 31.33M) | Time:00:00.02 | Mem:4.23M, Peak:6.06M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:12 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:4.23M, Peak:6.06M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:12 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.34M, Peak:6.34M | Scene, ViewLayer | Updating Objects Flags
+Fra:12 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.34M, Peak:6.34M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:12 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.34M, Peak:6.34M | Scene, ViewLayer | Updating Images
+Fra:12 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.34M, Peak:6.34M | Scene, ViewLayer | Updating Camera Volume
+Fra:12 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.34M, Peak:6.34M | Scene, ViewLayer | Updating Lookup Tables
+Fra:12 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.42M, Peak:6.42M | Scene, ViewLayer | Updating Lights
+Fra:12 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.42M, Peak:6.42M | Scene, ViewLayer | Updating Lights | Computing distribution
+Fra:12 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.42M, Peak:6.42M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:12 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.42M, Peak:6.42M | Scene, ViewLayer | Updating Integrator
+Fra:12 Mem:27.80M (Peak 31.33M) | Time:00:00.02 | Mem:7.42M, Peak:7.42M | Scene, ViewLayer | Updating Film
+Fra:12 Mem:27.81M (Peak 31.33M) | Time:00:00.02 | Mem:7.34M, Peak:7.42M | Scene, ViewLayer | Updating Lookup Tables
+Fra:12 Mem:27.81M (Peak 31.33M) | Time:00:00.02 | Mem:7.43M, Peak:7.43M | Scene, ViewLayer | Updating Baking
+Fra:12 Mem:27.81M (Peak 31.33M) | Time:00:00.02 | Mem:7.43M, Peak:7.43M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:12 Mem:27.81M (Peak 31.33M) | Time:00:00.02 | Mem:7.43M, Peak:7.43M | Scene, ViewLayer | Sample 0/32
+Fra:12 Mem:72.32M (Peak 72.32M) | Time:00:01.37 | Remaining:00:41.86 | Mem:51.92M, Peak:51.92M | Scene, ViewLayer | Sample 1/32
+Fra:12 Mem:72.32M (Peak 72.32M) | Time:00:21.84 | Remaining:00:19.25 | Mem:51.92M, Peak:51.92M | Scene, ViewLayer | Sample 17/32
+Fra:12 Mem:92.09M (Peak 131.65M) | Time:00:40.98 | Mem:51.92M, Peak:51.92M | Scene, ViewLayer | Sample 32/32
+Fra:12 Mem:92.09M (Peak 131.65M) | Time:00:40.98 | Mem:51.92M, Peak:51.92M | Scene, ViewLayer | Finished
+Saved: '/home/runner/work/AI-coding/AI-coding/human-animation-studio/output/KINETIC-HUMAN-02-Walk.png'
+Time: 00:41.18 (Saving: 00:00.19)
+
+HUMAN_RENDER KINETIC-HUMAN-02-Walk.png 2104055
+Fra:10 Mem:28.20M (Peak 28.20M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | STUDIO / FLOOR
+Fra:10 Mem:28.20M (Peak 28.20M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Elastic waist band | charcoal panel
+Fra:10 Mem:28.23M (Peak 28.23M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Neck | anatomical neck
+Fra:10 Mem:28.29M (Peak 28.29M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoulder muscle | right
+Fra:10 Mem:28.35M (Peak 28.35M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket shoulder piping right segment 0
+Fra:10 Mem:28.38M (Peak 28.38M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket shoulder piping right segment 1
+Fra:10 Mem:28.39M (Peak 28.39M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoulder muscle | left
+Fra:10 Mem:28.40M (Peak 28.40M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket shoulder piping left segment 1
+Fra:10 Mem:28.44M (Peak 28.44M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket front seam zip
+Fra:10 Mem:28.44M (Peak 28.44M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Zip fastening head
+Fra:10 Mem:28.45M (Peak 28.45M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Torso side body panel left segment 0
+Fra:10 Mem:28.50M (Peak 28.50M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Torso side body panel right segment 0
+Fra:10 Mem:28.49M (Peak 28.50M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Muscular thigh R
+Fra:10 Mem:28.51M (Peak 28.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tapered shin R
+Fra:10 Mem:28.67M (Peak 28.67M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trouser cuff R
+Fra:10 Mem:28.70M (Peak 28.70M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Anatomical sneaker heel R
+Fra:10 Mem:28.70M (Peak 28.70M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Foot toe upper R
+Fra:10 Mem:28.76M (Peak 28.76M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker outer sole R
+Fra:10 Mem:28.81M (Peak 28.81M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker bright tongue R
+Fra:10 Mem:28.83M (Peak 28.83M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker laces R 0 segment 0
+Fra:10 Mem:28.86M (Peak 28.86M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker laces R 2 segment 0
+Fra:10 Mem:28.86M (Peak 28.86M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker laces R 3 segment 0
+Fra:10 Mem:28.86M (Peak 28.86M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trouser seam R 0 segment 0
+Fra:10 Mem:28.87M (Peak 28.87M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trouser seam R 1 segment 0
+Fra:10 Mem:28.87M (Peak 28.87M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Muscular thigh L
+Fra:10 Mem:28.89M (Peak 28.89M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Knee cloth joint L
+Fra:10 Mem:28.98M (Peak 28.98M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tapered shin L
+Fra:10 Mem:29.05M (Peak 29.05M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trouser cuff L
+Fra:10 Mem:29.06M (Peak 29.06M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Anatomical sneaker heel L
+Fra:10 Mem:29.10M (Peak 29.10M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Foot toe upper L
+Fra:10 Mem:29.15M (Peak 29.15M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker outer sole L
+Fra:10 Mem:29.16M (Peak 29.16M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker bright tongue L
+Fra:10 Mem:29.19M (Peak 29.19M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker laces L 0 segment 0
+Fra:10 Mem:29.23M (Peak 29.23M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker laces L 1 segment 0
+Fra:10 Mem:29.24M (Peak 29.24M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker laces L 2 segment 0
+Fra:10 Mem:29.24M (Peak 29.24M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trouser seam L 0 segment 0
+Fra:10 Mem:29.24M (Peak 29.24M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Logo chest center
+Fra:10 Mem:29.25M (Peak 29.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trouser seam L 2 segment 0
+Fra:10 Mem:29.25M (Peak 29.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sculpted upper arm sleeve R
+Fra:10 Mem:29.26M (Peak 29.26M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Soft elbow panel R
+Fra:10 Mem:29.29M (Peak 29.29M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoe reflective heel disk L
+Fra:10 Mem:29.38M (Peak 29.38M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forearm anatomical sleeve R
+Fra:10 Mem:29.41M (Peak 29.41M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cuff sportswear R
+Fra:10 Mem:29.42M (Peak 29.42M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pants side outseam L segment 2
+Fra:10 Mem:29.48M (Peak 29.48M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hand palm R
+Fra:10 Mem:29.49M (Peak 29.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pants side outseam L segment 1
+Fra:10 Mem:29.53M (Peak 29.53M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Finger R 0
+Fra:10 Mem:29.54M (Peak 29.54M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pants side outseam L segment 0
+Fra:10 Mem:29.55M (Peak 29.55M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Finger R 2
+Fra:10 Mem:29.55M (Peak 29.55M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket chest badge L
+Fra:10 Mem:29.58M (Peak 29.58M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Finger R 3
+Fra:10 Mem:29.60M (Peak 29.60M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Thumb R
+Fra:10 Mem:29.60M (Peak 29.60M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sleeve fluorescent stripe R segment 1
+Fra:10 Mem:29.61M (Peak 29.61M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sculpted upper arm sleeve L
+Fra:10 Mem:29.61M (Peak 29.61M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Soft elbow panel L
+Fra:10 Mem:29.69M (Peak 29.69M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forearm anatomical sleeve L
+Fra:10 Mem:29.72M (Peak 29.72M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Chest reflective piping L segment 0
+Fra:10 Mem:29.74M (Peak 29.74M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cuff sportswear L
+Fra:10 Mem:29.75M (Peak 29.75M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoe reflective heel disk R
+Fra:10 Mem:29.76M (Peak 29.76M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hand palm L
+Fra:10 Mem:29.80M (Peak 29.80M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Finger L 0
+Fra:10 Mem:29.85M (Peak 29.85M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Finger L 1
+Fra:10 Mem:29.85M (Peak 29.85M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pants side outseam R segment 2
+Fra:10 Mem:29.87M (Peak 29.87M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pants side outseam R segment 1
+Fra:10 Mem:29.88M (Peak 29.88M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Thumb L
+Fra:10 Mem:29.88M (Peak 29.88M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pants side outseam R segment 0
+Fra:10 Mem:29.90M (Peak 29.90M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket chest badge R
+Fra:10 Mem:29.90M (Peak 29.90M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sleeve fluorescent stripe L segment 1
+Fra:10 Mem:29.94M (Peak 29.94M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lower sleeve seam L segment 0
+Fra:10 Mem:29.93M (Peak 29.94M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Organic face and cranium
+Fra:10 Mem:29.97M (Peak 29.97M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lower jaw and chin
+Fra:10 Mem:29.97M (Peak 29.97M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Chest reflective piping R segment 0
+Fra:10 Mem:30.10M (Peak 30.10M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture L 5
+Fra:10 Mem:30.17M (Peak 30.17M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Real human ear R
+Fra:10 Mem:30.23M (Peak 30.23M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture L 4
+Fra:10 Mem:30.27M (Peak 30.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Ear concha R
+Fra:10 Mem:30.25M (Peak 30.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eyeball R
+Fra:10 Mem:30.28M (Peak 30.28M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture L 3
+Fra:10 Mem:30.34M (Peak 30.34M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pupil R
+Fra:10 Mem:30.38M (Peak 30.38M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture L 2
+Fra:10 Mem:30.46M (Peak 30.46M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye glint R
+Fra:10 Mem:30.46M (Peak 30.46M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cheek tissue R
+Fra:10 Mem:30.49M (Peak 30.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Real human ear L
+Fra:10 Mem:30.50M (Peak 30.50M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture L 0
+Fra:10 Mem:30.59M (Peak 30.59M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Ear concha L
+Fra:10 Mem:30.61M (Peak 30.61M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eyeball L
+Fra:10 Mem:30.66M (Peak 30.66M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Iris L
+Fra:10 Mem:30.67M (Peak 30.67M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pupil L
+Fra:10 Mem:30.73M (Peak 30.73M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye glint L
+Fra:10 Mem:30.78M (Peak 30.79M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture R 4
+Fra:10 Mem:30.81M (Peak 30.81M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Subtle brow arch L
+Fra:10 Mem:30.83M (Peak 30.83M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cheek tissue L
+Fra:10 Mem:30.82M (Peak 30.83M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture R 3
+Fra:10 Mem:30.83M (Peak 30.83M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nose tip
+Fra:10 Mem:30.96M (Peak 30.96M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nostril alar -1
+Fra:10 Mem:31.01M (Peak 31.01M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture R 2
+Fra:10 Mem:31.02M (Peak 31.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nostril alar 1
+Fra:10 Mem:31.05M (Peak 31.05M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Natural mouth upper lip
+Fra:10 Mem:31.06M (Peak 31.06M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Natural mouth lower lip
+Fra:10 Mem:31.12M (Peak 31.12M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture R 1
+Fra:10 Mem:31.16M (Peak 31.16M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Short dark swept hairstyle | scalp
+Fra:10 Mem:31.24M (Peak 31.24M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 00
+Fra:10 Mem:31.25M (Peak 31.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture R 0
+Fra:10 Mem:31.25M (Peak 31.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 01
+Fra:10 Mem:31.29M (Peak 31.29M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 02
+Fra:10 Mem:31.29M (Peak 31.29M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 03
+Fra:10 Mem:31.29M (Peak 31.29M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 05
+Fra:10 Mem:31.30M (Peak 31.30M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 10
+Fra:10 Mem:31.30M (Peak 31.30M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 07
+Fra:10 Mem:31.31M (Peak 31.31M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 09
+Fra:10 Mem:31.32M (Peak 31.32M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 08
+Fra:10 Mem:31.33M (Peak 31.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:10 Mem:23.29M (Peak 31.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:10 Mem:23.29M (Peak 31.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:10 Mem:23.29M (Peak 31.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:10 Mem:23.29M (Peak 31.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:10 Mem:23.38M (Peak 31.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Procedurals
+Fra:10 Mem:23.38M (Peak 31.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Background
+Fra:10 Mem:23.38M (Peak 31.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Camera
+Fra:10 Mem:23.38M (Peak 31.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:10 Mem:23.38M (Peak 31.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects
+Fra:10 Mem:23.38M (Peak 31.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:10 Mem:23.41M (Peak 31.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:10 Mem:23.41M (Peak 31.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Particle Systems
+Fra:10 Mem:23.41M (Peak 31.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:10 Mem:23.41M (Peak 31.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Meshes
+Fra:10 Mem:24.33M (Peak 31.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:10 Mem:24.72M (Peak 31.33M) | Time:00:00.01 | Mem:0.05M, Peak:0.05M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:10 Mem:24.70M (Peak 31.33M) | Time:00:00.01 | Mem:0.41M, Peak:0.41M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:10 Mem:24.70M (Peak 31.33M) | Time:00:00.01 | Mem:0.41M, Peak:0.41M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:10 Mem:24.70M (Peak 31.33M) | Time:00:00.01 | Mem:2.24M, Peak:2.24M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:10 Mem:24.70M (Peak 31.33M) | Time:00:00.02 | Mem:4.23M, Peak:6.06M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:10 Mem:24.70M (Peak 31.33M) | Time:00:00.02 | Mem:4.23M, Peak:6.06M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:10 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:4.23M, Peak:6.06M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:10 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.34M, Peak:6.34M | Scene, ViewLayer | Updating Objects Flags
+Fra:10 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.34M, Peak:6.34M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:10 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.34M, Peak:6.34M | Scene, ViewLayer | Updating Images
+Fra:10 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.34M, Peak:6.34M | Scene, ViewLayer | Updating Camera Volume
+Fra:10 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.34M, Peak:6.34M | Scene, ViewLayer | Updating Lookup Tables
+Fra:10 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.42M, Peak:6.42M | Scene, ViewLayer | Updating Lights
+Fra:10 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.42M, Peak:6.42M | Scene, ViewLayer | Updating Lights | Computing distribution
+Fra:10 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.42M, Peak:6.42M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:10 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.42M, Peak:6.42M | Scene, ViewLayer | Updating Integrator
+Fra:10 Mem:27.80M (Peak 31.33M) | Time:00:00.02 | Mem:7.42M, Peak:7.42M | Scene, ViewLayer | Updating Film
+Fra:10 Mem:27.81M (Peak 31.33M) | Time:00:00.02 | Mem:7.34M, Peak:7.42M | Scene, ViewLayer | Updating Lookup Tables
+Fra:10 Mem:27.81M (Peak 31.33M) | Time:00:00.02 | Mem:7.43M, Peak:7.43M | Scene, ViewLayer | Updating Baking
+Fra:10 Mem:27.81M (Peak 31.33M) | Time:00:00.02 | Mem:7.43M, Peak:7.43M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:10 Mem:27.81M (Peak 31.33M) | Time:00:00.02 | Mem:7.43M, Peak:7.43M | Scene, ViewLayer | Sample 0/32
+Fra:10 Mem:72.32M (Peak 72.32M) | Time:00:01.37 | Remaining:00:41.98 | Mem:51.92M, Peak:51.92M | Scene, ViewLayer | Sample 1/32
+Fra:10 Mem:72.32M (Peak 72.32M) | Time:00:21.69 | Remaining:00:19.12 | Mem:51.92M, Peak:51.92M | Scene, ViewLayer | Sample 17/32
+Fra:10 Mem:92.09M (Peak 131.65M) | Time:00:40.85 | Mem:51.92M, Peak:51.92M | Scene, ViewLayer | Sample 32/32
+Fra:10 Mem:92.09M (Peak 131.65M) | Time:00:40.85 | Mem:51.92M, Peak:51.92M | Scene, ViewLayer | Finished
+Saved: '/home/runner/work/AI-coding/AI-coding/human-animation-studio/output/KINETIC-HUMAN-03-Run.png'
+Time: 00:41.04 (Saving: 00:00.19)
+
+HUMAN_RENDER KINETIC-HUMAN-03-Run.png 2104102
+Fra:26 Mem:28.20M (Peak 28.20M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | STUDIO / FLOOR
+Fra:26 Mem:28.20M (Peak 28.20M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Elastic waist band | charcoal panel
+Fra:26 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Neck | anatomical neck
+Fra:26 Mem:28.26M (Peak 28.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Neck collar undercut
+Fra:26 Mem:28.33M (Peak 28.33M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoulder muscle | right
+Fra:26 Mem:28.35M (Peak 28.35M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket shoulder piping right segment 0
+Fra:26 Mem:28.38M (Peak 28.38M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket shoulder piping right segment 1
+Fra:26 Mem:28.38M (Peak 28.38M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket shoulder piping left segment 0
+Fra:26 Mem:28.39M (Peak 28.39M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket shoulder piping left segment 1
+Fra:26 Mem:28.40M (Peak 28.40M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket front seam zip
+Fra:26 Mem:28.45M (Peak 28.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Zip fastening head
+Fra:26 Mem:28.48M (Peak 28.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Torso side body panel left segment 0
+Fra:26 Mem:28.49M (Peak 28.49M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Torso side body panel right segment 0
+Fra:26 Mem:28.49M (Peak 28.49M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Knee cloth joint R
+Fra:26 Mem:28.54M (Peak 28.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tapered shin R
+Fra:26 Mem:28.60M (Peak 28.60M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trouser cuff R
+Fra:26 Mem:28.66M (Peak 28.66M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Anatomical sneaker heel R
+Fra:26 Mem:28.72M (Peak 28.72M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Foot toe upper R
+Fra:26 Mem:28.76M (Peak 28.76M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker outer sole R
+Fra:26 Mem:28.78M (Peak 28.78M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker laces R 0 segment 0
+Fra:26 Mem:28.81M (Peak 28.81M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker laces R 1 segment 0
+Fra:26 Mem:28.82M (Peak 28.82M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker laces R 2 segment 0
+Fra:26 Mem:28.85M (Peak 28.85M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker laces R 3 segment 0
+Fra:26 Mem:28.87M (Peak 28.87M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trouser seam R 0 segment 0
+Fra:26 Mem:28.87M (Peak 28.87M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trouser seam R 1 segment 0
+Fra:26 Mem:28.87M (Peak 28.87M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trouser seam R 2 segment 0
+Fra:26 Mem:28.87M (Peak 28.87M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Knee cloth joint L
+Fra:26 Mem:28.92M (Peak 28.92M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tapered shin L
+Fra:26 Mem:29.06M (Peak 29.06M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trouser cuff L
+Fra:26 Mem:29.05M (Peak 29.06M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Foot toe upper L
+Fra:26 Mem:29.11M (Peak 29.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker outer sole L
+Fra:26 Mem:29.19M (Peak 29.19M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker bright tongue L
+Fra:26 Mem:29.22M (Peak 29.22M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker laces L 1 segment 0
+Fra:26 Mem:29.24M (Peak 29.24M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sneaker laces L 2 segment 0
+Fra:26 Mem:29.23M (Peak 29.24M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trouser seam L 0 segment 0
+Fra:26 Mem:29.24M (Peak 29.24M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trouser seam L 1 segment 0
+Fra:26 Mem:29.24M (Peak 29.24M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sculpted upper arm sleeve R
+Fra:26 Mem:29.30M (Peak 29.30M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Soft elbow panel R
+Fra:26 Mem:29.30M (Peak 29.30M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forearm anatomical sleeve R
+Fra:26 Mem:29.37M (Peak 29.37M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cuff sportswear R
+Fra:26 Mem:29.39M (Peak 29.39M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hand palm R
+Fra:26 Mem:29.46M (Peak 29.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Finger R 0
+Fra:26 Mem:29.51M (Peak 29.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Finger R 1
+Fra:26 Mem:29.51M (Peak 29.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Finger R 3
+Fra:26 Mem:29.52M (Peak 29.52M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoe reflective heel disk L
+Fra:26 Mem:29.55M (Peak 29.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sleeve fluorescent stripe R segment 1
+Fra:26 Mem:29.57M (Peak 29.57M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lower sleeve seam R segment 0
+Fra:26 Mem:29.56M (Peak 29.57M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pants side outseam L segment 2
+Fra:26 Mem:29.57M (Peak 29.57M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sculpted upper arm sleeve L
+Fra:26 Mem:29.57M (Peak 29.57M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pants side outseam L segment 1
+Fra:26 Mem:29.62M (Peak 29.62M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Soft elbow panel L
+Fra:26 Mem:29.66M (Peak 29.66M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pants side outseam L segment 0
+Fra:26 Mem:29.68M (Peak 29.68M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forearm anatomical sleeve L
+Fra:26 Mem:29.68M (Peak 29.68M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cuff sportswear L
+Fra:26 Mem:29.71M (Peak 29.71M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hand palm L
+Fra:26 Mem:29.74M (Peak 29.74M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket chest badge L
+Fra:26 Mem:29.79M (Peak 29.79M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Finger L 1
+Fra:26 Mem:29.82M (Peak 29.82M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Finger L 2
+Fra:26 Mem:29.83M (Peak 29.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Thumb L
+Fra:26 Mem:29.83M (Peak 29.83M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Chest reflective piping L segment 1
+Fra:26 Mem:29.84M (Peak 29.84M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sleeve fluorescent stripe L segment 0
+Fra:26 Mem:29.84M (Peak 29.84M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sleeve fluorescent stripe L segment 1
+Fra:26 Mem:29.85M (Peak 29.85M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lower sleeve seam L segment 0
+Fra:26 Mem:29.85M (Peak 29.85M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Organic face and cranium
+Fra:26 Mem:29.85M (Peak 29.85M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lower jaw and chin
+Fra:26 Mem:29.90M (Peak 29.90M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Chest reflective piping L segment 0
+Fra:26 Mem:29.98M (Peak 29.98M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoe reflective heel disk R
+Fra:26 Mem:30.10M (Peak 30.10M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Ear concha R
+Fra:26 Mem:30.16M (Peak 30.16M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eyeball R
+Fra:26 Mem:30.21M (Peak 30.21M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Iris R
+Fra:26 Mem:30.28M (Peak 30.28M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pants side outseam R segment 2
+Fra:26 Mem:30.29M (Peak 30.29M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pupil R
+Fra:26 Mem:30.26M (Peak 30.29M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye glint R
+Fra:26 Mem:30.29M (Peak 30.29M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Subtle brow arch R
+Fra:26 Mem:30.33M (Peak 30.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pants side outseam R segment 0
+Fra:26 Mem:30.33M (Peak 30.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Ear concha L
+Fra:26 Mem:30.36M (Peak 30.36M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jacket chest badge R
+Fra:26 Mem:30.37M (Peak 30.37M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eyeball L
+Fra:26 Mem:30.48M (Peak 30.48M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Iris L
+Fra:26 Mem:30.52M (Peak 30.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye glint L
+Fra:26 Mem:30.54M (Peak 30.54M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Subtle brow arch L
+Fra:26 Mem:30.57M (Peak 30.57M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cheek tissue L
+Fra:26 Mem:30.58M (Peak 30.58M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nose bridge
+Fra:26 Mem:30.68M (Peak 30.68M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nose tip
+Fra:26 Mem:30.72M (Peak 30.72M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nostril alar 1
+Fra:26 Mem:30.73M (Peak 30.73M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Natural mouth upper lip
+Fra:26 Mem:30.85M (Peak 30.85M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Natural mouth lower lip
+Fra:26 Mem:30.85M (Peak 30.85M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Short dark swept hairstyle | scalp
+Fra:26 Mem:30.88M (Peak 30.88M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 00
+Fra:26 Mem:30.95M (Peak 30.95M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 01
+Fra:26 Mem:30.96M (Peak 30.96M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 02
+Fra:26 Mem:30.96M (Peak 30.96M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 04
+Fra:26 Mem:30.98M (Peak 30.98M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 06
+Fra:26 Mem:30.98M (Peak 30.98M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Chest reflective piping R segment 0
+Fra:26 Mem:31.00M (Peak 31.00M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 08
+Fra:26 Mem:30.99M (Peak 31.00M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 09
+Fra:26 Mem:31.00M (Peak 31.00M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forehead textured hair lock 10
+Fra:26 Mem:31.01M (Peak 31.01M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture R 1
+Fra:26 Mem:31.04M (Peak 31.04M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture L 5
+Fra:26 Mem:31.07M (Peak 31.07M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture R 2
+Fra:26 Mem:31.09M (Peak 31.09M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture R 3
+Fra:26 Mem:31.14M (Peak 31.14M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture R 4
+Fra:26 Mem:31.14M (Peak 31.14M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture R 5
+Fra:26 Mem:31.19M (Peak 31.19M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture L 0
+Fra:26 Mem:31.24M (Peak 31.24M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture L 1
+Fra:26 Mem:31.27M (Peak 31.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture L 2
+Fra:26 Mem:31.31M (Peak 31.31M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side swept hair texture L 3
+Fra:26 Mem:31.33M (Peak 31.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:26 Mem:23.29M (Peak 31.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:26 Mem:23.29M (Peak 31.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:26 Mem:23.29M (Peak 31.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:26 Mem:23.29M (Peak 31.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:26 Mem:23.38M (Peak 31.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Procedurals
+Fra:26 Mem:23.38M (Peak 31.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Background
+Fra:26 Mem:23.38M (Peak 31.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Camera
+Fra:26 Mem:23.38M (Peak 31.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:26 Mem:23.38M (Peak 31.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects
+Fra:26 Mem:23.38M (Peak 31.33M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:26 Mem:23.41M (Peak 31.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:26 Mem:23.41M (Peak 31.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Particle Systems
+Fra:26 Mem:23.41M (Peak 31.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:26 Mem:23.41M (Peak 31.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Meshes
+Fra:26 Mem:24.33M (Peak 31.33M) | Time:00:00.01 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:26 Mem:24.72M (Peak 31.33M) | Time:00:00.01 | Mem:0.05M, Peak:0.05M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:26 Mem:24.70M (Peak 31.33M) | Time:00:00.01 | Mem:0.41M, Peak:0.41M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:26 Mem:24.70M (Peak 31.33M) | Time:00:00.01 | Mem:0.41M, Peak:0.41M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:26 Mem:24.70M (Peak 31.33M) | Time:00:00.01 | Mem:2.24M, Peak:2.24M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:26 Mem:24.70M (Peak 31.33M) | Time:00:00.02 | Mem:4.23M, Peak:6.06M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:26 Mem:24.70M (Peak 31.33M) | Time:00:00.02 | Mem:4.23M, Peak:6.06M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:26 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:4.23M, Peak:6.06M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:26 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.34M, Peak:6.34M | Scene, ViewLayer | Updating Objects Flags
+Fra:26 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.34M, Peak:6.34M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:26 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.34M, Peak:6.34M | Scene, ViewLayer | Updating Images
+Fra:26 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.34M, Peak:6.34M | Scene, ViewLayer | Updating Camera Volume
+Fra:26 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.34M, Peak:6.34M | Scene, ViewLayer | Updating Lookup Tables
+Fra:26 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.42M, Peak:6.42M | Scene, ViewLayer | Updating Lights
+Fra:26 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.42M, Peak:6.42M | Scene, ViewLayer | Updating Lights | Computing distribution
+Fra:26 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.42M, Peak:6.42M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:26 Mem:26.80M (Peak 31.33M) | Time:00:00.02 | Mem:6.42M, Peak:6.42M | Scene, ViewLayer | Updating Integrator
+Fra:26 Mem:27.80M (Peak 31.33M) | Time:00:00.02 | Mem:7.42M, Peak:7.42M | Scene, ViewLayer | Updating Film
+Fra:26 Mem:27.81M (Peak 31.33M) | Time:00:00.02 | Mem:7.34M, Peak:7.42M | Scene, ViewLayer | Updating Lookup Tables
+Fra:26 Mem:27.81M (Peak 31.33M) | Time:00:00.02 | Mem:7.43M, Peak:7.43M | Scene, ViewLayer | Updating Baking
+Fra:26 Mem:27.81M (Peak 31.33M) | Time:00:00.02 | Mem:7.43M, Peak:7.43M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:26 Mem:27.81M (Peak 31.33M) | Time:00:00.02 | Mem:7.43M, Peak:7.43M | Scene, ViewLayer | Sample 0/32
+Fra:26 Mem:72.32M (Peak 72.32M) | Time:00:01.38 | Remaining:00:42.28 | Mem:51.92M, Peak:51.92M | Scene, ViewLayer | Sample 1/32
+Fra:26 Mem:72.32M (Peak 72.32M) | Time:00:21.87 | Remaining:00:19.28 | Mem:51.92M, Peak:51.92M | Scene, ViewLayer | Sample 17/32
+Fra:26 Mem:92.09M (Peak 131.65M) | Time:00:41.05 | Mem:51.92M, Peak:51.92M | Scene, ViewLayer | Sample 32/32
+Fra:26 Mem:92.09M (Peak 131.65M) | Time:00:41.05 | Mem:51.92M, Peak:51.92M | Scene, ViewLayer | Finished
+Saved: '/home/runner/work/AI-coding/AI-coding/human-animation-studio/output/KINETIC-HUMAN-04-Punch.png'
+Time: 00:41.25 (Saving: 00:00.19)
+
+HUMAN_RENDER KINETIC-HUMAN-04-Punch.png 2100748
+HUMAN_RENDERING_COMPLETED
+
+Blender quit

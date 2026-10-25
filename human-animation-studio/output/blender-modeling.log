@@ -1,0 +1,299 @@
+HUMAN_PHASE 00 / scene and visual presentation
+HUMAN_LIVE_MODE_STARTED
+HUMAN_PHASE 01 / armature bones 18
+HUMAN_PHASE 02 / organic torso and athletic jacket 14
+HUMAN_PHASE 03 / full legs, knees, ankles and running shoes 44
+HUMAN_PHASE 04 / articulated arms and individual fingers 70
+HUMAN_PHASE 05 / human facial anatomy and expression 94
+HUMAN_PHASE 06 / natural short hair and sculpted texture 118
+HUMAN_PHASE 07 / sewing details, fabric seams, badges 133
+HUMAN_PHASE 08 / authored four skeletal animation tracks [('Idle_Breathing', 57), ('Walk_Loop', 57), ('Run_Loop', 57), ('Punch_Right_Jab', 57)]
+ANIMATION_PREVIEW Idle_Breathing 16
+HUMAN_PHASE 09 / breathing animation preview
+ANIMATION_PREVIEW Walk_Loop 9
+HUMAN_PHASE 10 / walking animation preview
+ANIMATION_PREVIEW Run_Loop 8
+HUMAN_PHASE 11 / running animation preview
+ANIMATION_PREVIEW Punch_Right_Jab 21
+HUMAN_PHASE 12 / right-hand boxing jab preview
+ANIMATION_PREVIEW Idle_Breathing 1
+Info: Total files 0 | Changed 0 | Failed 0
+/usr/share/blender/scripts/addons/io_scene_gltf2/io/exp/gltf2_io_image_data.py:25: SyntaxWarning: invalid escape sequence '\.'
+  regex_dot = re.compile("\.")
+/usr/share/blender/scripts/addons/io_scene_gltf2/io/exp/gltf2_io_image_data.py:27: SyntaxWarning: invalid escape sequence '\]'
+  new_name = "".join([char for char in adjusted_name if char not in "!#$&'()*+,/:;<>?@[\]^`{|}~"])
+Info: Saved "KINETIC-HUMAN-Rigged-Animated.blend"
+17:32:59 | ERROR: Draco mesh compression is not available because library could not be found at /usr/bin/4.0/python/lib/python3.12/site-packages/libextern_draco.so
+17:33:00 | INFO: Starting glTF 2.0 export
+17:33:00 | INFO: Extracting primitive: Anatomical sneaker heel L topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Anatomical sneaker heel R topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Cheek tissue L topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Cheek tissue R topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Chest reflective piping L segment 0 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Chest reflective piping L segment 1 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Chest reflective piping R segment 0 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Chest reflective piping R segment 1 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Cuff sportswear L topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Cuff sportswear R topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Ear concha L topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Ear concha R topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Elastic waist band | charcoal panel topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Eye glint L topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Eye glint R topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Eyeball L topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Eyeball R topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Finger L 0 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Finger L 1 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Finger L 2 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Finger L 3 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Finger R 0 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Finger R 1 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Finger R 2 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Finger R 3 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Foot toe upper L topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Foot toe upper R topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Forearm anatomical sleeve L topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Forearm anatomical sleeve R topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Forehead textured hair lock 00 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Forehead textured hair lock 01 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Forehead textured hair lock 02 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Forehead textured hair lock 03 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Forehead textured hair lock 04 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Forehead textured hair lock 05 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Forehead textured hair lock 06 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Forehead textured hair lock 07 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Forehead textured hair lock 08 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Forehead textured hair lock 09 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Forehead textured hair lock 10 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Hand palm L topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Hand palm R topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Iris L topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Iris R topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Jacket chest badge L topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Jacket chest badge R topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Jacket front seam zip topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Jacket shoulder piping left segment 0 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Jacket shoulder piping left segment 1 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Jacket shoulder piping right segment 0 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Jacket shoulder piping right segment 1 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Knee cloth joint L topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Knee cloth joint R topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Logo chest center topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Lower jaw and chin topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Lower sleeve seam L segment 0 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Lower sleeve seam R segment 0 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Muscular thigh L topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Muscular thigh R topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Natural mouth lower lip topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Natural mouth upper lip topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Neck collar undercut topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Neck | anatomical neck topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Nose bridge topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Nose tip topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Nostril alar -1 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Nostril alar 1 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Organic face and cranium topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Pants side outseam L segment 0 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Pants side outseam L segment 1 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Pants side outseam L segment 2 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Pants side outseam R segment 0 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Pants side outseam R segment 1 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Pants side outseam R segment 2 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Pupil L topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Pupil R topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Real human ear L topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Real human ear R topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Sculpted upper arm sleeve L topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Sculpted upper arm sleeve R topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Sculpted upper body | textile training jacket topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Shoe reflective heel disk L topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Shoe reflective heel disk R topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Short dark swept hairstyle | scalp topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Shoulder muscle | left topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Shoulder muscle | right topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Side swept hair texture L 0 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Side swept hair texture L 1 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Side swept hair texture L 2 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Side swept hair texture L 3 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Side swept hair texture L 4 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Side swept hair texture L 5 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Side swept hair texture R 0 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Side swept hair texture R 1 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Side swept hair texture R 2 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Side swept hair texture R 3 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Side swept hair texture R 4 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Side swept hair texture R 5 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Sleeve fluorescent stripe L segment 0 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Sleeve fluorescent stripe L segment 1 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Sleeve fluorescent stripe R segment 0 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Sleeve fluorescent stripe R segment 1 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Sneaker bright tongue L topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Sneaker bright tongue R topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Sneaker laces L 0 segment 0 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Sneaker laces L 1 segment 0 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Sneaker laces L 2 segment 0 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Sneaker laces L 3 segment 0 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Sneaker laces R 0 segment 0 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Sneaker laces R 1 segment 0 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Sneaker laces R 2 segment 0 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Sneaker laces R 3 segment 0 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Sneaker outer sole L topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Sneaker outer sole R topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Soft elbow panel L topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Soft elbow panel R topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Subtle brow arch L topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Subtle brow arch R topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Tapered shin L topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Tapered shin R topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Thumb L topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Thumb R topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Torso side body panel left segment 0 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Torso side body panel right segment 0 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Trouser cuff L topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Trouser cuff R topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Trouser seam L 0 segment 0 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Trouser seam L 1 segment 0 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Trouser seam L 2 segment 0 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Trouser seam R 0 segment 0 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Trouser seam R 1 segment 0 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Trouser seam R 2 segment 0 topology
+17:33:00 | INFO: Primitives created: 1
+17:33:00 | INFO: Extracting primitive: Zip fastening head topology
+17:33:00 | INFO: Primitives created: 1
+17:33:01 | INFO: Finished glTF 2.0 export in 1.8667607307434082 s
+
+EXPORT_GLTF_SKINS 1
+EXPORT_GLTF_ANIMATIONS ['Idle_Breathing', 'Punch_Right_Jab', 'Run_Loop', 'Walk_Loop']
+EXPORT_GLTF_MESHES 133
+HUMAN_COMPLETED 133 18 4

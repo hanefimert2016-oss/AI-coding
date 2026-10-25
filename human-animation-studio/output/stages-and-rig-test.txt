@@ -1,0 +1,17 @@
+HUMAN_PHASE 00 / scene and visual presentation
+HUMAN_PHASE 01 / armature bones 18
+HUMAN_PHASE 02 / organic torso and athletic jacket 14
+HUMAN_PHASE 03 / full legs, knees, ankles and running shoes 44
+HUMAN_PHASE 04 / articulated arms and individual fingers 70
+HUMAN_PHASE 05 / human facial anatomy and expression 94
+HUMAN_PHASE 06 / natural short hair and sculpted texture 118
+HUMAN_PHASE 07 / sewing details, fabric seams, badges 133
+HUMAN_PHASE 08 / authored four skeletal animation tracks [('Idle_Breathing', 57), ('Walk_Loop', 57), ('Run_Loop', 57), ('Punch_Right_Jab', 57)]
+HUMAN_PHASE 09 / breathing animation preview
+HUMAN_PHASE 10 / walking animation preview
+HUMAN_PHASE 11 / running animation preview
+HUMAN_PHASE 12 / right-hand boxing jab preview
+EXPORT_GLTF_SKINS 1
+EXPORT_GLTF_ANIMATIONS ['Idle_Breathing', 'Punch_Right_Jab', 'Run_Loop', 'Walk_Loop']
+EXPORT_GLTF_MESHES 133
+HUMAN_COMPLETED 133 18 4
