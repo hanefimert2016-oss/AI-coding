@@ -38,6 +38,8 @@ OpenCode v2 stores connected provider and account credentials in its SQLite data
 
 GitHub repository secrets, environment-only API tokens, SSH keys, CI access tokens and provider-side online data are **not** backed up automatically. Those need separate secure configuration. Large Release assets and Git snapshots are **publicly downloadable encrypted ciphertext**. The strong private OPENCODE_BACKUP_KEY protects their confidentiality.
 
+Unreadable system-owned temporary directories (including /tmp/snap-private-tmp) are skipped rather than aborting an entire Release snapshot. A GitHub Actions warning reports how many inaccessible entries were skipped. If your own project is inaccessible, that project's files **will not be in the snapshot** until its permissions are fixed; do not interpret a published backup as proof that every unreadable file was saved.
+
 System directories and CI runtime internals are not included. Reinstallable dependencies and caches, symlinks and SSH private keys are excluded. The backup restores discovered projects to the original validated directory paths.
 
 This system has automated tests for encryption, chat/provider persistence, multi-part project archiving, restoration and tamper rejection. Actual large uploads through GitHub Releases still require a live GitHub Actions test to confirm the full remote path.
