@@ -15,13 +15,22 @@ The backup encryption key must stay unchanged to restore older backups. Never pa
 
 Start [OpenCode Cloud Actions](https://github.com/hanefimert2016-oss/AI-coding/actions/workflows/opencode-cloud.yml) manually on main for 30 to 330 minutes (default 330 minutes / 5.5 hours).
 
+## Where new project files go
+
+**Default OpenCode project directory: /home/runner/opencode-projects/** (the runner user's home directory). Create new projects in this folder or its subfolders instead of /tmp. The main workflow starts OpenCode there automatically. Existing older projects in cloud-workspace/ remain available at their original paths without being moved.
+
+OpenCode's scratch files use a separate private runner work temp directory, not the system-wide /tmp. The big-project vault no longer recursively scans the **entire** operating-system /tmp folder by default; that scan previously hit snap-private-tmp and caused permission errors. **Projects created in other paths, including /tmp, are still included when they are registered/opened in OpenCode.** If you intentionally need to archive all of a specific legacy temporary folder, set OPENCODE_BACKUP_TMP to that explicit directory (use with caution).
+
+Remember: /home/runner is still a disposable Actions disk, **not** a persistent server drive. File persistence depends on the last successful encrypted GitHub Release checkpoint (about 20 minutes apart plus a final exit attempt), and restores on the next run. Avoid relying on incomplete or failed Release snapshots.
+
+
 ## What persists
 
 | State | Encrypted storage | Frequency |
 |---|---|---|
 | Chats, OpenCode v2 providers, OAuth tokens / API keys in the SQLite database | Git checkpoint branch opencode-cloud-backups-20261109 | Approximately every 2 minutes + normal exit |
 | Legacy provider credentials in auth.json, global provider configs, plugins and agents | Same encrypted Git checkpoint | Approximately every 2 minutes + normal exit |
-| Project directories from home, repo, /tmp, /mnt/data, /workspace, /workspaces, /opt/projects and OpenCode-registered custom paths | GitHub Releases assets with prefix ocvault- | Initially, roughly every 20 minutes, normal exit |
+| Project directories from /home/runner/opencode-projects, other home/repo paths, /mnt/data, /workspace, /workspaces, /opt/projects, and OpenCode-registered custom paths (including registered /tmp projects) | GitHub Releases assets with prefix ocvault- | Initially, roughly every 20 minutes, normal exit |
 | Large OpenCode snapshots and legacy project storage | Same encrypted Release vault | Approximately every 20 minutes + normal exit |
 
 Previous single-file and 40-MiB-part Git checkpoints remain readable. The three newest successfully published large snapshots are retained. A release is published only after all authenticated chunks and its encrypted manifest are safely uploaded.
@@ -38,7 +47,7 @@ OpenCode v2 stores connected provider and account credentials in its SQLite data
 
 GitHub repository secrets, environment-only API tokens, SSH keys, CI access tokens and provider-side online data are **not** backed up automatically. Those need separate secure configuration. Large Release assets and Git snapshots are **publicly downloadable encrypted ciphertext**. The strong private OPENCODE_BACKUP_KEY protects their confidentiality.
 
-Unreadable system-owned temporary directories (including /tmp/snap-private-tmp) are skipped rather than aborting an entire Release snapshot. A GitHub Actions warning reports how many inaccessible entries were skipped. If your own project is inaccessible, that project's files **will not be in the snapshot** until its permissions are fixed; do not interpret a published backup as proof that every unreadable file was saved.
+System-owned temporary directories (including /tmp/snap-private-tmp) are no longer part of the default vault scan, and inaccessible items under explicitly tracked project roots are skipped rather than aborting an entire Release snapshot. A GitHub Actions warning reports how many inaccessible entries were skipped. If your own project is inaccessible, that project's files **will not be in the snapshot** until its permissions are fixed; do not interpret a published backup as proof that every unreadable file was saved.
 
 System directories and CI runtime internals are not included. Reinstallable dependencies and caches, symlinks and SSH private keys are excluded. The backup restores discovered projects to the original validated directory paths.
 
