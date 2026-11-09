@@ -21,7 +21,13 @@ script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 backup="$script_dir/opencode-backup.sh"
 vault="$script_dir/opencode-release-vault.py"
 vault_lock="$RUNNER_TEMP/opencode-release-vault.lock"
-pair_log="$(mktemp)"
+# Keep OpenCode projects under the runner user's HOME, never under the OS /tmp.
+# /home/runner is ephemeral between Actions runs, but encrypted Releases restore it.
+projects_home="$HOME/opencode-projects"
+export TMPDIR="$RUNNER_TEMP/opencode-scratch"
+mkdir -p "$TMPDIR" "$projects_home"
+chmod 700 "$TMPDIR"
+pair_log="$(mktemp "$TMPDIR/opencode-pair.XXXXXX")"
 autosave_pid=''
 vault_pid=''
 backup_ready=0
@@ -51,7 +57,9 @@ bash "$backup" prepare
 bash "$backup" restore
 python3 "$vault" restore
 backup_ready=1
-cd "$GITHUB_WORKSPACE/cloud-workspace"
+# Older projects under cloud-workspace stay available without moving their files.
+# New projects default to HOME/opencode-projects, which the encrypted vault backs up.
+cd "$projects_home"
 
 opencode service set hostname 127.0.0.1 >/dev/null
 opencode service set password "$OPENCODE_PASSWORD" >/dev/null
@@ -132,6 +140,8 @@ if [[ -n "${GITHUB_STEP_SUMMARY:-}" ]]; then
     echo 'OpenCode chats, provider OAuth/API credentials and settings: encrypted Git checkpoint every 2 minutes.'
     echo 'Project folders and large OpenCode snapshots: encrypted Release checkpoint approximately every 20 minutes, plus final exit attempt.'
     echo 'GitHub Releases stores ciphertext assets, not unencrypted project files.'
+    printf '**New projects default to:** %s\n' "$projects_home"
+    echo 'Existing cloud-workspace projects remain accessible in their previous path.'
     echo 'The next session restores the last successful encrypted checkpoint before starting.'
     echo 'The public branch opencode-cloud-backups-20261109 contains encrypted small state. Published Releases contain encrypted large project data.'
     printf '\n**Maximum session:** %s minutes\n' "$SESSION_MINUTES"
