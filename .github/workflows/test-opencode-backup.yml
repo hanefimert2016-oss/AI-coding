@@ -11,6 +11,7 @@ on:
       - '.github/tests/test_opencode_backup_integration.py'
       - '.github/tests/test_opencode_release_vault.py'
       - '.github/tests/test_opencode_release_permissions.py'
+      - '.github/tests/test_opencode_project_home.py'
       - '.github/workflows/test-opencode-backup.yml'
       - '.github/workflows/opencode-cloud.yml'
       - '.github/scripts/opencode-remote-session.sh'
@@ -33,6 +34,9 @@ jobs:
           node --check .github/scripts/opencode-crypto.mjs
       - name: Test 330-minute OpenCode session settings
         run: python3 .github/tests/test_opencode_session_duration.py
+
+      - name: Verify new OpenCode project directory, scratch isolation, legacy temp project discovery
+        run: python3 .github/tests/test_opencode_project_home.py
 
       - name: Test project folder discovery, backup and restore
         run: python3 .github/tests/test_opencode_project_files.py
