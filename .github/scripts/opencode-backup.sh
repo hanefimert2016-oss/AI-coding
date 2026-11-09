@@ -87,13 +87,8 @@ save_unlocked() (
   temp="$(mktemp -d "$runner_temp/opencode-save.XXXXXX")"
   trap 'rm -rf "$temp"' EXIT
   mkdir -p "$temp/payload/workspace" "$temp/payload/data" "$temp/payload/config"
-  if [[ -d "$workspace" ]]; then
-    rsync -a \
-      --exclude='node_modules/' --exclude='.venv/' --exclude='venv/' \
-      --exclude='.next/' --exclude='dist/' --exclude='build/' \
-      --exclude='target/' --exclude='__pycache__/' \
-      "$workspace/" "$temp/payload/workspace/"
-  fi
+  # Project files are streamed independently into encrypted GitHub Release assets.
+  # Keep the frequent Git checkpoint small: provider auth, chat SQLite and OpenCode config.
   if [[ -d "$data" ]]; then
     rsync -a --exclude='/log/' --exclude='/opencode.db' \
       --exclude='/opencode.db-wal' --exclude='/opencode.db-shm' \
@@ -114,7 +109,6 @@ PY
   if [[ -d "$config" ]]; then
     rsync -a --exclude='/service.json' "$config/" "$temp/payload/config/"
   fi
-  python3 "$repo/.github/scripts/opencode-project-files.py" save "$temp/payload/projects"
   tar -czf "$temp/payload.tar.gz" -C "$temp/payload" .
   size="$(stat -c '%s' "$temp/payload.tar.gz")"
   if (( size > 256 * 1024 * 1024 )); then
