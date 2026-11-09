@@ -50,7 +50,8 @@ restore() (
     mkdir -p "$config"
     rsync -a --exclude='/service.json' "$temp/payload/config/" "$config/"
   fi
-  echo 'Encrypted OpenCode session, settings and workspace restored.'
+  python3 "$repo/.github/scripts/opencode-project-files.py" restore "$temp/payload/projects"
+  echo 'Encrypted OpenCode session, settings and project folders restored.'
 )
 
 save_unlocked() (
@@ -85,6 +86,7 @@ PY
   if [[ -d "$config" ]]; then
     rsync -a --exclude='/service.json' "$config/" "$temp/payload/config/"
   fi
+  python3 "$repo/.github/scripts/opencode-project-files.py" save "$temp/payload/projects"
   tar -czf "$temp/payload.tar.gz" -C "$temp/payload" .
   size="$(stat -c '%s' "$temp/payload.tar.gz")"
   if (( size > 90 * 1024 * 1024 )); then
