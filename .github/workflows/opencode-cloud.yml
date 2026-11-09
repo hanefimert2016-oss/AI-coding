@@ -7,12 +7,16 @@ on:
         description: 'Development session duration (minutes)'
         type: choice
         required: true
-        default: '90'
+        default: '330'
         options:
           - '30'
           - '60'
           - '90'
           - '120'
+          - '180'
+          - '240'
+          - '300'
+          - '330'
 
 permissions:
   contents: write
@@ -25,7 +29,7 @@ jobs:
   opencode:
     name: OpenCode v2 with encrypted project Releases and provider autosave
     runs-on: ubuntu-24.04
-    timeout-minutes: 145
+    timeout-minutes: 355
     steps:
       - name: Checkout automation repository
         uses: actions/checkout@v4

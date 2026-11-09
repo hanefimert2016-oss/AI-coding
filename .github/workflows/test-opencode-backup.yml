@@ -11,6 +11,9 @@ on:
       - '.github/tests/test_opencode_backup_integration.py'
       - '.github/tests/test_opencode_release_vault.py'
       - '.github/workflows/test-opencode-backup.yml'
+      - '.github/workflows/opencode-cloud.yml'
+      - '.github/scripts/opencode-remote-session.sh'
+      - '.github/tests/test_opencode_session_duration.py'
   workflow_dispatch:
 
 permissions:
@@ -27,6 +30,9 @@ jobs:
           bash -n .github/scripts/opencode-remote-session.sh
           python3 -m py_compile .github/scripts/opencode-project-files.py .github/scripts/opencode-release-vault.py
           node --check .github/scripts/opencode-crypto.mjs
+      - name: Test 330-minute OpenCode session settings
+        run: python3 .github/tests/test_opencode_session_duration.py
+
       - name: Test project folder discovery, backup and restore
         run: python3 .github/tests/test_opencode_project_files.py
 

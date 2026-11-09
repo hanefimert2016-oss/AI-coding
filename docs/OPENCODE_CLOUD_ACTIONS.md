@@ -9,9 +9,11 @@ In [AI-coding Actions Secrets](https://github.com/hanefimert2016-oss/AI-coding/s
 1. **OPENCODE_PASSWORD:** a unique OpenCode server password of at least 20 characters.
 2. **OPENCODE_BACKUP_KEY:** a different random encryption key with at least 32 characters. On your device, generate one by running openssl rand -hex 32.
 
+**Run limits:** GitHub-hosted job timeout 355 minutes (5 hours 55 minutes); maximum OpenCode session 330 minutes (5.5 hours). The remaining 25 minutes are reserved for startup, shutdown and final encrypted backups. Large backups can still exceed this margin and may be interrupted. The public Actions runner itself cannot exceed GitHub's 360-minute hard limit.
+
 The backup encryption key must stay unchanged to restore older backups. Never paste provider keys or passwords in a public commit, issue, log or workflow input.
 
-Start [OpenCode Cloud Actions](https://github.com/hanefimert2016-oss/AI-coding/actions/workflows/opencode-cloud.yml) manually on main for 30 to 120 minutes.
+Start [OpenCode Cloud Actions](https://github.com/hanefimert2016-oss/AI-coding/actions/workflows/opencode-cloud.yml) manually on main for 30 to 330 minutes (default 330 minutes / 5.5 hours).
 
 ## What persists
 
