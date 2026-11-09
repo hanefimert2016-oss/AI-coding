@@ -92,6 +92,8 @@ save_unlocked() (
   if [[ -d "$data" ]]; then
     rsync -a --exclude='/log/' --exclude='/opencode.db' \
       --exclude='/opencode.db-wal' --exclude='/opencode.db-shm' \
+      --exclude='/snapshot/' --exclude='/project/' \
+      --exclude='/storage/' --exclude='/tool-output/' \
       "$data/" "$temp/payload/data/"
     if [[ -f "$data/opencode.db" ]]; then
       python3 - "$data/opencode.db" "$temp/payload/data/opencode.db" <<'PY'
