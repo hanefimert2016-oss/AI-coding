@@ -23,7 +23,7 @@ concurrency:
 
 jobs:
   opencode:
-    name: OpenCode v2 official remote UI with encrypted autosave
+    name: OpenCode v2 with encrypted project Releases and provider autosave
     runs-on: ubuntu-24.04
     timeout-minutes: 145
     steps:
@@ -47,5 +47,7 @@ jobs:
         env:
           OPENCODE_PASSWORD: ${{ secrets.OPENCODE_PASSWORD }}
           OPENCODE_BACKUP_KEY: ${{ secrets.OPENCODE_BACKUP_KEY }}
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
           SESSION_MINUTES: ${{ inputs.duration }}
         run: bash .github/scripts/opencode-remote-session.sh
