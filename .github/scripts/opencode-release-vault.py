@@ -121,11 +121,51 @@ def include_member(member):
     if root == "repository" and path_parts[0] in (".github", "cloud-workspace"):
         return None
     if root == "tmp" and (path_parts[0].startswith("opencode-")
-                           or path_parts[0].startswith("systemd-private-")):
+                           or path_parts[0].startswith("systemd-private-")
+                           or path_parts[0].startswith("snap-private-")):
         return None
     if member.issym() or member.islnk():
         return None  # Never follow or restore links outside snapshot roots.
     return member
+
+
+def add_accessible(archive, source, arcname, skipped):
+    """Archive accessible files; do not abort an entire release for protected /tmp entries.
+
+    Resolve each child independently instead of tarfile.add(recursive=True),
+    whose os.listdir() raises on snap-private-tmp and aborts the whole stream.
+    Important unreadable paths are counted and reported; no data is silently claimed saved.
+    """
+    try:
+        member = archive.gettarinfo(str(source), arcname=arcname)
+    except (PermissionError, FileNotFoundError) as error:
+        skipped.append((str(source), type(error).__name__))
+        return
+    if member is None:
+        return
+    member = include_member(member)
+    if member is None:
+        return
+    if member.isdir():
+        try:
+            children = sorted(os.listdir(source))
+        except (PermissionError, FileNotFoundError) as error:
+            skipped.append((str(source), type(error).__name__))
+            return
+        archive.addfile(member)
+        for child in children:
+            add_accessible(archive, Path(source) / child,
+                           str(PurePosixPath(arcname) / child), skipped)
+    elif member.isfile():
+        try:
+            fileobj = open(source, "rb")
+        except (PermissionError, FileNotFoundError) as error:
+            skipped.append((str(source), type(error).__name__))
+            return
+        with fileobj:
+            archive.addfile(member, fileobj)
+    # Symlinks, device nodes and sockets are excluded from cross-runner backups.
+
 
 class Sink:
     def __init__(self, store, tag, directory):
@@ -202,6 +242,7 @@ def save():
         store.create(tag)
         try:
             entries = roots()
+            skipped = []
             with tarfile.open(fileobj=sink, mode="w|gz", compresslevel=1) as archive:
                 raw = json.dumps(entries, sort_keys=True).encode()
                 info = tarfile.TarInfo("root-map.json")
@@ -209,9 +250,12 @@ def save():
                 info.mode = 0o600
                 archive.addfile(info, io.BytesIO(raw))
                 for name, location in sorted(entries.items()):
-                    archive.add(location, arcname="projects/" + name, recursive=True,
-                                filter=include_member)
+                    add_accessible(archive, location, "projects/" + name, skipped)
             sink.close()
+            if skipped:
+                print(f"::warning::OpenCode vault skipped {len(skipped)} inaccessible filesystem "
+                      "item(s). Ensure important project folders have read permission.",
+                      file=sys.stderr)
             manifest = {
                 "version": 1, "parts": sink.parts,
                 "compressed_sha256": sink.hash.hexdigest(), "compressed_bytes": sink.total
