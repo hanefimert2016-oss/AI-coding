@@ -27,7 +27,7 @@ with tempfile.TemporaryDirectory() as root_str:
     for file in ('opencode-release-vault.py', 'opencode-crypto.mjs', 'opencode-project-files.py'):
         (dest_scripts / file).write_bytes((code / file).read_bytes())
     project = home / 'opencode-projects' / 'my-gigabyte-project'
-    project.mkdir()
+    project.mkdir(parents=True)
     payload = os.urandom(7 * 1024 * 1024)
     (project / 'large.bin').write_bytes(payload)
     (project / 'main.ts').write_text('console.log("preserved")')
