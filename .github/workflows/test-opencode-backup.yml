@@ -1,0 +1,27 @@
+name: Test OpenCode encrypted backup scope
+
+on:
+  pull_request:
+    paths:
+      - '.github/scripts/opencode-backup.sh'
+      - '.github/scripts/opencode-project-files.py'
+      - '.github/tests/test_opencode_project_files.py'
+      - '.github/workflows/test-opencode-backup.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate backup scripts
+        run: |
+          bash -n .github/scripts/opencode-backup.sh
+          bash -n .github/scripts/opencode-remote-session.sh
+          python3 -m py_compile .github/scripts/opencode-project-files.py
+          node --check .github/scripts/opencode-crypto.mjs
+      - name: Test project folder discovery, backup and restore
+        run: python3 .github/tests/test_opencode_project_files.py
