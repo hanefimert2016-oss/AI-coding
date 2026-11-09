@@ -45,7 +45,7 @@ jobs:
 
       - name: Start remote development session with encrypted autosaves
         env:
-          OPENCODE_PASSWORD: \${{ secrets.OPENCODE_PASSWORD }}
-          OPENCODE_BACKUP_KEY: \${{ secrets.OPENCODE_BACKUP_KEY }}
-          SESSION_MINUTES: \${{ inputs.duration }}
+          OPENCODE_PASSWORD: ${{ secrets.OPENCODE_PASSWORD }}
+          OPENCODE_BACKUP_KEY: ${{ secrets.OPENCODE_BACKUP_KEY }}
+          SESSION_MINUTES: ${{ inputs.duration }}
         run: bash .github/scripts/opencode-remote-session.sh
