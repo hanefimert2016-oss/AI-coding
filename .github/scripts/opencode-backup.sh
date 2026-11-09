@@ -3,8 +3,8 @@
 set -Eeuo pipefail
 umask 077
 
-repo="\${GITHUB_WORKSPACE:?GITHUB_WORKSPACE required}"
-runner_temp="\${RUNNER_TEMP:?RUNNER_TEMP required}"
+repo="${GITHUB_WORKSPACE:?GITHUB_WORKSPACE required}"
+runner_temp="${RUNNER_TEMP:?RUNNER_TEMP required}"
 branch='opencode-cloud-backups-20261109'
 checkout="$runner_temp/opencode-backup-checkout"
 workspace="$repo/cloud-workspace"
@@ -14,7 +14,7 @@ backup_file="$checkout/.opencode-cloud/latest.enc"
 crypto="$repo/.github/scripts/opencode-crypto.mjs"
 lock="$runner_temp/opencode-backup.lock"
 
-if [[ -z "\${OPENCODE_BACKUP_KEY:-}" || \${#OPENCODE_BACKUP_KEY} -lt 32 ]]; then
+if [[ -z "${OPENCODE_BACKUP_KEY:-}" || ${#OPENCODE_BACKUP_KEY} -lt 32 ]]; then
   echo '::error::Set Actions secret OPENCODE_BACKUP_KEY to a high-entropy, unique 32+ character value.' >&2
   exit 1
 fi
@@ -109,7 +109,7 @@ save() {
   save_unlocked
 }
 
-case "\${1:-}" in
+case "${1:-}" in
   prepare) prepare ;;
   restore) restore ;;
   save) save ;;
