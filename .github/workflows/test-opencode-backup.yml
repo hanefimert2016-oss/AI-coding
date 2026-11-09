@@ -10,6 +10,7 @@ on:
       - '.github/tests/test_opencode_project_files.py'
       - '.github/tests/test_opencode_backup_integration.py'
       - '.github/tests/test_opencode_release_vault.py'
+      - '.github/tests/test_opencode_release_permissions.py'
       - '.github/workflows/test-opencode-backup.yml'
       - '.github/workflows/opencode-cloud.yml'
       - '.github/scripts/opencode-remote-session.sh'
@@ -41,3 +42,6 @@ jobs:
 
       - name: Test streamed encrypted project release with local GitHub Releases emulator
         run: python3 .github/tests/test_opencode_release_vault.py
+
+      - name: Reproduce permission-denied temp folder and verify project restore
+        run: python3 .github/tests/test_opencode_release_permissions.py
