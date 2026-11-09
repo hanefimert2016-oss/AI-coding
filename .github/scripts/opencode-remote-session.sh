@@ -13,8 +13,8 @@ if [[ -z "${OPENCODE_BACKUP_KEY:-}" || ${#OPENCODE_BACKUP_KEY} -lt 32 ]]; then
   exit 1
 fi
 case "${SESSION_MINUTES:-}" in
-  30|60|90|120) ;;
-  *) echo '::error::Invalid SESSION_MINUTES (30, 60, 90 or 120).'; exit 1 ;;
+  30|60|90|120|180|240|300|330) ;;
+  *) echo '::error::Invalid SESSION_MINUTES (allowed: 30, 60, 90, 120, 180, 240, 300, 330 minutes).'; exit 1 ;;
 esac
 
 script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
