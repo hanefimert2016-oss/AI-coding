@@ -1,0 +1,3 @@
+# OpenCode Cloud live workspace is backed up as encrypted checkpoints.
+# Never publish its plaintext contents into this public repository.
+/cloud-workspace/
