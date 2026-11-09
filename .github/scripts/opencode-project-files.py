@@ -33,12 +33,17 @@ def paths():
     base = {
         'home': os.getenv('OPENCODE_BACKUP_HOME', str(home)),
         'repository': os.getenv('OPENCODE_BACKUP_REPOSITORY', str(repo)),
-        'tmp': os.getenv('OPENCODE_BACKUP_TMP', '/tmp'),
         'mntdata': os.getenv('OPENCODE_BACKUP_MNTDATA', '/mnt/data'),
         'workspace': os.getenv('OPENCODE_BACKUP_WORKSPACE', '/workspace'),
         'workspaces': os.getenv('OPENCODE_BACKUP_WORKSPACES', '/workspaces'),
         'optprojects': os.getenv('OPENCODE_BACKUP_OPTPROJECTS', '/opt/projects'),
     }
+    # /tmp contains OS-owned and snap-private directories. Never traverse it by default.
+    # A caller may explicitly opt in to a known temp root, while paths stored in
+    # the OpenCode session DB will still be discovered individually below.
+    requested_tmp_root = os.environ.get('OPENCODE_BACKUP_TMP')
+    if requested_tmp_root:
+        base['tmp'] = requested_tmp_root
     accepted = {}
     for name, location in base.items():
         root = safe_path(location)
