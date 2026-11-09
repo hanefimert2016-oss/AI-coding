@@ -180,6 +180,12 @@ class Sink:
 
 def roots():
     entries = helper.paths()
+    # Older OpenCode builds can keep large undo/history snapshots outside SQLite.
+    application_data = Path.home() / ".local" / "share" / "opencode"
+    for subfolder in ("snapshot", "project", "storage", "tool-output"):
+        candidate = application_data / subfolder
+        if candidate.is_dir():
+            entries["opencode-" + subfolder] = str(candidate)
     cloud = REPO / "cloud-workspace"
     if cloud.is_dir():
         entries["cloud"] = str(cloud)
