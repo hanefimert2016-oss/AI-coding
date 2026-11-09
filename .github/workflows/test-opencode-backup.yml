@@ -11,6 +11,8 @@ on:
       - '.github/tests/test_opencode_backup_integration.py'
       - '.github/tests/test_opencode_release_vault.py'
       - '.github/workflows/test-opencode-backup.yml'
+      - '.github/workflows/opencode-cloud.yml'
+      - '.github/scripts/opencode-remote-session.sh'
   workflow_dispatch:
 
 permissions:
@@ -27,6 +29,34 @@ jobs:
           bash -n .github/scripts/opencode-remote-session.sh
           python3 -m py_compile .github/scripts/opencode-project-files.py .github/scripts/opencode-release-vault.py
           node --check .github/scripts/opencode-crypto.mjs
+      - name: Verify extended OpenCode session time limits
+        run: |
+          python3 - <<'PY'
+          import re
+          from pathlib import Path
+          workflow = Path(".github/workflows/opencode-cloud.yml").read_text()
+          session = Path(".github/scripts/opencode-remote-session.sh").read_text()
+          timeout = int(re.search(r"(?m)^    timeout-minutes: (\\d+)$", workflow).group(1))
+          default = int(re.search(r"(?m)^        default: '(\\d+)'$", workflow).group(1))
+          block = workflow.split("        options:", 1)[1].split("\\n\\npermissions:", 1)[0]
+          options = [int(n) for n in re.findall(r"(?m)^          - '(\\d+)'$", block)]
+          allowed = re.search(r'(?m)^  ([0-9|]+)\\) ;;
+        run: python3 .github/tests/test_opencode_project_files.py
+
+      - name: Test encrypted multipart Git snapshot and restore
+        run: python3 .github/tests/test_opencode_backup_integration.py
+
+      - name: Test streamed encrypted project release with local GitHub Releases emulator
+        run: python3 .github/tests/test_opencode_release_vault.py
+, session).group(1)
+          accepted = [int(n) for n in allowed.split("|")]
+          assert timeout == 355, timeout
+          assert default == 330, default
+          assert options == [30, 60, 90, 120, 180, 240, 300, 330], options
+          assert options == accepted, (options, accepted)
+          assert timeout <= 360 and timeout - max(options) >= 25
+          print("PASS: GitHub 355 min timeout, 330 min maximum session, 25 min buffer and script/input parity")
+          PY
       - name: Test project folder discovery, backup and restore
         run: python3 .github/tests/test_opencode_project_files.py
 
