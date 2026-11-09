@@ -1,0 +1,50 @@
+name: OpenCode Cloud - Official Web UI
+
+on:
+  workflow_dispatch:
+    inputs:
+      duration:
+        description: 'Development session duration (minutes)'
+        type: choice
+        required: true
+        default: '90'
+        options:
+          - '30'
+          - '60'
+          - '90'
+          - '120'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: opencode-cloud-session
+  cancel-in-progress: false
+
+jobs:
+  opencode:
+    name: OpenCode v2 official remote UI
+    runs-on: ubuntu-24.04
+    timeout-minutes: 145
+    steps:
+      - name: Checkout dedicated workspace branch
+        uses: actions/checkout@v4
+        with:
+          ref: opencode-cloud-workspace-20261109
+          fetch-depth: 0
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install official OpenCode v2
+        run: |
+          npm install --global @opencode/cli
+          opencode --version
+
+      - name: Start remote development session
+        env:
+          OPENCODE_PASSWORD: ${{ secrets.OPENCODE_PASSWORD }}
+          SESSION_MINUTES: ${{ inputs.duration }}
+        run: bash .github/scripts/opencode-remote-session.sh
