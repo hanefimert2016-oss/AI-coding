@@ -8,13 +8,29 @@ if [[ -z "${OPENCODE_PASSWORD:-}" || ${#OPENCODE_PASSWORD} -lt 20 ]]; then
   exit 1
 fi
 
+if [[ -z "${OPENCODE_BACKUP_KEY:-}" || ${#OPENCODE_BACKUP_KEY} -lt 32 ]]; then
+  echo '::error::Set Actions secret OPENCODE_BACKUP_KEY to a unique 32+ character value distinct from the server password.'
+  exit 1
+fi
 case "${SESSION_MINUTES:-}" in
   30|60|90|120) ;;
   *) echo '::error::Invalid SESSION_MINUTES (30, 60, 90 or 120).'; exit 1 ;;
 esac
 
+script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+backup="$script_dir/opencode-backup.sh"
 pair_log="$(mktemp)"
+autosave_pid=''
+backup_ready=0
 cleanup() {
+  trap - EXIT INT TERM
+  if [[ -n "$autosave_pid" ]]; then
+    kill "$autosave_pid" 2>/dev/null || true
+    wait "$autosave_pid" 2>/dev/null || true
+  fi
+  if [[ "$backup_ready" == 1 ]]; then
+    bash "$backup" save || echo '::warning::Final checkpoint failed; previous encrypted checkpoint is retained.'
+  fi
   rm -f "$pair_log"
   opencode service stop >/dev/null 2>&1 || true
 }
@@ -23,6 +39,11 @@ trap 'exit 130' INT
 trap 'exit 143' TERM
 
 # Official OpenCode v2 server (localhost only). OpenTunnel handles remote access.
+bash "$backup" prepare
+bash "$backup" restore
+backup_ready=1
+cd "$GITHUB_WORKSPACE/cloud-workspace"
+
 opencode service set hostname 127.0.0.1 >/dev/null
 opencode service set password "$OPENCODE_PASSWORD" >/dev/null
 opencode service start >/dev/null
@@ -71,6 +92,15 @@ fi
 
 # The URL alone is not a credential; the user must supply the Actions secret password.
 # Do not publish /auth/connect/ token URLs in this public repository.
+# Store an initial snapshot, then repeat every 120 seconds.
+bash "$backup" save
+(
+  while sleep 120; do
+    bash "$backup" save || echo '::warning::Periodic checkpoint failed; the previous successful backup remains available.'
+  done
+) &
+autosave_pid=$!
+
 printf 'OpenCode remote address (password protected): %s\n' "$origin"
 if [[ -n "${GITHUB_STEP_SUMMARY:-}" ]]; then
   {
@@ -80,10 +110,12 @@ if [[ -n "${GITHUB_STEP_SUMMARY:-}" ]]; then
     echo
     echo 'Use your private `OPENCODE_PASSWORD` value to sign in. Do not share the secret.'
     echo
-    echo 'All changes are made in the dedicated public `opencode-cloud-workspace-20261109` branch. Commit and push changes **before** the run ends, or the runner filesystem will be destroyed.'
+    echo 'Workspace, OpenCode session history and settings are automatically saved as encrypted snapshots every 2 minutes.'
+    echo 'The next session restores the last successful encrypted checkpoint before starting.'
+    echo 'The public branch opencode-cloud-backups-20261109 stores only encrypted snapshots.'
     printf '\n**Maximum session:** %s minutes\n' "$SESSION_MINUTES"
   } >> "$GITHUB_STEP_SUMMARY"
 fi
 
-printf 'OpenCode runner active for at most %s minutes. Save changes before it stops.\n' "$SESSION_MINUTES"
+printf 'OpenCode runner active for at most %s minutes. Encrypted checkpoints every 2 minutes.\n' "$SESSION_MINUTES"
 sleep "$(( SESSION_MINUTES * 60 ))"
