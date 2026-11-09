@@ -1,39 +1,45 @@
-# OpenCode Cloud — encrypted automatic saves on GitHub Actions
+# OpenCode Cloud — encrypted chats, provider credentials and multi-GB projects
 
-OpenCode v2's official web UI runs on the PUBLIC hanefimert2016-oss/AI-coding repo, without modifying FalconOS or private Metodbox projects.
+Runs the **official OpenCode v2 web UI** on the **public** hanefimert2016-oss/AI-coding repository. FalconOS is not touched.
 
 ## First-time setup (Android supported)
 
-In **AI-coding → Settings → Secrets and variables → Actions → New repository secret**, add two **different** secrets:
+In [AI-coding Actions Secrets](https://github.com/hanefimert2016-oss/AI-coding/settings/secrets/actions), configure two different secrets:
 
-1. **OPENCODE_PASSWORD** — unique OpenCode server password (at least 20 characters).
-2. **OPENCODE_BACKUP_KEY** — random 32+ character encryption key, different from the server password. Generate a strong 64-character key on your own device using: openssl rand -hex 32.
+1. **OPENCODE_PASSWORD:** a unique OpenCode server password of at least 20 characters.
+2. **OPENCODE_BACKUP_KEY:** a different random encryption key with at least 32 characters. On your device, generate one by running openssl rand -hex 32.
 
-**Keep both secret. Losing or changing OPENCODE_BACKUP_KEY makes existing encrypted backups impossible to restore.** Never publish either secret in GitHub issues, code, logs, workflow inputs or chat.
+The backup encryption key must stay unchanged to restore older backups. Never paste provider keys or passwords in a public commit, issue, log or workflow input.
 
-## How it works
+Start [OpenCode Cloud Actions](https://github.com/hanefimert2016-oss/AI-coding/actions/workflows/opencode-cloud.yml) manually on main for 30 to 120 minutes.
 
-1. On [Actions → OpenCode Cloud - Official Web UI](https://github.com/hanefimert2016-oss/AI-coding/actions/workflows/opencode-cloud.yml), select Run workflow, branch main and a duration of 30 to 120 minutes.
-2. GitHub Actions restores your last encrypted checkpoint **before** OpenCode starts.
-3. In the OpenCode official UI, work inside the cloud-workspace/ folder.
-4. The runner creates an initial encrypted checkpoint, then **saves every 2 minutes**, and attempts a final save when it ends normally.
-5. Checkpoints are pushed into the PUBLIC branch [opencode-cloud-backups-20261109](https://github.com/hanefimert2016-oss/AI-coding/tree/opencode-cloud-backups-20261109). Only the AES-256-GCM-encrypted file is automatically committed.
-6. On the next run, source files, OpenCode chat history, local settings and stored credentials are automatically decrypted and restored.
+## What persists
 
-The backup captures cloud-workspace/, OpenCode's SQLite chat database and settings, **all project folders under the user's home directory, checked-out repository, /tmp, /mnt/data, /workspace, /workspaces and /opt/projects**, plus other project directories registered in the OpenCode session database. On startup, files are restored to their original absolute paths. For a consistent live snapshot, the SQLite database is copied with SQLite's online backup API.
+| State | Encrypted storage | Frequency |
+|---|---|---|
+| Chats, OpenCode v2 providers, OAuth tokens / API keys in the SQLite database | Git checkpoint branch opencode-cloud-backups-20261109 | Approximately every 2 minutes + normal exit |
+| Legacy provider credentials in auth.json, global provider configs, plugins and agents | Same encrypted Git checkpoint | Approximately every 2 minutes + normal exit |
+| Project directories from home, repo, /tmp, /mnt/data, /workspace, /workspaces, /opt/projects and OpenCode-registered custom paths | GitHub Releases assets with prefix ocvault- | Initially, roughly every 20 minutes, normal exit |
+| Large OpenCode snapshots and legacy project storage | Same encrypted Release vault | Approximately every 20 minutes + normal exit |
 
-The following reinstallable/generated directories are excluded: node_modules/, .venv/, venv/, .next/, dist/, build/, target/, __pycache__/. OpenCode logs and the machine-specific service.json are excluded too. The maximum **total compressed snapshot** size is 256 MiB; the data is divided into AES-256-GCM-encrypted chunks of 40 MiB each. Older single-file `latest.enc` checkpoints remain readable.
+Previous single-file and 40-MiB-part Git checkpoints remain readable. The three newest successfully published large snapshots are retained. A release is published only after all authenticated chunks and its encrypted manifest are safely uploaded.
 
-## Security and limitations
+## Multi-GB file support
 
-- Checkpoints are publicly downloadable as **encrypted ciphertext**. Only your high-entropy backup key makes their contents confidential.
-- **Not a complete system image:** OS directories (`/etc`, `/usr`, `/root`, etc.), CI authentication files, caches, dependency folders, and arbitrary directories not registered with OpenCode or covered by the standard roots are excluded. If a project is created in an unusual location, first open it in OpenCode so it is recorded as a project. The system cannot reliably save *every possible folder* on the whole machine.
-- **Never commit plaintext private data to the public source branch.** Git history of encrypted snapshots grows with repeated checkpoints.
-- If a checkpoint fails or a runner crashes, the previous successful save is retained. Up to approximately 2 minutes of edits can be lost during normal operation; more if saves fail.
-- Manual cancellation may stop the runner before the final checkpoint finishes. The periodic saves reduce this risk but cannot eliminate it.
-- Saving hundreds of megabytes every two minutes can quickly grow Git history and slow the repository. Oversized archives fail safely and the previous successful checkpoint remains. GitHub repositories are not unlimited backup storage.
-- GitHub Actions is a temporary CI runtime, not a guaranteed always-on hosting platform. A single GitHub-hosted job has an execution time limit.
-- OpenCode's remote one-time pairing URL grants access and is intentionally **never** exposed in public logs. The workflow shows only the remote **base URL**. If password-only login through that address is not supported, secure private delivery of the pairing link is still required before the UI can be used.
-- A free OpenCode interface does not guarantee unlimited free AI inference.
+The project vault streams compressed data into AES-256-GCM authenticated 256 MiB chunks. Each GitHub Release asset must be below 2 GiB. There is no 256 MiB aggregate project size limit, but a standard GitHub Ubuntu Actions runner has about 14 GB of storage, so much bigger active projects cannot fit on its temporary disk. Upload time, network usage and GitHub policies are also constraints.
 
-References: [OpenCode Web/Remote](https://opencode.ai/docs/cli/web/) · [OpenCode data](https://opencode.ai/docs/troubleshooting/) · [GitHub Actions limits](https://docs.github.com/en/actions/reference/limits).
+GitHub Releases is a **release-distribution service, not unlimited guaranteed backup storage**. Do not treat this as a permanent replacement for an independent backup provider. Because large backups would use too much bandwidth every two minutes, the project checkpoint interval is 20 minutes; crashes can lose changes since the last published release. A normal stop attempts one last save, while a cancellation or runner timeout might interrupt it.
+
+## Provider state and security
+
+OpenCode v2 stores connected provider and account credentials in its SQLite database. Legacy auth.json files and OpenCode global config are also captured, so those settings normally come back on restart. OAuth tokens can still expire or be revoked by providers.
+
+GitHub repository secrets, environment-only API tokens, SSH keys, CI access tokens and provider-side online data are **not** backed up automatically. Those need separate secure configuration. Large Release assets and Git snapshots are **publicly downloadable encrypted ciphertext**. The strong private OPENCODE_BACKUP_KEY protects their confidentiality.
+
+System directories and CI runtime internals are not included. Reinstallable dependencies and caches, symlinks and SSH private keys are excluded. The backup restores discovered projects to the original validated directory paths.
+
+This system has automated tests for encryption, chat/provider persistence, multi-part project archiving, restoration and tamper rejection. Actual large uploads through GitHub Releases still require a live GitHub Actions test to confirm the full remote path.
+
+GitHub Actions is temporary CI infrastructure, not an always-running server. Privileged one-use OpenCode pairing links must not be shared in public logs.
+
+Official references: [GitHub Releases](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases), [GitHub Runner specs](https://docs.github.com/en/actions/how-tos/write-workflows/choose-where-workflows-run/choose-the-runner-for-a-job), [OpenCode provider accounts](https://opencode.ai/docs/cli/providers), [OpenCode configuration](https://docs.opencode.ai/docs/config/).
