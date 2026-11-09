@@ -11,6 +11,7 @@ workspace="$repo/cloud-workspace"
 data="$HOME/.local/share/opencode"
 config="$HOME/.config/opencode"
 backup_file="$checkout/.opencode-cloud/latest.enc"
+backup_dir="$checkout/.opencode-cloud"
 crypto="$repo/.github/scripts/opencode-crypto.mjs"
 lock="$runner_temp/opencode-backup.lock"
 
@@ -31,11 +32,38 @@ prepare() {
 }
 
 restore() (
-  [[ -f "$backup_file" ]] || { echo 'No previous encrypted backup: starting fresh.'; return 0; }
+  [[ -f "$backup_file" || -f "$backup_dir/manifest.enc" ]] || { echo 'No previous encrypted backup: starting fresh.'; return 0; }
   local temp
   temp="$(mktemp -d "$runner_temp/opencode-restore.XXXXXX")"
   trap 'rm -rf "$temp"' EXIT
-  node "$crypto" decrypt "$backup_file" "$temp/payload.tar.gz"
+  if [[ -f "$backup_dir/manifest.enc" ]]; then
+    node "$crypto" decrypt "$backup_dir/manifest.enc" "$temp/manifest.txt"
+    read -r version parts expected_sha expected_size < "$temp/manifest.txt"
+    if [[ "$version" != "V2" || ! "$parts" =~ ^[0-9]+$ || ! "$expected_sha" =~ ^[0-9a-f]{64}$ || ! "$expected_size" =~ ^[0-9]+$ ]]; then
+      echo '::error::Invalid encrypted backup manifest.' >&2
+      return 1
+    fi
+    if (( parts < 1 || parts > 7 || expected_size > 268435456 )); then
+      echo '::error::Backup exceeded restore size limits.' >&2
+      return 1
+    fi
+    : > "$temp/payload.tar.gz"
+    local part
+    for ((i=0; i<parts; i++)); do
+      part="$(printf 'part-%04d.enc' "$i")"
+      [[ -f "$backup_dir/$part" ]] || { echo "::error::Missing $part" >&2; return 1; }
+      node "$crypto" decrypt "$backup_dir/$part" "$temp/chunk.bin"
+      cat "$temp/chunk.bin" >> "$temp/payload.tar.gz"
+      rm -f "$temp/chunk.bin"
+    done
+    if [[ "$(stat -c '%s' "$temp/payload.tar.gz")" != "$expected_size" || "$(sha256sum "$temp/payload.tar.gz" | cut -d' ' -f1)" != "$expected_sha" ]]; then
+      echo '::error::Backup checksum mismatch.' >&2
+      return 1
+    fi
+  else
+    # Restore existing checkpoints made by the original (single-file) backup system.
+    node "$crypto" decrypt "$backup_file" "$temp/payload.tar.gz"
+  fi
   mkdir -p "$temp/payload"
   tar -xzf "$temp/payload.tar.gz" -C "$temp/payload" --no-same-owner
   if [[ -d "$temp/payload/workspace" ]]; then
@@ -50,7 +78,8 @@ restore() (
     mkdir -p "$config"
     rsync -a --exclude='/service.json' "$temp/payload/config/" "$config/"
   fi
-  echo 'Encrypted OpenCode session, settings and workspace restored.'
+  python3 "$repo/.github/scripts/opencode-project-files.py" restore "$temp/payload/projects"
+  echo 'Encrypted OpenCode session, settings and project folders restored.'
 )
 
 save_unlocked() (
@@ -85,19 +114,32 @@ PY
   if [[ -d "$config" ]]; then
     rsync -a --exclude='/service.json' "$config/" "$temp/payload/config/"
   fi
+  python3 "$repo/.github/scripts/opencode-project-files.py" save "$temp/payload/projects"
   tar -czf "$temp/payload.tar.gz" -C "$temp/payload" .
   size="$(stat -c '%s' "$temp/payload.tar.gz")"
-  if (( size > 90 * 1024 * 1024 )); then
-    echo '::error::Encrypted checkpoint is larger than 90 MiB; split the project or remove generated files.' >&2
+  if (( size > 256 * 1024 * 1024 )); then
+    echo '::error::Compressed backup exceeds 256 MiB; store oversized models/videos elsewhere.' >&2
     return 1
   fi
-  node "$crypto" encrypt "$temp/payload.tar.gz" "$temp/latest.enc"
-  mkdir -p "$(dirname "$backup_file")"
-  cp "$temp/latest.enc" "$backup_file"
-  git -C "$checkout" add -- '.opencode-cloud/latest.enc'
+  mkdir -p "$temp/parts" "$temp/encrypted" "$backup_dir"
+  split -b 40m -d -a 4 "$temp/payload.tar.gz" "$temp/parts/part-"
+  local count=0 item sha
+  sha="$(sha256sum "$temp/payload.tar.gz" | cut -d' ' -f1)"
+  for item in "$temp/parts"/part-*; do
+    [[ -f "$item" ]] || continue
+    node "$crypto" encrypt "$item" "$(printf '%s/part-%04d.enc' "$temp/encrypted" "$count")"
+    count=$((count+1))
+  done
+  printf 'V2 %s %s %s\n' "$count" "$sha" "$size" > "$temp/manifest.txt"
+  node "$crypto" encrypt "$temp/manifest.txt" "$temp/encrypted/manifest.enc"
+  # Git commit is atomic: older complete snapshots stay in history if push fails.
+  rm -f "$backup_dir"/part-*.enc "$backup_dir/manifest.enc" "$backup_file"
+  cp "$temp/encrypted/"* "$backup_dir/"
+  git -C "$checkout" add -A -- '.opencode-cloud/'
   git -C "$checkout" commit -q -m "Encrypted OpenCode checkpoint $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
   git -C "$checkout" push -q origin "$branch"
-  echo "Encrypted checkpoint pushed to $branch ($(date -u +'%H:%M:%S') UTC, compressed $size bytes)."
+  echo "Encrypted checkpoint saved to $branch ($size compressed bytes, $count parts)."
+
 )
 
 save() {

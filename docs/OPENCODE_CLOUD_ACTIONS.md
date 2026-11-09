@@ -20,16 +20,18 @@ In **AI-coding → Settings → Secrets and variables → Actions → New reposi
 5. Checkpoints are pushed into the PUBLIC branch [opencode-cloud-backups-20261109](https://github.com/hanefimert2016-oss/AI-coding/tree/opencode-cloud-backups-20261109). Only the AES-256-GCM-encrypted file is automatically committed.
 6. On the next run, source files, OpenCode chat history, local settings and stored credentials are automatically decrypted and restored.
 
-The backup captures cloud-workspace/, the application data directory (including OpenCode SQLite session database and snapshots), and OpenCode configuration. For a consistent live snapshot, the SQLite database is copied with SQLite's online backup API.
+The backup captures cloud-workspace/, OpenCode's SQLite chat database and settings, **all project folders under the user's home directory, checked-out repository, /tmp, /mnt/data, /workspace, /workspaces and /opt/projects**, plus other project directories registered in the OpenCode session database. On startup, files are restored to their original absolute paths. For a consistent live snapshot, the SQLite database is copied with SQLite's online backup API.
 
-The following reinstallable/generated directories are excluded: node_modules/, .venv/, venv/, .next/, dist/, build/, target/, __pycache__/. OpenCode logs and the machine-specific service.json are excluded too. The maximum compressed checkpoint size is 90 MiB.
+The following reinstallable/generated directories are excluded: node_modules/, .venv/, venv/, .next/, dist/, build/, target/, __pycache__/. OpenCode logs and the machine-specific service.json are excluded too. The maximum **total compressed snapshot** size is 256 MiB; the data is divided into AES-256-GCM-encrypted chunks of 40 MiB each. Older single-file `latest.enc` checkpoints remain readable.
 
 ## Security and limitations
 
 - Checkpoints are publicly downloadable as **encrypted ciphertext**. Only your high-entropy backup key makes their contents confidential.
+- **Not a complete system image:** OS directories (`/etc`, `/usr`, `/root`, etc.), CI authentication files, caches, dependency folders, and arbitrary directories not registered with OpenCode or covered by the standard roots are excluded. If a project is created in an unusual location, first open it in OpenCode so it is recorded as a project. The system cannot reliably save *every possible folder* on the whole machine.
 - **Never commit plaintext private data to the public source branch.** Git history of encrypted snapshots grows with repeated checkpoints.
 - If a checkpoint fails or a runner crashes, the previous successful save is retained. Up to approximately 2 minutes of edits can be lost during normal operation; more if saves fail.
 - Manual cancellation may stop the runner before the final checkpoint finishes. The periodic saves reduce this risk but cannot eliminate it.
+- Saving hundreds of megabytes every two minutes can quickly grow Git history and slow the repository. Oversized archives fail safely and the previous successful checkpoint remains. GitHub repositories are not unlimited backup storage.
 - GitHub Actions is a temporary CI runtime, not a guaranteed always-on hosting platform. A single GitHub-hosted job has an execution time limit.
 - OpenCode's remote one-time pairing URL grants access and is intentionally **never** exposed in public logs. The workflow shows only the remote **base URL**. If password-only login through that address is not supported, secure private delivery of the pairing link is still required before the UI can be used.
 - A free OpenCode interface does not guarantee unlimited free AI inference.
