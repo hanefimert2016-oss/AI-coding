@@ -1,43 +1,63 @@
 #!/usr/bin/env node
-// Versioned authenticated encryption for snapshots stored in a public repository.
-import { createCipheriv, createDecipheriv, randomBytes, scryptSync } from 'node:crypto';
-import { readFileSync, writeFileSync, rmSync } from 'node:fs';
+// Streaming AES-256-GCM. Preserves the OCBACK01 on-disk format used by older checkpoints.
+import {createCipheriv, createDecipheriv, randomBytes, scryptSync} from 'node:crypto';
+import {createReadStream, createWriteStream, openSync, readSync, statSync, unlinkSync, closeSync} from 'node:fs';
+import {once} from 'node:events';
 
 const [action, input, output] = process.argv.slice(2);
-const passphrase = process.env.OPENCODE_BACKUP_KEY || '';
+const password = process.env.OPENCODE_BACKUP_KEY || '';
 if (!['encrypt', 'decrypt'].includes(action) || !input || !output) {
   console.error('Usage: node opencode-crypto.mjs encrypt|decrypt INPUT OUTPUT');
   process.exit(2);
 }
-if (passphrase.length < 32) {
-  console.error('OPENCODE_BACKUP_KEY must be at least 32 characters.');
+if (password.length < 32) {
+  console.error('OPENCODE_BACKUP_KEY must have at least 32 characters.');
   process.exit(2);
 }
-const MAGIC = Buffer.from('OCBACK01');
-const MAX_BYTES = 90 * 1024 * 1024;
+const magic = Buffer.from('OCBACK01');
+let writer;
+async function write(data) {
+  if (data.length && !writer.write(data)) await once(writer, 'drain');
+}
 try {
-  const raw = readFileSync(input);
-  if (raw.byteLength > MAX_BYTES + 64) throw new Error('Snapshot exceeds 90 MiB cap');
-  let outputBytes;
+  const bytes = statSync(input).size;
+  let cipher, stream;
   if (action === 'encrypt') {
     const salt = randomBytes(16);
     const nonce = randomBytes(12);
-    const cipher = createCipheriv('aes-256-gcm', scryptSync(passphrase, salt, 32), nonce);
-    const encrypted = Buffer.concat([cipher.update(raw), cipher.final()]);
-    outputBytes = Buffer.concat([MAGIC, salt, nonce, encrypted, cipher.getAuthTag()]);
+    cipher = createCipheriv('aes-256-gcm', scryptSync(password, salt, 32), nonce);
+    stream = createReadStream(input, {highWaterMark: 1024 * 1024});
+    writer = createWriteStream(output, {flags:'w', mode:0o600});
+    await write(Buffer.concat([magic, salt, nonce]));
+    for await (const chunk of stream) await write(cipher.update(chunk));
+    await write(cipher.final());
+    await write(cipher.getAuthTag());
   } else {
-    if (raw.length < 52 || !raw.subarray(0, 8).equals(MAGIC)) throw new Error('Invalid snapshot header');
-    const salt = raw.subarray(8, 24);
-    const nonce = raw.subarray(24, 36);
-    const ciphertext = raw.subarray(36, -16);
-    const authTag = raw.subarray(-16);
-    const decipher = createDecipheriv('aes-256-gcm', scryptSync(passphrase, salt, 32), nonce);
-    decipher.setAuthTag(authTag);
-    outputBytes = Buffer.concat([decipher.update(ciphertext), decipher.final()]);
+    if (bytes < 52) throw Error('Invalid encrypted file length');
+    const fd = openSync(input, 'r');
+    const header = Buffer.alloc(36);
+    const tag = Buffer.alloc(16);
+    try {
+      if (readSync(fd, header, 0, 36, 0) !== 36 ||
+          readSync(fd, tag, 0, 16, bytes - 16) !== 16 ||
+          !header.subarray(0, 8).equals(magic)) {
+        throw Error('Invalid encrypted checkpoint header');
+      }
+    } finally {closeSync(fd);}
+    cipher = createDecipheriv('aes-256-gcm', scryptSync(password, header.subarray(8,24), 32), header.subarray(24,36));
+    cipher.setAuthTag(tag);
+    writer = createWriteStream(output, {flags:'w', mode:0o600});
+    if (bytes > 52) {
+      stream = createReadStream(input, {start:36, end:bytes-17, highWaterMark:1024*1024});
+      for await (const chunk of stream) await write(cipher.update(chunk));
+    }
+    await write(cipher.final());
   }
-  writeFileSync(output, outputBytes, { mode: 0o600, flag: 'w' });
+  writer.end();
+  await once(writer, 'finish');
 } catch (error) {
-  try { rmSync(output, { force: true }); } catch {}
-  console.error('Encrypted snapshot operation failed:', error.message);
+  writer?.destroy();
+  try {unlinkSync(output);} catch {}
+  console.error('Encrypted checkpoint operation failed:', error.message);
   process.exit(1);
 }

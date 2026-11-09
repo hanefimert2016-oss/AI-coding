@@ -19,8 +19,11 @@ esac
 
 script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 backup="$script_dir/opencode-backup.sh"
+vault="$script_dir/opencode-release-vault.py"
+vault_lock="$RUNNER_TEMP/opencode-release-vault.lock"
 pair_log="$(mktemp)"
 autosave_pid=''
+vault_pid=''
 backup_ready=0
 cleanup() {
   trap - EXIT INT TERM
@@ -28,8 +31,13 @@ cleanup() {
     kill "$autosave_pid" 2>/dev/null || true
     wait "$autosave_pid" 2>/dev/null || true
   fi
+  if [[ -n "$vault_pid" ]]; then
+    kill "$vault_pid" 2>/dev/null || true
+    wait "$vault_pid" 2>/dev/null || true
+  fi
   if [[ "$backup_ready" == 1 ]]; then
-    bash "$backup" save || echo '::warning::Final checkpoint failed; previous encrypted checkpoint is retained.'
+    bash "$backup" save || echo '::warning::Final chat/provider checkpoint failed; last successful backup remains.'
+    flock -n "$vault_lock" python3 "$vault" save || echo '::warning::Final GB project checkpoint incomplete; last published release remains.'
   fi
   rm -f "$pair_log"
   opencode service stop >/dev/null 2>&1 || true
@@ -41,6 +49,7 @@ trap 'exit 143' TERM
 # Official OpenCode v2 server (localhost only). OpenTunnel handles remote access.
 bash "$backup" prepare
 bash "$backup" restore
+python3 "$vault" restore
 backup_ready=1
 cd "$GITHUB_WORKSPACE/cloud-workspace"
 
@@ -101,6 +110,16 @@ bash "$backup" save
 ) &
 autosave_pid=$!
 
+# Multi-GB projects are backed up to authenticated encrypted GitHub Release assets.
+# Full uploads are deliberately less frequent than chat/credential checkpoints.
+(
+  while true; do
+    flock -n "$vault_lock" python3 "$vault" save || echo '::warning::Release upload failed; last published snapshot is preserved.'
+    sleep 1200
+  done
+) &
+vault_pid=$!
+
 printf 'OpenCode remote address (password protected): %s\n' "$origin"
 if [[ -n "${GITHUB_STEP_SUMMARY:-}" ]]; then
   {
@@ -110,12 +129,14 @@ if [[ -n "${GITHUB_STEP_SUMMARY:-}" ]]; then
     echo
     echo 'Use your private `OPENCODE_PASSWORD` value to sign in. Do not share the secret.'
     echo
-    echo 'Workspace, OpenCode session history and settings are automatically saved as encrypted snapshots every 2 minutes.'
+    echo 'OpenCode chats, provider OAuth/API credentials and settings: encrypted Git checkpoint every 2 minutes.'
+    echo 'Project folders and large OpenCode snapshots: encrypted Release checkpoint approximately every 20 minutes, plus final exit attempt.'
+    echo 'GitHub Releases stores ciphertext assets, not unencrypted project files.'
     echo 'The next session restores the last successful encrypted checkpoint before starting.'
-    echo 'The public branch opencode-cloud-backups-20261109 stores only encrypted snapshots.'
+    echo 'The public branch opencode-cloud-backups-20261109 contains encrypted small state. Published Releases contain encrypted large project data.'
     printf '\n**Maximum session:** %s minutes\n' "$SESSION_MINUTES"
   } >> "$GITHUB_STEP_SUMMARY"
 fi
 
-printf 'OpenCode runner active for at most %s minutes. Encrypted checkpoints every 2 minutes.\n' "$SESSION_MINUTES"
+printf 'OpenCode active at most %s minutes. Chat/provider autosave 2min, large-project Releases 20min.\n' "$SESSION_MINUTES"
 sleep "$(( SESSION_MINUTES * 60 ))"
